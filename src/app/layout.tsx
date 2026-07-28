@@ -1,6 +1,6 @@
 ﻿import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Header } from "@/components/Header";
+import { HeaderConditional } from "@/components/HeaderConditional";
 import { Footer } from "@/components/Footer";
 import "./globals.css";
 
@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Trending Hot - Discover What&apos;s Trending Across the Internet",
-  description: "Discover what&apos;s trending, why it&apos;s hot, and the forces behind every viral moment.",
+  title: "Trending Hot - Discover What's Trending Across the Internet",
+  description: "Discover what's trending, why it's hot, and the forces behind every viral moment.",
   metadataBase: new URL("https://trending-hot.vercel.app"),
   openGraph: {
     title: "Trending Hot",
-    description: "Discover what&apos;s trending across the internet",
+    description: "Discover what's trending across the internet",
     siteName: "Trending Hot",
     type: "website",
   },
@@ -50,7 +50,7 @@ export default function RootLayout({
         }} />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <Header />
+        <HeaderConditional />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

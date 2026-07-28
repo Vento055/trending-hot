@@ -32,6 +32,12 @@ export function Header() {
           <Link href="/about" className="hover:text-foreground/80 transition-colors">
             About
           </Link>
+          <Link href="/privacy" className="hover:text-foreground/80 transition-colors">
+            Privacy
+          </Link>
+          <Link href="/contact" className="hover:text-foreground/80 transition-colors">
+            Contact
+          </Link>
           <Button variant="ghost" size="icon" onClick={toggleDark} aria-label="Toggle dark mode">
             {dark ? "☀️" : "🌙"}
           </Button>

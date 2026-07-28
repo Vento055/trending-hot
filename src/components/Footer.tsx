@@ -8,6 +8,8 @@ export function Footer() {
         <div className="mt-2 flex justify-center gap-4">
           <Link href="https://github.com" className="hover:underline">GitHub</Link>
           <Link href="/about" className="hover:underline">About</Link>
+          <Link href="/privacy" className="hover:underline">Privacy</Link>
+          <Link href="/contact" className="hover:underline">Contact</Link>
           <Link href="https://x.com" className="hover:underline">Twitter</Link>
         </div>
       </div>
