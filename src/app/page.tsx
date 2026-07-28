@@ -1,95 +1,447 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
-import { ArrowRight, BarChart3, Check, ChevronDown, Clock3, Gauge, Layers3, Menu, Search, ShieldCheck, Sparkles, TrendingUp, Users, X, Zap } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { ArrowRight, ChevronDown, Menu, X } from "lucide-react";
 
 const signals = [
-  { source: "Google Trends", category: "Content opportunity", title: "WebGPU tutorials", change: "+340%", detail: "Developer interest is climbing while high-quality beginner content remains scarce.", window: "2–3 week window", score: "High confidence" },
-  { source: "Reddit", category: "Product opportunity", title: "EU AI Act compliance", change: "+220%", detail: "Teams are actively searching for practical checklists, audits, and lightweight tools.", window: "1–3 month window", score: "High confidence" },
-  { source: "Cross-platform", category: "Traffic opportunity", title: "AI agent workflows", change: "+185%", detail: "Demand is shifting from broad AI news toward repeatable, role-specific workflows.", window: "3–5 week window", score: "Medium confidence" },
+  {
+    tag: "Content Goldmine",
+    tagBg: "#e8f5e0",
+    tagText: "#2d6e1e",
+    title: "WebGPU Tutorials",
+    number: "+340%",
+    trend: "↑ Surging",
+    trendColor: "#2d6e1e",
+    desc: "Developer interest is climbing while high-quality beginner content remains scarce. Early movers can capture search demand.",
+    meta: "⏳ Window: ~2 weeks  🎯 Confidence: 87%",
+  },
+  {
+    tag: "Product Opportunity",
+    tagBg: "#fff3e0",
+    tagText: "#c77800",
+    title: "EU AI Act Compliance",
+    number: "+220%",
+    trend: "↑ Surging",
+    trendColor: "#2d6e1e",
+    desc: "Teams are actively searching for practical checklists, audits, and lightweight tools as the compliance deadline approaches.",
+    meta: "⏳ Window: ~1 month  🎯 Confidence: 92%",
+  },
+  {
+    tag: "Info Arbitrage",
+    tagBg: "#e8eaf5",
+    tagText: "#3a3d8a",
+    title: "AI Agent Workflows",
+    number: "+185%",
+    trend: "↑ Surging",
+    trendColor: "#2d6e1e",
+    desc: "Demand is shifting from broad AI news toward repeatable, role-specific workflows. Content bridging theory to practice wins.",
+    meta: "⏳ Window: ~3 weeks  🎯 Confidence: 78%",
+  },
+  {
+    tag: "Traffic Breakout",
+    tagBg: "#fce4ec",
+    tagText: "#b0003a",
+    title: "TypeScript Pattern Matching",
+    number: "+156%",
+    trend: "⏳ Spike",
+    trendColor: "#c77800",
+    desc: "Discussions around TC39 pattern matching proposal are accelerating. Tutorial content and dev tooling have a narrow window.",
+    meta: "⏳ Window: ~10 days  🎯 Confidence: 71%",
+  },
+];
+
+const keywords = [
+  { rank: 1, name: "WebGPU", volume: "82K", icon: "🔥" },
+  { rank: 2, name: "EU AI Act", volume: "67K", icon: "↑" },
+  { rank: 3, name: "GPT-6", volume: "145K", icon: "🔥" },
+  { rank: 4, name: "Rust 2026", volume: "38K", icon: "↑" },
+  { rank: 5, name: "AI Agents", volume: "94K", icon: "🔥" },
+  { rank: 6, name: "TypeScript 6.0", volume: "51K", icon: "↑" },
+  { rank: 7, name: "Bun 2.0", volume: "29K", icon: "🌊" },
+  { rank: 8, name: "Zig", volume: "22K", icon: "🌊" },
 ];
 
 const faqs = [
-  ["What is an opportunity signal?", "An opportunity signal connects rising attention with a practical action—such as content to publish, a product to validate, or a market to watch."],
-  ["Where does the trend data come from?", "Trending Hot monitors public trend signals from sources including Google Trends and Reddit, then organizes them into a clear daily view."],
-  ["How often are signals updated?", "The free experience is designed around a fresh daily signal brief, so you can scan the market without living in a dashboard."],
-  ["Do I need a credit card to start?", "No. The free tier is available without a credit card and includes the core daily signal experience."],
+  ["What is an opportunity signal?", "An opportunity signal connects rising attention with a practical action — such as content to publish, a product to validate, or a market to watch. Instead of just showing what's trending, we tell you why it matters and what to do."],
+  ["Where does the trend data come from?", "Trending Hot monitors public trend signals from sources including Google Trends and Reddit, then organizes them into a clear daily view with context and actionable insight."],
+  ["How often are signals updated?", "The free experience is designed around a fresh daily signal brief, so you can scan the market without living in a dashboard. New signals are curated every 24 hours."],
+  ["Do I need a credit card to start?", "No. The free tier is available without a credit card and includes the core daily signal experience. Upgrade only when you need deeper analysis."],
   ["Who is Trending Hot built for?", "It is built for creators, founders, marketers, researchers, and anyone who needs to spot demand before a market becomes crowded."],
 ];
 
-const navItems = [["Why Trending Hot", "#why"], ["How it works", "#how-it-works"], ["Signals", "#signals"], ["FAQ", "#faq"]];
+const navItems = [["About", "/about"], ["Privacy", "/privacy"], ["Contact", "/contact"]];
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [openFaq, setOpenFaq] = useState(0);
+  const [openFaq, setOpenFaq] = useState<number>(0);
+  const [activeTab, setActiveTab] = useState("All");
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 100);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <div className="min-h-screen overflow-hidden bg-[#f7fbf6] font-sans text-[#102d23]">
-      <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#092e23]/90 backdrop-blur-xl">
-        <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-18 lg:px-8" aria-label="Main navigation">
-          <Link href="/" className="flex items-center gap-2.5 font-semibold tracking-tight text-white">
-            <span className="flex size-8 items-center justify-center rounded-lg bg-[#9cf25b] text-[#092e23]"><TrendingUp className="size-4.5" strokeWidth={2.5} /></span>
-            <span className="text-lg">Trending Hot</span>
+    <div className="min-h-screen bg-[#fbfdf8]" style={{ fontFamily: "var(--font-inter), system-ui, sans-serif" }}>
+      {/* ===== Navbar ===== */}
+      <header
+        className="fixed inset-x-0 top-0 z-50 bg-white transition-all"
+        style={{
+          borderBottom: "1px solid #e8efe5",
+          backdropFilter: scrolled ? "blur(12px)" : "none",
+          backgroundColor: scrolled ? "rgba(255,255,255,0.9)" : "#ffffff",
+        }}
+      >
+        <nav className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6">
+          <Link href="/" className="text-lg font-bold tracking-tight" style={{ color: "#0a2a1f" }}>
+            TRENDING HOT
           </Link>
-          <div className="hidden items-center gap-7 md:flex">
-            {navItems.map(([label, href]) => <a key={href} href={href} className="text-sm font-medium text-[#c9dbd3] transition hover:text-white">{label}</a>)}
+          <div className="hidden items-center gap-8 md:flex">
+            {navItems.map(([label, href]) => (
+              <Link key={href} href={href} className="text-sm transition hover:text-[#0a2a1f]" style={{ color: "#6b7b71" }}>
+                {label}
+              </Link>
+            ))}
+            <a
+              href="#signals"
+              className="text-sm font-semibold transition hover:opacity-90"
+              style={{ background: "#7ddc3f", color: "#0a2a1f", borderRadius: "8px", padding: "8px 20px" }}
+            >
+              Get Started →
+            </a>
           </div>
-          <a href="#free-tier" className="hidden rounded-full bg-[#9cf25b] px-5 py-2.5 text-sm font-semibold text-[#092e23] transition hover:bg-[#b5ff7e] md:inline-flex">Explore free</a>
-          <button type="button" className="flex size-10 items-center justify-center rounded-lg text-white md:hidden" onClick={() => setMenuOpen(v => !v)} aria-expanded={menuOpen} aria-label="Toggle navigation">{menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}</button>
+          <button
+            className="md:hidden"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Menu"
+            style={{ color: "#0a2a1f" }}
+          >
+            {menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+          </button>
         </nav>
-        {menuOpen && <div className="border-t border-white/10 bg-[#092e23] px-4 py-4 md:hidden"><div className="mx-auto flex max-w-7xl flex-col gap-1">{navItems.map(([label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)} className="rounded-lg px-3 py-3 text-sm font-medium text-[#dce9e3] hover:bg-white/5">{label}</a>)}<a href="#free-tier" onClick={() => setMenuOpen(false)} className="mt-2 rounded-full bg-[#9cf25b] px-5 py-3 text-center text-sm font-semibold text-[#092e23]">Explore free</a></div></div>}
+        {menuOpen && (
+          <div className="border-t md:hidden" style={{ borderColor: "#e8efe5", background: "#fff" }}>
+            <div className="flex flex-col gap-1 px-4 py-3">
+              {navItems.map(([label, href]) => (
+                <Link key={href} href={href} onClick={() => setMenuOpen(false)} className="py-2 text-sm" style={{ color: "#6b7b71" }}>
+                  {label}
+                </Link>
+              ))}
+              <a href="#signals" onClick={() => setMenuOpen(false)} className="mt-1 text-center text-sm font-semibold" style={{ background: "#7ddc3f", color: "#0a2a1f", borderRadius: "8px", padding: "10px 20px" }}>
+                Get Started →
+              </a>
+            </div>
+          </div>
+        )}
       </header>
 
       <main>
-        <section className="relative bg-[#092e23] px-4 pb-20 pt-32 sm:px-6 sm:pb-24 sm:pt-40 lg:px-8 lg:pb-30 lg:pt-44">
-          <div className="pointer-events-none absolute -right-40 top-10 size-[34rem] rounded-full bg-[#4f9f58]/20 blur-3xl" />
-          <div className="pointer-events-none absolute -left-44 bottom-0 size-96 rounded-full bg-[#9cf25b]/10 blur-3xl" />
-          <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.06fr_.94fr] lg:gap-16">
-            <div className="max-w-3xl">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#9cf25b]/25 bg-[#9cf25b]/10 px-3 py-1.5 text-xs font-semibold text-[#c5ff9c] sm:text-sm"><Sparkles className="size-3.5" />Turn rising attention into your next move</div>
-              <h1 className="text-balance text-[2.85rem] font-semibold leading-[1.03] tracking-[-0.045em] text-white sm:text-6xl lg:text-[4.6rem]">Spot tomorrow&apos;s opportunities before they get crowded.</h1>
-              <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-[#b9cec5] sm:text-xl">Trending Hot turns fast-moving search and community data into clear, actionable signals for creators, founders, and marketers.</p>
-              <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
-                <a href="#signals" className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#9cf25b] px-7 py-3.5 text-base font-semibold text-[#092e23] shadow-[0_12px_30px_rgba(156,242,91,.18)] transition hover:-translate-y-0.5 hover:bg-[#b5ff7e] sm:w-auto">Explore today&apos;s signals<ArrowRight className="size-4" /></a>
-                <span className="text-sm text-[#90aa9f]">Free to explore · No credit card</span>
-              </div>
-              <div className="mt-9 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-[#a9c0b6]">{["Google Trends", "Reddit", "Curated daily"].map(item => <span key={item} className="flex items-center gap-2"><Check className="size-4 text-[#9cf25b]" />{item}</span>)}</div>
+        {/* ===== Hero ===== */}
+        <section
+          className="relative flex min-h-[90vh] items-center justify-center px-4 pt-14"
+          style={{ background: "#0a2a1f" }}
+        >
+          <div className="mx-auto max-w-4xl text-center">
+            {/* Trust badges */}
+            <div className="mb-6 flex justify-center gap-3">
+              {["📡 50+ Sources Daily", "🤖 AI Opportunity Signals"].map((badge) => (
+                <span
+                  key={badge}
+                  className="text-xs font-semibold"
+                  style={{
+                    background: "rgba(255,255,255,0.1)",
+                    color: "#b8d4c0",
+                    borderRadius: "999px",
+                    padding: "4px 14px",
+                    letterSpacing: "0.04em",
+                  }}
+                >
+                  {badge}
+                </span>
+              ))}
             </div>
-            <div className="relative mx-auto w-full max-w-xl lg:mx-0">
-              <div className="rounded-[2rem] border border-white/12 bg-[#103c2e] p-3 shadow-[0_30px_80px_rgba(0,0,0,.26)] sm:p-4">
-                <div className="rounded-[1.5rem] bg-[#f5faf4] p-5 text-[#102d23] sm:p-7">
-                  <div className="flex items-start justify-between gap-4 border-b border-[#dbe8de] pb-5"><div><p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#5d776c]">Today&apos;s lead signal</p><h2 className="mt-2 text-2xl font-semibold tracking-tight">WebGPU tutorials</h2></div><span className="rounded-full bg-[#dff8cb] px-3 py-1 text-sm font-semibold text-[#236238]">+340%</span></div>
-                  <div className="py-6"><div className="flex h-28 items-end gap-2" aria-label="Rising trend preview">{[30,38,34,47,53,64,70,82,94].map((height,index) => <span key={index} className="flex-1 rounded-t-md bg-[#58a861]" style={{height:`${height}%`,opacity:.35+index*.07}} />)}</div></div>
-                  <div className="rounded-2xl bg-white p-4 shadow-[0_8px_24px_rgba(27,72,51,.08)]"><div className="flex gap-3"><span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-[#e5f7d8] text-[#27653b]"><Zap className="size-4" /></span><div><p className="text-sm font-semibold">Why it matters</p><p className="mt-1 text-sm leading-6 text-[#60776d]">Demand is accelerating while useful beginner content is still limited.</p></div></div></div>
-                  <div className="mt-5 flex items-center justify-between text-xs font-medium text-[#61766d]"><span className="flex items-center gap-1.5"><Clock3 className="size-3.5" />2–3 week window</span><span className="flex items-center gap-1.5"><ShieldCheck className="size-3.5" />High confidence</span></div>
+
+            {/* Title */}
+            <h1
+              className="font-extrabold text-white"
+              style={{
+                fontSize: "clamp(3.5rem, 7vw, 5.5rem)",
+                letterSpacing: "-0.03em",
+                lineHeight: "1.1",
+              }}
+            >
+              TRENDING HOT
+            </h1>
+
+            {/* Subtitle */}
+            <p
+              className="mt-6 font-normal"
+              style={{
+                color: "rgba(255,255,255,0.75)",
+                fontSize: "clamp(1.125rem, 2vw, 1.375rem)",
+                lineHeight: "1.6",
+              }}
+            >
+              Discover tomorrow&apos;s money-making trends
+              <br />
+              before everyone else sees them.
+            </p>
+
+            {/* CTA */}
+            <div className="mt-8">
+              <a
+                href="#signals"
+                className="cta-on-dark inline-flex"
+                style={{
+                  background: "#7ddc3f",
+                  color: "#0a2a1f",
+                  fontWeight: 600,
+                  fontSize: "1rem",
+                  borderRadius: "12px",
+                  padding: "14px 32px",
+                  transition: "transform 0.2s ease, background-color 0.2s ease",
+                }}
+              >
+                Explore Today&apos;s Signals <ArrowRight className="size-4" />
+              </a>
+            </div>
+
+            {/* Example signals */}
+            <p className="mt-10 text-xs" style={{ color: "rgba(255,255,255,0.45)", fontSize: "0.8rem" }}>
+              Recent signals: WebGPU tutorial gold rush / EU AI Act compliance tools
+            </p>
+          </div>
+        </section>
+
+        {/* ===== Trust Bar ===== */}
+        <section className="flex items-center justify-center px-4" style={{ background: "#fff", height: "72px", borderBottom: "1px solid #e8efe5" }}>
+          <div className="flex flex-wrap items-center justify-center gap-8 text-sm" style={{ color: "#6b7b71" }}>
+            <span>Product Hunt</span>
+            <span className="opacity-30">|</span>
+            <span>Hacker News</span>
+            <span className="opacity-30">|</span>
+            <span>1,200+ signals monthly</span>
+            <span className="opacity-30">|</span>
+            <span>50+ data sources</span>
+          </div>
+        </section>
+
+        {/* ===== Opportunity Signals ===== */}
+        <section id="signals" className="px-4 py-16 sm:py-24" style={{ background: "#ffffff" }}>
+          <div className="mx-auto max-w-5xl">
+            <h2 className="text-center font-bold" style={{ color: "#0a2a1f", fontSize: "2rem" }}>
+              Today&apos;s Opportunity Signals
+            </h2>
+            <p className="mt-3 text-center" style={{ color: "#6b7b71" }}>
+              AI-identified trends with money-making potential
+            </p>
+
+            <div className="mt-12 grid gap-6 sm:grid-cols-2">
+              {signals.map((s) => (
+                <div
+                  key={s.title}
+                  className="signal-card"
+                  style={{
+                    background: "#ffffff",
+                    border: "1px solid #e8efe5",
+                    borderRadius: "16px",
+                    padding: "24px",
+                    transition: "border-color 0.2s ease, transform 0.2s ease",
+                  }}
+                >
+                  {/* Tag */}
+                  <span
+                    className="tag-pill"
+                    style={{ background: s.tagBg, color: s.tagText, borderRadius: "999px", padding: "2px 12px", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.04em" }}
+                  >
+                    {s.tag}
+                  </span>
+
+                  {/* Title */}
+                  <h3 className="mt-2 font-semibold" style={{ color: "#0a2a1f", fontSize: "1.25rem", marginTop: "8px" }}>
+                    {s.title}
+                  </h3>
+
+                  {/* Big number + trend */}
+                  <div className="mt-3 flex items-baseline gap-3">
+                    <span className="font-bold" style={{ color: "#0a2a1f", fontSize: "2rem" }}>{s.number}</span>
+                    <span className="text-xs font-semibold" style={{ color: s.trendColor }}>{s.trend}</span>
+                  </div>
+
+                  {/* Description */}
+                  <p className="mt-4" style={{ color: "#4a5b50", fontSize: "0.9rem", lineHeight: "1.5" }}>
+                    {s.desc}
+                  </p>
+
+                  {/* Divider */}
+                  <hr className="my-4" style={{ border: "none", borderTop: "1px solid #eef3eb" }} />
+
+                  {/* Meta */}
+                  <p style={{ color: "#6b7b71", fontSize: "0.8rem" }}>{s.meta}</p>
                 </div>
-              </div>
-              <div className="absolute -bottom-5 -left-3 rounded-2xl border border-[#c9ddcc] bg-white px-4 py-3 shadow-xl sm:-left-7"><p className="text-xs font-medium text-[#6b8177]">Signals tracked today</p><p className="mt-0.5 text-xl font-semibold text-[#12382a]">50+</p></div>
+              ))}
             </div>
           </div>
         </section>
 
-        <section className="border-b border-[#deeadf] bg-white px-4 py-7 sm:px-6 lg:px-8" aria-label="Trust bar"><div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 sm:flex-row"><p className="text-center text-sm font-medium text-[#6c8177] sm:text-left">Built for people who move before the market does</p><div className="grid w-full grid-cols-2 gap-3 text-center text-sm font-semibold text-[#365548] sm:flex sm:w-auto sm:gap-8"><span>Creators</span><span>Founders</span><span>Marketers</span><span>Researchers</span></div></div></section>
+        {/* ===== Trending Keywords ===== */}
+        <section className="px-4 py-16 sm:py-24" style={{ background: "#f3f5f0" }}>
+          <div className="mx-auto max-w-3xl">
+            <h2 className="font-bold" style={{ color: "#0a2a1f", fontSize: "2rem" }}>
+              Trending Keywords
+            </h2>
 
-        <section id="why" className="px-4 py-20 sm:px-6 sm:py-28 lg:px-8"><div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-center lg:gap-20"><div><p className="eyebrow">The attention gap</p><h2 className="section-title">By the time a trend looks obvious, the best window is already closing.</h2></div><div className="space-y-4">{[["Too much noise","Feeds reward what is already viral, not what is becoming valuable."],["Too little context","A rising keyword means nothing without knowing why it matters and what to do next."],["Too much time","Manual research across platforms turns a daily decision into hours of tab switching."]].map(([title,body],index)=><div key={title} className="flex gap-4 rounded-2xl border border-[#dce8de] bg-white p-5 shadow-[0_8px_25px_rgba(23,66,47,.04)]"><span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-[#e5f5df] text-sm font-semibold text-[#347642]">0{index+1}</span><div><h3 className="font-semibold">{title}</h3><p className="mt-1 text-sm leading-6 text-[#62776e]">{body}</p></div></div>)}</div></div></section>
+            {/* Tabs */}
+            <div className="mt-6 flex gap-6 border-b" style={{ borderColor: "#e8efe5" }}>
+              {["All", "Google Trends", "Reddit"].map((tab) => (
+                <button
+                  key={tab}
+                  onClick={() => setActiveTab(tab)}
+                  className="relative pb-3 text-sm font-medium transition"
+                  style={{
+                    color: activeTab === tab ? "#0a2a1f" : "#6b7b71",
+                    borderBottom: activeTab === tab ? "2px solid #7ddc3f" : "none",
+                  }}
+                >
+                  {tab}
+                </button>
+              ))}
+            </div>
 
-        <section className="bg-white px-4 py-20 sm:px-6 sm:py-28 lg:px-8"><div className="mx-auto max-w-7xl"><div className="max-w-2xl"><p className="eyebrow">From trend to action</p><h2 className="section-title">See the signal. Understand the opening. Make your move.</h2><p className="section-copy">A focused daily brief replaces scattered research with opportunities you can actually evaluate.</p></div><div className="mt-12 grid gap-5 md:grid-cols-3">{[[Search,"Find shifts earlier","Catch accelerating topics across search and community conversations before they reach peak saturation."],[Gauge,"Know what matters","See momentum, source, timing, and confidence together—without interpreting raw charts."],[Zap,"Act with clarity","Turn each signal into a practical content, product, or market-research direction."]].map(([Icon,title,body])=>{const CardIcon=Icon as typeof Search;return <div key={title as string} className="value-card"><span className="icon-box"><CardIcon className="size-5" /></span><h3 className="mt-6 text-xl font-semibold">{title as string}</h3><p className="mt-3 leading-7 text-[#61766d]">{body as string}</p></div>})}</div></div></section>
+            {/* List */}
+            <div className="mt-4">
+              {keywords.map((kw) => (
+                <div
+                  key={kw.rank}
+                  className="flex items-center justify-between transition"
+                  style={{
+                    height: "52px",
+                    borderBottom: "1px solid #e8efe5",
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#f8faf6")}
+                  onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "transparent")}
+                >
+                  <div className="flex items-center gap-4">
+                    <span className="text-sm" style={{ color: "#6b7b71", width: "32px" }}>{kw.rank}</span>
+                    <span className="text-base" style={{ color: "#0a2a1f", fontWeight: 500 }}>{kw.name}</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <span className="text-sm font-semibold" style={{ color: "#2d3a32" }}>{kw.volume}</span>
+                    <span className="text-sm">{kw.icon}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
-        <section id="how-it-works" className="bg-[#0d3529] px-4 py-20 text-white sm:px-6 sm:py-28 lg:px-8"><div className="mx-auto max-w-7xl"><div className="max-w-2xl"><p className="eyebrow !text-[#aaf575]">How it works</p><h2 className="section-title !text-white">A smarter trend workflow in three simple steps.</h2></div><div className="mt-12 grid gap-5 lg:grid-cols-3">{[[BarChart3,"Track","We monitor shifts in search behavior and fast-moving community conversations."],[Layers3,"Connect","Related activity is grouped into a clear signal with momentum and context."],[Sparkles,"Curate","The strongest opportunities are distilled into a concise, action-ready brief."]].map(([Icon,title,body],index)=>{const StepIcon=Icon as typeof BarChart3;return <div key={title as string} className="rounded-3xl border border-white/10 bg-white/[0.055] p-7"><div className="flex items-center justify-between"><span className="icon-box"><StepIcon className="size-5" /></span><span className="text-sm font-semibold text-[#79998b]">0{index+1}</span></div><h3 className="mt-8 text-xl font-semibold">{title as string}</h3><p className="mt-3 leading-7 text-[#b8cdc4]">{body as string}</p></div>})}</div></div></section>
+        {/* ===== How It Works ===== */}
+        <section className="px-4 py-16 sm:py-24" style={{ background: "#ffffff" }}>
+          <div className="mx-auto max-w-4xl">
+            <div className="grid gap-10 sm:grid-cols-3">
+              {[
+                { icon: "📡", title: "Real-time Tracking", desc: "We monitor Google Trends and Reddit 24/7 to catch rising topics before they peak." },
+                { icon: "🤖", title: "AI Analysis", desc: "Our AI clusters related activity into clear signals with momentum, timing, and context." },
+                { icon: "✨", title: "Curated Signals", desc: "The strongest opportunities are distilled into a concise, action-ready daily brief." },
+              ].map((step) => (
+                <div key={step.title} className="text-center">
+                  <div
+                    className="mx-auto flex items-center justify-center text-2xl"
+                    style={{ width: "64px", height: "64px", background: "#e8f5e0", borderRadius: "12px" }}
+                  >
+                    {step.icon}
+                  </div>
+                  <h3 className="mt-5 font-semibold" style={{ color: "#0a2a1f", fontSize: "1.125rem" }}>
+                    {step.title}
+                  </h3>
+                  <p className="mt-2" style={{ color: "#6b7b71", fontSize: "0.9rem" }}>
+                    {step.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
-        <section id="signals" className="px-4 py-20 sm:px-6 sm:py-28 lg:px-8"><div className="mx-auto max-w-7xl"><div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between"><div className="max-w-2xl"><p className="eyebrow">Signals preview</p><h2 className="section-title">Opportunities, not another trend list.</h2></div><p className="max-w-md text-[#64786f]">Static sample signals show the clarity and context included in every daily brief.</p></div><div className="mt-12 grid gap-5 lg:grid-cols-3">{signals.map((signal,index)=><article key={signal.title} className={`rounded-3xl border p-6 sm:p-7 ${index===0?"border-[#68a96d] bg-[#103b2e] text-white":"border-[#d7e5d9] bg-white text-[#102d23]"}`}><div className="flex items-center justify-between gap-3"><span className={`rounded-full px-3 py-1 text-xs font-semibold ${index===0?"bg-white/10 text-[#c7f5a6]":"bg-[#e7f5e2] text-[#347642]"}`}>{signal.category}</span><span className={`text-sm font-semibold ${index===0?"text-[#aaf575]":"text-[#347642]"}`}>{signal.change}</span></div><p className={`mt-7 text-xs font-semibold uppercase tracking-[.14em] ${index===0?"text-[#86a99a]":"text-[#789086]"}`}>{signal.source}</p><h3 className="mt-2 text-2xl font-semibold tracking-tight">{signal.title}</h3><p className={`mt-4 leading-7 ${index===0?"text-[#bdd0c8]":"text-[#61766d]"}`}>{signal.detail}</p><div className={`mt-7 flex flex-wrap gap-x-4 gap-y-2 border-t pt-5 text-xs font-medium ${index===0?"border-white/10 text-[#a9c1b7]":"border-[#e0ebe2] text-[#6d8278]"}`}><span className="flex items-center gap-1.5"><Clock3 className="size-3.5" />{signal.window}</span><span className="flex items-center gap-1.5"><ShieldCheck className="size-3.5" />{signal.score}</span></div></article>)}</div></div></section>
+        {/* ===== Final CTA ===== */}
+        <section className="px-4 py-20 text-center" style={{ background: "#0a2a1f" }}>
+          <div className="mx-auto max-w-2xl">
+            <h2 className="font-bold text-white" style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}>
+              Start spotting opportunities today
+            </h2>
+            <p className="mt-4" style={{ color: "rgba(255,255,255,0.7)" }}>
+              Free to use. No signup required.
+            </p>
+            <a
+              href="#signals"
+              className="mt-8 inline-flex items-center gap-2"
+              style={{
+                background: "#7ddc3f",
+                color: "#0a2a1f",
+                fontWeight: 600,
+                fontSize: "1rem",
+                borderRadius: "12px",
+                padding: "14px 32px",
+                transition: "transform 0.2s ease",
+              }}
+            >
+              Explore Today&apos;s Signals <ArrowRight className="size-4" />
+            </a>
+          </div>
+        </section>
 
-        <section className="bg-[#eaf4e7] px-4 py-20 sm:px-6 sm:py-28 lg:px-8"><div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-20"><div><p className="eyebrow">Designed for focus</p><h2 className="section-title">Everything you need to move from curiosity to conviction.</h2><p className="section-copy">No terminal interface. No cluttered analytics suite. Just an approachable research layer for better decisions.</p></div><div className="grid gap-4 sm:grid-cols-2">{[[TrendingUp,"Momentum at a glance","Understand direction and speed without decoding complex dashboards."],[Users,"Cross-source context","See how search demand and community interest reinforce each other."],[Clock3,"Timing windows","Get a practical sense of how long an opportunity may stay open."],[ShieldCheck,"Confidence cues","Prioritize stronger signals and investigate uncertain ones appropriately."]].map(([Icon,title,body])=>{const FeatureIcon=Icon as typeof TrendingUp;return <div key={title as string} className="rounded-2xl bg-white p-6 shadow-[0_10px_30px_rgba(29,79,52,.06)]"><FeatureIcon className="size-5 text-[#3c854a]" /><h3 className="mt-5 font-semibold">{title as string}</h3><p className="mt-2 text-sm leading-6 text-[#64786f]">{body as string}</p></div>})}</div></div></section>
-
-        <section id="free-tier" className="bg-white px-4 py-20 sm:px-6 sm:py-28 lg:px-8"><div className="mx-auto max-w-5xl rounded-[2rem] bg-[#0c3327] p-7 text-white sm:p-12 lg:p-14"><div className="grid gap-10 lg:grid-cols-[1fr_.85fr] lg:items-center"><div><span className="inline-flex rounded-full bg-[#9cf25b] px-3 py-1 text-xs font-semibold text-[#0c3327]">Free tier</span><h2 className="mt-6 text-3xl font-semibold tracking-[-.035em] sm:text-5xl">Start spotting opportunities today.</h2><p className="mt-5 max-w-xl text-lg leading-8 text-[#b9cec5]">Explore the core daily experience at no cost. Build the habit first, upgrade only when you need more depth.</p><a href="#signals" className="cta-light">Explore free signals<ArrowRight className="size-4" /></a></div><div className="rounded-3xl border border-white/10 bg-white/[.055] p-6"><p className="text-sm font-semibold text-[#d8e8e1]">Included for free</p><ul className="mt-5 space-y-4 text-sm text-[#b9cec5]">{["Daily opportunity signal preview","Google Trends and Reddit context","Momentum and timing indicators","No credit card required"].map(item=><li key={item} className="flex items-center gap-3"><span className="flex size-5 shrink-0 items-center justify-center rounded-full bg-[#9cf25b] text-[#12382a]"><Check className="size-3" strokeWidth={3} /></span>{item}</li>)}</ul></div></div></div></section>
-
-        <section id="faq" className="px-4 py-20 sm:px-6 sm:py-28 lg:px-8"><div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[.75fr_1.25fr] lg:gap-20"><div><p className="eyebrow">FAQ</p><h2 className="section-title">Questions, answered.</h2><p className="mt-5 leading-7 text-[#64786f]">Everything you need to know before exploring your first signal.</p></div><div className="divide-y divide-[#d9e6dc] border-y border-[#d9e6dc]">{faqs.map(([question,answer],index)=>{const isOpen=openFaq===index;return <div key={question}><button type="button" onClick={()=>setOpenFaq(isOpen?-1:index)} className="flex w-full items-center justify-between gap-5 py-6 text-left" aria-expanded={isOpen}><span className="font-semibold">{question}</span><ChevronDown className={`size-5 shrink-0 text-[#4a735d] transition ${isOpen?"rotate-180":""}`} /></button>{isOpen&&<p className="max-w-2xl pb-6 pr-8 leading-7 text-[#61766d]">{answer}</p>}</div>})}</div></div></section>
-
-        <section className="bg-[#9cf25b] px-4 py-18 sm:px-6 sm:py-24 lg:px-8"><div className="mx-auto flex max-w-5xl flex-col items-center text-center"><span className="flex size-12 items-center justify-center rounded-2xl bg-[#123d2e] text-[#9cf25b]"><TrendingUp className="size-6" /></span><h2 className="mt-7 max-w-3xl text-balance text-3xl font-semibold tracking-[-.04em] text-[#0a3024] sm:text-5xl">The next useful trend is already moving.</h2><p className="mt-5 max-w-2xl text-lg leading-8 text-[#315e48]">Find it early, understand it quickly, and decide what to do before everyone else arrives.</p><a href="#signals" className="mt-8 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-[#0b3327] px-7 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#154936] sm:w-auto">See today&apos;s signals<ArrowRight className="size-4" /></a></div></section>
+        {/* ===== FAQ ===== */}
+        <section className="px-4 py-16 sm:py-24" style={{ background: "#ffffff" }}>
+          <div className="mx-auto max-w-3xl">
+            <h2 className="mb-10 text-center font-bold" style={{ color: "#0a2a1f", fontSize: "2rem" }}>
+              Frequently Asked Questions
+            </h2>
+            <div className="border-t" style={{ borderColor: "#e8efe5" }}>
+              {faqs.map(([question, answer], index) => {
+                const isOpen = openFaq === index;
+                return (
+                  <div key={question} style={{ borderBottom: "1px solid #e8efe5" }}>
+                    <button
+                      type="button"
+                      onClick={() => setOpenFaq(isOpen ? -1 : index)}
+                      className="flex w-full items-center justify-between py-5 text-left"
+                      aria-expanded={isOpen}
+                    >
+                      <span className="font-semibold" style={{ color: "#0a2a1f", fontSize: "1rem" }}>
+                        {question}
+                      </span>
+                      <ChevronDown
+                        className={`size-5 shrink-0 transition ${isOpen ? "rotate-180" : ""}`}
+                        style={{ color: "#6b7b71" }}
+                      />
+                    </button>
+                    {isOpen && (
+                      <p className="pb-5 pr-8" style={{ color: "#4a5b50", fontSize: "0.9rem", lineHeight: "1.6" }}>
+                        {answer}
+                      </p>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
       </main>
 
-      <footer className="bg-[#08281f] px-4 pb-8 pt-14 text-[#a9c0b6] sm:px-6 lg:px-8"><div className="mx-auto max-w-7xl"><div className="flex flex-col gap-10 border-b border-white/10 pb-10 sm:flex-row sm:items-start sm:justify-between"><div className="max-w-sm"><Link href="/" className="flex items-center gap-2.5 font-semibold text-white"><span className="flex size-8 items-center justify-center rounded-lg bg-[#9cf25b] text-[#092e23]"><TrendingUp className="size-4.5" /></span>Trending Hot</Link><p className="mt-4 text-sm leading-6">Actionable opportunity signals from the trends shaping tomorrow.</p></div><div className="grid grid-cols-2 gap-x-12 gap-y-3 text-sm sm:flex sm:gap-8"><Link href="/about" className="transition hover:text-white">About</Link><Link href="/privacy" className="transition hover:text-white">Privacy</Link><Link href="/contact" className="transition hover:text-white">Contact</Link><a href="#faq" className="transition hover:text-white">FAQ</a></div></div><div className="flex flex-col gap-2 pt-7 text-xs sm:flex-row sm:items-center sm:justify-between"><p>© 2026 Trending Hot. All rights reserved.</p><p>Built for people who move early.</p></div></div></footer>
+      {/* ===== Footer ===== */}
+      <footer className="px-4 py-10 text-center" style={{ background: "#0a2a1f" }}>
+        <p style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.8rem" }}>
+          © 2026 Trending Hot ·{" "}
+          <Link href="/about" className="transition hover:text-[#7ddc3f]">About</Link>
+          {" · "}
+          <Link href="/privacy" className="transition hover:text-[#7ddc3f]">Privacy</Link>
+          {" · "}
+          <Link href="/contact" className="transition hover:text-[#7ddc3f]">Contact</Link>
+        </p>
+      </footer>
     </div>
   );
 }
