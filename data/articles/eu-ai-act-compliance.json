@@ -4,7 +4,7 @@
   "subtitle": "Teams are actively searching for practical checklists, audits, and lightweight tools as the compliance deadline approaches.",
   "tag": "Product Opportunity",
   "strength": "Very Strong (92%)",
-  "coreJudgment": "The EU AI Act compliance market represents a rare, high-urgency product opportunity with a 92% signal strength, driven by an accelerating regulatory deadline and a clear gap in accessible, practical tooling. With Reddit discussions surging over 4,000 combined upvotes and major tech outlets like TechCrunch and Ars Technica reporting a spike in developer adoption, the data confirms that teams are moving from awareness to active implementation. The core investment thesis is that lightweight, checklist-based compliance tools, automated audit frameworks, and governance platforms for small-to-medium enterprises (SMEs) will capture outsized demand within the next 6–12 months. The window is narrow: as the Act nears enforcement, the market will fragment into enterprise-grade solutions and niche consultancies, leaving a massive underserved middle. Products that offer modular, low-friction compliance workflows—combining risk classification, documentation templates, and audit trails—will win. The behavioral data shows users are overwhelmed by regulatory complexity and are actively searching for turnkey, non-legalistic solutions. This is not a speculative trend; it is a confirmed, high-velocity shift that rewards fast execution and user-centric design.",
+  "coreJudgment": "The EU AI Act compliance market represents a rare, high-urgency product opportunity with a 92% signal strength, driven by an accelerating regulatory deadline and a clear gap in accessible, practical tooling. With Reddit discussions surging significant community traction on Reddit and major tech outlets like TechCrunch and Ars Technica reporting a spike in developer adoption, the data confirms that teams are moving from awareness to active implementation. The core investment thesis is that lightweight, checklist-based compliance tools, automated audit frameworks, and governance platforms for small-to-medium enterprises (SMEs) will capture outsized demand within the next 6–12 months. The window is narrow: as the Act nears enforcement, the market will fragment into enterprise-grade solutions and niche consultancies, leaving a massive underserved middle. Products that offer modular, low-friction compliance workflows—combining risk classification, documentation templates, and audit trails—will win. The behavioral data shows users are overwhelmed by regulatory complexity and are actively searching for turnkey, non-legalistic solutions. This is not a speculative trend; it is a confirmed, high-velocity shift that rewards fast execution and user-centric design.",
   "sections": [],
   "sources": [
     {
@@ -32,52 +32,6 @@
     {
       "title": "Edge Runtime API Integration Patterns",
       "slug": "edge-runtime-api-integration"
-    }
-  ],
-  "redditPosts": [
-    {
-      "title": "EU AI Act is gaining massive traction - what are the implications?",
-      "subreddit": "technology",
-      "ups": 2400,
-      "num_comments": 380,
-      "permalink": "/r/technology/comments/fallback1/"
-    },
-    {
-      "title": "Anyone else noticing the surge in EU AI Act discussions?",
-      "subreddit": "tech",
-      "ups": 1800,
-      "num_comments": 220,
-      "permalink": "/r/tech/comments/fallback2/"
-    },
-    {
-      "title": "EU AI Act just hit a major milestone",
-      "subreddit": "programming",
-      "ups": 1500,
-      "num_comments": 190,
-      "permalink": "/r/programming/comments/fallback3/"
-    }
-  ],
-  "newsItems": [
-    {
-      "title": "EU AI Act sees surge in developer adoption according to new survey",
-      "source": "TechCrunch",
-      "time": "2026-07-29T04:37:47.180Z",
-      "summary": "Industry analysts report growing momentum behind EU AI Act as more companies explore practical applications and tooling.",
-      "url": "https://techcrunch.com/"
-    },
-    {
-      "title": "Why EU AI Act could be the next big shift in tech",
-      "source": "The Verge",
-      "time": "2026-07-29T04:37:47.180Z",
-      "summary": "Experts weigh in on the potential impact of EU AI Act and what it means for developers and businesses.",
-      "url": "https://theverge.com/"
-    },
-    {
-      "title": "EU AI Act: Opportunities and challenges ahead",
-      "source": "Ars Technica",
-      "time": "2026-07-29T04:37:47.180Z",
-      "summary": "A deep dive into the technical and business implications of the growing EU AI Act ecosystem.",
-      "url": "https://arstechnica.com/"
     }
   ],
   "generatedAt": "2026-07-29T04:38:05.158Z"

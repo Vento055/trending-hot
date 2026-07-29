@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -14,6 +14,8 @@ export function Footer() {
         <Link href="/about" className="transition hover:text-[#a855f7]">About</Link>
         {" \u00B7 "}
         <Link href="/privacy" className="transition hover:text-[#a855f7]">Privacy</Link>
+        {" \u00B7 "}
+        <Link href="/terms" className="transition hover:text-[#a855f7]">Terms</Link>
         {" \u00B7 "}
         <Link href="/contact" className="transition hover:text-[#a855f7]">Contact</Link>
       </p>

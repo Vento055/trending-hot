@@ -223,6 +223,254 @@
           "url": "https://trends.google.com/trends/explore?q=typescript+pattern+matching"
         }
       ]
+    },
+    {
+      "slug": "ai-coding-agents",
+      "title": "AI Coding Agents",
+      "subtitle": "AI coding assistants like Cursor, GitHub Copilot, and Codeium are reshaping developer workflows. The market is expanding rapidly as both individual developers and enterprise teams adopt these tools to boost productivity. Content creators can build comparison guides and benchmark analyses. Builders have opportunities for IDE extensions, custom prompt libraries, and team-aware coding agent platforms.",
+      "tag": "Product Opportunity",
+      "strength": "Very Strong (92%)",
+      "keywords": [
+        "Cursor",
+        "GitHub Copilot",
+        "Codeium",
+        "AI coding",
+        "code generation"
+      ],
+      "number": "+210%",
+      "trend": "Surging",
+      "meta": "Window: ~6 weeks  |  Confidence: 92%",
+      "sources": [
+        {
+          "label": "Cursor Official Site",
+          "url": "https://cursor.sh/"
+        },
+        {
+          "label": "GitHub Copilot Documentation",
+          "url": "https://docs.github.com/en/copilot"
+        },
+        {
+          "label": "Codeium Official Site",
+          "url": "https://codeium.com/"
+        }
+      ]
+    },
+    {
+      "slug": "ai-voice-cloning",
+      "title": "AI Voice Cloning",
+      "subtitle": "AI voice cloning technology from ElevenLabs and OpenAI Voice is enabling hyper-realistic synthetic speech for content creation, podcasting, and customer service. The quality gap between synthetic and human voices has narrowed dramatically. Content creators can produce guides and ethical frameworks. Builders can develop voice management platforms and consent tools.",
+      "tag": "Content Goldmine",
+      "strength": "Strong (85%)",
+      "keywords": [
+        "ElevenLabs",
+        "OpenAI Voice",
+        "voice cloning",
+        "text to speech",
+        "synthetic voice"
+      ],
+      "number": "+160%",
+      "trend": "Rising",
+      "meta": "Window: ~8 weeks  |  Confidence: 85%",
+      "sources": [
+        {
+          "label": "ElevenLabs Official Site",
+          "url": "https://elevenlabs.io/"
+        },
+        {
+          "label": "OpenAI Voice Engine",
+          "url": "https://openai.com/index/voice-engine/"
+        },
+        {
+          "label": "Google Trends - AI Voice Cloning",
+          "url": "https://trends.google.com/trends/explore?q=ai+voice+cloning"
+        }
+      ]
+    },
+    {
+      "slug": "ai-video-generation",
+      "title": "AI Video Generation Tools",
+      "subtitle": "AI video generation platforms like Sora, Runway, and Pika are democratizing video production by enabling text-to-video creation at unprecedented quality levels. The creative industry is experiencing a paradigm shift as these tools move from novelty to professional production. Content creators can produce tutorials and workflow guides.",
+      "tag": "Traffic Breakout",
+      "strength": "Very Strong (90%)",
+      "keywords": [
+        "Sora",
+        "Runway",
+        "Pika",
+        "AI video",
+        "text to video"
+      ],
+      "number": "+280%",
+      "trend": "Surging",
+      "meta": "Window: ~4 weeks  |  Confidence: 90%",
+      "sources": [
+        {
+          "label": "Runway Official Site",
+          "url": "https://runwayml.com/"
+        },
+        {
+          "label": "OpenAI Sora",
+          "url": "https://openai.com/sora"
+        },
+        {
+          "label": "Pika AI Official Site",
+          "url": "https://pika.art/"
+        }
+      ]
+    },
+    {
+      "slug": "bun-runtime",
+      "title": "Bun JavaScript Runtime",
+      "subtitle": "Bun is a fast, all-in-one JavaScript runtime built on JavaScriptCore that promises to replace Node.js and bundlers with a single, high-performance tool. Its focus on speed, built-in package management, and native TypeScript support is attracting significant developer attention. Content creators can produce migration guides and performance comparisons.",
+      "tag": "Traffic Breakout",
+      "strength": "Strong (84%)",
+      "keywords": [
+        "Bun",
+        "JavaScriptCore",
+        "JavaScript runtime",
+        "npm alternative",
+        "TypeScript"
+      ],
+      "number": "+180%",
+      "trend": "Rising",
+      "meta": "Window: ~10 weeks  |  Confidence: 84%",
+      "sources": [
+        {
+          "label": "Bun Official Site",
+          "url": "https://bun.sh/"
+        },
+        {
+          "label": "Bun GitHub Repository",
+          "url": "https://github.com/oven-sh/bun"
+        },
+        {
+          "label": "Google Trends - Bun JavaScript",
+          "url": "https://trends.google.com/trends/explore?q=bun+javascript+runtime"
+        }
+      ]
+    },
+    {
+      "slug": "turbopack-bundling",
+      "title": "Turbopack Build Tool",
+      "subtitle": "Turbopack is Vercel's Rust-based JavaScript bundler designed to replace webpack with dramatically faster build times. As the default bundler for Next.js, it is rapidly gaining adoption. Content creators can produce migration guides, performance comparisons, and configuration tutorials. Builders can develop plugins and optimization tools.",
+      "tag": "Content Goldmine",
+      "strength": "Strong (82%)",
+      "keywords": [
+        "Turbopack",
+        "webpack",
+        "bundler",
+        "Vercel",
+        "Next.js"
+      ],
+      "number": "+150%",
+      "trend": "Rising",
+      "meta": "Window: ~10 weeks  |  Confidence: 82%",
+      "sources": [
+        {
+          "label": "Turbopack Official Documentation",
+          "url": "https://turbo.build/pack/docs"
+        },
+        {
+          "label": "Next.js Turbopack Guide",
+          "url": "https://nextjs.org/docs/app/api-reference/turbopack"
+        },
+        {
+          "label": "Turbopack GitHub Repository",
+          "url": "https://github.com/vercel/turbopack"
+        }
+      ]
+    },
+    {
+      "slug": "htmx-resurgence",
+      "title": "htmx Web Development",
+      "subtitle": "htmx is experiencing a powerful resurgence as developers seek simpler, HTML-driven alternatives to complex JavaScript frameworks. Its philosophy of using HTML attributes for dynamic behavior resonates with developers fatigued by framework bloat. Content covering htmx tutorials, SPA migration guides, and case studies is in high demand.",
+      "tag": "Content Goldmine",
+      "strength": "Strong (83%)",
+      "keywords": [
+        "htmx",
+        "HTML",
+        "hypermedia",
+        "server-rendered",
+        "anti-framework"
+      ],
+      "number": "+140%",
+      "trend": "Rising",
+      "meta": "Window: ~12 weeks  |  Confidence: 83%",
+      "sources": [
+        {
+          "label": "htmx Official Site",
+          "url": "https://htmx.org/"
+        },
+        {
+          "label": "htmx GitHub Repository",
+          "url": "https://github.com/bigskysoftware/htmx"
+        },
+        {
+          "label": "Google Trends - htmx",
+          "url": "https://trends.google.com/trends/explore?q=htmx"
+        }
+      ]
+    },
+    {
+      "slug": "shopify-ecosystem",
+      "title": "Shopify App Ecosystem",
+      "subtitle": "Shopify's expanding app ecosystem presents significant opportunities for developers to build plugins addressing merchant needs in e-commerce and omnichannel retail. The platform's growing merchant base and developer-friendly API create fertile ground for niche app development. Content creators can produce development tutorials and API guides.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (80%)",
+      "keywords": [
+        "Shopify",
+        "app development",
+        "e-commerce",
+        "Remix",
+        "Shopify API"
+      ],
+      "number": "+120%",
+      "trend": "Rising",
+      "meta": "Window: ~10 weeks  |  Confidence: 80%",
+      "sources": [
+        {
+          "label": "Shopify Developer Documentation",
+          "url": "https://shopify.dev/"
+        },
+        {
+          "label": "Shopify App Store",
+          "url": "https://apps.shopify.com/"
+        },
+        {
+          "label": "Shopify Partners Blog",
+          "url": "https://www.shopify.com/partners/blog"
+        }
+      ]
+    },
+    {
+      "slug": "notion-plugins",
+      "title": "Notion Plugin Market",
+      "subtitle": "Notion's expanding API and integration ecosystem is creating new opportunities for developers to build plugins and integrations that enhance the popular productivity platform. With growing enterprise adoption, demand for Notion-specific tools and content is rising. Content creators can produce API tutorials and integration guides.",
+      "tag": "Product Opportunity",
+      "strength": "Moderate (75%)",
+      "keywords": [
+        "Notion",
+        "Notion API",
+        "integration",
+        "productivity",
+        "workspace"
+      ],
+      "number": "+95%",
+      "trend": "Rising",
+      "meta": "Window: ~12 weeks  |  Confidence: 75%",
+      "sources": [
+        {
+          "label": "Notion Developer Documentation",
+          "url": "https://developers.notion.com/"
+        },
+        {
+          "label": "Notion API GitHub",
+          "url": "https://github.com/makenotion/notion-sdk-js"
+        },
+        {
+          "label": "Google Trends - Notion API",
+          "url": "https://trends.google.com/trends/explore?q=notion+api+integration"
+        }
+      ]
     }
   ]
 }

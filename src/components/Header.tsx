@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -26,7 +26,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2 font-bold text-lg" style={{ color: "#ffffff" }}>
           <span className="gradient-text">Trending Hot</span>
         </Link>
-        <nav className="flex items-center gap-6 text-sm">
+        <nav className="flex items-center gap-5 text-sm">
           <Link href="/" className="transition-colors hover:text-white" style={{ color: "#71717a" }}>
             Home
           </Link>
@@ -35,6 +35,9 @@ export function Header() {
           </Link>
           <Link href="/privacy" className="transition-colors hover:text-white" style={{ color: "#71717a" }}>
             Privacy
+          </Link>
+          <Link href="/terms" className="transition-colors hover:text-white" style={{ color: "#71717a" }}>
+            Terms
           </Link>
           <Link href="/contact" className="transition-colors hover:text-white" style={{ color: "#71717a" }}>
             Contact
