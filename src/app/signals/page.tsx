@@ -53,12 +53,14 @@ const FALLBACK_SIGNALS: SignalItem[] = [
   },
 ];
 
+const FILTER_TABS = ["All", "China Signal", "Product Opportunity", "Content Goldmine", "Info Arbitrage", "Traffic Breakout"];
 const ITEMS_PER_PAGE = 10;
 
 export default function SignalsArchivePage() {
   const [signals, setSignals] = useState<SignalItem[]>(FALLBACK_SIGNALS);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
+  const [activeFilter, setActiveFilter] = useState("All");
 
   useEffect(() => {
     async function loadSignals() {
@@ -79,9 +81,18 @@ export default function SignalsArchivePage() {
     loadSignals();
   }, []);
 
-  const totalPages = Math.ceil(signals.length / ITEMS_PER_PAGE);
+  // Reset to page 1 when filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeFilter]);
+
+  const filteredSignals = activeFilter === "All"
+    ? signals
+    : signals.filter((s) => s.tag === activeFilter);
+
+  const totalPages = Math.ceil(filteredSignals.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const currentSignals = signals.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const currentSignals = filteredSignals.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   const goToPage = (page: number) => {
     setCurrentPage(page);
@@ -122,90 +133,165 @@ export default function SignalsArchivePage() {
           </div>
         </div>
 
+        {/* Filter Pills */}
+        <div className="mb-8 flex flex-wrap gap-3">
+          {FILTER_TABS.map((tab) => {
+            const isActive = activeFilter === tab;
+            const isChina = tab === "China Signal";
+            const count = tab === "All" ? signals.length : signals.filter((s) => s.tag === tab).length;
+
+            return (
+              <button
+                key={tab}
+                onClick={() => setActiveFilter(tab)}
+                className="transition-all duration-200"
+                style={{
+                  padding: "6px 18px",
+                  borderRadius: "999px",
+                  fontSize: "0.85rem",
+                  fontWeight: 500,
+                  color: isActive ? "#ffffff" : "#a1a1aa",
+                  background: isActive
+                    ? (isChina ? "linear-gradient(135deg, #a855f7, #d946ef)" : "#a855f7")
+                    : "rgba(255,255,255,0.05)",
+                  border: isActive
+                    ? (isChina ? "1px solid #d946ef" : "1px solid #a855f7")
+                    : "1px solid rgba(168,85,247,0.15)",
+                  boxShadow: isActive
+                    ? (isChina ? "0 0 16px rgba(217,70,239,0.35)" : "0 0 16px rgba(168,85,247,0.3)")
+                    : "none",
+                  cursor: "pointer",
+                }}
+                onMouseEnter={(e) => {
+                  if (!isActive) {
+                    e.currentTarget.style.borderColor = "rgba(168,85,247,0.35)";
+                    e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.08)";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!isActive) {
+                    e.currentTarget.style.borderColor = "rgba(168,85,247,0.15)";
+                    e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.05)";
+                  }
+                }}
+              >
+                {tab}
+                {count > 0 && (
+                  <span
+                    style={{
+                      marginLeft: "6px",
+                      fontSize: "0.7rem",
+                      opacity: 0.7,
+                    }}
+                  >
+                    {count}
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
+
         {loading ? (
           <div className="flex items-center justify-center h-32">
             <span className="text-sm" style={{ color: "#71717a" }}>Loading signals...</span>
           </div>
+        ) : filteredSignals.length === 0 ? (
+          <div className="flex items-center justify-center h-32">
+            <span className="text-sm" style={{ color: "#71717a" }}>No signals found for this filter.</span>
+          </div>
         ) : (
           <>
             <div className="flex flex-col gap-4">
-              {currentSignals.map((s, i) => (
-                <Link
-                  key={s.slug}
-                  href={`/signal/${s.slug}`}
-                  className="card-hover stagger-card block"
-                  style={{
-                    background: "rgba(255,255,255,0.03)",
-                    border: "1px solid rgba(168,85,247,0.12)",
-                    borderRadius: "12px",
-                    padding: "24px",
-                    animationDelay: `${i * 60}ms`,
-                  }}
-                >
-                  <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-3 mb-2">
-                        <span
-                          className="inline-block text-xs font-semibold"
+              {currentSignals.map((s, i) => {
+                const isChina = s.tag === "China Signal";
+                return (
+                  <Link
+                    key={s.slug}
+                    href={`/signal/${s.slug}`}
+                    className="card-hover stagger-card block"
+                    style={{
+                      background: isChina
+                        ? "rgba(168,85,247,0.04)"
+                        : "rgba(255,255,255,0.03)",
+                      border: isChina
+                        ? "1px solid rgba(217,70,239,0.18)"
+                        : "1px solid rgba(168,85,247,0.12)",
+                      borderRadius: "12px",
+                      padding: "24px",
+                      animationDelay: `${i * 60}ms`,
+                    }}
+                  >
+                    <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                      <div className="flex-1">
+                        <div className="flex items-center gap-3 mb-2">
+                          <span
+                            className="inline-block text-xs font-semibold"
+                            style={{
+                              background: isChina
+                                ? "rgba(217,70,239,0.15)"
+                                : "rgba(168,85,247,0.1)",
+                              color: isChina ? "#d946ef" : "#d946ef",
+                              borderRadius: "999px",
+                              padding: "2px 12px",
+                              letterSpacing: "0.04em",
+                            }}
+                          >
+                            {isChina ? "\u25C6 " : ""}{s.tag}
+                          </span>
+                          <span className="text-xs font-medium" style={{ color: "#71717a" }}>
+                            #{startIndex + i + 1}
+                          </span>
+                        </div>
+
+                        <h3
+                          className="font-semibold mb-2"
+                          style={{ color: "#ffffff", fontSize: "1.15rem" }}
+                        >
+                          {s.title}
+                        </h3>
+
+                        <p
                           style={{
-                            background: "rgba(168,85,247,0.1)",
-                            color: "#d946ef",
-                            borderRadius: "999px",
-                            padding: "2px 12px",
-                            letterSpacing: "0.04em",
+                            color: "#a1a1aa",
+                            fontSize: "0.9rem",
+                            lineHeight: "1.6",
                           }}
                         >
-                          {s.tag}
-                        </span>
-                        <span className="text-xs font-medium" style={{ color: "#71717a" }}>
-                          #{startIndex + i + 1}
-                        </span>
+                          {s.desc}
+                        </p>
+
+                        <p className="mt-3" style={{ color: "#71717a", fontSize: "0.75rem" }}>
+                          {s.meta}
+                        </p>
                       </div>
 
-                      <h3
-                        className="font-semibold mb-2"
-                        style={{ color: "#ffffff", fontSize: "1.15rem" }}
-                      >
-                        {s.title}
-                      </h3>
-
-                      <p
-                        style={{
-                          color: "#a1a1aa",
-                          fontSize: "0.9rem",
-                          lineHeight: "1.6",
-                        }}
-                      >
-                        {s.desc}
-                      </p>
-
-                      <p className="mt-3" style={{ color: "#71717a", fontSize: "0.75rem" }}>
-                        {s.meta}
-                      </p>
-                    </div>
-
-                    <div className="flex items-center gap-4 sm:flex-col sm:items-end sm:gap-2">
-                      <div className="text-right">
-                        <div
-                          className="font-bold odometer"
-                          style={{ color: "#a855f7", fontSize: "1.5rem" }}
-                        >
-                          {s.number}
+                      <div className="flex items-center gap-4 sm:flex-col sm:items-end sm:gap-2">
+                        <div className="text-right">
+                          <div
+                            className="font-bold odometer"
+                            style={{
+                              color: isChina ? "#d946ef" : "#a855f7",
+                              fontSize: "1.5rem",
+                            }}
+                          >
+                            {s.number}
+                          </div>
+                          <div
+                            className="text-xs font-semibold"
+                            style={{
+                              color: s.trend === "Surging" ? "#a855f7" : "#d946ef",
+                            }}
+                          >
+                            {s.trend === "Surging" ? "\u2191" : "\u23f3"} {s.trend}
+                          </div>
                         </div>
-                        <div
-                          className="text-xs font-semibold"
-                          style={{
-                            color: s.trend === "Surging" ? "#a855f7" : "#d946ef",
-                          }}
-                        >
-                          {s.trend === "Surging" ? "\u2191" : "\u23f3"} {s.trend}
-                        </div>
+                        <ArrowRight className="size-5 shrink-0" style={{ color: "#71717a" }} />
                       </div>
-                      <ArrowRight className="size-5 shrink-0" style={{ color: "#71717a" }} />
                     </div>
-                  </div>
-                </Link>
-              ))}
+                  </Link>
+                );
+              })}
             </div>
 
             {/* Pagination */}
@@ -268,7 +354,8 @@ export default function SignalsArchivePage() {
 
             {/* Page info */}
             <div className="mt-4 text-center text-xs" style={{ color: "#71717a" }}>
-              Page {currentPage} of {totalPages} - Showing {currentSignals.length} of {signals.length} signals
+              Page {currentPage} of {totalPages} - Showing {currentSignals.length} of {filteredSignals.length} signals
+              {activeFilter !== "All" && ` (filtered: ${activeFilter})`}
             </div>
           </>
         )}

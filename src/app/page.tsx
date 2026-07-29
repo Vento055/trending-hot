@@ -216,6 +216,7 @@ export default function Home() {
   const [keywordsLoading, setKeywordsLoading] = useState(true);
   const [signals, setSignals] = useState<SignalCard[]>(FALLBACK_SIGNALS);
   const [signalsLoading, setSignalsLoading] = useState(false);
+  const [chinaSignals, setChinaSignals] = useState<SignalCard[]>([]);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 100);
@@ -289,6 +290,27 @@ export default function Home() {
       }
     }
     loadSignals();
+  }, []);
+
+  // Fetch China Signal articles separately for the homepage section
+  useEffect(() => {
+    async function loadChinaSignals() {
+      try {
+        const res = await fetch("/api/signals", { signal: AbortSignal.timeout(10000) });
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data)) {
+            const china = data.filter((s: SignalCard) => s.tag === "China Signal").slice(0, 3);
+            if (china.length > 0) {
+              setChinaSignals(china);
+            }
+          }
+        }
+      } catch (e) {
+        console.error("Failed to load China signals:", e);
+      }
+    }
+    loadChinaSignals();
   }, []);
 
   const keywords = dynamicKeywords.length > 0 ? dynamicKeywords : FALLBACK_KEYWORDS;
@@ -578,6 +600,133 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Section transition */}
+        <div className="section-transition" />
+
+        {/* ===== China Signals Section ===== */}
+        {chinaSignals.length > 0 && (
+          <section className="px-[5%] py-20 sm:py-24">
+            <div className="mx-auto max-w-5xl">
+              <div className="flex items-center gap-3 mb-2">
+                <span
+                  style={{
+                    fontSize: "1.1rem",
+                    filter: "drop-shadow(0 0 8px rgba(217,70,239,0.4))",
+                  }}
+                >
+                  {"◆"}
+                </span>
+                <h2
+                  className="font-bold"
+                  style={{
+                    color: "#ffffff",
+                    fontSize: "clamp(1.5rem, 3vw, 1.75rem)",
+                  }}
+                >
+                  China Signals
+                </h2>
+              </div>
+              <p className="text-xs" style={{ color: "#71717a" }}>
+                Tech trends and opportunities from Chinese developer communities and news sources
+              </p>
+
+              <div className="mt-8 grid gap-5 sm:grid-cols-3">
+                {chinaSignals.map((s, i) => (
+                  <Link
+                    key={s.slug}
+                    href={`/signal/${s.slug}`}
+                    className="stagger-card tilt-card cursor-pointer block"
+                    style={{
+                      background: "rgba(217,70,239,0.04)",
+                      border: "1px solid rgba(217,70,239,0.15)",
+                      borderRadius: "12px",
+                      padding: "22px",
+                      animationDelay: `${i * 80}ms`,
+                      transition: "all 0.3s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = "translateY(-3px)";
+                      e.currentTarget.style.borderColor = "rgba(217,70,239,0.4)";
+                      e.currentTarget.style.boxShadow = "0 0 28px rgba(217,70,239,0.12), 0 8px 24px rgba(0,0,0,0.4)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = "translateY(0)";
+                      e.currentTarget.style.borderColor = "rgba(217,70,239,0.15)";
+                      e.currentTarget.style.boxShadow = "none";
+                    }}
+                  >
+                    <span
+                      className="inline-block"
+                      style={{
+                        background: "linear-gradient(135deg, rgba(168,85,247,0.15), rgba(217,70,239,0.15))",
+                        color: "#d946ef",
+                        borderRadius: "999px",
+                        padding: "2px 12px",
+                        fontSize: "0.7rem",
+                        fontWeight: 600,
+                        letterSpacing: "0.04em",
+                      }}
+                    >
+                      {"◆"} China Signal
+                    </span>
+
+                    <h3
+                      className="mt-3 font-semibold"
+                      style={{ color: "#ffffff", fontSize: "1.05rem", lineHeight: "1.3" }}
+                    >
+                      {s.title}
+                    </h3>
+
+                    <div className="mt-2 flex items-baseline gap-2">
+                      <span
+                        className="font-bold"
+                        style={{ color: "#d946ef", fontSize: "1.3rem" }}
+                      >
+                        {s.number}
+                      </span>
+                      <span
+                        className="text-xs font-semibold"
+                        style={{ color: "#a855f7" }}
+                      >
+                        {s.trend === "Surging" ? "↑" : "⏳"} {s.trend}
+                      </span>
+                    </div>
+
+                    <p
+                      className="mt-3"
+                      style={{
+                        color: "#a1a1aa",
+                        fontSize: "0.82rem",
+                        lineHeight: "1.5",
+                        display: "-webkit-box",
+                        WebkitLineClamp: 3,
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                      }}
+                    >
+                      {s.desc}
+                    </p>
+
+                    <p className="mt-3" style={{ color: "#71717a", fontSize: "0.7rem" }}>
+                      {s.meta}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+
+              <div className="mt-6 text-center">
+                <Link
+                  href="/signals"
+                  className="btn-secondary inline-flex items-center gap-2 text-sm"
+                  style={{ padding: "8px 20px" }}
+                >
+                  View All China Signals <ArrowRight className="size-4" />
+                </Link>
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Section transition */}
         <div className="section-transition" />
