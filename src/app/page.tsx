@@ -476,9 +476,11 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Example signals */}
+            {/* Example signals - dynamic */}
             <p className="mt-10 text-xs" style={{ color: "#71717a", fontSize: "0.8rem" }}>
-              Recent signals: WebGPU tutorial gold rush / EU AI Act compliance tools
+              Recent signals: {signalsLoading
+                ? "Loading latest signals..."
+                : signals.slice(0, 3).map((s) => s.title).join(" / ")}
             </p>
           </div>
         </section>
@@ -519,7 +521,7 @@ export default function Home() {
             </div>
 
             <div className="mt-12 grid gap-5 sm:grid-cols-2">
-              {signals.map((s, i) => (
+              {signals.slice(0, 4).map((s, i) => (
                 <Link
                   key={s.title}
                   href={`/signal/${s.slug}`}
