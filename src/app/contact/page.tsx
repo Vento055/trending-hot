@@ -24,7 +24,7 @@ export default function ContactPage() {
             Get in Touch
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            <div className="rounded-lg border border-border bg-card p-4">
+            <div className="card-hover" style={{ borderRadius: "12px", border: "1px solid rgba(168,85,247,0.15)", background: "rgba(255,255,255,0.03)", padding: "20px", boxShadow: "0 0 24px rgba(168,85,247,0.06), 0 4px 16px rgba(0,0,0,0.4)" }}>
               <h3 className="font-semibold text-foreground text-sm mb-1">
                 Email
               </h3>
@@ -39,7 +39,7 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <div className="rounded-lg border border-border bg-card p-4">
+            <div className="card-hover" style={{ borderRadius: "12px", border: "1px solid rgba(168,85,247,0.15)", background: "rgba(255,255,255,0.03)", padding: "20px", boxShadow: "0 0 24px rgba(168,85,247,0.06), 0 4px 16px rgba(0,0,0,0.4)" }}>
               <h3 className="font-semibold text-foreground text-sm mb-1">
                 GitHub
               </h3>
@@ -56,7 +56,7 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <div className="rounded-lg border border-border bg-card p-4">
+            <div className="card-hover" style={{ borderRadius: "12px", border: "1px solid rgba(168,85,247,0.15)", background: "rgba(255,255,255,0.03)", padding: "20px", boxShadow: "0 0 24px rgba(168,85,247,0.06), 0 4px 16px rgba(0,0,0,0.4)" }}>
               <h3 className="font-semibold text-foreground text-sm mb-1">
                 Twitter / X
               </h3>
@@ -73,7 +73,7 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <div className="rounded-lg border border-border bg-card p-4">
+            <div className="card-hover" style={{ borderRadius: "12px", border: "1px solid rgba(168,85,247,0.15)", background: "rgba(255,255,255,0.03)", padding: "20px", boxShadow: "0 0 24px rgba(168,85,247,0.06), 0 4px 16px rgba(0,0,0,0.4)" }}>
               <h3 className="font-semibold text-foreground text-sm mb-1">
                 Privacy Inquiries
               </h3>
@@ -103,3 +103,4 @@ export default function ContactPage() {
     </div>
   );
 }
+

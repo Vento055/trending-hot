@@ -64,7 +64,7 @@ export default function AboutPage() {
             {features.map((feature) => (
               <div
                 key={feature.title}
-                className="rounded-lg border border-border bg-card p-4"
+                className="card-hover" style={{ borderRadius: "12px", border: "1px solid rgba(168,85,247,0.15)", background: "rgba(255,255,255,0.03)", padding: "20px", boxShadow: "0 0 24px rgba(168,85,247,0.06), 0 4px 16px rgba(0,0,0,0.4)" }}
               >
                 <h3 className="font-semibold text-foreground text-sm mb-1">
                   {feature.title}
@@ -101,3 +101,4 @@ export default function AboutPage() {
     </div>
   );
 }
+

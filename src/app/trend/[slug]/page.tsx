@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
@@ -107,7 +107,7 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
   const title = slug.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-12">
+    <div className="mx-auto max-w-4xl px-[5%] py-12">
       <Link href="/" className="text-sm text-muted-foreground hover:underline mb-4 inline-block">Back to Home</Link>
       <h1 className="text-3xl font-bold mb-2">{title}</h1>
       <p className="text-muted-foreground mb-4">Cross-platform trend analysis for {title}.</p>
@@ -140,18 +140,18 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
           <p className="text-muted-foreground animate-pulse">Loading trend data...</p>
         </div>
       ) : (
-        <Card className="mb-6">
+        <Card className="mb-6 card-hover">
           <CardContent className="p-4">
             <h3 className="font-semibold mb-4">Trend Volume (Google vs Reddit)</h3>
             <ResponsiveContainer width="100%" height={300}>
               <LineChart data={chartData}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="date" fontSize={12} />
-                <YAxis fontSize={12} />
-                <Tooltip />
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(168,85,247,0.1)" />
+                <XAxis dataKey="date" fontSize={12} stroke="#71717a" />
+                <YAxis fontSize={12} stroke="#71717a" />
+                <Tooltip contentStyle={{ backgroundColor: '#12121a', border: '1px solid rgba(168,85,247,0.2)', borderRadius: '8px' }} />
                 <Legend />
-                <Line type="monotone" dataKey="google" stroke="#3b82f6" strokeWidth={2} dot={false} />
-                <Line type="monotone" dataKey="reddit" stroke="#f97316" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="google" stroke="#a855f7" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="reddit" stroke="#d946ef" strokeWidth={2} dot={false} />
               </LineChart>
             </ResponsiveContainer>
           </CardContent>
@@ -159,18 +159,18 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
       )}
 
       <div className="grid gap-6 sm:grid-cols-2">
-        <Card>
+        <Card className="card-hover">
           <CardContent className="p-4">
             <h3 className="font-semibold mb-3">Related Discussions</h3>
             {redditPosts.length > 0 ? (
               <ul className="space-y-3 text-sm">
                 {redditPosts.map((p, i) => (
-                  <li key={i} className="border-b pb-2 last:border-0">
+                  <li key={i} className="border-b pb-2 last:border-0" style={{ borderColor: 'rgba(168,85,247,0.1)' }}>
                     <a href={`https://reddit.com${p.permalink}`} target="_blank" rel="noopener noreferrer" className="hover:underline text-primary font-medium">
                       {p.title.length > 80 ? p.title.slice(0, 77) + '...' : p.title}
                     </a>
                     <div className="flex gap-3 text-xs text-muted-foreground mt-1">
-                      <span className="bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 px-1.5 py-0.5 rounded">r/{p.subreddit}</span>
+                      <span className="bg-[rgba(217,70,239,0.15)] text-[#d946ef] px-1.5 py-0.5 rounded">r/{p.subreddit}</span>
                       <span>Up {p.ups > 1000 ? `${(p.ups/1000).toFixed(1)}K` : p.ups}</span>
                       <span>{p.num_comments} comments</span>
                     </div>
@@ -183,24 +183,32 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="card-hover">
           <CardContent className="p-4">
             <h3 className="font-semibold mb-3">Geographic Breakdown</h3>
-            <div className="space-y-3 text-sm">
+            <div className="space-y-4 text-sm">
               {[
-                { region: 'United States', pct: 68, color: 'bg-blue-500' },
-                { region: 'United Kingdom', pct: 12, color: 'bg-indigo-500' },
-                { region: 'Canada', pct: 8, color: 'bg-violet-500' },
-                { region: 'Australia', pct: 5, color: 'bg-purple-500' },
-                { region: 'Others', pct: 7, color: 'bg-gray-400' },
+                { region: 'United States', pct: 68, gradient: 'linear-gradient(90deg, #a855f7, #d946ef)' },
+                { region: 'United Kingdom', pct: 12, gradient: 'linear-gradient(90deg, #9333ea, #a855f7)' },
+                { region: 'Canada', pct: 8, gradient: 'linear-gradient(90deg, #c026d3, #d946ef)' },
+                { region: 'Australia', pct: 5, gradient: 'linear-gradient(90deg, #d946ef, #e879f9)' },
+                { region: 'Others', pct: 7, gradient: 'linear-gradient(90deg, #71717a, #a1a1aa)' },
               ].map((r, i) => (
                 <div key={i}>
-                  <div className="flex justify-between mb-1">
-                    <span className="font-medium">{r.region}</span>
-                    <span className="text-muted-foreground">{r.pct}%</span>
+                  <div className="flex justify-between mb-1.5">
+                    <span className="font-medium" style={{ color: '#ffffff' }}>{r.region}</span>
+                    <span className="font-semibold odometer" style={{ color: '#a855f7' }}>{r.pct}%</span>
                   </div>
-                  <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
-                    <div className={`h-2 ${r.color} rounded-full transition-all duration-500`} style={{ width: `${r.pct}%` }} />
+                  <div className="w-full h-4 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(168,85,247,0.1)' }}>
+                    <div
+                      className="h-full rounded-full transition-all duration-1000 ease-out bar-fill"
+                      style={{
+                        width: `${r.pct}%`,
+                        background: r.gradient,
+                        boxShadow: `0 0 16px rgba(168,85,247,0.5), inset 0 1px 0 rgba(255,255,255,0.2)`,
+                        minWidth: '8px',
+                      }}
+                    />
                   </div>
                 </div>
               ))}
@@ -209,7 +217,7 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="card-hover">
           <CardContent className="p-4">
             <h3 className="font-semibold mb-3">News Coverage</h3>
             {newsLoading ? (
@@ -225,7 +233,7 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
             ) : newsItems.length > 0 ? (
               <ul className="space-y-4 text-sm">
                 {newsItems.map((item, i) => (
-                  <li key={i} className="border-b pb-3 last:border-0">
+                  <li key={i} className="border-b pb-3 last:border-0" style={{ borderColor: 'rgba(168,85,247,0.1)' }}>
                     <a
                       href={item.url}
                       target="_blank"
@@ -235,7 +243,7 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
                       {item.title}
                     </a>
                     <div className="flex items-center gap-2 text-xs text-muted-foreground mt-1">
-                      <span className="bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-1.5 py-0.5 rounded">
+                      <span className="bg-[rgba(168,85,247,0.15)] text-[#a855f7] px-1.5 py-0.5 rounded">
                         {item.source}
                       </span>
                       <span>{item.time}</span>
@@ -254,22 +262,30 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className="card-hover">
           <CardContent className="p-4">
             <h3 className="font-semibold mb-3">Sentiment Overview</h3>
-            <div className="space-y-3 text-sm">
+            <div className="space-y-4 text-sm">
               {[
-                { label: 'Positive', pct: 62, color: 'bg-green-500', textColor: 'text-green-600 dark:text-green-400' },
-                { label: 'Neutral', pct: 25, color: 'bg-yellow-500', textColor: 'text-yellow-600 dark:text-yellow-400' },
-                { label: 'Negative', pct: 13, color: 'bg-red-500', textColor: 'text-red-600 dark:text-red-400' },
+                { label: 'Positive', pct: 62, gradient: 'linear-gradient(90deg, #a855f7, #d946ef)', glow: 'rgba(168,85,247,0.4)' },
+                { label: 'Neutral', pct: 25, gradient: 'linear-gradient(90deg, #71717a, #a1a1aa)', glow: 'rgba(113,113,122,0.3)' },
+                { label: 'Negative', pct: 13, gradient: 'linear-gradient(90deg, #ef4444, #f87171)', glow: 'rgba(239,68,68,0.3)' },
               ].map((s, i) => (
                 <div key={i}>
-                  <div className="flex justify-between mb-1">
-                    <span className="font-medium">{s.label}</span>
-                    <span className={`${s.textColor} font-semibold`}>{s.pct}%</span>
+                  <div className="flex justify-between mb-1.5">
+                    <span className="font-medium" style={{ color: '#ffffff' }}>{s.label}</span>
+                    <span className="font-semibold odometer" style={{ color: s.glow.includes('168') ? '#a855f7' : s.glow.includes('239') ? '#ef4444' : '#a1a1aa' }}>{s.pct}%</span>
                   </div>
-                  <div className="w-full h-2.5 bg-muted rounded-full overflow-hidden">
-                    <div className={`h-2.5 ${s.color} rounded-full transition-all duration-700`} style={{ width: `${s.pct}%` }} />
+                  <div className="w-full h-4 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(168,85,247,0.1)' }}>
+                    <div
+                      className="h-full rounded-full transition-all duration-1000 ease-out bar-fill"
+                      style={{
+                        width: `${s.pct}%`,
+                        background: s.gradient,
+                        boxShadow: `0 0 16px ${s.glow}, inset 0 1px 0 rgba(255,255,255,0.2)`,
+                        minWidth: '8px',
+                      }}
+                    />
                   </div>
                 </div>
               ))}

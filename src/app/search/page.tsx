@@ -174,14 +174,14 @@ function SearchContent() {
                 <h2 className="font-semibold text-lg">Matched Topics</h2>
                 {data.results.map((item) => (
                   <Link key={item.id} href={`/trend/${item.slug}`}>
-                    <Card className="hover:border-primary/50 transition-colors cursor-pointer">
+                    <Card className="card-hover cursor-pointer">
                       <CardContent className="p-4">
                         <div className="flex items-center justify-between mb-2">
                           <span
                             className={`text-xs px-2 py-0.5 rounded-full ${
                               item.source === "google"
-                                ? "bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300"
-                                : "bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300"
+                                ? "bg-[rgba(168,85,247,0.15)] text-[#a855f7]"
+                                : "bg-[rgba(217,70,239,0.15)] text-[#d946ef]"
                             }`}
                           >
                             {item.source === "google" ? "Google" : "Reddit"}
@@ -193,10 +193,10 @@ function SearchContent() {
                             <span
                               className={`text-sm font-mono ${
                                 item.direction === "up"
-                                  ? "text-green-500"
+                                  ? "text-[#a855f7]"
                                   : item.direction === "down"
                                   ? "text-red-500"
-                                  : "text-blue-500"
+                                  : "text-[#d946ef]"
                               }`}
                             >
                               {directionIcon(item.direction)} {item.metric}
@@ -237,7 +237,7 @@ function SearchContent() {
                         <Line
                           type="monotone"
                           dataKey="google"
-                          stroke="#3b82f6"
+                          stroke="#a855f7"
                           strokeWidth={2}
                           dot={false}
                           name="Google"
@@ -245,7 +245,7 @@ function SearchContent() {
                         <Line
                           type="monotone"
                           dataKey="reddit"
-                          stroke="#f97316"
+                          stroke="#d946ef"
                           strokeWidth={2}
                           dot={false}
                           name="Reddit"
@@ -295,13 +295,13 @@ function SearchContent() {
                       <div>
                         <div className="flex justify-between text-xs mb-0.5">
                           <span className="text-muted-foreground">Positive</span>
-                          <span className="text-green-500 font-mono">
+                          <span className="text-[#a855f7] font-mono">
                             {data.sentiment.positive}%
                           </span>
                         </div>
                         <div className="w-full h-2.5 bg-muted rounded-full overflow-hidden">
                           <div
-                            className="h-2.5 bg-green-500 rounded-full transition-all"
+                            className="h-2.5 bg-[#a855f7] rounded-full transition-all"
                             style={{ width: `${data.sentiment.positive}%` }}
                           />
                         </div>
@@ -311,13 +311,13 @@ function SearchContent() {
                       <div>
                         <div className="flex justify-between text-xs mb-0.5">
                           <span className="text-muted-foreground">Neutral</span>
-                          <span className="text-yellow-500 font-mono">
+                          <span className="text-[#71717a] font-mono">
                             {data.sentiment.neutral}%
                           </span>
                         </div>
                         <div className="w-full h-2.5 bg-muted rounded-full overflow-hidden">
                           <div
-                            className="h-2.5 bg-yellow-500 rounded-full transition-all"
+                            className="h-2.5 bg-[#71717a] rounded-full transition-all"
                             style={{ width: `${data.sentiment.neutral}%` }}
                           />
                         </div>
@@ -346,11 +346,11 @@ function SearchContent() {
                         </p>
                         <div className="w-full h-4 rounded-full overflow-hidden flex">
                           <div
-                            className="h-full bg-green-500 transition-all"
+                            className="h-full bg-[#a855f7] transition-all"
                             style={{ width: `${data.sentiment.positive}%` }}
                           />
                           <div
-                            className="h-full bg-yellow-500 transition-all"
+                            className="h-full bg-[#71717a] transition-all"
                             style={{ width: `${data.sentiment.neutral}%` }}
                           />
                           <div
@@ -390,3 +390,4 @@ export default function SearchPage() {
     </Suspense>
   );
 }
+

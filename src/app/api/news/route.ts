@@ -66,12 +66,15 @@ function parseGoogleNewsRSS(xml: string): NewsItem[] {
 
     if (title && link) {
       const cleanSummary = description
-        .replace(/<[^>]*>/g, "")
         .replace(/&amp;/g, "&")
         .replace(/&lt;/g, "<")
         .replace(/&gt;/g, ">")
         .replace(/&quot;/g, '"')
         .replace(/&#39;/g, "'")
+        .replace(/&nbsp;/g, " ")
+        .replace(/<[^>]*>/g, "")
+        .replace(/\s+/g, " ")
+        .trim()
         .slice(0, 250);
 
       const sourceName = source || (() => {
@@ -98,6 +101,17 @@ function parseGoogleNewsRSS(xml: string): NewsItem[] {
           }
         } catch {
           // keep original pubDate
+        }
+      }
+
+      // Filter out articles older than 30 days
+      if (pubDate) {
+        try {
+          const articleDate = new Date(pubDate);
+          const daysOld = (Date.now() - articleDate.getTime()) / 86400000;
+          if (daysOld > 30) continue;
+        } catch {
+          // If date parsing fails, keep the item
         }
       }
 
@@ -133,7 +147,7 @@ export async function GET(request: Request) {
   }
 
   try {
-    const url = `https://news.google.com/rss/search?q=${encodeURIComponent(keyword)}&hl=en-US`;
+    const url = `https://news.google.com/rss/search?q=${encodeURIComponent(keyword)}+when:30d&hl=en-US`;
     const res = await fetch(url, {
       headers: { "User-Agent": "trending-hot/1.0" },
       signal: AbortSignal.timeout(8000),
