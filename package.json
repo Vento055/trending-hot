@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate-articles": "npx tsx scripts/generate-articles.ts"
+    "generate-articles": "npx tsx scripts/generate-articles.ts",
+    "discover-trends": "npx tsx scripts/discover-trends.ts",
+    "update-signals": "npx tsx scripts/discover-trends.ts && npx tsx scripts/generate-articles.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",

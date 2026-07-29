@@ -93,7 +93,17 @@ function Sparkline({ data, width = 60, height = 16 }: { data: number[]; width?: 
   );
 }
 
-const signals = [
+interface SignalCard {
+  tag: string;
+  title: string;
+  slug: string;
+  number: string;
+  trend: string;
+  desc: string;
+  meta: string;
+}
+
+const FALLBACK_SIGNALS: SignalCard[] = [
   {
     tag: "Content Goldmine",
     title: "WebGPU Tutorials",
@@ -203,6 +213,8 @@ export default function Home() {
   const [scrolled, setScrolled] = useState(false);
   const [dynamicKeywords, setDynamicKeywords] = useState<KeywordItem[]>([]);
   const [keywordsLoading, setKeywordsLoading] = useState(true);
+  const [signals, setSignals] = useState<SignalCard[]>(FALLBACK_SIGNALS);
+  const [signalsLoading, setSignalsLoading] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 100);
@@ -255,6 +267,27 @@ export default function Home() {
       }
     }
     loadData();
+  }, []);
+
+  // Fetch dynamic signals from /api/signals
+  useEffect(() => {
+    async function loadSignals() {
+      setSignalsLoading(true);
+      try {
+        const res = await fetch("/api/signals", { signal: AbortSignal.timeout(10000) });
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data) && data.length > 0) {
+            setSignals(data);
+          }
+        }
+      } catch (e) {
+        console.error("Failed to load signals:", e);
+      } finally {
+        setSignalsLoading(false);
+      }
+    }
+    loadSignals();
   }, []);
 
   const keywords = dynamicKeywords.length > 0 ? dynamicKeywords : FALLBACK_KEYWORDS;

@@ -1,6 +1,114 @@
 {
   "signals": [
     {
+      "slug": "webassembly-components-ecosystem",
+      "title": "WebAssembly Components Ecosystem",
+      "subtitle": "WebAssembly Components are standardizing portable, language-agnostic modules that can run across browsers, servers, and edge runtimes. This unlocks new opportunities for building reusable, sandboxed plugins and microservices. Content creators can produce tutorials and tooling reviews, while builders can develop component registries or integration frameworks. Investors should watch for infrastructure plays around composability and cross-language interop.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (85%)",
+      "keywords": [
+        "WebAssembly",
+        "component model",
+        "WASI",
+        "portable modules",
+        "polyglot runtime"
+      ],
+      "number": "+150%",
+      "trend": "Rising",
+      "meta": "Window: ~12 weeks  |  Confidence: 82%",
+      "sources": [
+        {
+          "label": "Bytecode Alliance",
+          "url": "https://bytecodealliance.org/"
+        },
+        {
+          "label": "Wasmtime Blog",
+          "url": "https://wasmtime.dev/"
+        }
+      ]
+    },
+    {
+      "slug": "rust-2026-edition-migration-guides",
+      "title": "Rust 2026 Edition Migration Guides",
+      "subtitle": "The Rust 2026 Edition promises significant language improvements and potential breaking changes. Developers and teams will need clear migration guides, tooling updates, and best-practice content to navigate the transition. This creates a content goldmine for early adopters who produce tutorials, migration checklists, and compatibility tools. Builders can create automated migration assistants or linters. Investors should back tooling and education platforms targeting the Rust ecosystem.",
+      "tag": "Content Goldmine",
+      "strength": "Very Strong (88%)",
+      "keywords": [
+        "Rust",
+        "edition 2026",
+        "migration",
+        "language evolution",
+        "Rust tooling"
+      ],
+      "number": "+120%",
+      "trend": "Surging",
+      "meta": "Window: ~16 weeks  |  Confidence: 85%",
+      "sources": [
+        {
+          "label": "Rust Blog",
+          "url": "https://blog.rust-lang.org/"
+        },
+        {
+          "label": "This Week in Rust",
+          "url": "https://this-week-in-rust.org/"
+        }
+      ]
+    },
+    {
+      "slug": "edge-runtime-api-integration",
+      "title": "Edge Runtime API Integration Patterns",
+      "subtitle": "Edge Runtime APIs are maturing rapidly, enabling serverless functions, KV stores, and real-time data processing at the network edge. Developers need practical integration patterns, performance benchmarks, and cost comparisons across providers like Cloudflare Workers, Deno Deploy, and AWS Lambda@Edge. This is a prime info arbitrage opportunity for creators who can distill complex trade-offs into actionable guides. Builders can create unified SDKs or monitoring dashboards. Investors should evaluate edge-native SaaS and observability startups.",
+      "tag": "Info Arbitrage",
+      "strength": "Strong (82%)",
+      "keywords": [
+        "edge computing",
+        "serverless",
+        "CDN",
+        "low latency",
+        "API integration"
+      ],
+      "number": "+95%",
+      "trend": "Rising",
+      "meta": "Window: ~8 weeks  |  Confidence: 78%",
+      "sources": [
+        {
+          "label": "Cloudflare Workers Docs",
+          "url": "https://developers.cloudflare.com/workers/"
+        },
+        {
+          "label": "Deno Deploy Blog",
+          "url": "https://deno.com/blog"
+        }
+      ]
+    },
+    {
+      "slug": "local-ai-model-deployment-tools",
+      "title": "Local AI Model Deployment Tools",
+      "subtitle": "Running large language models locally is becoming viable with tools like Ollama, llama.cpp, and LM Studio. This shift enables privacy-sensitive applications, offline use cases, and reduced API costs. Content creators can produce setup guides, hardware benchmarks, and use-case comparisons. Builders can develop simplified deployment wrappers or fine-tuning UIs. Investors should look at companies enabling on-device AI inference and edge hardware acceleration.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (80%)",
+      "keywords": [
+        "local LLM",
+        "Ollama",
+        "llama.cpp",
+        "on-device AI",
+        "privacy"
+      ],
+      "number": "+75%",
+      "trend": "Surging",
+      "meta": "Window: ~10 weeks  |  Confidence: 80%",
+      "sources": [
+        {
+          "label": "Ollama GitHub",
+          "url": "https://github.com/ollama/ollama"
+        },
+        {
+          "label": "llama.cpp GitHub",
+          "url": "https://github.com/ggerganov/llama.cpp"
+        }
+      ]
+    },
+    {
       "slug": "webgpu-tutorials",
       "title": "WebGPU Tutorials",
       "subtitle": "Developer interest is climbing while high-quality beginner content remains scarce. Early movers can capture search demand before the window closes.",
