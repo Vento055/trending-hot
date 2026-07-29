@@ -5,6 +5,7 @@ const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || "sk-0003200be8bc4cd893c
 const DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions";
 const DATA_DIR = path.join(process.cwd(), "data");
 const ARTICLES_DIR = path.join(DATA_DIR, "articles");
+const CONTENT_DIR = path.join(process.cwd(), "src", "content", "signals");
 const OBSIDIAN_DIR = process.env.OBSIDIAN_VAULT_PATH || "C:/Users/Administrator/Desktop/凡多笔记/知识库/03-热点素材/信号分析文章";
 
 interface SignalSeed {
@@ -287,6 +288,47 @@ function syncToObsidian(article: GeneratedArticle) {
   }
 }
 
+function saveMarkdown(article: GeneratedArticle) {
+  try {
+    if (!fs.existsSync(CONTENT_DIR)) {
+      fs.mkdirSync(CONTENT_DIR, { recursive: true });
+    }
+
+    const mdContent = `# ${article.title}
+
+> ${article.subtitle}
+
+**Tag:** ${article.tag} | **Strength:** ${article.strength}
+
+---
+
+## Core Judgment
+
+${article.coreJudgment}
+
+---
+
+${article.sections.map((s) => `## ${s.heading}\n\n${s.body}`).join("\n\n---\n\n")}
+
+---
+
+## Sources
+
+${article.sources.map((s) => `- [${s.label}](${s.url})`).join("\n")}
+
+---
+
+*Generated at: ${article.generatedAt}*
+`;
+
+    const mdPath = path.join(CONTENT_DIR, `${article.slug}.md`);
+    fs.writeFileSync(mdPath, mdContent, "utf-8");
+    console.log(`Markdown saved: ${mdPath}`);
+  } catch (e) {
+    console.error("Markdown save failed:", e);
+  }
+}
+
 async function main() {
   console.log("=== Signal Article Generator ===\n");
 
@@ -310,6 +352,7 @@ async function main() {
 
       const article = await generateArticleWithDeepSeek(signal, redditPosts, newsItems);
       saveArticle(article);
+      saveMarkdown(article);
       syncToObsidian(article);
 
       console.log(`  Done: ${article.title}\n`);

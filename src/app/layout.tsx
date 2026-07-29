@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { HeaderConditional } from "@/components/HeaderConditional";
 import { Footer } from "@/components/Footer";
@@ -11,14 +11,27 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Trending Hot - Discover Tomorrow's Money-Making Trends",
-  description: "Discover tomorrow's money-making trends before everyone else sees them. AI-curated opportunity signals from Google Trends and Reddit.",
-  metadataBase: new URL("https://www.trending-hot.com"),
+  title: {
+    default: "Trending Hot - Discover What's Trending Across the Internet",
+    template: "%s | Trending Hot",
+  },
+  description:
+    "Real-time insights powered by Google Trends and Reddit. Discover trending topics, analyze signals, and stay ahead of every viral moment.",
+  metadataBase: new URL("https://trending-hot.com"),
   openGraph: {
-    title: "Trending Hot",
-    description: "Discover tomorrow's money-making trends before everyone else sees them.",
+    title: "Trending Hot - Discover What's Trending Across the Internet",
+    description:
+      "Real-time insights powered by Google Trends and Reddit. Discover trending topics, analyze signals, and stay ahead of every viral moment.",
+    url: "https://trending-hot.com",
     siteName: "Trending Hot",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

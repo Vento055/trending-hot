@@ -186,27 +186,46 @@ export default function TrendDetailPage({ params: paramsPromise }: TrendDetailPa
         <Card className="card-hover">
           <CardContent className="p-4">
             <h3 className="font-semibold mb-3">Geographic Breakdown</h3>
-            <div className="space-y-4 text-sm">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
               {[
-                { region: 'United States', pct: 68, gradient: 'linear-gradient(90deg, #a855f7, #d946ef)' },
-                { region: 'United Kingdom', pct: 12, gradient: 'linear-gradient(90deg, #9333ea, #a855f7)' },
-                { region: 'Canada', pct: 8, gradient: 'linear-gradient(90deg, #c026d3, #d946ef)' },
-                { region: 'Australia', pct: 5, gradient: 'linear-gradient(90deg, #d946ef, #e879f9)' },
-                { region: 'Others', pct: 7, gradient: 'linear-gradient(90deg, #71717a, #a1a1aa)' },
+                { region: 'United States', flag: '🇺🇸', pct: 68, color: '#a855f7' },
+                { region: 'United Kingdom', flag: '🇬🇧', pct: 12, color: '#9333ea' },
+                { region: 'Canada', flag: '🇨🇦', pct: 8, color: '#c026d3' },
+                { region: 'Australia', flag: '🇦🇺', pct: 5, color: '#d946ef' },
+                { region: 'Germany', flag: '🇩🇪', pct: 4, color: '#e879f9' },
+                { region: 'Others', flag: '🌐', pct: 3, color: '#71717a' },
               ].map((r, i) => (
-                <div key={i}>
-                  <div className="flex justify-between mb-1.5">
-                    <span className="font-medium" style={{ color: '#ffffff' }}>{r.region}</span>
-                    <span className="font-semibold odometer" style={{ color: '#a855f7' }}>{r.pct}%</span>
+                <div
+                  key={i}
+                  className="rounded-lg p-3 text-center transition-all duration-300"
+                  style={{
+                    background: 'rgba(255,255,255,0.03)',
+                    border: '1px solid rgba(168,85,247,0.1)',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = `${r.color}40`;
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.06)';
+                    e.currentTarget.style.transform = 'translateY(-2px)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(168,85,247,0.1)';
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.03)';
+                    e.currentTarget.style.transform = 'translateY(0)';
+                  }}
+                >
+                  <div className="text-2xl mb-1">{r.flag}</div>
+                  <div className="text-xs font-medium" style={{ color: '#ffffff' }}>{r.region}</div>
+                  <div className="mt-1 flex items-center justify-center gap-1">
+                    <span className="text-lg font-bold odometer" style={{ color: r.color }}>{r.pct}%</span>
                   </div>
-                  <div className="w-full h-4 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(168,85,247,0.1)' }}>
+                  <div className="mt-2 h-1 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.06)' }}>
                     <div
                       className="h-full rounded-full transition-all duration-1000 ease-out bar-fill"
                       style={{
                         width: `${r.pct}%`,
-                        background: r.gradient,
-                        boxShadow: `0 0 16px rgba(168,85,247,0.5), inset 0 1px 0 rgba(255,255,255,0.2)`,
-                        minWidth: '8px',
+                        background: r.color,
+                        boxShadow: `0 0 8px ${r.color}80`,
+                        minWidth: '4px',
                       }}
                     />
                   </div>

@@ -432,13 +432,14 @@ export default function Home() {
             <div className="mt-8">
               <a
                 href="#signals"
-                className="btn-primary glow-pulse inline-flex items-center gap-2"
+                className="btn-primary glow-pulse cta-arrow inline-flex items-center gap-2"
                 style={{
-                  fontSize: "1rem",
-                  padding: "14px 32px",
+                  fontSize: "1.1rem",
+                  padding: "16px 40px",
+                  borderRadius: "12px",
                 }}
               >
-                Explore Today&apos;s Signals <ArrowRight className="size-4" />
+                Explore Today&apos;s Signals <ArrowRight className="size-5 cta-arrow-icon" />
               </a>
             </div>
 
@@ -642,8 +643,8 @@ export default function Home() {
                       <Sparkline data={kw.sparkline} width={120} height={20} />
                     </div>
 
-                    {/* Source Tag */}
-                    <div className="mt-3">
+                    {/* Source Tag + Rank */}
+                    <div className="mt-3 flex items-center justify-between">
                       <span
                         className="inline-block text-xs font-medium"
                         style={{
@@ -655,6 +656,25 @@ export default function Home() {
                       >
                         {kw.source}
                       </span>
+                      <span className="text-xs font-bold" style={{ color: "#71717a" }}>
+                        #{kw.rank}
+                      </span>
+                    </div>
+                    {/* Heat Progress Bar */}
+                    <div
+                      className="mt-3 h-1 rounded-full overflow-hidden"
+                      style={{ background: "rgba(255,255,255,0.05)" }}
+                    >
+                      <div
+                        className="h-full rounded-full transition-all duration-700 ease-out"
+                        style={{
+                          width: `${Math.min(100, (kw.rank <= 3 ? 90 - kw.rank * 10 : 60 - kw.rank * 3))}%`,
+                          background: kw.rank <= 3
+                            ? "linear-gradient(90deg, #a855f7, #d946ef)"
+                            : "linear-gradient(90deg, #7c3aed, #a855f7)",
+                          boxShadow: "0 0 8px rgba(168,85,247,0.4)",
+                        }}
+                      />
                     </div>
                   </Link>
                 ))}
@@ -666,62 +686,75 @@ export default function Home() {
         {/* Section transition */}
         <div className="section-transition" />
 
-        {/* ===== How It Works ===== */}
-        <section className="px-[5%] py-20 sm:py-28">
-          <div className="mx-auto max-w-4xl">
+        {/* ===== How It Works (Compact 3-column) ===== */}
+        <section className="px-[5%] py-16 sm:py-20">
+          <div className="mx-auto max-w-5xl">
             <h2
-              className="mb-12 text-center font-bold"
+              className="mb-8 text-center font-bold"
               style={{ color: "#ffffff", fontSize: "clamp(1.5rem, 3vw, 1.75rem)" }}
             >
               How It Works
             </h2>
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               {[
                 {
-                  icon: "\uD83D\uDCE1",
+                  num: "01",
                   title: "Real-time Tracking",
                   desc: "We monitor Google Trends and Reddit 24/7 to catch rising topics before they peak.",
                 },
                 {
-                  icon: "\uD83E\uDD16",
+                  num: "02",
                   title: "AI Analysis",
                   desc: "Our AI clusters related activity into clear signals with momentum, timing, and context.",
                 },
                 {
-                  icon: "\u2728",
+                  num: "03",
                   title: "Curated Signals",
                   desc: "The strongest opportunities are distilled into a concise, action-ready daily brief.",
                 },
               ].map((step, i) => (
                 <div
                   key={step.title}
-                  className="stagger-card card-hover text-center"
+                  className="stagger-card flex items-start gap-4"
                   style={{
                     animationDelay: `${i * 80}ms`,
                     background: "rgba(255,255,255,0.03)",
                     border: "1px solid rgba(168,85,247,0.12)",
-                    borderRadius: "12px",
-                    padding: "28px 24px",
+                    borderRadius: "10px",
+                    padding: "18px 20px",
+                    transition: "all 0.3s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = "rgba(168,85,247,0.3)";
+                    e.currentTarget.style.background = "rgba(255,255,255,0.05)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = "rgba(168,85,247,0.12)";
+                    e.currentTarget.style.background = "rgba(255,255,255,0.03)";
                   }}
                 >
-                  <div
-                    className="mx-auto flex items-center justify-center text-xl"
+                  <span
+                    className="shrink-0 font-bold"
                     style={{
-                      width: "44px",
-                      height: "44px",
-                      background: "rgba(168,85,247,0.12)",
-                      border: "1px solid rgba(168,85,247,0.25)",
-                      borderRadius: "50%",
+                      fontSize: "1.5rem",
+                      background: "linear-gradient(135deg, #a855f7, #d946ef)",
+                      WebkitBackgroundClip: "text",
+                      backgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                      lineHeight: "1",
+                      minWidth: "32px",
                     }}
                   >
-                    {step.icon}
+                    {step.num}
+                  </span>
+                  <div>
+                    <h3 className="font-bold" style={{ color: "#e5e5e5", fontSize: "0.95rem" }}>
+                      {step.title}
+                    </h3>
+                    <p className="mt-1" style={{ color: "#a1a1aa", fontSize: "0.82rem", lineHeight: "1.5" }}>
+                      {step.desc}
+                    </p>
                   </div>
-                  <h3 className="mt-4 font-bold" style={{ color: "#ffffff", fontSize: "1rem" }}>
-                    {step.title}
-                  </h3>
-                  <p className="mt-2 mx-auto" style={{ color: "#a1a1aa", fontSize: "0.85rem", lineHeight: "1.6", maxWidth: "240px" }}>
-                    {step.desc}
-                  </p>
                 </div>
               ))}
             </div>
@@ -750,10 +783,10 @@ export default function Home() {
             </p>
             <a
               href="#signals"
-              className="btn-primary mt-8 inline-flex items-center gap-2"
-              style={{ padding: "14px 32px", fontSize: "1rem" }}
+              className="btn-primary glow-pulse cta-arrow mt-8 inline-flex items-center gap-2"
+              style={{ padding: "16px 40px", fontSize: "1.1rem", borderRadius: "12px" }}
             >
-              Explore Today&apos;s Signals <ArrowRight className="size-4" />
+              Explore Today&apos;s Signals <ArrowRight className="size-5 cta-arrow-icon" />
             </a>
           </div>
         </section>
@@ -775,18 +808,18 @@ export default function Home() {
                     key={question}
                     className="transition-all duration-200"
                     style={{
-                      background: "rgba(255,255,255,0.04)",
-                      border: "1px solid rgba(168,85,247,0.12)",
+                      background: "rgba(255,255,255,0.05)",
+                      border: "1px solid rgba(255,255,255,0.1)",
                       borderRadius: "10px",
                       overflow: "hidden",
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.06)";
-                      e.currentTarget.style.borderColor = "rgba(168,85,247,0.2)";
+                      e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.08)";
+                      e.currentTarget.style.borderColor = "rgba(168,85,247,0.25)";
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.04)";
-                      e.currentTarget.style.borderColor = "rgba(168,85,247,0.12)";
+                      e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.05)";
+                      e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)";
                     }}
                   >
                     <button
@@ -794,8 +827,9 @@ export default function Home() {
                       onClick={() => setOpenFaq(isOpen ? -1 : index)}
                       className="flex w-full items-center justify-between px-5 py-4 text-left"
                       aria-expanded={isOpen}
+                      style={{ background: "transparent" }}
                     >
-                      <span className="font-semibold" style={{ color: "#000000", fontSize: "0.95rem" }}>
+                      <span className="font-semibold" style={{ color: "#e5e5e5", fontSize: "0.95rem" }}>
                         {question}
                       </span>
                       <span
