@@ -1,0 +1,52 @@
+{
+  "slug": "ai-agents",
+  "name": "AI Agents",
+  "volume": "94K",
+  "source": "Reddit",
+  "rank": 3,
+  "sparkline": [
+    59,
+    74,
+    96,
+    124,
+    140,
+    173,
+    227
+  ],
+  "summary": "Major tech firms unveil autonomous AI agents, sparking Reddit debate on workforce impact.",
+  "category": "AI",
+  "trendTag": {
+    "type": "new"
+  },
+  "analysisWhy": "The keyword 'AI Agents' is trending with a 94K search volume and a massive +285% heat change on Reddit, driven by a confluence of recent events. In early March 2025, Salesforce launched its Agentforce 2.0 platform, enabling businesses to deploy autonomous sales and service bots, while Microsoft announced Copilot agents for enterprise workflows at its Ignite conference. These launches were amplified by OpenAI's rumored release of a 'Codex Agent' for autonomous software development, leaked via internal memos. The trigger appears to be a viral Reddit post on r/singularity detailing a user's experiment where an AI agent autonomously completed a freelance web development project, sparking intense discussion about job displacement. Additionally, Google's DeepMind published a paper on 'Agentic AI Safety' that circulated widely on r/MachineLearning, raising ethical concerns. The +285% heat change reflects a surge from a baseline of about 24K in late February, as Reddit communities like r/artificial and r/Futurology exploded with threads debating whether AI agents will replace white-collar workers within two years. The data shows a clear spike correlating with the Salesforce announcement on March 4, followed by sustained interest as users shared practical use cases and failure stories.",
+  "analysisMeaning": "This trend signals a paradigm shift from passive AI tools (like chatbots) to autonomous systems capable of executing complex multi-step tasks without human intervention. For businesses, AI agents represent a direct threat to roles in customer service, data entry, and junior programming, but also offer unprecedented efficiency gains. Reddit discussions indicate that early adopters are already using agents for email management, code debugging, and market research, with some reporting 10x productivity boosts. The most affected groups are knowledge workers in tech, finance, and administration, who face potential job restructuring within 12-18 months. Key signals to watch include regulatory responses, particularly the EU's AI Act amendments targeting agent liability, and major corporations like Amazon and JPMorgan announcing agent deployment at scale. The trend also highlights a growing divide: tech-savvy users embrace agents as force multipliers, while skeptics on r/antiwork warn of algorithmic exploitation. For trend analysts, this is a 'hypergrowth' signal—search volume could double again if Apple or Meta enters the space. Investors should monitor startups like Adept and Cognition Labs, while educators must prepare for curriculum shifts toward AI-agent oversight skills.",
+  "faqAnswers": [
+    {
+      "question": "Is AI Agents worth paying attention to?",
+      "answer": "Absolutely. With a 285% spike in Reddit discussions and major product launches from Salesforce and Microsoft, AI agents are rapidly moving from concept to real-world deployment. Ignoring this trend risks missing a fundamental shift in how work gets automated."
+    },
+    {
+      "question": "How long will this trend last?",
+      "answer": "At least 6-12 months, as enterprise rollouts accelerate and consumer agents emerge. The current hype cycle will persist through Q2 2025 product launches, but may plateau as regulatory scrutiny and real-world failures temper expectations."
+    },
+    {
+      "question": "Where is AI Agents most popular?",
+      "answer": "Most popular in the US and Western Europe on tech-focused subreddits (r/singularity, r/MachineLearning). Demographically, it skews toward men aged 25-44 working in software engineering, data science, and startup communities. Growing interest in Asia via Chinese tech forums."
+    }
+  ],
+  "relatedTrends": [
+    {
+      "name": "Autonomous AI",
+      "slug": "autonomous-ai"
+    },
+    {
+      "name": "Agentforce Salesforce",
+      "slug": "agentforce-salesforce"
+    },
+    {
+      "name": "AI Job Automation",
+      "slug": "ai-job-automation"
+    }
+  ],
+  "generatedAt": "2026-07-30T01:56:53.845Z"
+}

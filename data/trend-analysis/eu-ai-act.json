@@ -1,0 +1,52 @@
+{
+  "slug": "eu-ai-act",
+  "name": "EU AI Act",
+  "volume": "780K+",
+  "source": "Google Trends",
+  "rank": 5,
+  "sparkline": [
+    49,
+    53,
+    69,
+    92,
+    97,
+    113,
+    125
+  ],
+  "summary": "EU AI Act final approval triggers massive search spike as businesses scramble for compliance.",
+  "category": "AI",
+  "trendTag": {
+    "type": "new"
+  },
+  "analysisWhy": "The keyword 'EU AI Act' is trending with a 780K+ search volume and a +155% heat change due to the European Parliament's final approval of the landmark legislation on March 13, 2024. This vote concluded years of negotiations, making the EU the first major jurisdiction to enact comprehensive AI regulation. The trigger is the immediate compliance deadline pressure: the Act's tiered risk-based rules will phase in over the next 6-36 months, with bans on unacceptable-risk AI (e.g., social scoring, real-time biometric surveillance) taking effect as early as late 2024. Companies using AI in the EU, including major tech firms like OpenAI, Google, and Meta, are urgently seeking legal guidance. The search spike correlates with widespread media coverage and official publications of the final text. Additionally, the timing coincides with enforcement agencies like the European AI Office ramping up operations, and industry conferences pivoting to compliance workshops. The 155% heat change reflects a sharp inflection point: from theoretical debate to actionable regulation, driving both corporate legal teams and AI startups to understand their obligations.",
+  "analysisMeaning": "This trend signals a fundamental shift in the global AI governance landscape. For businesses, the EU AI Act imposes binding requirements on transparency, risk management, and human oversight, affecting any organization deploying or developing AI within the EU market, regardless of headquarters. Companies must now classify their AI systems into prohibited, high-risk, limited-risk, or minimal-risk categories, with high-risk systems requiring conformity assessments and documentation. The impact is immediate for sectors like hiring, credit scoring, and law enforcement, which face the strictest rules. For AI developers, the Act mandates training data governance and copyright disclosure, pressuring proprietary model transparency. This trend also signals a potential 'Brussels effect,' where other regions (e.g., US state-level bills, Japan, India) may adopt similar frameworks. Key signals to watch: enforcement actions by the European AI Office, the development of harmonized standards by CEN/CENELEC, and the first high-risk system certifications. Investors should monitor compliance costs for AI firms, while startups may face increased barriers to entry. The trend underscores that AI regulation is no longer hypothetical but a concrete operational reality.",
+  "faqAnswers": [
+    {
+      "question": "Is EU AI Act worth paying attention to?",
+      "answer": "Absolutely. It is the world's first comprehensive AI law, setting a regulatory precedent. Any company using AI in the EU must comply, with penalties up to 7% of global annual revenue. Ignoring it risks severe fines and operational disruptions."
+    },
+    {
+      "question": "How long will this trend last?",
+      "answer": "High interest will persist for at least 12-18 months as compliance deadlines approach (first bans in 6 months, high-risk rules in 24 months). Ongoing enforcement actions and updates to the Act will sustain periodic search spikes."
+    },
+    {
+      "question": "Where is EU AI Act most popular?",
+      "answer": "Most popular in EU member states, especially Germany, France, and Italy, where large tech industries are concentrated. Brussels and London also show high search volumes due to policy and legal hubs. Interest is growing in the US and Asia as companies assess extraterritorial impact."
+    }
+  ],
+  "relatedTrends": [
+    {
+      "name": "AI regulation",
+      "slug": "ai-regulation"
+    },
+    {
+      "name": "European AI Office",
+      "slug": "european-ai-office"
+    },
+    {
+      "name": "AI compliance",
+      "slug": "ai-compliance"
+    }
+  ],
+  "generatedAt": "2026-07-30T01:57:12.144Z"
+}

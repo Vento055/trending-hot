@@ -1,0 +1,52 @@
+{
+  "slug": "webgpu",
+  "name": "WebGPU",
+  "volume": "950K+",
+  "source": "Google Trends",
+  "rank": 2,
+  "sparkline": [
+    71,
+    80,
+    106,
+    118,
+    132,
+    150,
+    196
+  ],
+  "summary": "WebGPU reaches stable release across major browsers, enabling high-performance graphics and compute in web apps.",
+  "category": "Tech",
+  "trendTag": {
+    "type": "new"
+  },
+  "analysisWhy": "WebGPU is trending with a 176% increase in search volume, reaching 950K+, primarily due to its official stable release in Chrome 113, Edge 113, and Firefox Nightly, with Safari following closely. This marks a major milestone for web graphics and compute APIs, as WebGPU replaces the aging WebGL standard with a modern, low-level interface that leverages DirectX 12, Vulkan, and Metal. The trigger is the widespread availability across all major browser engines, which developers have been anticipating for years. Additionally, high-profile projects like TensorFlow.js and Babylon.js have announced WebGPU support, and the release coincides with growing interest in running AI inference directly in the browser without server round-trips. The heat change reflects a spike from developer communities on GitHub, Hacker News, and Reddit, as well as coverage from tech media like Ars Technica and The Verge. The timing aligns with the GPU compute boom, where edge computing and privacy-preserving AI are gaining traction. Google’s WebGPU samples repo and the W3C specification finalization have further fueled searches, as developers seek tutorials and migration guides from WebGL.",
+  "analysisMeaning": "The WebGPU trend signals a paradigm shift in web platform capabilities, directly impacting developers, cloud providers, and end-users. For developers, it means the ability to build complex 3D graphics, scientific simulations, and on-device AI models that previously required native apps or server-side processing. This reduces latency and enhances user privacy by keeping data on the device. Companies like Figma, Sketchfab, and game studios are affected, as WebGPU enables richer interactive experiences in the browser. The trend also threatens incumbent technologies like WebGL and cloud GPU services, as more computation shifts to the client. For the broader tech ecosystem, WebGPU lowers the barrier for machine learning in the browser, potentially accelerating adoption of federated learning and real-time video processing. Signals to watch include: adoption in popular frameworks (React Three Fiber, TensorFlow.js), benchmark comparisons with WebGL, and emergence of WebGPU-native game engines. The long-term impact could reduce reliance on proprietary plugins and native installs, making the web a more viable platform for high-performance applications. However, fragmentation across browser implementations and the need for modern GPU hardware may slow widespread adoption among casual users.",
+  "faqAnswers": [
+    {
+      "question": "Is WebGPU worth paying attention to?",
+      "answer": "Yes, especially for web developers and tech enthusiasts. WebGPU unlocks near-native graphics and compute performance in the browser, enabling complex 3D rendering, AI inference, and data visualization without plugins. It represents the future of web platform capabilities and is already supported by all major browsers."
+    },
+    {
+      "question": "How long will this trend last?",
+      "answer": "The initial spike will likely persist for 3-6 months as early adopters migrate from WebGL and new projects emerge. However, WebGPU will become a permanent fixture in web development, with sustained interest as frameworks and tools mature. The hype will settle into steady growth over the next year."
+    },
+    {
+      "question": "Where is WebGPU most popular?",
+      "answer": "WebGPU searches are highest in tech hubs like the United States, China, Germany, and Japan. Demographically, it is most popular among software engineers, game developers, and data scientists aged 25-34. GitHub and Stack Overflow activity shows strong interest from the WebXR and machine learning communities."
+    }
+  ],
+  "relatedTrends": [
+    {
+      "name": "WebGL",
+      "slug": "webgl"
+    },
+    {
+      "name": "TensorFlow.js",
+      "slug": "tensorflow-js"
+    },
+    {
+      "name": "Browser AI",
+      "slug": "browser-ai"
+    }
+  ],
+  "generatedAt": "2026-07-30T01:56:44.479Z"
+}

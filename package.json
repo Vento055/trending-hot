@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "generate-articles": "npx tsx scripts/generate-articles.ts",
+    "generate-trend-analysis": "npx tsx scripts/generate-trend-analysis.ts",
     "discover-trends": "npx tsx scripts/discover-trends.ts",
     "update-signals": "npx tsx scripts/discover-trends.ts && npx tsx scripts/generate-articles.ts"
   },

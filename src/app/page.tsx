@@ -149,6 +149,9 @@ interface KeywordItem {
   volume: string;
   source: string;
   sparkline: number[];
+  summary?: string;
+  category?: string;
+  trendTag?: { type: string; value?: string };
 }
 
 const FALLBACK_KEYWORDS: KeywordItem[] = [
@@ -228,37 +231,93 @@ export default function Home() {
     async function loadData() {
       setKeywordsLoading(true);
       try {
-        const [trendsRes, redditRes] = await Promise.all([
-          fetch("/api/trends", { signal: AbortSignal.timeout(10000) }),
-          fetch("/api/reddit", { signal: AbortSignal.timeout(10000) }),
-        ]);
+        // Fetch trend analysis data (enriched with AI-generated summary, category, trend tags)
+        let analysisMap: Record<string, any> = {};
+        try {
+          const analysisRes = await fetch("/api/trend-analysis", { signal: AbortSignal.timeout(10000) });
+          if (analysisRes.ok) {
+            const analysisData = await analysisRes.json();
+            if (Array.isArray(analysisData)) {
+              analysisData.forEach((a: any) => {
+                if (a.slug) analysisMap[a.slug] = a;
+              });
+            }
+          }
+        } catch (e) {
+          console.error("Trend analysis fetch failed:", e);
+        }
 
-        const trends = trendsRes.ok ? await trendsRes.json() : [];
-        const reddit = redditRes.ok ? await redditRes.json() : [];
+        let trends: any[] = [];
+        let reddit: any[] = [];
+        try {
+          const [trendsRes, redditRes] = await Promise.allSettled([
+            fetch("/api/trends", { signal: AbortSignal.timeout(10000) }),
+            fetch("/api/reddit", { signal: AbortSignal.timeout(10000) }),
+          ]);
+          if (trendsRes.status === "fulfilled" && trendsRes.value.ok) {
+            trends = await trendsRes.value.json();
+          }
+          if (redditRes.status === "fulfilled" && redditRes.value.ok) {
+            reddit = await redditRes.value.json();
+          }
+        } catch (e) {
+          console.error("Trends/Reddit fetch failed:", e);
+        }
 
         const googleItems: KeywordItem[] = (Array.isArray(trends) ? trends : [])
           .slice(0, 5)
-          .map((t: any, i: number) => ({
-            rank: i + 1,
-            name: t.title,
-            slug: slugify(t.title),
-            volume: t.traffic || "Trending",
-            source: "Google Trends",
-            sparkline: generateSparkline(parseInt(t.traffic) || 50),
-          }));
+          .map((t: any, i: number) => {
+            const slug = slugify(t.title);
+            const analysis = analysisMap[slug];
+            return {
+              rank: analysis?.rank || i + 1,
+              name: t.title,
+              slug,
+              volume: t.traffic || "Trending",
+              source: "Google Trends",
+              sparkline: analysis?.sparkline || generateSparkline(parseInt(t.traffic) || 50),
+              summary: analysis?.summary,
+              category: analysis?.category,
+              trendTag: analysis?.trendTag,
+            };
+          });
 
         const redditItems: KeywordItem[] = (Array.isArray(reddit) ? reddit : [])
           .slice(0, 5)
-          .map((r: any, i: number) => ({
-            rank: i + 6,
-            name: r.title.length > 30 ? r.title.slice(0, 27) + "..." : r.title,
-            slug: slugify(r.title),
-            volume: `${(r.ups > 1000 ? (r.ups / 1000).toFixed(1) + "K" : r.ups.toString())}`,
-            source: "Reddit",
-            sparkline: generateSparkline(r.ups / 100),
+          .map((r: any, i: number) => {
+            const name = r.title.length > 30 ? r.title.slice(0, 27) + "..." : r.title;
+            const slug = slugify(r.title);
+            const analysis = analysisMap[slug];
+            return {
+              rank: analysis?.rank || i + 6,
+              name,
+              slug,
+              volume: `${(r.ups > 1000 ? (r.ups / 1000).toFixed(1) + "K" : r.ups.toString())}`,
+              source: "Reddit",
+              sparkline: analysis?.sparkline || generateSparkline(r.ups / 100),
+              summary: analysis?.summary,
+              category: analysis?.category,
+              trendTag: analysis?.trendTag,
+            };
+          });
+
+        // If we have analysis data, use it as primary source (sorted by rank)
+        const analysisItems: KeywordItem[] = Object.values(analysisMap)
+          .sort((a: any, b: any) => (a.rank || 999) - (b.rank || 999))
+          .slice(0, 10)
+          .map((a: any) => ({
+            rank: a.rank,
+            name: a.name,
+            slug: a.slug,
+            volume: a.volume,
+            source: a.source,
+            sparkline: a.sparkline || generateSparkline(50),
+            summary: a.summary,
+            category: a.category,
+            trendTag: a.trendTag,
           }));
 
-        const merged = [...googleItems, ...redditItems];
+        const merged = analysisItems.length > 0 ? analysisItems : [...googleItems, ...redditItems];
         if (merged.length > 0) {
           setDynamicKeywords(merged);
         }
@@ -812,6 +871,55 @@ export default function Home() {
                       e.currentTarget.style.boxShadow = "none";
                     }}
                   >
+                    {/* Category Tag + Trend Tag Row */}
+                    <div className="flex flex-wrap items-center gap-1.5 mb-1">
+                      {kw.trendTag && kw.trendTag.type !== "none" && (
+                        <span
+                          className="inline-flex items-center gap-0.5 text-xs font-semibold"
+                          style={{
+                            padding: "2px 8px",
+                            borderRadius: "999px",
+                            background: kw.trendTag.type === "surge" ? "rgba(239,68,68,0.15)"
+                              : kw.trendTag.type === "streak" ? "rgba(168,85,247,0.15)"
+                              : "rgba(34,197,94,0.15)",
+                            color: kw.trendTag.type === "surge" ? "#f87171"
+                              : kw.trendTag.type === "streak" ? "#c084fc"
+                              : "#4ade80",
+                          }}
+                        >
+                          {kw.trendTag.type === "surge" ? "\uD83D\uDD25" : kw.trendTag.type === "streak" ? "\uD83D\uDCC8" : "\uD83C\uDD95"}
+                          {kw.trendTag.type === "surge" ? (kw.trendTag.value || "")
+                            : kw.trendTag.type === "streak" ? `${kw.trendTag.value || "2"}w`
+                            : "New"}
+                        </span>
+                      )}
+                      {kw.category && (
+                        <span
+                          className="inline-block text-xs font-medium"
+                          style={{
+                            padding: "2px 8px",
+                            borderRadius: "999px",
+                            background: kw.category === "AI" ? "rgba(168,85,247,0.15)"
+                              : kw.category === "E-commerce" ? "rgba(34,197,94,0.15)"
+                              : kw.category === "Social Media" ? "rgba(59,130,246,0.15)"
+                              : kw.category === "Entertainment" ? "rgba(245,158,11,0.15)"
+                              : kw.category === "China Signal" ? "rgba(217,70,239,0.15)"
+                              : kw.category === "Tech" ? "rgba(168,85,247,0.12)"
+                              : "rgba(161,161,170,0.15)",
+                            color: kw.category === "AI" ? "#c084fc"
+                              : kw.category === "E-commerce" ? "#4ade80"
+                              : kw.category === "Social Media" ? "#60a5fa"
+                              : kw.category === "Entertainment" ? "#fbbf24"
+                              : kw.category === "China Signal" ? "#d946ef"
+                              : kw.category === "Tech" ? "#a855f7"
+                              : "#a1a1aa",
+                          }}
+                        >
+                          {kw.category}
+                        </span>
+                      )}
+                    </div>
+
                     {/* Keyword Name */}
                     <span className="font-bold text-base" style={{ color: "#ffffff" }}>
                       {kw.name}
@@ -827,6 +935,13 @@ export default function Home() {
                     <div className="mt-3">
                       <Sparkline data={kw.sparkline} width={120} height={20} />
                     </div>
+
+                    {/* One-line Summary */}
+                    {kw.summary && (
+                      <p className="mt-2 text-xs leading-relaxed" style={{ color: "#a1a1aa", fontSize: "0.75rem" }}>
+                        {kw.summary}
+                      </p>
+                    )}
 
                     {/* Source Tag + Rank */}
                     <div className="mt-3 flex items-center justify-between">

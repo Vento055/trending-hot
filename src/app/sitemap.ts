@@ -79,5 +79,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
     console.error("Sitemap dynamic pages error:", e);
   }
 
-  return [...staticPages, ...dynamicPages];
+  // Dynamic trend detail pages - reads from data/trend-analysis/
+  const trendAnalysisDir = path.join(process.cwd(), "data", "trend-analysis");
+  const trendPages: MetadataRoute.Sitemap = [];
+  try {
+    if (fs.existsSync(trendAnalysisDir)) {
+      const trendFiles = fs.readdirSync(trendAnalysisDir).filter((f) => f.endsWith(".json"));
+      for (const file of trendFiles) {
+        const slug = file.replace(".json", "");
+        const filePath = path.join(trendAnalysisDir, file);
+        const stat = fs.statSync(filePath);
+        let lastMod = stat.mtime;
+        try {
+          const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+          if (content.generatedAt) {
+            lastMod = new Date(content.generatedAt);
+          }
+        } catch {}
+        trendPages.push({
+          url: `${BASE_URL}/trend/${slug}`,
+          lastModified: lastMod,
+          changeFrequency: "weekly",
+          priority: 0.7,
+        });
+      }
+    }
+  } catch (e) {
+    console.error("Sitemap trend pages error:", e);
+  }
+
+  return [...staticPages, ...dynamicPages, ...trendPages];
 }
