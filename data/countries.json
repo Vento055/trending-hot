@@ -1,0 +1,20 @@
+﻿[
+  { "code": "US", "name": "United States", "slug": "united-states" },
+  { "code": "GB", "name": "United Kingdom", "slug": "united-kingdom" },
+  { "code": "DE", "name": "Germany", "slug": "germany" },
+  { "code": "FR", "name": "France", "slug": "france" },
+  { "code": "BR", "name": "Brazil", "slug": "brazil" },
+  { "code": "KR", "name": "South Korea", "slug": "south-korea" },
+  { "code": "AU", "name": "Australia", "slug": "australia" },
+  { "code": "CA", "name": "Canada", "slug": "canada" },
+  { "code": "MX", "name": "Mexico", "slug": "mexico" },
+  { "code": "ID", "name": "Indonesia", "slug": "indonesia" },
+  { "code": "RU", "name": "Russia", "slug": "russia" },
+  { "code": "IT", "name": "Italy", "slug": "italy" },
+  { "code": "ES", "name": "Spain", "slug": "spain" },
+  { "code": "NL", "name": "Netherlands", "slug": "netherlands" },
+  { "code": "TR", "name": "Turkey", "slug": "turkey" },
+  { "code": "SA", "name": "Saudi Arabia", "slug": "saudi-arabia" },
+  { "code": "TH", "name": "Thailand", "slug": "thailand" },
+  { "code": "VN", "name": "Vietnam", "slug": "vietnam" }
+]
