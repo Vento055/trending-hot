@@ -1,0 +1,125 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-08-01T10:56:09.949998+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        77,
+        78,
+        89,
+        84,
+        67,
+        92,
+        76,
+        52,
+        45,
+        48,
+        54,
+        43,
+        41,
+        33,
+        35,
+        21,
+        29,
+        26,
+        26,
+        25,
+        24,
+        24,
+        24,
+        26,
+        29,
+        26,
+        23,
+        19,
+        19,
+        18
+      ],
+      "avg_interest": 64.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-01T10:55:43.159241+00:00"
+    },
+    {
+      "keyword": "ai video generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-01T10:55:48.953451+00:00"
+    },
+    {
+      "keyword": "ai voice cloning",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-01T10:55:56.248797+00:00"
+    },
+    {
+      "keyword": "eu ai act",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-01T10:56:01.811741+00:00"
+    },
+    {
+      "keyword": "local llm",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-01T10:56:09.948009+00:00"
+    }
+  ]
+}
