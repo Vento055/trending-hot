@@ -13,7 +13,7 @@ permissions:
 jobs:
   fetch-generate-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Setup Python
@@ -57,16 +57,19 @@ jobs:
       # ── Step 1: Discover trends (Google Trends RSS + Reddit + HN → signals.json) ──
       - name: Discover Trends
         run: npx tsx scripts/discover-trends.ts
+        timeout-minutes: 5
         continue-on-error: true
 
       # ── Step 2: Generate articles (signals.json → data/articles/*.json) ──
       - name: Generate Articles
         run: npx tsx scripts/generate-articles.ts
+        timeout-minutes: 10
         continue-on-error: true
 
       # ── Step 3: Fetch Google Trends data (pytrends → data/trends/*.json) ──
       - name: Fetch Trends Data
-        run: python scripts/fetch_trends.py --all-categories --limit 10
+        run: python scripts/fetch_trends.py --all-categories --limit 5
+        timeout-minutes: 10
         continue-on-error: true
 
       # ── Step 4: Generate content drafts (data/trends/*.json → content/drafts/*.md) ──
@@ -74,14 +77,16 @@ jobs:
         run: |
           for f in data/trends/*_$(date +%Y%m%d).json; do
             if [ -f "$f" ]; then
-              python scripts/generate_content.py --input "$f" --all || true
+              python scripts/generate_content.py --input "$f" --all --limit 3 || true
             fi
           done
+        timeout-minutes: 15
         continue-on-error: true
 
       # ── Step 5: Build check (ensure no broken pages) ──
       - name: Build verification
         run: npm run build
+        timeout-minutes: 10
         continue-on-error: true
 
       # ── Step 6: Commit and push (triggers Vercel auto-deploy) ──
