@@ -520,13 +520,14 @@ export default function Home() {
             <h1
               className="font-extrabold"
               style={{
-                fontSize: "clamp(3rem, 7vw, 3.5rem)",
-                letterSpacing: "-0.03em",
-                lineHeight: "1.1",
+                fontSize: "clamp(2rem, 5vw, 3rem)",
+                letterSpacing: "-0.02em",
+                lineHeight: "1.15",
               }}
             >
-              <span style={{ color: "#ffffff" }}>TRENDING </span>
-              <span className="gradient-text">HOT</span>
+              <span style={{ color: "#ffffff" }}>Discover What's </span>
+              <span className="gradient-text">Trending</span>
+              <span style={{ color: "#ffffff" }}> — Real-Time AI & Tech Signals</span>
             </h1>
 
             {/* Subtitle */}

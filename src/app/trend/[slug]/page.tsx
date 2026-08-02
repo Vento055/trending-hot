@@ -40,7 +40,6 @@ export async function generateMetadata({
       if (data.summary) {
         summary = data.summary;
       }
-      // Build a 120-160 character meta description
       const baseDesc = `${trendName} is trending right now. ${summary} Read our full analysis on why ${trendName.toLowerCase()} is going viral and what it means.`;
       description = baseDesc.slice(0, 160);
       if (description.length > 120 && description.lastIndexOf(" ") > 120) {
@@ -49,7 +48,6 @@ export async function generateMetadata({
     }
   } catch {}
 
-  // Layout template adds "| Trending Hot" automatically, so don't include it here
   const title = `${trendName} Trending Now — Why It's Going Viral & What It Means`;
 
   return {
@@ -65,19 +63,59 @@ export async function generateMetadata({
       url: `https://trending-hot.com/trend/${slug}`,
       siteName: "Trending Hot",
       type: "article",
+      images: [{ url: "https://trending-hot.com/og-image.jpg", width: 1200, height: 630, alt: `${trendName} - Trending Hot` }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | Trending Hot`,
       description,
+      images: ["https://trending-hot.com/og-image.jpg"],
     },
   };
 }
 
-export default function Page({
+export default async function Page({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  return <TrendContent params={params} />;
+  const { slug } = await params;
+
+  let initialData: any = null;
+  try {
+    const filePath = path.join(TREND_ANALYSIS_DIR, `${slug}.json`);
+    if (fs.existsSync(filePath)) {
+      initialData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    }
+  } catch {}
+
+  // Build FAQPage JSON-LD on the server so it renders in SSR HTML
+  let faqJsonLd: string | null = null;
+  if (initialData?.faqAnswers?.length > 0) {
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: initialData.faqAnswers.map((faq: any) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    };
+    faqJsonLd = JSON.stringify(jsonLd);
+  }
+
+  return (
+    <>
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: faqJsonLd }}
+        />
+      )}
+      <TrendContent params={params} initialData={initialData} />
+    </>
+  );
 }

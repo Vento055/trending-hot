@@ -25,6 +25,14 @@ export const metadata: Metadata = {
     url: "https://trending-hot.com",
     siteName: "Trending Hot",
     type: "website",
+    images: [
+      {
+        url: "https://trending-hot.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Trending Hot - Real-Time AI and Tech Signals",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

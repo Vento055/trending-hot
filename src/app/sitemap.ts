@@ -4,61 +4,6 @@ import path from "path";
 
 const BASE_URL = "https://trending-hot.com";
 
-/**
- * Transform old format route path to new format URL.
- * Based on redirect rules in next.config.ts:
- *   /stats/:slug     -> /:slug-statistics  (reverse for sitemap)
- *   /trends/:slug    -> /:slug-trends       (reverse for sitemap)
- *   /countries/:slug -> /most-visited-websites-in-:slug  (reverse for sitemap)
- *   /companies/:slug -> direct page
- *   /tools/:slug     -> direct page
- *   /trends/:slug    -> /trending-:slug     (listing pages)
- */
-function transformUrl(routePath: string): string {
-  if (routePath === "") return "";
-
-  // /xxx-statistics -> /stats/xxx (3 statistics pages)
-  if (routePath.endsWith("-statistics")) {
-    const slug = routePath.slice(0, -"-statistics".length);
-    return `/stats/${slug}`;
-  }
-
-  // /trending-xxx -> /trends/xxx (listing pages: beauty-products, pet-products)
-  if (routePath.startsWith("trending-") && !routePath.includes("/")) {
-    const slug = routePath.slice("trending-".length);
-    return `/trends/${slug}`;
-  }
-
-  // /xxx-trends -> /trends/xxx (micro-trend articles)
-  if (routePath.endsWith("-trends")) {
-    const slug = routePath.slice(0, -"-trends".length);
-    return `/trends/${slug}`;
-  }
-
-  // /most-visited-websites-in-xxx -> /countries/xxx (20 country pages)
-  if (routePath.startsWith("most-visited-websites-in-")) {
-    const slug = routePath.slice("most-visited-websites-in-".length);
-    return `/countries/${slug}`;
-  }
-
-  // /fastest-growing-ai-startups -> /companies/fastest-growing-ai-startups
-  if (routePath === "fastest-growing-ai-startups") {
-    return "/companies/fastest-growing-ai-startups";
-  }
-
-  // /top-fintech-startups -> /companies/top-fintech-startups
-  if (routePath === "top-fintech-startups") {
-    return "/companies/top-fintech-startups";
-  }
-
-  // /best-ai-xxx -> /tools/best-ai-xxx
-  if (routePath.startsWith("best-ai-")) {
-    return `/tools/${routePath}`;
-  }
-
-  return `/${routePath}`;
-}
-
 function getRouteConfig(
   routePath: string
 ): { priority: number; changeFrequency: "daily" | "weekly" | "monthly" | "yearly" } {
@@ -93,14 +38,15 @@ const EXCLUDED_DIRS = new Set(["api", "blog", "signal", "trend"]);
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages: MetadataRoute.Sitemap = [];
 
-  // -- Static pages: dynamically scan src/app for page.tsx files --
   const appDir = path.join(process.cwd(), "src", "app");
 
-  // Home page (src/app/page.tsx -> /)
-  if (fs.existsSync(path.join(appDir, "page.tsx"))) {
+  // Home page
+  const homePagePath = path.join(appDir, "page.tsx");
+  if (fs.existsSync(homePagePath)) {
+    const stat = fs.statSync(homePagePath);
     pages.push({
       url: BASE_URL,
-      lastModified: new Date(),
+      lastModified: stat.mtime,
       changeFrequency: "daily",
       priority: 1.0,
     });
@@ -117,7 +63,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const entry of entries) {
       if (!entry.isDirectory()) continue;
 
-      // Skip excluded routes, route groups, private folders, dynamic routes
       if (EXCLUDED_DIRS.has(entry.name)) continue;
       if (entry.name.startsWith("(")) continue;
       if (entry.name.startsWith("_")) continue;
@@ -126,26 +71,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const routePath = basePath ? `${basePath}/${entry.name}` : entry.name;
       const fullPath = path.join(dir, entry.name);
 
-      // Check if this directory has a page.tsx (it's a route)
       if (fs.existsSync(path.join(fullPath, "page.tsx"))) {
-        const url = transformUrl(routePath);
+        // Use the route path directly as the canonical URL (no reversal)
+        const url = `/${routePath}`;
         const config = getRouteConfig(routePath);
+        const pageStat = fs.statSync(path.join(fullPath, "page.tsx"));
         pages.push({
           url: `${BASE_URL}${url}`,
-          lastModified: new Date(),
+          lastModified: pageStat.mtime,
           changeFrequency: config.changeFrequency,
           priority: config.priority,
         });
       }
 
-      // Recurse into subdirectories (e.g., guides/)
       scanPages(fullPath, routePath);
     }
   }
 
   scanPages(appDir, "");
 
-  // -- Dynamic signal article pages - reads from data/articles/ --
+  // Dynamic signal article pages
   const articlesDir = path.join(process.cwd(), "data", "articles");
   try {
     if (fs.existsSync(articlesDir)) {
@@ -173,7 +118,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     console.error("Sitemap dynamic pages error:", e);
   }
 
-  // -- Dynamic trend detail pages - reads from data/trend-analysis/ --
+  // Dynamic trend detail pages
   const trendAnalysisDir = path.join(process.cwd(), "data", "trend-analysis");
   try {
     if (fs.existsSync(trendAnalysisDir)) {

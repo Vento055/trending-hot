@@ -97,15 +97,22 @@ function getCategoryColor(category: string): { bg: string; color: string } {
 
 export default function TrendContent({
   params: paramsPromise,
+  initialData,
 }: {
   params: Promise<{ slug: string }>;
+  initialData?: TrendData | null;
 }) {
-  const [slug, setSlug] = useState<string>("");
-  const [data, setData] = useState<TrendData | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [slug, setSlug] = useState<string>(initialData?.slug ?? "");
+  const [data, setData] = useState<TrendData | null>(initialData ?? null);
+  const [loading, setLoading] = useState(!initialData);
   const [openFaq, setOpenFaq] = useState<number>(0);
 
   useEffect(() => {
+    if (initialData) {
+      setSlug(initialData.slug);
+      return;
+    }
+
     paramsPromise.then((p) => {
       setSlug(p.slug);
       fetch(`/api/trend-analysis/${p.slug}`)
@@ -121,8 +128,7 @@ export default function TrendContent({
         })
         .finally(() => setLoading(false));
     });
-  }, [paramsPromise]);
-
+  }, [paramsPromise, initialData]);
   if (loading) {
     return (
       <div className="mx-auto max-w-3xl px-[5%] py-20 text-center">
@@ -156,27 +162,9 @@ export default function TrendContent({
   const tagDisplay = getTrendTagDisplay(data.trendTag);
   const catColor = getCategoryColor(data.category);
 
-  // Build FAQPage JSON-LD structured data
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: data.faqAnswers.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
 
   return (
     <div className="mx-auto max-w-3xl px-[5%] py-12">
-      {/* JSON-LD Structured Data for FAQ */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
 
       {/* Back link */}
       <Link
