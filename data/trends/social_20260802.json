@@ -1,0 +1,363 @@
+{
+  "category": "social",
+  "fetch_date": "2026-08-02T06:44:51.309640+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        69,
+        67,
+        64,
+        61,
+        48,
+        46,
+        42,
+        38,
+        34,
+        34,
+        35,
+        37,
+        38,
+        39,
+        37,
+        37,
+        38,
+        41,
+        40,
+        40,
+        41,
+        48,
+        53,
+        57,
+        53,
+        57,
+        56,
+        50,
+        45,
+        41
+      ],
+      "avg_interest": 50.6,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "tiktok shop iniciar sesión",
+            "value": 130
+          },
+          {
+            "query": "tiktok shop summit",
+            "value": 120
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok seller",
+            "value": 100
+          },
+          {
+            "query": "tiktok shop seller",
+            "value": 99
+          },
+          {
+            "query": "seller tiktok shop",
+            "value": 98
+          },
+          {
+            "query": "seller center tiktok shop",
+            "value": 44
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 43
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 32
+          },
+          {
+            "query": "shopee",
+            "value": 32
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 30
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 26
+          },
+          {
+            "query": "tiktok shop live",
+            "value": 26
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:44:15.228093+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        67,
+        62,
+        58,
+        60,
+        64,
+        64,
+        51,
+        53,
+        43,
+        58,
+        57,
+        55,
+        55,
+        49,
+        48,
+        57,
+        54,
+        59,
+        46,
+        57,
+        50,
+        59,
+        60,
+        61,
+        65,
+        70,
+        65,
+        48,
+        60,
+        71
+      ],
+      "avg_interest": 52.9,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "purpose of threads app",
+            "value": 110
+          },
+          {
+            "query": "threads app download apk",
+            "value": 60
+          },
+          {
+            "query": "threads app kya hai",
+            "value": 50
+          },
+          {
+            "query": "is the threads app free",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "threads app instagram",
+            "value": 100
+          },
+          {
+            "query": "what is threads app",
+            "value": 97
+          },
+          {
+            "query": "what is the threads app",
+            "value": 33
+          },
+          {
+            "query": "threads app review",
+            "value": 31
+          },
+          {
+            "query": "threads app use",
+            "value": 26
+          },
+          {
+            "query": "threads downloader",
+            "value": 19
+          },
+          {
+            "query": "threads app download apk",
+            "value": 18
+          },
+          {
+            "query": "how to use threads app",
+            "value": 11
+          },
+          {
+            "query": "is threads app free",
+            "value": 10
+          },
+          {
+            "query": "threads app kya hai",
+            "value": 7
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:44:24.478542+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        75,
+        56,
+        67,
+        59,
+        50,
+        53,
+        46,
+        51,
+        40,
+        45,
+        51,
+        37,
+        48,
+        50,
+        47,
+        47,
+        53,
+        51,
+        72,
+        54,
+        79,
+        82,
+        75,
+        65,
+        70,
+        72,
+        48,
+        56,
+        62,
+        51
+      ],
+      "avg_interest": 57.9,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "difference between mastodon and mammoth",
+            "value": 80
+          },
+          {
+            "query": "how to create a mastodon server",
+            "value": 70
+          },
+          {
+            "query": "nerf mega mastodon",
+            "value": 50
+          },
+          {
+            "query": "cerutti mastodon site",
+            "value": 50
+          },
+          {
+            "query": "mastodon jp",
+            "value": 50
+          },
+          {
+            "query": "mastodon definition",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "mastodon social",
+            "value": 100
+          },
+          {
+            "query": "mastodon animal",
+            "value": 82
+          },
+          {
+            "query": "what is mastodon",
+            "value": 75
+          },
+          {
+            "query": "mastodon band",
+            "value": 70
+          },
+          {
+            "query": "bluesky",
+            "value": 57
+          },
+          {
+            "query": "mastodon github",
+            "value": 54
+          },
+          {
+            "query": "mastodon app",
+            "value": 38
+          },
+          {
+            "query": "what is a mastodon",
+            "value": 36
+          },
+          {
+            "query": "mastodon tour",
+            "value": 32
+          },
+          {
+            "query": "mastodon meaning",
+            "value": 30
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:44:33.247394+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:44:42.694764+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:44:51.308169+00:00"
+    }
+  ]
+}

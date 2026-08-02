@@ -1,7 +1,11 @@
 import fs from "fs";
 import path from "path";
 
-const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || "sk-0003200be8bc4cd893cc830fe29411de";
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
+if (!DEEPSEEK_API_KEY) {
+  console.error("DEEPSEEK_API_KEY is not set. Set it as a GitHub Secret or environment variable.");
+  process.exit(1);
+}
 const DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions";
 const DATA_DIR = path.join(process.cwd(), "data");
 const TREND_ANALYSIS_DIR = path.join(DATA_DIR, "trend-analysis");

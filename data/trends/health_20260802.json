@@ -1,0 +1,93 @@
+{
+  "category": "health",
+  "fetch_date": "2026-08-02T06:45:33.108712+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:45:08.623061+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:45:14.664003+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:45:20.721478+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:45:26.983774+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest": [],
+      "avg": 0,
+      "trend": "error",
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:45:33.106930+00:00"
+    }
+  ]
+}

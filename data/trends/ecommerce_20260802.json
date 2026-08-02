@@ -1,0 +1,423 @@
+{
+  "category": "ecommerce",
+  "fetch_date": "2026-08-02T06:43:54.275669+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "shopify ecosystem",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        65,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "avg_interest": 1.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:43:21.649366+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        52,
+        36,
+        40,
+        65,
+        68,
+        57,
+        52,
+        59,
+        32,
+        39,
+        42,
+        41,
+        45,
+        33,
+        24,
+        33,
+        33,
+        49,
+        42,
+        49,
+        48,
+        66,
+        64,
+        62,
+        49,
+        53,
+        39,
+        35,
+        53,
+        51
+      ],
+      "avg_interest": 50.5,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "was ist social commerce",
+            "value": 200
+          },
+          {
+            "query": "social commerce no brasil",
+            "value": 100
+          },
+          {
+            "query": "social commerce adalah",
+            "value": 70
+          },
+          {
+            "query": "social commerce platforms",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 70
+          },
+          {
+            "query": "social commerce trends",
+            "value": 62
+          },
+          {
+            "query": "what is social commerce",
+            "value": 61
+          },
+          {
+            "query": "social digital commerce",
+            "value": 37
+          },
+          {
+            "query": "social commerce platform",
+            "value": 33
+          },
+          {
+            "query": "social security",
+            "value": 29
+          },
+          {
+            "query": "social commerce platforms",
+            "value": 22
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 20
+          },
+          {
+            "query": "social commerce software",
+            "value": 16
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:43:30.349057+00:00"
+    },
+    {
+      "keyword": "cross border ecommerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        68,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "avg_interest": 8.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:43:38.200525+00:00"
+    },
+    {
+      "keyword": "bnpl",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        32,
+        35,
+        53,
+        42,
+        51,
+        35,
+        26,
+        35,
+        25,
+        25,
+        31,
+        28,
+        26,
+        22,
+        31,
+        21,
+        20,
+        22,
+        25,
+        40,
+        21,
+        29,
+        24,
+        37,
+        27,
+        35,
+        45,
+        54,
+        76,
+        45
+      ],
+      "avg_interest": 36.5,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "cpc itd bnpl",
+            "value": 250
+          },
+          {
+            "query": "cpc itd bnpl booking hub",
+            "value": 250
+          },
+          {
+            "query": "cpc itd bnpl booking hub full form",
+            "value": 100
+          },
+          {
+            "query": "market road bnpl sp hub",
+            "value": 60
+          },
+          {
+            "query": "bnpl means",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "what is bnpl",
+            "value": 100
+          },
+          {
+            "query": "buy now pay later",
+            "value": 60
+          },
+          {
+            "query": "klarna",
+            "value": 57
+          },
+          {
+            "query": "bnpl meaning",
+            "value": 48
+          },
+          {
+            "query": "bnpl uk",
+            "value": 41
+          },
+          {
+            "query": "paypal bnpl",
+            "value": 39
+          },
+          {
+            "query": "bnpl services",
+            "value": 35
+          },
+          {
+            "query": "bnpl apps",
+            "value": 34
+          },
+          {
+            "query": "cpc itd bnpl",
+            "value": 33
+          },
+          {
+            "query": "bnpl companies",
+            "value": 33
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:43:46.414165+00:00"
+    },
+    {
+      "keyword": "headless commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        41,
+        27,
+        26,
+        20,
+        33,
+        30,
+        0,
+        22,
+        16,
+        0,
+        18,
+        13,
+        0,
+        23,
+        14,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        26,
+        0,
+        0,
+        21,
+        48,
+        29
+      ],
+      "avg_interest": 17.9,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 169,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "headless commerce front end",
+            "value": 200
+          },
+          {
+            "query": "headless commerce examples",
+            "value": 70
+          }
+        ],
+        "top": [
+          {
+            "query": "best headless commerce",
+            "value": 100
+          },
+          {
+            "query": "what is headless commerce",
+            "value": 68
+          },
+          {
+            "query": "headless commerce platform",
+            "value": 64
+          },
+          {
+            "query": "headless commerce architecture",
+            "value": 29
+          },
+          {
+            "query": "headless commerce platforms",
+            "value": 29
+          },
+          {
+            "query": "enterprise headless commerce",
+            "value": 24
+          },
+          {
+            "query": "headless commerce b2b",
+            "value": 21
+          },
+          {
+            "query": "salesforce headless commerce",
+            "value": 18
+          },
+          {
+            "query": "headless commerce solution",
+            "value": 15
+          },
+          {
+            "query": "benefits of headless commerce",
+            "value": 13
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-02T06:43:54.273442+00:00"
+    }
+  ]
+}
