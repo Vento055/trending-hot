@@ -1,7 +1,17 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
 import SignalContent from "./SignalContent";
+
+export async function generateStaticParams() {
+  const articlesDir = path.join(process.cwd(), "data", "articles");
+  try {
+    const files = fs.readdirSync(articlesDir).filter((f) => f.endsWith(".json"));
+    return files.map((f) => ({ slug: f.replace(".json", "") }));
+  } catch {
+    return [];
+  }
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
@@ -42,6 +52,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-export default function Page({ params }: { params: Promise<{ slug: string }> }) {
-  return <SignalContent params={params} />;
+export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+
+  let initialData: any = null;
+  try {
+    const articlesDir = path.join(process.cwd(), "data", "articles");
+    const filePath = path.join(articlesDir, `${slug}.json`);
+    if (fs.existsSync(filePath)) {
+      initialData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    }
+  } catch {}
+
+  return <SignalContent params={params} initialData={initialData} />;
 }

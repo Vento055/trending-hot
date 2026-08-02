@@ -165,13 +165,24 @@ const signalsData: Record<string, SignalData> = {
   },
 };
 
-export default function SignalContent({ params: paramsPromise }: { params: Promise<{ slug: string }> }) {
-  const [slug, setSlug] = useState<string>("");
-  const [data, setData] = useState<SignalData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [source, setSource] = useState<"generated" | "static">("static");
+export default function SignalContent({
+  params: paramsPromise,
+  initialData,
+}: {
+  params: Promise<{ slug: string }>;
+  initialData?: SignalData | null;
+}) {
+  const [slug, setSlug] = useState<string>(initialData?.slug ?? "");
+  const [data, setData] = useState<SignalData | null>(initialData ?? null);
+  const [loading, setLoading] = useState(!initialData);
+  const [source, setSource] = useState<"generated" | "static">(initialData ? "generated" : "static");
 
   useEffect(() => {
+    if (initialData) {
+      setSlug(initialData.slug);
+      return;
+    }
+
     paramsPromise.then((p) => {
       setSlug(p.slug);
 
@@ -190,7 +201,7 @@ export default function SignalContent({ params: paramsPromise }: { params: Promi
         })
         .finally(() => setLoading(false));
     });
-  }, [paramsPromise]);
+  }, [paramsPromise, initialData]);
 
   if (loading) {
     return (
