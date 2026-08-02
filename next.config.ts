@@ -1,6 +1,12 @@
-﻿import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  outputFileTracingIncludes: {
+    "/api/signals": ["./data/signals.json", "./data/articles/**/*.json"],
+    "/signal/[slug]": ["./data/articles/**/*.json", "./data/signals.json"],
+    "/api/articles/[slug]": ["./data/articles/**/*.json"],
+    "/api/trend-analysis/[slug]": ["./data/trend-analysis/**/*.json"],
+  },
   async redirects() {
     return [
       // /trends/:slug -> /:slug-trends (12 micro-trend articles)
