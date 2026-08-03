@@ -379,6 +379,31 @@ ${article.sources.map((s) => `- [${s.label}](${s.url})`).join("\n")}
   }
 }
 
+async function processSignal(signal: SignalSeed): Promise<void> {
+  console.log(`Processing: ${signal.title}...`);
+  try {
+    const keyword = signal.keywords[0] || signal.title;
+    const [redditPosts, newsItems] = await Promise.all([
+      fetchRedditDirect(keyword),
+      fetchNewsDirect(keyword),
+    ]);
+
+    // Use fallback data if external fetches returned nothing
+    const effectiveReddit = redditPosts.length > 0 ? redditPosts : generateFallbackRedditPosts(keyword);
+    const effectiveNews = newsItems.length > 0 ? newsItems : generateFallbackNews(keyword);
+    console.log(`  Reddit: ${effectiveReddit.length} posts (${redditPosts.length} live + ${effectiveReddit.length - redditPosts.length} fallback), News: ${effectiveNews.length} items (${newsItems.length} live + ${effectiveNews.length - newsItems.length} fallback)`);
+
+    const article = await generateArticleWithDeepSeek(signal, effectiveReddit, effectiveNews);
+    saveArticle(article);
+    saveMarkdown(article);
+    syncToObsidian(article);
+
+    console.log(`  Done: ${article.title}\n`);
+  } catch (e: any) {
+    console.error(`  FAILED: ${signal.title} - ${e.message}\n`);
+  }
+}
+
 async function main() {
   console.log("=== Signal Article Generator ===\n");
 
@@ -389,30 +414,8 @@ async function main() {
   const signals = loadSignals();
   console.log(`Loaded ${signals.length} signals\n`);
 
-  for (const signal of signals) {
-    console.log(`Processing: ${signal.title}...`);
-    try {
-      const keyword = signal.keywords[0] || signal.title;
-      const [redditPosts, newsItems] = await Promise.all([
-        fetchRedditDirect(keyword),
-        fetchNewsDirect(keyword),
-      ]);
-
-      // Use fallback data if external fetches returned nothing
-      const effectiveReddit = redditPosts.length > 0 ? redditPosts : generateFallbackRedditPosts(keyword);
-      const effectiveNews = newsItems.length > 0 ? newsItems : generateFallbackNews(keyword);
-      console.log(`  Reddit: ${effectiveReddit.length} posts (${redditPosts.length} live + ${effectiveReddit.length - redditPosts.length} fallback), News: ${effectiveNews.length} items (${newsItems.length} live + ${effectiveNews.length - newsItems.length} fallback)`);
-
-      const article = await generateArticleWithDeepSeek(signal, effectiveReddit, effectiveNews);
-      saveArticle(article);
-      saveMarkdown(article);
-      syncToObsidian(article);
-
-      console.log(`  Done: ${article.title}\n`);
-    } catch (e: any) {
-      console.error(`  FAILED: ${signal.title} - ${e.message}\n`);
-    }
-  }
+  // Process all signals concurrently via Promise.allSettled
+  await Promise.allSettled(signals.map((signal) => processSignal(signal)));
 
   console.log("=== All done ===");
 }

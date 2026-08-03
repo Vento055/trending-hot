@@ -1,27 +1,3 @@
-#!/usr/bin/env python3
-"""
-Trending Hot — LLM Content Generator
-====================================
-Reads trend data JSON from /data/trends/ and generates SEO-optimized article
-drafts using an LLM (OpenAI-compatible API). Outputs Markdown to /content/drafts/.
-
-Usage:
-    python scripts/generate_content.py --input data/trends/beauty_20260801.json
-    python scripts/generate_content.py --input data/trends/beauty_20260801.json --keyword "glass skin"
-    python scripts/generate_content.py --input data/trends/beauty_20260801.json --all
-
-Requirements:
-    pip install openai jinja2 python-dotenv
-
-Environment:
-    OPENAI_API_KEY=sk-...        (or any OpenAI-compatible API key)
-    OPENAI_BASE_URL=https://...  (optional, for alternative endpoints)
-    LLM_MODEL=gpt-4o-mini        (optional, default: gpt-4o-mini)
-
-Output:
-    content/drafts/<slug>_<YYYYMMDD>.md
-"""
-
 import argparse
 import json
 import logging
@@ -29,6 +5,7 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -38,13 +15,9 @@ except ImportError:
     print("ERROR: openai not installed. Run: pip install openai jinja2 python-dotenv")
     sys.exit(1)
 
-# ── Configuration ────────────────────────────────────────────────────────────
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DRAFTS_DIR = PROJECT_ROOT / "content" / "drafts"
 LOG_DIR = PROJECT_ROOT / "logs"
-
-# ── Logging ──────────────────────────────────────────────────────────────────
 
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 logging.basicConfig(
@@ -57,36 +30,23 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ── LLM Client ───────────────────────────────────────────────────────────────
-
 def init_llm_client() -> OpenAI:
-    """Initialize OpenAI-compatible LLM client."""
     api_key = os.getenv("OPENAI_API_KEY", "")
     base_url = os.getenv("OPENAI_BASE_URL", None)
-
     if not api_key:
         logger.error("OPENAI_API_KEY not set. Set it in .env or environment.")
         sys.exit(1)
-
-    return OpenAI(api_key=api_key, base_url=base_url)
-
+    return OpenAI(api_key=api_key, base_url=base_url, timeout=60, max_retries=2)
 
 def get_model_name() -> str:
     return os.getenv("LLM_MODEL", "gpt-4o-mini")
 
-
-# ── Slug & Path Helpers ──────────────────────────────────────────────────────
-
 def slugify(text: str) -> str:
-    """Convert text to URL-safe slug."""
     text = text.lower().strip()
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[\s_]+", "-", text)
     text = re.sub(r"-+", "-", text)
     return text.strip("-")
-
-
-# ── Prompt Template ──────────────────────────────────────────────────────────
 
 SYSTEM_PROMPT = """You are an expert SEO content writer for Trending Hot (trending-hot.com).
 You write data-driven, factually accurate trend articles that rank well in search engines.
@@ -110,7 +70,7 @@ Writing rules:
 - Include the target keyword naturally in H1, first paragraph, and at least 2 H2s
 - Tone: authoritative but accessible, like a knowledgeable industry analyst
 - Length: 1500-2500 words
-- Do NOT use placeholder text — write actual content
+- Do NOT use placeholder text -- write actual content
 """
 
 USER_PROMPT_TEMPLATE = """Write a comprehensive SEO article about the trend: "{keyword}"
@@ -137,10 +97,7 @@ Write the complete article in Markdown format. Start with the H1 title.
 """
 
 
-# ── Content Generation ───────────────────────────────────────────────────────
-
 def generate_article(client: OpenAI, keyword_data: dict) -> str:
-    """Generate a single article from keyword trend data."""
     keyword = keyword_data["keyword"]
     category = keyword_data.get("category", "general")
     geo = keyword_data.get("geo", "global")
@@ -178,7 +135,7 @@ def generate_article(client: OpenAI, keyword_data: dict) -> str:
                 {"role": "user", "content": user_prompt},
             ],
             temperature=0.7,
-            max_tokens=3000,
+            max_tokens=2500,
         )
         content = response.choices[0].message.content
         logger.info(f"Article generated: {len(content)} chars")
@@ -189,14 +146,12 @@ def generate_article(client: OpenAI, keyword_data: dict) -> str:
 
 
 def save_draft(content: str, keyword: str) -> Path:
-    """Save generated article as Markdown draft."""
     DRAFTS_DIR.mkdir(parents=True, exist_ok=True)
     slug = slugify(keyword)
     date_str = datetime.now().strftime("%Y%m%d")
     filename = f"{slug}_{date_str}.md"
     filepath = DRAFTS_DIR / filename
 
-    # Add metadata header
     metadata = f"""---
 title: "{keyword.title()} Trends 2026"
 slug: "{slug}"
@@ -214,7 +169,6 @@ status: "draft"
 
 
 def process_keyword(client: OpenAI, keyword_data: dict) -> dict:
-    """Process a single keyword: generate article + save draft."""
     keyword = keyword_data["keyword"]
     try:
         content = generate_article(client, keyword_data)
@@ -233,8 +187,6 @@ def process_keyword(client: OpenAI, keyword_data: dict) -> dict:
         }
 
 
-# ── CLI Entry Point ──────────────────────────────────────────────────────────
-
 def main():
     parser = argparse.ArgumentParser(description="Generate SEO article drafts from trend data")
     parser.add_argument("--input", type=str, required=True,
@@ -243,11 +195,14 @@ def main():
                         help="Generate article for specific keyword only")
     parser.add_argument("--all", action="store_true",
                         help="Generate articles for all keywords in the file")
+    parser.add_argument("--limit", type=int, default=3,
+                        help="Max number of keywords to process per file (default: 3)")
+    parser.add_argument("--workers", type=int, default=5,
+                        help="Max concurrent workers for parallel LLM calls (default: 5)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Print what would be generated without calling LLM")
     args = parser.parse_args()
 
-    # Load trend data
     input_path = Path(args.input)
     if not input_path.is_absolute():
         input_path = PROJECT_ROOT / args.input
@@ -266,7 +221,6 @@ def main():
 
     logger.info(f"Loaded {len(keywords)} keywords from {input_path}")
 
-    # Filter to specific keyword if requested
     if args.keyword:
         keywords = [k for k in keywords if k["keyword"] == args.keyword]
         if not keywords:
@@ -279,38 +233,50 @@ def main():
             logger.info(f"  - {k['keyword']} (interest: {k.get('avg_interest', 'N/A')}, trend: {k.get('trend_direction', 'N/A')})")
         sys.exit(0)
 
+    if args.limit > 0 and len(keywords) > args.limit:
+        logger.info(f"Limiting to top {args.limit} keywords (out of {len(keywords)}) to control runtime")
+        keywords = keywords[:args.limit]
+
     if args.dry_run:
-        logger.info("DRY RUN — would generate articles for:")
+        logger.info("DRY RUN -- would generate articles for:")
         for k in keywords:
-            logger.info(f"  - {k['keyword']} → {slugify(k['keyword'])}_{datetime.now().strftime('%Y%m%d')}.md")
+            logger.info(f"  - {k['keyword']} -> {slugify(k['keyword'])}_{datetime.now().strftime('%Y%m%d')}.md")
         sys.exit(0)
 
-    # Initialize LLM client
     client = init_llm_client()
+    workers = min(args.workers, len(keywords))
 
-    # Generate articles
+    logger.info(f"Processing {len(keywords)} keywords with {workers} concurrent workers...")
+
+    # Process keywords in parallel using ThreadPoolExecutor
     results = []
-    for i, kw_data in enumerate(keywords):
-        logger.info(f"[{i+1}/{len(keywords)}] Processing: {kw_data['keyword']}")
-        result = process_keyword(client, kw_data)
-        results.append(result)
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_to_kw = {
+            executor.submit(process_keyword, client, kw_data): kw_data["keyword"]
+            for kw_data in keywords
+        }
+        for future in as_completed(future_to_kw):
+            keyword = future_to_kw[future]
+            try:
+                result = future.result()
+                results.append(result)
+                status_icon = "OK" if result["status"] == "success" else "FAIL"
+                detail = result.get("file", result.get("error", ""))
+                logger.info(f"  [{len(results)}/{len(keywords)}] {status_icon} {result['keyword']}: {detail}")
+            except Exception as e:
+                results.append({"keyword": keyword, "status": "failed", "error": str(e)})
+                logger.error(f"  [{len(results)}/{len(keywords)}] FAIL {keyword}: {e}")
 
-        # Rate limit between LLM calls
-        if i < len(keywords) - 1:
-            time.sleep(3)
-
-    # Summary
     logger.info("\n=== Generation Summary ===")
     success = sum(1 for r in results if r["status"] == "success")
     failed = sum(1 for r in results if r["status"] == "failed")
     logger.info(f"  Success: {success}")
     logger.info(f"  Failed: {failed}")
     for r in results:
-        status_icon = "✓" if r["status"] == "success" else "✗"
+        status_icon = "OK" if r["status"] == "success" else "FAIL"
         detail = r.get("file", r.get("error", ""))
         logger.info(f"  {status_icon} {r['keyword']}: {detail}")
 
-    # Save summary
     summary_path = DRAFTS_DIR / f"_summary_{datetime.now().strftime('%Y%m%d')}.json"
     with open(summary_path, "w", encoding="utf-8") as f:
         json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "results": results}, f, indent=2)
