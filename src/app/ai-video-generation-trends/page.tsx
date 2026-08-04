@@ -225,7 +225,7 @@ export const metadata: Metadata = {
   title: "AI Video Generation Trends 2026: Text-to-Video, Avatars, Editing",
   description:
     "The 10 fastest-growing AI video generation trends in 2026, ranked by growth. Discover text-to-video, AI editing, avatars, real-time synthesis and personalized video with brands.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/ai-video-generation-trends",
   },
@@ -233,7 +233,7 @@ export const metadata: Metadata = {
     title: "AI Video Generation Trends 2026 | Trending Hot",
     description:
       "The 10 fastest-growing AI video generation trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/ai-video-generation-trends",
+    url: "https://www.trending-hot.com/ai-video-generation-trends",
     siteName: "Trending Hot",
     type: "article",
   },

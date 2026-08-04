@@ -26,7 +26,7 @@ export default function PrivacyPage() {
             &ldquo;us&rdquo;) is committed to protecting your privacy. This
             Privacy Policy explains how we collect, use, disclose, and safeguard
             your information when you visit our website
-            https://trending-hot.com (the &ldquo;Service&rdquo;). Please
+            https://www.trending-hot.com (the &ldquo;Service&rdquo;). Please
             read this privacy policy carefully. If you do not agree with the
             terms of this privacy policy, please do not access the site.
           </p>

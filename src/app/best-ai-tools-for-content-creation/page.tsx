@@ -9,14 +9,14 @@ import type { ToolComparisonData } from "@/lib/listing/types";
  */
 
 const SLUG = "best-ai-tools-for-content-creation";
-const PAGE_URL = `https://trending-hot.com/${SLUG}`;
+const PAGE_URL = `https://www.trending-hot.com/${SLUG}`;
 
 // ===== SEO metadata =====
 export const metadata: Metadata = {
   title: "Best AI Tools for Content Creation [2026]",
   description:
     "Compare the 10 best AI tools for content creation in 2026—from ChatGPT and Midjourney to Jasper and Canva. See features, pricing, pros and cons side by side.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: `/${SLUG}`,
   },

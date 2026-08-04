@@ -9,14 +9,14 @@ import type { WebsiteListData } from "@/lib/listing/types";
  */
 
 const SLUG = "most-visited-websites-in-india";
-const PAGE_URL = `https://trending-hot.com/${SLUG}`;
+const PAGE_URL = `https://www.trending-hot.com/${SLUG}`;
 
 // ===== SEO metadata =====
 export const metadata: Metadata = {
   title: "Most Visited Websites in India [2026]",
   description:
     "Discover the 50 most visited websites in India in 2026, ranked by estimated monthly visits. See how Google, YouTube, Amazon, Flipkart, IRCTC and more compare.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: `/${SLUG}`,
   },

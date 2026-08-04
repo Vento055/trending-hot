@@ -411,7 +411,7 @@ const markdownContent = [
   "# E-Commerce Statistics 2026",
   "",
   "> A sourced data summary from Trending Hot.",
-  "> URL: https://trending-hot.com/e-commerce-statistics",
+  "> URL: https://www.trending-hot.com/e-commerce-statistics",
   "",
   `Compiled: ${AUTHOR.date} | Read time: ${AUTHOR.readTime}`,
   "",
@@ -425,7 +425,7 @@ const markdownContent = [
     "",
   ]),
   "---",
-  "Cite as: Trending Hot. (2026). E-Commerce Statistics 2026. Retrieved from https://trending-hot.com/e-commerce-statistics",
+  "Cite as: Trending Hot. (2026). E-Commerce Statistics 2026. Retrieved from https://www.trending-hot.com/e-commerce-statistics",
 ].join("\n");
 
 const ecommerceData: StatisticsData = {
@@ -448,7 +448,7 @@ export const metadata: Metadata = {
   title: "E-Commerce Statistics 2026",
   description:
     "The most important e-commerce statistics for 2026: 50+ sourced data points on global market size, mobile commerce, payments, top platforms, and consumer behavior with editorial insights.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/e-commerce-statistics",
   },
@@ -456,7 +456,7 @@ export const metadata: Metadata = {
     title: "E-Commerce Statistics 2026 | Trending Hot",
     description:
       "50+ sourced e-commerce statistics for 2026, organized by theme and sourced from public data.",
-    url: "https://trending-hot.com/e-commerce-statistics",
+    url: "https://www.trending-hot.com/e-commerce-statistics",
     siteName: "Trending Hot",
     type: "article",
   },
@@ -479,7 +479,7 @@ export default function ECommerceStatisticsPage() {
         <div className="mx-auto flex max-w-4xl flex-col gap-6">
           <DataCitationBlock
             title="E-Commerce Statistics 2026"
-            url="https://trending-hot.com/e-commerce-statistics"
+            url="https://www.trending-hot.com/e-commerce-statistics"
             year="2026"
           />
           <DataCardDownload

@@ -173,17 +173,17 @@ Yes. Platforms like Synthesia and HeyGen allow you to create a digital avatar of
 
 Interested in the broader AI landscape? Check out these related trends on Trending Hot:
 
-- [AI Image Generation: The Visual Revolution](https://trending-hot.com/ai-image-generation)
-- [Generative AI in Marketing: A Complete Guide](https://trending-hot.com/generative-ai-marketing)
-- [The Rise of AI Voice Cloning](https://trending-hot.com/ai-voice-cloning)
-- [Text-to-Speech Technology Trends](https://trending-hot.com/text-to-speech)
-- [AI-Powered Content Creation Tools](https://trending-hot.com/ai-content-tools)
+- [AI Image Generation: The Visual Revolution](https://www.trending-hot.com/ai-image-generation)
+- [Generative AI in Marketing: A Complete Guide](https://www.trending-hot.com/generative-ai-marketing)
+- [The Rise of AI Voice Cloning](https://www.trending-hot.com/ai-voice-cloning)
+- [Text-to-Speech Technology Trends](https://www.trending-hot.com/text-to-speech)
+- [AI-Powered Content Creation Tools](https://www.trending-hot.com/ai-content-tools)
 
 ---
 
 ## Cite This Data
 
-**Data sourced from Google Trends and industry reports. Full dataset at [https://trending-hot.com/ai-video-generation-trends](https://trending-hot.com/ai-video-generation-trends)**
+**Data sourced from Google Trends and industry reports. Full dataset at [https://www.trending-hot.com/ai-video-generation-trends](https://www.trending-hot.com/ai-video-generation-trends)**
 
 *Primary sources: Grand View Research (2024), HubSpot State of AI Report (2024), Deloitte Digital Media Trends (2024), Gartner AI Adoption Survey (2024), Crunchbase News (2025), and platform company disclosures. Google Trends data reflects global search interest over the 3-month period preceding publication.*
 

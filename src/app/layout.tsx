@@ -17,17 +17,17 @@ export const metadata: Metadata = {
   },
   description:
     "Real-time insights powered by Google Trends and Reddit. Discover trending topics, analyze signals, and stay ahead of every viral moment.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   openGraph: {
     title: "Trending Hot - Discover What's Trending Across the Internet",
     description:
       "Real-time insights powered by Google Trends and Reddit. Discover trending topics, analyze signals, and stay ahead of every viral moment.",
-    url: "https://trending-hot.com",
+    url: "https://www.trending-hot.com",
     siteName: "Trending Hot",
     type: "website",
     images: [
       {
-        url: "https://trending-hot.com/og-image.jpg",
+        url: "https://www.trending-hot.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Trending Hot - Real-Time AI and Tech Signals",

@@ -225,7 +225,7 @@ export const metadata: Metadata = {
   title: "Rust Programming Trends 2026: Async, Embedded, Kernel, WASM",
   description:
     "The 10 fastest-growing Rust programming trends in 2026, ranked by growth. Discover async Rust, embedded, Linux kernel, WebAssembly, GUI, game engines and cloud infrastructure.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/rust-2026-trends",
   },
@@ -233,7 +233,7 @@ export const metadata: Metadata = {
     title: "Rust Programming Trends 2026 | Trending Hot",
     description:
       "The 10 fastest-growing Rust programming trends in 2026, ranked by growth rate with representative projects and editorial insights.",
-    url: "https://trending-hot.com/rust-2026-trends",
+    url: "https://www.trending-hot.com/rust-2026-trends",
     siteName: "Trending Hot",
     type: "article",
   },

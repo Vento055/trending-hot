@@ -413,7 +413,7 @@ const markdownContent = [
   "# Social Media Statistics 2026",
   "",
   "> A sourced data summary from Trending Hot.",
-  "> URL: https://trending-hot.com/social-media-statistics",
+  "> URL: https://www.trending-hot.com/social-media-statistics",
   "",
   `Compiled: ${AUTHOR.date} | Read time: ${AUTHOR.readTime}`,
   "",
@@ -427,7 +427,7 @@ const markdownContent = [
     "",
   ]),
   "---",
-  "Cite as: Trending Hot. (2026). Social Media Statistics 2026. Retrieved from https://trending-hot.com/social-media-statistics",
+  "Cite as: Trending Hot. (2026). Social Media Statistics 2026. Retrieved from https://www.trending-hot.com/social-media-statistics",
 ].join("\n");
 
 const socialData: StatisticsData = {
@@ -450,7 +450,7 @@ export const metadata: Metadata = {
   title: "Social Media Statistics 2026: 50+ Sourced Data Points on Users & Ad Spend",
   description:
     "50+ sourced social media statistics for 2026 covering users, platforms, engagement, ad spend, the creator economy, and social commerce, with traceable sources and editorial insights.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/social-media-statistics",
   },
@@ -458,7 +458,7 @@ export const metadata: Metadata = {
     title: "Social Media Statistics 2026: 50+ Sourced Data Points | Trending Hot",
     description:
       "The most important social media statistics for 2026, organized by theme and sourced from public data.",
-    url: "https://trending-hot.com/social-media-statistics",
+    url: "https://www.trending-hot.com/social-media-statistics",
     siteName: "Trending Hot",
     type: "article",
   },
@@ -481,7 +481,7 @@ export default function SocialMediaStatisticsPage() {
         <div className="mx-auto flex max-w-4xl flex-col gap-6">
           <DataCitationBlock
             title="Social Media Statistics 2026"
-            url="https://trending-hot.com/social-media-statistics"
+            url="https://www.trending-hot.com/social-media-statistics"
             year="2026"
           />
           <DataCardDownload

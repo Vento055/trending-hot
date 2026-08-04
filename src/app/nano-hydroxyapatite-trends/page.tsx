@@ -203,7 +203,7 @@ export const metadata: Metadata = {
   title: "Nano Hydroxyapatite Trends 2026: Toothpaste, Bone Grafts & More",
   description:
     "The 8 fastest-growing nano hydroxyapatite trends in 2026, ranked by growth rate. Discover nHAp toothpaste, bone grafts, sealants, mouthwash and more with brands and insights.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/nano-hydroxyapatite-trends",
   },
@@ -211,7 +211,7 @@ export const metadata: Metadata = {
     title: "Nano Hydroxyapatite Trends 2026: Toothpaste, Bone Grafts & More | Trending Hot",
     description:
       "The 8 fastest-growing nano hydroxyapatite trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/nano-hydroxyapatite-trends",
+    url: "https://www.trending-hot.com/nano-hydroxyapatite-trends",
     siteName: "Trending Hot",
     type: "article",
   },

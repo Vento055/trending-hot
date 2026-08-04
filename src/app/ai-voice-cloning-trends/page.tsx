@@ -203,7 +203,7 @@ export const metadata: Metadata = {
   title: "AI Voice Cloning Trends 2026: Synthesis, Real-Time, Multilingual",
   description:
     "The 8 fastest-growing AI voice cloning trends in 2026, ranked by growth. Discover voice synthesis APIs, real-time cloning, multilingual voices, emotion TTS and licensing with brands.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/ai-voice-cloning-trends",
   },
@@ -211,7 +211,7 @@ export const metadata: Metadata = {
     title: "AI Voice Cloning Trends 2026 | Trending Hot",
     description:
       "The 8 fastest-growing AI voice cloning trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/ai-voice-cloning-trends",
+    url: "https://www.trending-hot.com/ai-voice-cloning-trends",
     siteName: "Trending Hot",
     type: "article",
   },

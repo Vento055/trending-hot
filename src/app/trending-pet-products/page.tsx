@@ -236,7 +236,7 @@ export const metadata: Metadata = {
   title: "Trending Pet Products 2026",
   description:
     "The 12 fastest-growing pet product trends in 2026, ranked by growth rate. Discover smart feeders, GPS trackers, fresh food, CBD treats and more with brands and insights.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/trending-pet-products",
   },
@@ -244,7 +244,7 @@ export const metadata: Metadata = {
     title: "Trending Pet Products 2026 | Trending Hot",
     description:
       "The 12 fastest-growing pet product trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/trending-pet-products",
+    url: "https://www.trending-hot.com/trending-pet-products",
     siteName: "Trending Hot",
     type: "article",
   },

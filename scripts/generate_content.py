@@ -87,11 +87,11 @@ Google Trends data:
 - Related top queries: {top_queries}
 
 Requirements:
-1. The article URL will be: https://trending-hot.com/{slug}-trends
+1. The article URL will be: https://www.trending-hot.com/{slug}-trends
 2. Target keyword: "{keyword}"
 3. Include 5-8 data points with sources (cite Google Trends data above + industry reports)
 4. Include internal links to related Trending Hot pages where relevant
-5. End with a "Cite This Data" section mentioning: "Data sourced from Google Trends and industry reports. Full dataset at https://trending-hot.com/{slug}-trends"
+5. End with a "Cite This Data" section mentioning: "Data sourced from Google Trends and industry reports. Full dataset at https://www.trending-hot.com/{slug}-trends"
 
 Write the complete article in Markdown format. Start with the H1 title.
 """

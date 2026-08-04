@@ -1,0 +1,108 @@
+{
+  "category": "tech",
+  "fetch_date": "2026-08-04T11:06:34.417688+00:00",
+  "total_keywords": 5,
+  "source": "google_trends_rss",
+  "data": [
+    {
+      "keyword": "google pixel 11 pro",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "US",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        500
+      ],
+      "avg_interest": 500,
+      "peak_interest": 500,
+      "trend_direction": "rising",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-04T11:06:34.416359+00:00"
+    },
+    {
+      "keyword": "ai coding agents",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-04T11:06:34.416376+00:00"
+    },
+    {
+      "keyword": "webgpu",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-04T11:06:34.416382+00:00"
+    },
+    {
+      "keyword": "rust programming 2026",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-04T11:06:34.416387+00:00"
+    },
+    {
+      "keyword": "htmx",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-04T11:06:34.416391+00:00"
+    }
+  ]
+}

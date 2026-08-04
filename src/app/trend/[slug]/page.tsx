@@ -53,23 +53,23 @@ export async function generateMetadata({
   return {
     title,
     description,
-    metadataBase: new URL("https://trending-hot.com"),
+    metadataBase: new URL("https://www.trending-hot.com"),
     alternates: {
       canonical: `/trend/${slug}`,
     },
     openGraph: {
       title: `${title} | Trending Hot`,
       description,
-      url: `https://trending-hot.com/trend/${slug}`,
+      url: `https://www.trending-hot.com/trend/${slug}`,
       siteName: "Trending Hot",
       type: "article",
-      images: [{ url: "https://trending-hot.com/og-image.jpg", width: 1200, height: 630, alt: `${trendName} - Trending Hot` }],
+      images: [{ url: "https://www.trending-hot.com/og-image.jpg", width: 1200, height: 630, alt: `${trendName} - Trending Hot` }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | Trending Hot`,
       description,
-      images: ["https://trending-hot.com/og-image.jpg"],
+      images: ["https://www.trending-hot.com/og-image.jpg"],
     },
   };
 }

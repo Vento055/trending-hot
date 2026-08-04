@@ -225,7 +225,7 @@ export const metadata: Metadata = {
   title: "Shopify Ecosystem Trends 2026: Headless, Functions, B2B, POS",
   description:
     "The 10 fastest-growing Shopify ecosystem trends in 2026, ranked by growth. Discover headless commerce, Shopify Functions, app ecosystem, B2B, POS and Markets with brands.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/shopify-ecosystem-trends",
   },
@@ -233,7 +233,7 @@ export const metadata: Metadata = {
     title: "Shopify Ecosystem Trends 2026 | Trending Hot",
     description:
       "The 10 fastest-growing Shopify ecosystem trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/shopify-ecosystem-trends",
+    url: "https://www.trending-hot.com/shopify-ecosystem-trends",
     siteName: "Trending Hot",
     type: "article",
   },

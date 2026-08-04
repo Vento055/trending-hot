@@ -1,0 +1,108 @@
+{
+  "category": "social",
+  "fetch_date": "2026-08-04T11:06:58.990069+00:00",
+  "total_keywords": 5,
+  "source": "signals_fallback",
+  "data": [
+    {
+      "keyword": "GPT-5 Application Layer Opportunities",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:58.988595+00:00"
+    },
+    {
+      "keyword": "LLM Fine-tuning Platform Market",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:58.988613+00:00"
+    },
+    {
+      "keyword": "AI Code Review Tooling Ecosystem",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:58.988619+00:00"
+    },
+    {
+      "keyword": "Zig Language Beginner Content Wave",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:58.988625+00:00"
+    },
+    {
+      "keyword": "WebAssembly Components Ecosystem",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:58.988629+00:00"
+    }
+  ]
+}

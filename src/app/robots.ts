@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://trending-hot.com/sitemap.xml",
+    sitemap: "https://www.trending-hot.com/sitemap.xml",
   };
 }

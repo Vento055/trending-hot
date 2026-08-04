@@ -192,7 +192,7 @@ export const metadata: Metadata = {
   title: "Top Beauty Trends 2026: Glass Skin, Barrier Care, Exosomes & More",
   description:
     "The 8 fastest-growing beauty product trends in 2026, ranked by growth rate. Discover glass skin, skin barrier repair, exosome skincare, lip oils, and at-home LED devices with representative brands and insights.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/trending-beauty-products",
   },
@@ -201,7 +201,7 @@ export const metadata: Metadata = {
       "Top Beauty Trends 2026: Glass Skin, Barrier Care, Exosomes & More | Trending Hot",
     description:
       "The 8 fastest-growing beauty product trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/trending-beauty-products",
+    url: "https://www.trending-hot.com/trending-beauty-products",
     siteName: "Trending Hot",
     type: "article",
   },

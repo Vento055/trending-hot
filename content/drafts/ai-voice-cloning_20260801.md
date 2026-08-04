@@ -112,10 +112,10 @@ Implement a "safe word" with family members for emergency calls, and always veri
 
 If you found this analysis useful, check out these related trends on Trending Hot:
 
-- **[The Rise of Generative AI in Marketing](https://trending-hot.com/generative-ai-marketing-trends)**: How AI is reshaping ad copy and creative strategy.
-- **[Deepfake Technology: The Good, The Bad, and The Ugly](https://trending-hot.com/deepfake-technology-trends)**: A broader look at synthetic media beyond just voice.
-- **[The Creator Economy 2.0](https://trending-hot.com/creator-economy-trends)**: How AI tools are changing the landscape for independent creators.
+- **[The Rise of Generative AI in Marketing](https://www.trending-hot.com/generative-ai-marketing-trends)**: How AI is reshaping ad copy and creative strategy.
+- **[Deepfake Technology: The Good, The Bad, and The Ugly](https://www.trending-hot.com/deepfake-technology-trends)**: A broader look at synthetic media beyond just voice.
+- **[The Creator Economy 2.0](https://www.trending-hot.com/creator-economy-trends)**: How AI tools are changing the landscape for independent creators.
 
 ## Cite This Data
 
-Data sourced from Google Trends and industry reports. Full dataset at https://trending-hot.com/ai-voice-cloning-trends
+Data sourced from Google Trends and industry reports. Full dataset at https://www.trending-hot.com/ai-voice-cloning-trends

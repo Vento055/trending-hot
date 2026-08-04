@@ -7,14 +7,14 @@ import type { ToolComparisonData } from "@/lib/listing/types";
  * URL: /best-ai-writing-tools-for-students
  */
 
-const PAGE_URL = "https://trending-hot.com/best-ai-writing-tools-for-students";
+const PAGE_URL = "https://www.trending-hot.com/best-ai-writing-tools-for-students";
 
 // ===== SEO metadata =====
 export const metadata: Metadata = {
   title: "Best AI Writing Tools for Students [2026]",
   description:
     "Compare the 10 best AI writing tools for students in 2026—from Grammarly to ChatGPT. See features, pricing, pros & cons to pick the right study companion.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/best-ai-writing-tools-for-students",
   },

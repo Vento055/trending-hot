@@ -50,23 +50,23 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title,
     description,
-    metadataBase: new URL("https://trending-hot.com"),
+    metadataBase: new URL("https://www.trending-hot.com"),
     alternates: {
       canonical: `/signal/${slug}`,
     },
     openGraph: {
       title: `${title} | Trending Hot`,
       description,
-      url: `https://trending-hot.com/signal/${slug}`,
+      url: `https://www.trending-hot.com/signal/${slug}`,
       siteName: "Trending Hot",
       type: "article",
-      images: [{ url: "https://trending-hot.com/og-image.jpg", width: 1200, height: 630, alt: `${title} - Trending Hot` }],
+      images: [{ url: "https://www.trending-hot.com/og-image.jpg", width: 1200, height: 630, alt: `${title} - Trending Hot` }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | Trending Hot`,
       description,
-      images: ["https://trending-hot.com/og-image.jpg"],
+      images: ["https://www.trending-hot.com/og-image.jpg"],
     },
   };
 }

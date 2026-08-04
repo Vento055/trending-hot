@@ -203,7 +203,7 @@ export const metadata: Metadata = {
   title: "HTMX & Hypermedia Trends 2026: Server-Rendered, Django, Go",
   description:
     "The 8 fastest-growing HTMX and hypermedia trends in 2026, ranked by growth. Discover server-rendered apps, HTMX in Django and Go, hypermedia APIs and SSE with brands.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/htmx-resurgence-trends",
   },
@@ -211,7 +211,7 @@ export const metadata: Metadata = {
     title: "HTMX & Hypermedia Trends 2026 | Trending Hot",
     description:
       "The 8 fastest-growing HTMX and hypermedia trends in 2026, ranked by growth rate with representative projects and editorial insights.",
-    url: "https://trending-hot.com/htmx-resurgence-trends",
+    url: "https://www.trending-hot.com/htmx-resurgence-trends",
     siteName: "Trending Hot",
     type: "article",
   },

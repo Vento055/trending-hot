@@ -203,7 +203,7 @@ export const metadata: Metadata = {
   title: "Notion Ecosystem & Productivity Tools Trends 2026",
   description:
     "The 8 fastest-growing Notion ecosystem and productivity tool trends in 2026, ranked by growth. Discover Notion AI, templates, automation, widgets, API apps and team wikis.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/notion-plugins-trends",
   },
@@ -211,7 +211,7 @@ export const metadata: Metadata = {
     title: "Notion Ecosystem & Productivity Tools Trends 2026 | Trending Hot",
     description:
       "The 8 fastest-growing Notion ecosystem and productivity tool trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/notion-plugins-trends",
+    url: "https://www.trending-hot.com/notion-plugins-trends",
     siteName: "Trending Hot",
     type: "article",
   },

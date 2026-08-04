@@ -1,0 +1,108 @@
+{
+  "category": "beauty",
+  "fetch_date": "2026-08-04T11:06:26.432927+00:00",
+  "total_keywords": 5,
+  "source": "signals_fallback",
+  "data": [
+    {
+      "keyword": "GPT-5 Application Layer Opportunities",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:26.431471+00:00"
+    },
+    {
+      "keyword": "LLM Fine-tuning Platform Market",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:26.431488+00:00"
+    },
+    {
+      "keyword": "AI Code Review Tooling Ecosystem",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:26.431495+00:00"
+    },
+    {
+      "keyword": "Zig Language Beginner Content Wave",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:26.431500+00:00"
+    },
+    {
+      "keyword": "WebAssembly Components Ecosystem",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:26.431505+00:00"
+    }
+  ]
+}

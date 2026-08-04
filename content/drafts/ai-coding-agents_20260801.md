@@ -189,17 +189,17 @@ Current limitations include difficulty with highly complex or novel problems, po
 
 For more insights into AI trends shaping the technology landscape, explore these related articles:
 
-- [AI Agents: The Next Frontier in Artificial Intelligence](https://trending-hot.com/ai-agents-trends)
-- [Generative AI in Software Development](https://trending-hot.com/generative-ai-software-trends)
-- [Low-Code Development Platforms](https://trending-hot.com/low-code-platforms-trends)
-- [AI Programming Languages](https://trending-hot.com/ai-programming-languages)
-- [Developer Tools Trends](https://trending-hot.com/developer-tools-trends)
+- [AI Agents: The Next Frontier in Artificial Intelligence](https://www.trending-hot.com/ai-agents-trends)
+- [Generative AI in Software Development](https://www.trending-hot.com/generative-ai-software-trends)
+- [Low-Code Development Platforms](https://www.trending-hot.com/low-code-platforms-trends)
+- [AI Programming Languages](https://www.trending-hot.com/ai-programming-languages)
+- [Developer Tools Trends](https://www.trending-hot.com/developer-tools-trends)
 
 ---
 
 ## Cite This Data
 
-**Data sourced from Google Trends and industry reports. Full dataset at https://trending-hot.com/ai-coding-agents-trends**
+**Data sourced from Google Trends and industry reports. Full dataset at https://www.trending-hot.com/ai-coding-agents-trends**
 
 Primary data sources include:
 - Google Trends (search interest data, 3-month analysis)

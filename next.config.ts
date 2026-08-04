@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+﻿import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
@@ -9,6 +9,13 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Domain canonicalization: non-www -> www
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "trending-hot.com" }],
+        destination: "https://www.trending-hot.com/:path*",
+        permanent: true,
+      },
       // /trends/:slug -> /:slug-trends (12 micro-trend articles)
       {
         source: "/trends/:slug",

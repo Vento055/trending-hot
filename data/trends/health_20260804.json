@@ -1,0 +1,108 @@
+{
+  "category": "health",
+  "fetch_date": "2026-08-04T11:07:07.172153+00:00",
+  "total_keywords": 5,
+  "source": "signals_fallback",
+  "data": [
+    {
+      "keyword": "GPT-5 Application Layer Opportunities",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:07:07.169909+00:00"
+    },
+    {
+      "keyword": "LLM Fine-tuning Platform Market",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:07:07.169929+00:00"
+    },
+    {
+      "keyword": "AI Code Review Tooling Ecosystem",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:07:07.169936+00:00"
+    },
+    {
+      "keyword": "Zig Language Beginner Content Wave",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:07:07.169942+00:00"
+    },
+    {
+      "keyword": "WebAssembly Components Ecosystem",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:07:07.169987+00:00"
+    }
+  ]
+}

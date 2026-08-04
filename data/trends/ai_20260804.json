@@ -1,0 +1,88 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-08-04T11:06:42.779934+00:00",
+  "total_keywords": 4,
+  "source": "signals_fallback",
+  "data": [
+    {
+      "keyword": "GPT-5 Application Layer Opportunities",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:42.778577+00:00"
+    },
+    {
+      "keyword": "LLM Fine-tuning Platform Market",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:42.778590+00:00"
+    },
+    {
+      "keyword": "AI Code Review Tooling Ecosystem",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:42.778595+00:00"
+    },
+    {
+      "keyword": "Local AI Model Deployment Tools",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "now 7-d",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T11:06:42.778599+00:00"
+    }
+  ]
+}

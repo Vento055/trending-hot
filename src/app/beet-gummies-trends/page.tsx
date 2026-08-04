@@ -203,7 +203,7 @@ export const metadata: Metadata = {
   title: "Beet Gummies & Supplements Trends 2026: Performance, Heart Health",
   description:
     "The 8 fastest-growing beet gummies and supplement trends in 2026, ranked by growth. Discover athletic, blood pressure, nitric oxide, organic and kids beet gummies with brands.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/beet-gummies-trends",
   },
@@ -211,7 +211,7 @@ export const metadata: Metadata = {
     title: "Beet Gummies & Supplements Trends 2026 | Trending Hot",
     description:
       "The 8 fastest-growing beet gummies and supplement trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/beet-gummies-trends",
+    url: "https://www.trending-hot.com/beet-gummies-trends",
     siteName: "Trending Hot",
     type: "article",
   },

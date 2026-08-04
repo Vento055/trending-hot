@@ -3,12 +3,12 @@ import { WebsiteListTemplate } from "@/components/listing/templates/WebsiteListT
 import type { WebsiteListData } from "@/lib/listing/types";
 
 const SLUG = "most-visited-websites-in-saudi-arabia";
-const PAGE_URL = `https://trending-hot.com/${SLUG}`;
+const PAGE_URL = `https://www.trending-hot.com/${SLUG}`;
 
 export const metadata: Metadata = {
   title: "Most Visited Websites in Saudi Arabia [2026]",
   description: "Discover the 50 most visited websites in Saudi Arabia in 2026, ranked by estimated monthly visits. See how Google, YouTube, Aramco and more compare.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: `/${SLUG}`,
   },

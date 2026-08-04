@@ -8,14 +8,14 @@ import type { CompanyListData } from "@/lib/listing/types";
  */
 
 const SLUG = "top-fintech-startups";
-const PAGE_URL = `https://trending-hot.com/${SLUG}`;
+const PAGE_URL = `https://www.trending-hot.com/${SLUG}`;
 
 // ===== SEO metadata =====
 export const metadata: Metadata = {
   title: "Top Fintech Startups 2026",
   description:
     "Discover the top 20 fintech startups of 2026, ranked by valuation, users, and transaction volume. See how Stripe, Revolut, Chime, and more compare today.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: `/${SLUG}`,
   },

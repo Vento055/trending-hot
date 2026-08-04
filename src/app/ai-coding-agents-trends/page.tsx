@@ -225,7 +225,7 @@ export const metadata: Metadata = {
   title: "AI Coding Agents Trends 2026: Autonomous, IDE, Review, Testing",
   description:
     "The 10 fastest-growing AI coding agent trends in 2026, ranked by growth. Discover autonomous agents, IDE integrations, code review bots, test generation and more with brands.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/ai-coding-agents-trends",
   },
@@ -233,7 +233,7 @@ export const metadata: Metadata = {
     title: "AI Coding Agents Trends 2026 | Trending Hot",
     description:
       "The 10 fastest-growing AI coding agent trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/ai-coding-agents-trends",
+    url: "https://www.trending-hot.com/ai-coding-agents-trends",
     siteName: "Trending Hot",
     type: "article",
   },

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Most Visited Websites in Japan [2026] | Trending Hot",
     description:
       "Discover the 50 most visited websites in Japan in 2026, ranked by estimated monthly visits. See how Yahoo Japan, Google, YouTube, Amazon and more compare.",
-    url: `https://trending-hot.com/${SLUG}`,
+    url: `https://www.trending-hot.com/${SLUG}`,
     siteName: "Trending Hot",
     type: "article",
   },

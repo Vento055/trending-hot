@@ -203,7 +203,7 @@ export const metadata: Metadata = {
   title: "EU AI Act Compliance Trends 2026: Risk, Audit, Documentation",
   description:
     "The 8 fastest-growing EU AI Act compliance trends in 2026, ranked by growth. Discover compliance checklists, risk assessment, audits, transparency and monitoring with brands.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/eu-ai-act-trends",
   },
@@ -211,7 +211,7 @@ export const metadata: Metadata = {
     title: "EU AI Act Compliance Trends 2026 | Trending Hot",
     description:
       "The 8 fastest-growing EU AI Act compliance trends in 2026, ranked by growth rate with representative brands and editorial insights.",
-    url: "https://trending-hot.com/eu-ai-act-trends",
+    url: "https://www.trending-hot.com/eu-ai-act-trends",
     siteName: "Trending Hot",
     type: "article",
   },

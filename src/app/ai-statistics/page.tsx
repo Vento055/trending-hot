@@ -575,7 +575,7 @@ const markdownContent = [
   "# AI Statistics 2026",
   "",
   "> A sourced data summary from Trending Hot.",
-  "> URL: https://trending-hot.com/ai-statistics",
+  "> URL: https://www.trending-hot.com/ai-statistics",
   "",
   `Compiled: ${AUTHOR.date} | Read time: ${AUTHOR.readTime}`,
   "",
@@ -589,7 +589,7 @@ const markdownContent = [
     "",
   ]),
   "---",
-  "Cite as: Trending Hot. (2026). AI Statistics 2026. Retrieved from https://trending-hot.com/ai-statistics",
+  "Cite as: Trending Hot. (2026). AI Statistics 2026. Retrieved from https://www.trending-hot.com/ai-statistics",
 ].join("\n");
 
 const aiData: StatisticsData = {
@@ -612,7 +612,7 @@ export const metadata: Metadata = {
   title: "AI Statistics 2026: 80+ Sourced Data Points on Market, Adoption & Impact",
   description:
     "80+ sourced AI statistics for 2026 across market size, adoption, investment, workforce, enterprise, hardware, safety, research, and economic impact, with traceable sources and editorial insights.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/ai-statistics",
   },
@@ -620,7 +620,7 @@ export const metadata: Metadata = {
     title: "AI Statistics 2026: 80+ Sourced Data Points on Market, Adoption & Impact | Trending Hot",
     description:
       "The most important artificial intelligence statistics for 2026, organized into ten themes and sourced from public data.",
-    url: "https://trending-hot.com/ai-statistics",
+    url: "https://www.trending-hot.com/ai-statistics",
     siteName: "Trending Hot",
     type: "article",
   },
@@ -643,7 +643,7 @@ export default function AiStatisticsPage() {
         <div className="mx-auto flex max-w-4xl flex-col gap-6">
           <DataCitationBlock
             title="AI Statistics 2026"
-            url="https://trending-hot.com/ai-statistics"
+            url="https://www.trending-hot.com/ai-statistics"
             year="2026"
           />
           <DataCardDownload

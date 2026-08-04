@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Terms of Service | Trending Hot",
     description: "Terms and conditions governing your use of Trending Hot.",
-    url: "https://trending-hot.com/terms",
+    url: "https://www.trending-hot.com/terms",
   },
 };
 
@@ -50,7 +50,7 @@ export default function TermsPage() {
               1. Acceptance of Terms
             </h2>
             <p style={{ color: "#a1a1aa", fontSize: "0.9rem", lineHeight: "1.7" }}>
-              By accessing or using the Trending Hot website (https://trending-hot.com), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you must not use our Service. These terms apply to all visitors, users, and others who access or use the Service. We reserve the right to update or modify these terms at any time without prior notice, and your continued use of the Service following any changes constitutes acceptance of those changes.
+              By accessing or using the Trending Hot website (https://www.trending-hot.com), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you must not use our Service. These terms apply to all visitors, users, and others who access or use the Service. We reserve the right to update or modify these terms at any time without prior notice, and your continued use of the Service following any changes constitutes acceptance of those changes.
             </p>
           </section>
 

@@ -335,7 +335,7 @@ export const metadata: Metadata = {
   title: "Fastest Growing AI Startups [2026]",
   description:
     "The 20 fastest-growing AI startups in 2026, ranked by valuation. Explore OpenAI, Anthropic, Scale AI, Perplexity, Mistral AI and more with funding and key metrics.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/fastest-growing-ai-startups",
   },
@@ -343,7 +343,7 @@ export const metadata: Metadata = {
     title: "Fastest Growing AI Startups [2026] | Trending Hot",
     description:
       "The 20 fastest-growing AI startups in 2026, ranked by valuation with funding and key metrics.",
-    url: "https://trending-hot.com/fastest-growing-ai-startups",
+    url: "https://www.trending-hot.com/fastest-growing-ai-startups",
     siteName: "Trending Hot",
     type: "article",
   },

@@ -225,7 +225,7 @@ export const metadata: Metadata = {
   title: "WebGPU & Browser Graphics Trends 2026: Compute, ML, Gaming",
   description:
     "The 10 fastest-growing WebGPU and browser graphics trends in 2026, ranked by growth. Discover compute shaders, in-browser ML, gaming, 3D viz and cross-browser support with insights.",
-  metadataBase: new URL("https://trending-hot.com"),
+  metadataBase: new URL("https://www.trending-hot.com"),
   alternates: {
     canonical: "/webgpu-trends",
   },
@@ -233,7 +233,7 @@ export const metadata: Metadata = {
     title: "WebGPU & Browser Graphics Trends 2026 | Trending Hot",
     description:
       "The 10 fastest-growing WebGPU and browser graphics trends in 2026, ranked by growth rate with representative projects and editorial insights.",
-    url: "https://trending-hot.com/webgpu-trends",
+    url: "https://www.trending-hot.com/webgpu-trends",
     siteName: "Trending Hot",
     type: "article",
   },
