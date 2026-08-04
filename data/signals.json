@@ -1,6 +1,114 @@
 {
   "signals": [
     {
+      "slug": "meghan-markle-lifestyle-brand-content-play",
+      "title": "Meghan Markle Lifestyle Brand Content Play",
+      "subtitle": "Meghan Markle's news cycle is surging, driven by her lifestyle brand launch and public appearances. For creators, this is a prime moment for commentary, style breakdowns, and brand analysis content that taps into high search volume and audience engagement.",
+      "tag": "Content Goldmine",
+      "strength": "Very Strong (85%)",
+      "keywords": [
+        "Meghan Markle",
+        "lifestyle brand",
+        "royal family",
+        "celebrity news",
+        "brand launch"
+      ],
+      "number": "+420%",
+      "trend": "Surging",
+      "meta": "Window: ~4 weeks  |  Confidence: 85%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=meghan+markle&date=now+7-d"
+        },
+        {
+          "label": "People",
+          "url": "https://people.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cleveland-sirens-real-time-alert-app",
+      "title": "Cleveland Sirens Real-Time Alert App",
+      "subtitle": "The 'cleveland sirens' search spike indicates a localized demand for real-time emergency information. A hyper-local alert aggregator or a dedicated social media page tracking siren activity could capture this traffic and serve a community need.",
+      "tag": "Product Opportunity",
+      "strength": "Moderate (65%)",
+      "keywords": [
+        "cleveland",
+        "sirens",
+        "emergency alerts",
+        "local news",
+        "public safety"
+      ],
+      "number": "+250%",
+      "trend": "Spike",
+      "meta": "Window: ~2 weeks  |  Confidence: 65%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=cleveland+sirens&date=now+7-d"
+        },
+        {
+          "label": "Cleveland.com",
+          "url": "https://www.cleveland.com/"
+        }
+      ]
+    },
+    {
+      "slug": "zay-flowers-nfl-rookie-investment-tracker",
+      "title": "Zay Flowers NFL Rookie Investment Tracker",
+      "subtitle": "Zay Flowers' rising search score points to growing interest in his NFL performance. A dedicated stats tracker, fantasy football insight hub, or merchandise affiliate site focused on his career could monetize this early-stage fandom.",
+      "tag": "Info Arbitrage",
+      "strength": "Moderate (60%)",
+      "keywords": [
+        "Zay Flowers",
+        "NFL",
+        "fantasy football",
+        "rookie",
+        "stats"
+      ],
+      "number": "+180%",
+      "trend": "Rising",
+      "meta": "Window: ~8 weeks  |  Confidence: 60%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=zay+flowers&date=now+7-d"
+        },
+        {
+          "label": "NFL",
+          "url": "https://www.nfl.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cyberattack-live-threat-map-data-feed",
+      "title": "Cyberattack Live Threat Map Data Feed",
+      "subtitle": "The 'cyberattack' search spike reflects ongoing public concern. A real-time, user-friendly threat map or a simplified data feed for non-enterprise users could turn this fear into a product, offering security insights for individuals and small businesses.",
+      "tag": "Product Opportunity",
+      "strength": "Moderate (70%)",
+      "keywords": [
+        "cyberattack",
+        "threat map",
+        "cybersecurity",
+        "data feed",
+        "security"
+      ],
+      "number": "+300%",
+      "trend": "Spike",
+      "meta": "Window: ~3 weeks  |  Confidence: 70%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=cyberattack&date=now+7-d"
+        },
+        {
+          "label": "CISA",
+          "url": "https://www.cisa.gov/"
+        }
+      ]
+    },
+    {
       "slug": "true-crime-documentary-content-wave",
       "title": "True Crime Documentary Content Wave",
       "subtitle": "The Kaylee Goncalves and Amanda Knox search spikes reveal sustained public appetite for true crime narratives. This creates a massive opportunity for creators to produce analysis, timeline breakdowns, and legal explainer content that captures high-intent audiences searching for case details.",
@@ -93,114 +201,6 @@
         {
           "label": "Google Trends",
           "url": "https://trends.google.com/trends/explore?q=wyndham+championship+player+withdrawals"
-        }
-      ]
-    },
-    {
-      "slug": "gpt-5-applications",
-      "title": "GPT-5 Application Layer Opportunities",
-      "subtitle": "With GPT-5's anticipated release, there is a massive window for early adopters to build specialized applications, create educational content, and develop integration tools before the market matures.",
-      "tag": "Content Goldmine",
-      "strength": "Very Strong (95%)",
-      "keywords": [
-        "GPT-5",
-        "LLM applications",
-        "AI content",
-        "GPT-5 tools",
-        "AI education"
-      ],
-      "number": "+240%",
-      "trend": "Surging",
-      "meta": "Window: ~8 weeks  |  Confidence: 95%",
-      "sources": [
-        {
-          "label": "OpenAI Blog",
-          "url": "https://openai.com/blog"
-        },
-        {
-          "label": "TechCrunch AI",
-          "url": "https://techcrunch.com/category/artificial-intelligence/"
-        }
-      ]
-    },
-    {
-      "slug": "llm-fine-tuning-platforms",
-      "title": "LLM Fine-tuning Platform Market",
-      "subtitle": "As businesses seek domain-specific AI models, the demand for user-friendly fine-tuning platforms is exploding. This presents a unique opportunity for creators to build tutorials, comparison guides, and niche fine-tuning services.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (88%)",
-      "keywords": [
-        "LLM fine-tuning",
-        "model customization",
-        "AI training",
-        "fine-tuning platforms",
-        "custom AI models"
-      ],
-      "number": "+185%",
-      "trend": "Rising",
-      "meta": "Window: ~12 weeks  |  Confidence: 88%",
-      "sources": [
-        {
-          "label": "Hugging Face",
-          "url": "https://huggingface.co/blog"
-        },
-        {
-          "label": "Weights & Biases",
-          "url": "https://wandb.ai/site"
-        }
-      ]
-    },
-    {
-      "slug": "ai-code-review-tools",
-      "title": "AI Code Review Tooling Ecosystem",
-      "subtitle": "The rapid adoption of AI-assisted development has created a significant gap in intelligent code review solutions. Developers are actively searching for tools that can catch bugs, suggest optimizations, and enforce best practices automatically.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (85%)",
-      "keywords": [
-        "AI code review",
-        "automated code review",
-        "developer tools",
-        "code quality",
-        "AI dev tools"
-      ],
-      "number": "+160%",
-      "trend": "Surging",
-      "meta": "Window: ~10 weeks  |  Confidence: 85%",
-      "sources": [
-        {
-          "label": "GitHub Blog",
-          "url": "https://github.blog"
-        },
-        {
-          "label": "Dev.to",
-          "url": "https://dev.to"
-        }
-      ]
-    },
-    {
-      "slug": "zig-language-beginners",
-      "title": "Zig Language Beginner Content Wave",
-      "subtitle": "Zig's growing popularity as a modern systems programming language is creating a high demand for beginner tutorials, project-based learning content, and comparison guides. Early content creators can capture significant organic traffic.",
-      "tag": "Content Goldmine",
-      "strength": "Moderate (78%)",
-      "keywords": [
-        "Zig language",
-        "systems programming",
-        "Zig tutorial",
-        "Zig vs Rust",
-        "programming languages"
-      ],
-      "number": "+140%",
-      "trend": "Rising",
-      "meta": "Window: ~16 weeks  |  Confidence: 78%",
-      "sources": [
-        {
-          "label": "Zig Official",
-          "url": "https://ziglang.org"
-        },
-        {
-          "label": "Hacker News",
-          "url": "https://news.ycombinator.com"
         }
       ]
     }

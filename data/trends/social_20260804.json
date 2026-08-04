@@ -1,9 +1,89 @@
 {
   "category": "social",
-  "fetch_date": "2026-08-04T11:46:23.091502+00:00",
+  "fetch_date": "2026-08-04T16:10:32.870277+00:00",
   "total_keywords": 5,
   "source": "signals_fallback",
   "data": [
+    {
+      "keyword": "Meghan Markle Lifestyle Brand Content Play",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T16:10:32.870133+00:00"
+    },
+    {
+      "keyword": "Cleveland Sirens Real-Time Alert App",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T16:10:32.870149+00:00"
+    },
+    {
+      "keyword": "Zay Flowers NFL Rookie Investment Tracker",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T16:10:32.870153+00:00"
+    },
+    {
+      "keyword": "Cyberattack Live Threat Map Data Feed",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-04T16:10:32.870156+00:00"
+    },
     {
       "keyword": "True Crime Documentary Content Wave",
       "category": "social",
@@ -22,87 +102,7 @@
         "top": []
       },
       "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:46:23.091317+00:00"
-    },
-    {
-      "keyword": "NYT Games Hint Service Ecosystem",
-      "category": "social",
-      "google_category_id": 81,
-      "geo": "global",
-      "timeframe": "today 3-m",
-      "interest_values": [
-        60
-      ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
-      "related_queries": {
-        "rising": [],
-        "top": []
-      },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:46:23.091339+00:00"
-    },
-    {
-      "keyword": "Real-Time Market Futures Data Products",
-      "category": "social",
-      "google_category_id": 81,
-      "geo": "global",
-      "timeframe": "today 3-m",
-      "interest_values": [
-        60
-      ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
-      "related_queries": {
-        "rising": [],
-        "top": []
-      },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:46:23.091346+00:00"
-    },
-    {
-      "keyword": "Golf Tournament Withdrawal Tracker",
-      "category": "social",
-      "google_category_id": 81,
-      "geo": "global",
-      "timeframe": "today 3-m",
-      "interest_values": [
-        60
-      ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
-      "related_queries": {
-        "rising": [],
-        "top": []
-      },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:46:23.091352+00:00"
-    },
-    {
-      "keyword": "GPT-5 Application Layer Opportunities",
-      "category": "social",
-      "google_category_id": 81,
-      "geo": "global",
-      "timeframe": "today 3-m",
-      "interest_values": [
-        60
-      ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
-      "related_queries": {
-        "rising": [],
-        "top": []
-      },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:46:23.091358+00:00"
+      "fetched_at": "2026-08-04T16:10:32.870159+00:00"
     }
   ]
 }

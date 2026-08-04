@@ -1,6 +1,6 @@
 {
   "category": "tech",
-  "fetch_date": "2026-08-04T11:45:09.464203+00:00",
+  "fetch_date": "2026-08-04T16:09:47.408411+00:00",
   "total_keywords": 5,
   "source": "google_trends",
   "data": [
@@ -11,38 +11,38 @@
       "geo": "global",
       "timeframe": "today 3-m",
       "interest_values": [
-        68,
-        57,
-        77,
-        67,
-        44,
-        37,
-        40,
-        45,
-        37,
-        34,
+        65,
+        55,
+        75,
+        63,
+        41,
+        35,
+        38,
+        42,
+        35,
+        32,
         27,
-        30,
+        28,
         25,
         100,
-        42,
-        20,
-        23,
+        41,
         20,
         20,
-        20,
-        22,
-        25,
         21,
         19,
-        17,
+        19,
+        21,
+        23,
+        20,
+        19,
         16,
         16,
+        15,
+        13,
         14,
-        14,
-        18
+        17
       ],
-      "avg_interest": 55.0,
+      "avg_interest": 52.5,
       "peak_interest": 100,
       "trend_direction": "declining",
       "data_points": 93,
@@ -51,7 +51,7 @@
         "top": []
       },
       "source": "google_trends",
-      "fetched_at": "2026-08-04T11:44:51.840948+00:00"
+      "fetched_at": "2026-08-04T16:09:29.150306+00:00"
     },
     {
       "keyword": "webgpu",
@@ -70,7 +70,7 @@
         "top": []
       },
       "source": "google_trends",
-      "fetched_at": "2026-08-04T11:44:56.255258+00:00"
+      "fetched_at": "2026-08-04T16:09:33.672078+00:00"
     },
     {
       "keyword": "rust programming 2026",
@@ -89,7 +89,7 @@
         "top": []
       },
       "source": "google_trends",
-      "fetched_at": "2026-08-04T11:45:00.610192+00:00"
+      "fetched_at": "2026-08-04T16:09:38.203564+00:00"
     },
     {
       "keyword": "htmx",
@@ -108,7 +108,7 @@
         "top": []
       },
       "source": "google_trends",
-      "fetched_at": "2026-08-04T11:45:04.938601+00:00"
+      "fetched_at": "2026-08-04T16:09:42.683727+00:00"
     },
     {
       "keyword": "notion plugins",
@@ -116,48 +116,18 @@
       "google_category_id": 5,
       "geo": "global",
       "timeframe": "today 3-m",
-      "interest_values": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        18,
-        14,
-        15,
-        16,
-        10,
-        14,
-        17,
-        17,
-        19,
-        15,
-        11,
-        10,
-        0,
-        8,
-        16
-      ],
-      "avg_interest": 6.8,
-      "peak_interest": 100,
-      "trend_direction": "declining",
-      "data_points": 93,
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
       "related_queries": {
         "rising": [],
         "top": []
       },
       "source": "google_trends",
-      "fetched_at": "2026-08-04T11:45:09.463365+00:00"
+      "fetched_at": "2026-08-04T16:09:47.407572+00:00"
     }
   ]
 }

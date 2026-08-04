@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-04T11:49:11.820941+00:00",
+  "generated_at": "2026-08-04T16:14:08.874739+00:00",
   "results": [
-    {
-      "keyword": "rust programming 2026",
-      "status": "success",
-      "file": "/home/runner/work/trending-hot/trending-hot/content/drafts/rust-programming-2026_20260804.md",
-      "chars": 9228
-    },
     {
       "keyword": "webgpu",
       "status": "success",
       "file": "/home/runner/work/trending-hot/trending-hot/content/drafts/webgpu_20260804.md",
-      "chars": 12200
+      "chars": 12166
     },
     {
       "keyword": "ai coding agents",
       "status": "success",
       "file": "/home/runner/work/trending-hot/trending-hot/content/drafts/ai-coding-agents_20260804.md",
-      "chars": 12549
+      "chars": 11936
+    },
+    {
+      "keyword": "rust programming 2026",
+      "status": "success",
+      "file": "/home/runner/work/trending-hot/trending-hot/content/drafts/rust-programming-2026_20260804.md",
+      "chars": 11673
     }
   ]
 }
