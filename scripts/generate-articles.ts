@@ -199,24 +199,9 @@ async function fetchNewsDirect(keyword: string): Promise<NewsItem[]> {
   }
 }
 
-/* ===== Fallback context data when external APIs fail ===== */
-function generateFallbackRedditPosts(keyword: string): RedditPost[] {
-  const templates = [
-    { title: `${keyword} is gaining massive traction - what are the implications?`, subreddit: "technology", ups: 2400, num_comments: 380, permalink: "/r/technology/comments/fallback1/" },
-    { title: `Anyone else noticing the surge in ${keyword} discussions?`, subreddit: "tech", ups: 1800, num_comments: 220, permalink: "/r/tech/comments/fallback2/" },
-    { title: `${keyword} just hit a major milestone`, subreddit: "programming", ups: 1500, num_comments: 190, permalink: "/r/programming/comments/fallback3/" },
-  ];
-  return templates;
-}
-
-function generateFallbackNews(keyword: string): NewsItem[] {
-  const now = new Date().toISOString();
-  return [
-    { title: `${keyword} sees surge in developer adoption according to new survey`, source: "TechCrunch", time: now, summary: `Industry analysts report growing momentum behind ${keyword} as more companies explore practical applications and tooling.`, url: "https://techcrunch.com/" },
-    { title: `Why ${keyword} could be the next big shift in tech`, source: "The Verge", time: now, summary: `Experts weigh in on the potential impact of ${keyword} and what it means for developers and businesses.`, url: "https://theverge.com/" },
-    { title: `${keyword}: Opportunities and challenges ahead`, source: "Ars Technica", time: now, summary: `A deep dive into the technical and business implications of the growing ${keyword} ecosystem.`, url: "https://arstechnica.com/" },
-  ];
-}
+// P0 fix: fallback fake data generators REMOVED.
+// When external APIs fail, processSignal passes empty arrays [] to the LLM,
+// and the prompt clearly labels the missing data.
 
 async function generateArticleWithDeepSeek(
   signal: SignalSeed,
@@ -237,7 +222,7 @@ async function generateArticleWithDeepSeek(
     )
     .join("\n");
 
-  const prompt = `You are a senior tech trend analyst. Based on the following data, write a comprehensive English opportunity signal analysis article.\n\nSIGNAL TOPIC: ${signal.title}\nTAG: ${signal.tag}\nSTRENGTH: ${signal.strength}\nKEYWORDS: ${signal.keywords.join(", ")}\n\nSUBTITLE (context):\n${signal.subtitle}\n\nREDDIT DISCUSSIONS:\n${redditContext || "No relevant Reddit discussions found."}\n\nNEWS COVERAGE:\n${newsContext || "No relevant news found."}\n\nWrite the analysis in this exact JSON structure:\n{\n  "coreJudgment": "One paragraph (200-300 words) summarizing the core investment thesis. Bold, confident, data-backed.",\n  "sections": [\n    {\n      "heading": "Trend Data",\n      "body": "Analyze search trends, engagement metrics, and growth trajectory. Mention specific numbers. 200+ words."\n    },\n    {\n      "heading": "Industry Background",\n      "body": "Explain the technology, regulation, or market forces at play. 200+ words."\n    },\n    {\n      "heading": "Behavioral Drivers",\n      "body": "Why are people searching for this? What pain points or desires drive demand? 200+ words."\n    },\n    {\n      "heading": "Timing Assessment",\n      "body": "How urgent is this window? What is the optimal strategy? 200+ words."\n    }\n  ]\n}\n\nRequirements:\n- All content must be in English\n- Use specific numbers and percentages where possible\n- Tone: professional, analytical, actionable\n- Each section body must be at least 200 words\n- Do NOT include markdown formatting inside JSON strings\n- Return ONLY valid JSON, no other text`;
+  const prompt = `You are a senior tech trend analyst. Based on the following data, write a comprehensive English opportunity signal analysis article.\n\nSIGNAL TOPIC: \${signal.title}\nTAG: \${signal.tag}\nSTRENGTH: \${signal.strength}\nKEYWORDS: \${signal.keywords.join(", ")}\n\nSUBTITLE (context):\n\${signal.subtitle}\n\nREDDIT DISCUSSIONS:\n\${redditContext || "[No external data available — analysis based on general knowledge only]"}\n\nNEWS COVERAGE:\n\${newsContext || "[No external data available — analysis based on general knowledge only]"}\n\nWrite the analysis in this exact JSON structure:\n{\n  "coreJudgment": "One paragraph (200-300 words) summarizing the core thesis. What's the signal, what's driving it, who benefits, what's the window? Bold, confident, data-backed.",\n  "sections": [\n    {\n      "heading": "Trend Data & Stage Classification",\n      "body": "Analyze search trends, engagement metrics, and growth trajectory. Classify the trend stage: [Sustained rise] / [Short-term spike] / [Peaking soon] / [Brewing]. Use specific numbers where available. 200+ words."\n    },\n    {\n      "heading": "Mechanism & Stakeholder Game",\n      "body": "Explain why this trend is rising: what structural driver or recent catalyst is fueling it? Map the money flow: who captures value, who pays the cost, who wants the status quo, who wants change? 200+ words."\n    },\n    {\n      "heading": "Behavioral Drivers & Desire Decoding",\n      "body": "Decode the underlying human need this trend satisfies. What pain point or desire does it serve? Why are people engaging with it? 200+ words."\n    },\n    {\n      "heading": "Forward-Looking Assessment",\n      "body": "Will this keep rising? For how long? What's the ceiling? Rate confidence: high / medium / low. Identify opportunity windows: content gap, product window, information arbitrage, traffic oasis. 200+ words."\n    },\n    {\n      "heading": "Risk Assessment",\n      "body": "Label and evaluate policy risks, controversy risks, and time-sensitivity risks. Assign confidence level (high / medium / low). If this is a time-sensitive window, state when it might close. If evidence is insufficient, explicitly write “uncertain.” 150+ words."\n    }\n  ]\n}\n\nRequirements:\n- All content must be in English\n- Use specific numbers and percentages only when you can cite a verifiable source. If no source exists, write "no authoritative data available" rather than inventing one.\n- Never fabricate URLs, report names, or survey numbers\n- No conspiracy speculation. No taking sides. When evidence is weak, write "uncertain" or "evidence is limited."\n- All cited URLs must come from actual search results, never hallucinated.\n- Tone: professional, analytical, actionable\n- Each section body must be at least the word count specified\n- Do NOT include markdown formatting inside JSON strings\n- Return ONLY valid JSON, no other text`;
 
   const res = await fetch(DEEPSEEK_API_URL, {
     method: "POST",
@@ -388,12 +373,13 @@ async function processSignal(signal: SignalSeed): Promise<void> {
       fetchNewsDirect(keyword),
     ]);
 
-    // Use fallback data if external fetches returned nothing
-    const effectiveReddit = redditPosts.length > 0 ? redditPosts : generateFallbackRedditPosts(keyword);
-    const effectiveNews = newsItems.length > 0 ? newsItems : generateFallbackNews(keyword);
-    console.log(`  Reddit: ${effectiveReddit.length} posts (${redditPosts.length} live + ${effectiveReddit.length - redditPosts.length} fallback), News: ${effectiveNews.length} items (${newsItems.length} live + ${effectiveNews.length - newsItems.length} fallback)`);
+    // P0 fix: no fake fallback — pass empty arrays when APIs fail
+    if (redditPosts.length === 0 && newsItems.length === 0) {
+      console.log('  [No external data available — analysis based on general knowledge only]');
+    }
+    console.log(`  Reddit: ${redditPosts.length} live posts, News: ${newsItems.length} live items`);
 
-    const article = await generateArticleWithDeepSeek(signal, effectiveReddit, effectiveNews);
+    const article = await generateArticleWithDeepSeek(signal, redditPosts, newsItems);
     saveArticle(article);
     saveMarkdown(article);
     syncToObsidian(article);
