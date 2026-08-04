@@ -1,6 +1,102 @@
 {
   "signals": [
     {
+      "slug": "true-crime-documentary-content-wave",
+      "title": "True Crime Documentary Content Wave",
+      "subtitle": "The Kaylee Goncalves and Amanda Knox search spikes reveal sustained public appetite for true crime narratives. This creates a massive opportunity for creators to produce analysis, timeline breakdowns, and legal explainer content that captures high-intent audiences searching for case details.",
+      "tag": "Content Goldmine",
+      "strength": "Very Strong (85%)",
+      "keywords": [
+        "true crime content",
+        "kaylee goncalves",
+        "amanda knox",
+        "crime documentary",
+        "legal analysis"
+      ],
+      "number": "+1000%",
+      "trend": "Spike",
+      "meta": "Window: ~3 weeks  |  Confidence: 85%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=kaylee+goncalves"
+        },
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=amanda+knox"
+        }
+      ]
+    },
+    {
+      "slug": "nyt-games-hint-service-ecosystem",
+      "title": "NYT Games Hint Service Ecosystem",
+      "subtitle": "The 'Strands Hint' search volume indicates millions seeking real-time puzzle assistance. Builders can create dedicated hint APIs, browser extensions, or AI-powered puzzle solvers that integrate with NYT games. This is a recurring traffic loop with daily engagement potential.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (75%)",
+      "keywords": [
+        "strands hint",
+        "NYT games",
+        "puzzle solver",
+        "word game hints",
+        "daily puzzle tool"
+      ],
+      "number": "+1000%",
+      "trend": "Surging",
+      "meta": "Window: ~2 weeks  |  Confidence: 75%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=strands+hint"
+        }
+      ]
+    },
+    {
+      "slug": "real-time-market-futures-data-products",
+      "title": "Real-Time Market Futures Data Products",
+      "subtitle": "S&P 500 Futures search volume spikes signal retail investor demand for instant market insights. The opportunity lies in creating lightweight, real-time futures trackers, sentiment analysis dashboards, or mobile alert systems that deliver actionable market signals before mainstream media catches up.",
+      "tag": "Info Arbitrage",
+      "strength": "Moderate (62%)",
+      "keywords": [
+        "S&P 500 futures",
+        "market data API",
+        "retail trading tools",
+        "futures tracker",
+        "market sentiment"
+      ],
+      "number": "+200%",
+      "trend": "Rising",
+      "meta": "Window: ~4 weeks  |  Confidence: 62%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=s%26p+500+futures"
+        }
+      ]
+    },
+    {
+      "slug": "golf-tournament-withdrawal-tracker",
+      "title": "Golf Tournament Withdrawal Tracker",
+      "subtitle": "The Wyndham Championship player withdrawals search spike reveals a niche but passionate audience of golf bettors and fantasy players. A specialized tool tracking player withdrawals, injury reports, and lineup changes in real-time would serve a dedicated community seeking an informational edge.",
+      "tag": "Traffic Breakout",
+      "strength": "Moderate (55%)",
+      "keywords": [
+        "golf withdrawals",
+        "wyndham championship",
+        "PGA tracker",
+        "fantasy golf",
+        "player news"
+      ],
+      "number": "+100%",
+      "trend": "Spike",
+      "meta": "Window: ~1 week  |  Confidence: 55%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=wyndham+championship+player+withdrawals"
+        }
+      ]
+    },
+    {
       "slug": "gpt-5-applications",
       "title": "GPT-5 Application Layer Opportunities",
       "subtitle": "With GPT-5's anticipated release, there is a massive window for early adopters to build specialized applications, create educational content, and develop integration tools before the market matures.",
@@ -105,114 +201,6 @@
         {
           "label": "Hacker News",
           "url": "https://news.ycombinator.com"
-        }
-      ]
-    },
-    {
-      "slug": "webassembly-components-ecosystem",
-      "title": "WebAssembly Components Ecosystem",
-      "subtitle": "WebAssembly Components are standardizing portable, language-agnostic modules that can run across browsers, servers, and edge runtimes. This unlocks new opportunities for building reusable, sandboxed plugins and microservices. Content creators can produce tutorials and tooling reviews, while builders can develop component registries or integration frameworks. Investors should watch for infrastructure plays around composability and cross-language interop.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (85%)",
-      "keywords": [
-        "WebAssembly",
-        "component model",
-        "WASI",
-        "portable modules",
-        "polyglot runtime"
-      ],
-      "number": "+150%",
-      "trend": "Rising",
-      "meta": "Window: ~12 weeks  |  Confidence: 82%",
-      "sources": [
-        {
-          "label": "Bytecode Alliance",
-          "url": "https://bytecodealliance.org/"
-        },
-        {
-          "label": "Wasmtime Blog",
-          "url": "https://wasmtime.dev/"
-        }
-      ]
-    },
-    {
-      "slug": "rust-2026-edition-migration-guides",
-      "title": "Rust 2026 Edition Migration Guides",
-      "subtitle": "The Rust 2026 Edition promises significant language improvements and potential breaking changes. Developers and teams will need clear migration guides, tooling updates, and best-practice content to navigate the transition. This creates a content goldmine for early adopters who produce tutorials, migration checklists, and compatibility tools. Builders can create automated migration assistants or linters. Investors should back tooling and education platforms targeting the Rust ecosystem.",
-      "tag": "Content Goldmine",
-      "strength": "Very Strong (88%)",
-      "keywords": [
-        "Rust",
-        "edition 2026",
-        "migration",
-        "language evolution",
-        "Rust tooling"
-      ],
-      "number": "+120%",
-      "trend": "Surging",
-      "meta": "Window: ~16 weeks  |  Confidence: 85%",
-      "sources": [
-        {
-          "label": "Rust Blog",
-          "url": "https://blog.rust-lang.org/"
-        },
-        {
-          "label": "This Week in Rust",
-          "url": "https://this-week-in-rust.org/"
-        }
-      ]
-    },
-    {
-      "slug": "edge-runtime-api-integration",
-      "title": "Edge Runtime API Integration Patterns",
-      "subtitle": "Edge Runtime APIs are maturing rapidly, enabling serverless functions, KV stores, and real-time data processing at the network edge. Developers need practical integration patterns, performance benchmarks, and cost comparisons across providers like Cloudflare Workers, Deno Deploy, and AWS Lambda@Edge. This is a prime info arbitrage opportunity for creators who can distill complex trade-offs into actionable guides. Builders can create unified SDKs or monitoring dashboards. Investors should evaluate edge-native SaaS and observability startups.",
-      "tag": "Info Arbitrage",
-      "strength": "Strong (82%)",
-      "keywords": [
-        "edge computing",
-        "serverless",
-        "CDN",
-        "low latency",
-        "API integration"
-      ],
-      "number": "+95%",
-      "trend": "Rising",
-      "meta": "Window: ~8 weeks  |  Confidence: 78%",
-      "sources": [
-        {
-          "label": "Cloudflare Workers Docs",
-          "url": "https://developers.cloudflare.com/workers/"
-        },
-        {
-          "label": "Deno Deploy Blog",
-          "url": "https://deno.com/blog"
-        }
-      ]
-    },
-    {
-      "slug": "local-ai-model-deployment-tools",
-      "title": "Local AI Model Deployment Tools",
-      "subtitle": "Running large language models locally is becoming viable with tools like Ollama, llama.cpp, and LM Studio. This shift enables privacy-sensitive applications, offline use cases, and reduced API costs. Content creators can produce setup guides, hardware benchmarks, and use-case comparisons. Builders can develop simplified deployment wrappers or fine-tuning UIs. Investors should look at companies enabling on-device AI inference and edge hardware acceleration.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (80%)",
-      "keywords": [
-        "local LLM",
-        "Ollama",
-        "llama.cpp",
-        "on-device AI",
-        "privacy"
-      ],
-      "number": "+75%",
-      "trend": "Surging",
-      "meta": "Window: ~10 weeks  |  Confidence: 80%",
-      "sources": [
-        {
-          "label": "Ollama GitHub",
-          "url": "https://github.com/ollama/ollama"
-        },
-        {
-          "label": "llama.cpp GitHub",
-          "url": "https://github.com/ggerganov/llama.cpp"
         }
       ]
     }

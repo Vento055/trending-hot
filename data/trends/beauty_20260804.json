@@ -1,108 +1,398 @@
 {
   "category": "beauty",
-  "fetch_date": "2026-08-04T11:06:26.432927+00:00",
+  "fetch_date": "2026-08-04T11:44:39.631135+00:00",
   "total_keywords": 5,
-  "source": "signals_fallback",
+  "source": "google_trends",
   "data": [
     {
-      "keyword": "GPT-5 Application Layer Opportunities",
+      "keyword": "glass skin",
       "category": "beauty",
       "google_category_id": 44,
       "geo": "global",
-      "timeframe": "now 7-d",
+      "timeframe": "today 3-m",
       "interest_values": [
-        60
+        29,
+        32,
+        32,
+        32,
+        28,
+        30,
+        32,
+        28,
+        24,
+        24,
+        23,
+        21,
+        26,
+        37,
+        32,
+        22,
+        21,
+        21,
+        21,
+        24,
+        25,
+        23,
+        23,
+        22,
+        29,
+        23,
+        25,
+        23,
+        20,
+        21
       ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
+      "avg_interest": 47.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
       "related_queries": {
-        "rising": [],
-        "top": []
+        "rising": [
+          {
+            "query": "mascarilla glass skin loreal",
+            "value": 200
+          },
+          {
+            "query": "how to remove stickers from glass",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "glass skin cream",
+            "value": 100
+          },
+          {
+            "query": "glass skin serum",
+            "value": 81
+          },
+          {
+            "query": "glass skin foundation",
+            "value": 69
+          },
+          {
+            "query": "glass skin mask",
+            "value": 65
+          },
+          {
+            "query": "korean glass skin",
+            "value": 65
+          },
+          {
+            "query": "what is glass skin",
+            "value": 55
+          },
+          {
+            "query": "glass skin loreal",
+            "value": 43
+          },
+          {
+            "query": "glass skin facial",
+            "value": 36
+          },
+          {
+            "query": "glass skin products",
+            "value": 35
+          },
+          {
+            "query": "glass skin treatment",
+            "value": 33
+          }
+        ]
       },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:06:26.431471+00:00"
+      "source": "google_trends",
+      "fetched_at": "2026-08-04T11:44:19.023029+00:00"
     },
     {
-      "keyword": "LLM Fine-tuning Platform Market",
+      "keyword": "nano hydroxyapatite toothpaste",
       "category": "beauty",
       "google_category_id": 44,
       "geo": "global",
-      "timeframe": "now 7-d",
+      "timeframe": "today 3-m",
       "interest_values": [
-        60
+        65,
+        68,
+        78,
+        54,
+        42,
+        44,
+        51,
+        43,
+        46,
+        47,
+        50,
+        45,
+        46,
+        73,
+        51,
+        36,
+        34,
+        34,
+        34,
+        40,
+        39,
+        38,
+        44,
+        41,
+        36,
+        37,
+        37,
+        32,
+        32,
+        32
       ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
+      "avg_interest": 61.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
       "related_queries": {
-        "rising": [],
-        "top": []
+        "rising": [
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 3100
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 650
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste reddit",
+            "value": 80
+          }
+        ],
+        "top": [
+          {
+            "query": "boka nano hydroxyapatite toothpaste",
+            "value": 100
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 69
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste",
+            "value": 37
+          },
+          {
+            "query": "mouthology nano hydroxyapatite toothpaste",
+            "value": 25
+          },
+          {
+            "query": "davids toothpaste",
+            "value": 19
+          },
+          {
+            "query": "davids nano hydroxyapatite toothpaste",
+            "value": 19
+          },
+          {
+            "query": "nano hydroxyapatite toothpaste reddit",
+            "value": 16
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 3
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste reddit",
+            "value": 2
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 0
+          }
+        ]
       },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:06:26.431488+00:00"
+      "source": "google_trends",
+      "fetched_at": "2026-08-04T11:44:24.652689+00:00"
     },
     {
-      "keyword": "AI Code Review Tooling Ecosystem",
+      "keyword": "beet gummies",
       "category": "beauty",
       "google_category_id": 44,
       "geo": "global",
-      "timeframe": "now 7-d",
+      "timeframe": "today 3-m",
       "interest_values": [
-        60
+        24,
+        37,
+        32,
+        0,
+        0,
+        0,
+        0,
+        31,
+        22,
+        0,
+        0,
+        27,
+        0,
+        0,
+        0,
+        25,
+        25,
+        21,
+        24,
+        24,
+        25,
+        24,
+        25,
+        26,
+        24,
+        22,
+        23,
+        26,
+        20,
+        21
       ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
+      "avg_interest": 37.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
       "related_queries": {
         "rising": [],
-        "top": []
+        "top": [
+          {
+            "query": "beet root",
+            "value": 100
+          },
+          {
+            "query": "beet root gummies",
+            "value": 100
+          },
+          {
+            "query": "beet gummies benefits",
+            "value": 10
+          },
+          {
+            "query": "beets gummies",
+            "value": 9
+          },
+          {
+            "query": "beetroot gummies",
+            "value": 9
+          },
+          {
+            "query": "beet root supplement",
+            "value": 9
+          },
+          {
+            "query": "beet juice",
+            "value": 9
+          },
+          {
+            "query": "super beet gummies",
+            "value": 8
+          },
+          {
+            "query": "beet flow gummies",
+            "value": 8
+          },
+          {
+            "query": "goli beet gummies",
+            "value": 7
+          }
+        ]
       },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:06:26.431495+00:00"
+      "source": "google_trends",
+      "fetched_at": "2026-08-04T11:44:30.177402+00:00"
     },
     {
-      "keyword": "Zig Language Beginner Content Wave",
+      "keyword": "toe spacers",
       "category": "beauty",
       "google_category_id": 44,
       "geo": "global",
-      "timeframe": "now 7-d",
+      "timeframe": "today 3-m",
       "interest_values": [
-        60
+        44,
+        64,
+        60,
+        56,
+        49,
+        77,
+        71,
+        66,
+        64,
+        53,
+        64,
+        38,
+        55,
+        85,
+        69,
+        48,
+        48,
+        51,
+        43,
+        48,
+        51,
+        49,
+        48,
+        48,
+        45,
+        45,
+        42,
+        49,
+        47,
+        45
       ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
+      "avg_interest": 63.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
       "related_queries": {
         "rising": [],
         "top": []
       },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:06:26.431500+00:00"
+      "source": "google_trends",
+      "fetched_at": "2026-08-04T11:44:35.002774+00:00"
     },
     {
-      "keyword": "WebAssembly Components Ecosystem",
+      "keyword": "scalp serum",
       "category": "beauty",
       "google_category_id": 44,
       "geo": "global",
-      "timeframe": "now 7-d",
+      "timeframe": "today 3-m",
       "interest_values": [
-        60
+        50,
+        47,
+        56,
+        46,
+        46,
+        41,
+        47,
+        46,
+        44,
+        38,
+        40,
+        37,
+        38,
+        68,
+        41,
+        33,
+        34,
+        32,
+        36,
+        35,
+        36,
+        35,
+        35,
+        33,
+        30,
+        33,
+        37,
+        38,
+        32,
+        33
       ],
-      "avg_interest": 60,
-      "peak_interest": 60,
-      "trend_direction": "stable",
-      "data_points": 1,
+      "avg_interest": 57.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
       "related_queries": {
         "rising": [],
         "top": []
       },
-      "source": "signals_fallback",
-      "fetched_at": "2026-08-04T11:06:26.431505+00:00"
+      "source": "google_trends",
+      "fetched_at": "2026-08-04T11:44:39.630304+00:00"
     }
   ]
 }
