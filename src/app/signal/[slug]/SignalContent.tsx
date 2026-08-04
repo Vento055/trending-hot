@@ -386,6 +386,82 @@ export default function SignalContent({
         </Link>
       </div>
 
+      {/* Sources & References */}
+      {data.sources && data.sources.length > 0 && (
+        <div className="mt-10">
+          <h2 className="text-lg font-semibold mb-4" style={{ color: "#ffffff" }}>
+            Sources &amp; References
+          </h2>
+          <ul className="space-y-2">
+            {data.sources.map((src, i) => (
+              <li key={i} className="text-sm" style={{ color: "#a1a1aa" }}>
+                <a
+                  href={src.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#a855f7", textDecoration: "underline" }}
+                >
+                  {src.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* FAQPage Structured Data (JSON-LD) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: `What is "${data.title}" about?`,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: data.subtitle || data.coreJudgment?.slice(0, 160) || `An AI-identified trend signal with opportunity analysis.`,
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Why is this trending now?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: (() => { const s = data.sections?.find((x) => (x.heading || "").toLowerCase().includes("mechanism")); return s ? s.body.slice(0, 250) : "Analysis based on search volume shifts and community engagement signals."; })(),
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Who benefits from this trend?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: (() => { const s = data.sections?.find((x) => (x.heading || "").toLowerCase().includes("stakeholder")); return s ? s.body.slice(0, 250) : "Early adopters, developers, and content creators who act on this signal early."; })(),
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the opportunity window?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: (() => { const s = data.sections?.find((x) => (x.heading || "").toLowerCase().includes("forward") || (x.heading || "").toLowerCase().includes("timing")); return s ? s.body.slice(0, 250) : "The window depends on trend velocity, competition, and time to market."; })(),
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What are the risks?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: (() => { const s = data.sections?.find((x) => (x.heading || "").toLowerCase().includes("risk")); return s ? s.body.slice(0, 250) : "Key risks include policy changes, market saturation, and timing uncertainty."; })(),
+                },
+              },
+            ],
+          }),
+        }}
+      />
+
       {data.generatedAt && (
         <p className="text-center mt-6 text-xs" style={{ color: "#71717a" }}>
           Generated on {new Date(data.generatedAt).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
