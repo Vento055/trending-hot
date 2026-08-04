@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Discover the 50 most visited websites in Germany in 2026, ranked by estimated monthly visits. See how Google, YouTube, Amazon.de and more compare.",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Discover the 50 most visited websites in United Kingdom in 2026, ranked by estimated monthly visits. See how Google UK, YouTube, BBC and more compare.",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };

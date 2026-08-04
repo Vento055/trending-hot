@@ -531,7 +531,7 @@ export default function HomeClient({ initialSignals, initialChinaSignals, initia
             >
               <span style={{ color: "#ffffff" }}>Discover What's </span>
               <span className="gradient-text">Trending</span>
-              <span style={{ color: "#ffffff" }}> — Real-Time AI & Tech Signals</span>
+              <span style={{ color: "#ffffff" }}> : Daily Signals on AI Tools, Models & Developer Ecosystem</span>
             </h1>
 
             {/* Subtitle */}
@@ -543,7 +543,7 @@ export default function HomeClient({ initialSignals, initialChinaSignals, initia
                 lineHeight: "1.6",
               }}
             >
-              Discover tomorrow&apos;s money-making trends
+              Track what's rising in AI. Daily intelligence on new tools, model updates, and developer trends
               <br />
               before everyone else sees them.
             </p>

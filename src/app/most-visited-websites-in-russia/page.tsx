@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Discover the 50 most visited websites in Russia in 2026, ranked by estimated monthly visits. See how Yandex, VK, Mail.ru and more compare.",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };

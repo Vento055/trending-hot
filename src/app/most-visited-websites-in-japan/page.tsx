@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Discover the 50 most visited websites in Japan in 2026, ranked by estimated monthly visits. See how Yahoo Japan, Google, YouTube, Amazon and more compare.",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };

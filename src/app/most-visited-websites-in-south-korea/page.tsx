@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Discover the 50 most visited websites in South Korea in 2026, ranked by estimated monthly visits. See how Naver, Daum, YouTube and more compare.",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };

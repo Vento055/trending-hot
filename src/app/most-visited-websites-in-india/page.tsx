@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       "Discover the 50 most visited websites in India in 2026, ranked by estimated monthly visits. See how Google, YouTube, Amazon, Flipkart, IRCTC and more compare.",
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };
