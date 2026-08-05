@@ -1,6 +1,114 @@
 {
   "signals": [
     {
+      "slug": "nara-smith-commentary-ecosystem",
+      "title": "Nara Smith Commentary & Reaction Content Ecosystem",
+      "subtitle": "Nara Smith's viral presence is driving massive search interest, creating a window for creators to build commentary channels, reaction content, and analysis series. The opportunity extends to product placement breakdowns and lifestyle brand comparisons, capitalizing on audience curiosity about her rapid rise and content style.",
+      "tag": "Content Goldmine",
+      "strength": "Strong (78%)",
+      "keywords": [
+        "nara smith",
+        "nara smith content",
+        "nara smith reaction",
+        "nara smith analysis",
+        "nara smith lifestyle"
+      ],
+      "number": "+890%",
+      "trend": "Surging",
+      "meta": "Window: ~4 weeks  |  Confidence: 82%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=nara%20smith"
+        },
+        {
+          "label": "TikTok Creative Center",
+          "url": "https://ads.tiktok.com/business/creativecenter"
+        }
+      ]
+    },
+    {
+      "slug": "uber-stock-retail-trading-signals",
+      "title": "Uber Stock Retail Trading Signal Dashboard",
+      "subtitle": "Spikes in 'uber stock' searches indicate retail investor interest outpacing institutional coverage. Build a real-time dashboard that tracks Uber's price action, news sentiment, and options flow specifically for retail traders. The product can monetize through subscriptions, sponsored alerts, or affiliate brokerage links, filling a gap for accessible, focused equities data.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (74%)",
+      "keywords": [
+        "uber stock",
+        "uber stock price",
+        "uber stock forecast",
+        "uber earnings",
+        "uber stock news"
+      ],
+      "number": "+450%",
+      "trend": "Rising",
+      "meta": "Window: ~6 weeks  |  Confidence: 76%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=uber%20stock"
+        },
+        {
+          "label": "StockTwits",
+          "url": "https://stocktwits.com/symbol/UBER"
+        }
+      ]
+    },
+    {
+      "slug": "rivian-r2-preorder-insight-hub",
+      "title": "Rivian R2 Preorder & Spec Tracker Hub",
+      "subtitle": "Search interest in 'Rivian R2' signals early demand for the upcoming vehicle. Build a centralized hub aggregating leaked specs, preorder timelines, pricing rumors, and reservation data. This can serve EV enthusiasts and potential investors, monetizing through display ads, affiliate links for reservations, or a premium tier with insider updates and community access.",
+      "tag": "Info Arbitrage",
+      "strength": "Moderate (69%)",
+      "keywords": [
+        "rivian r2",
+        "rivian r2 price",
+        "rivian r2 release date",
+        "rivian r2 specs",
+        "rivian r2 reservation"
+      ],
+      "number": "+320%",
+      "trend": "Rising",
+      "meta": "Window: ~8 weeks  |  Confidence: 71%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=rivian%20r2"
+        },
+        {
+          "label": "Rivian Forums",
+          "url": "https://www.rivianforums.com"
+        }
+      ]
+    },
+    {
+      "slug": "michael-burry-bearish-signal-alerts",
+      "title": "Michael Burry Bearish Signal Alert Service",
+      "subtitle": "Searches for 'Michael Burry bearish market view' reveal a niche audience seeking contrarian investment signals. Create a subscription-based alert service that tracks Burry's public filings, social media posts, and interview mentions, converting them into actionable market warnings. The scarcity of this focused intelligence creates premium pricing potential for investors and content creators.",
+      "tag": "Info Arbitrage",
+      "strength": "Moderate (66%)",
+      "keywords": [
+        "michael burry",
+        "michael burry bearish",
+        "burry market view",
+        "scion asset management",
+        "contrarian investing"
+      ],
+      "number": "+210%",
+      "trend": "Spike",
+      "meta": "Window: ~3 weeks  |  Confidence: 68%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=michael%20burry%20bearish"
+        },
+        {
+          "label": "SEC EDGAR",
+          "url": "https://www.sec.gov/edgar"
+        }
+      ]
+    },
+    {
       "slug": "meghan-markle-lifestyle-brand-content-play",
       "title": "Meghan Markle Lifestyle Brand Content Play",
       "subtitle": "Meghan Markle's news cycle is surging, driven by her lifestyle brand launch and public appearances. For creators, this is a prime moment for commentary, style breakdowns, and brand analysis content that taps into high search volume and audience engagement.",
@@ -105,102 +213,6 @@
         {
           "label": "CISA",
           "url": "https://www.cisa.gov/"
-        }
-      ]
-    },
-    {
-      "slug": "true-crime-documentary-content-wave",
-      "title": "True Crime Documentary Content Wave",
-      "subtitle": "The Kaylee Goncalves and Amanda Knox search spikes reveal sustained public appetite for true crime narratives. This creates a massive opportunity for creators to produce analysis, timeline breakdowns, and legal explainer content that captures high-intent audiences searching for case details.",
-      "tag": "Content Goldmine",
-      "strength": "Very Strong (85%)",
-      "keywords": [
-        "true crime content",
-        "kaylee goncalves",
-        "amanda knox",
-        "crime documentary",
-        "legal analysis"
-      ],
-      "number": "+1000%",
-      "trend": "Spike",
-      "meta": "Window: ~3 weeks  |  Confidence: 85%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=kaylee+goncalves"
-        },
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=amanda+knox"
-        }
-      ]
-    },
-    {
-      "slug": "nyt-games-hint-service-ecosystem",
-      "title": "NYT Games Hint Service Ecosystem",
-      "subtitle": "The 'Strands Hint' search volume indicates millions seeking real-time puzzle assistance. Builders can create dedicated hint APIs, browser extensions, or AI-powered puzzle solvers that integrate with NYT games. This is a recurring traffic loop with daily engagement potential.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (75%)",
-      "keywords": [
-        "strands hint",
-        "NYT games",
-        "puzzle solver",
-        "word game hints",
-        "daily puzzle tool"
-      ],
-      "number": "+1000%",
-      "trend": "Surging",
-      "meta": "Window: ~2 weeks  |  Confidence: 75%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=strands+hint"
-        }
-      ]
-    },
-    {
-      "slug": "real-time-market-futures-data-products",
-      "title": "Real-Time Market Futures Data Products",
-      "subtitle": "S&P 500 Futures search volume spikes signal retail investor demand for instant market insights. The opportunity lies in creating lightweight, real-time futures trackers, sentiment analysis dashboards, or mobile alert systems that deliver actionable market signals before mainstream media catches up.",
-      "tag": "Info Arbitrage",
-      "strength": "Moderate (62%)",
-      "keywords": [
-        "S&P 500 futures",
-        "market data API",
-        "retail trading tools",
-        "futures tracker",
-        "market sentiment"
-      ],
-      "number": "+200%",
-      "trend": "Rising",
-      "meta": "Window: ~4 weeks  |  Confidence: 62%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=s%26p+500+futures"
-        }
-      ]
-    },
-    {
-      "slug": "golf-tournament-withdrawal-tracker",
-      "title": "Golf Tournament Withdrawal Tracker",
-      "subtitle": "The Wyndham Championship player withdrawals search spike reveals a niche but passionate audience of golf bettors and fantasy players. A specialized tool tracking player withdrawals, injury reports, and lineup changes in real-time would serve a dedicated community seeking an informational edge.",
-      "tag": "Traffic Breakout",
-      "strength": "Moderate (55%)",
-      "keywords": [
-        "golf withdrawals",
-        "wyndham championship",
-        "PGA tracker",
-        "fantasy golf",
-        "player news"
-      ],
-      "number": "+100%",
-      "trend": "Spike",
-      "meta": "Window: ~1 week  |  Confidence: 55%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=wyndham+championship+player+withdrawals"
         }
       ]
     }

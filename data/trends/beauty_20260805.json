@@ -1,0 +1,418 @@
+{
+  "category": "beauty",
+  "fetch_date": "2026-08-05T11:20:49.034550+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "glass skin",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        33,
+        32,
+        32,
+        28,
+        30,
+        32,
+        28,
+        23,
+        24,
+        23,
+        20,
+        27,
+        41,
+        32,
+        28,
+        19,
+        22,
+        22,
+        24,
+        25,
+        24,
+        23,
+        22,
+        28,
+        23,
+        25,
+        24,
+        22,
+        22,
+        22
+      ],
+      "avg_interest": 47.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "how to remove adhesive from glass",
+            "value": 750
+          },
+          {
+            "query": "how to remove stickers from glass",
+            "value": 80
+          }
+        ],
+        "top": [
+          {
+            "query": "glass skin cream",
+            "value": 100
+          },
+          {
+            "query": "glass skin serum",
+            "value": 90
+          },
+          {
+            "query": "glass skin foundation",
+            "value": 75
+          },
+          {
+            "query": "glass skin mask",
+            "value": 74
+          },
+          {
+            "query": "korean glass skin",
+            "value": 74
+          },
+          {
+            "query": "what is glass skin",
+            "value": 63
+          },
+          {
+            "query": "glass skin loreal",
+            "value": 51
+          },
+          {
+            "query": "glass skin facial",
+            "value": 42
+          },
+          {
+            "query": "glass skin products",
+            "value": 39
+          },
+          {
+            "query": "glass skin treatment",
+            "value": 38
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-05T11:20:26.144228+00:00"
+    },
+    {
+      "keyword": "nano hydroxyapatite toothpaste",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        70,
+        68,
+        49,
+        40,
+        44,
+        48,
+        38,
+        42,
+        51,
+        53,
+        47,
+        42,
+        78,
+        49,
+        40,
+        34,
+        34,
+        34,
+        39,
+        38,
+        38,
+        44,
+        41,
+        35,
+        37,
+        37,
+        32,
+        31,
+        35,
+        40
+      ],
+      "avg_interest": 60.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "kugig toothpaste",
+            "value": 22500
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 14650
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 600
+          },
+          {
+            "query": "is fluoride bad for you",
+            "value": 250
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste reddit",
+            "value": 100
+          },
+          {
+            "query": "nobs toothpaste",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "boka toothpaste",
+            "value": 100
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 70
+          },
+          {
+            "query": "best toothpaste",
+            "value": 69
+          },
+          {
+            "query": "10 nano hydroxyapatite",
+            "value": 37
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste",
+            "value": 37
+          },
+          {
+            "query": "what is nano hydroxyapatite",
+            "value": 31
+          },
+          {
+            "query": "mouthology nano hydroxyapatite toothpaste",
+            "value": 26
+          },
+          {
+            "query": "davids nano hydroxyapatite toothpaste",
+            "value": 19
+          },
+          {
+            "query": "nano hydroxyapatite toothpaste reddit",
+            "value": 16
+          },
+          {
+            "query": "nobs toothpaste",
+            "value": 7
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-05T11:20:31.984767+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "beet gummies benefits",
+            "value": 100
+          },
+          {
+            "query": "super beet gummies",
+            "value": 73
+          },
+          {
+            "query": "goli beet gummies",
+            "value": 66
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 58
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-05T11:20:37.356444+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        55,
+        48,
+        48,
+        45,
+        62,
+        66,
+        77,
+        62,
+        51,
+        73,
+        39,
+        57,
+        0,
+        56,
+        53,
+        45,
+        50,
+        43,
+        47,
+        50,
+        48,
+        47,
+        48,
+        44,
+        44,
+        42,
+        47,
+        46,
+        43,
+        44
+      ],
+      "avg_interest": 61.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "toe soacers",
+            "value": 23200
+          },
+          {
+            "query": "pact cotton underwear",
+            "value": 6650
+          },
+          {
+            "query": "gait happens",
+            "value": 180
+          },
+          {
+            "query": "wide toe box shoes",
+            "value": 170
+          },
+          {
+            "query": "pedifix visco-gel toe spacers",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "bunions",
+            "value": 100
+          },
+          {
+            "query": "gel toe spacers",
+            "value": 99
+          },
+          {
+            "query": "toe shoes",
+            "value": 94
+          },
+          {
+            "query": "best toe spacers",
+            "value": 89
+          },
+          {
+            "query": "silicone toe spacers",
+            "value": 79
+          },
+          {
+            "query": "bunion",
+            "value": 76
+          },
+          {
+            "query": "bunion toe spacers",
+            "value": 76
+          },
+          {
+            "query": "correct toe spacers",
+            "value": 68
+          },
+          {
+            "query": "toe spacers for bunions",
+            "value": 59
+          },
+          {
+            "query": "correct toes",
+            "value": 54
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-05T11:20:42.843107+00:00"
+    },
+    {
+      "keyword": "scalp serum",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        47,
+        55,
+        46,
+        45,
+        41,
+        47,
+        45,
+        43,
+        38,
+        38,
+        36,
+        36,
+        66,
+        40,
+        39,
+        32,
+        31,
+        35,
+        33,
+        34,
+        34,
+        36,
+        32,
+        30,
+        32,
+        38,
+        38,
+        29,
+        33,
+        33
+      ],
+      "avg_interest": 56.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-05T11:20:49.033373+00:00"
+    }
+  ]
+}
