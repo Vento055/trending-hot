@@ -1,6 +1,114 @@
 {
   "signals": [
     {
+      "slug": "brooks-koepka-liv-golf-content-play",
+      "title": "Brooks Koepka's LIV Golf Comeback Story Content Engine",
+      "subtitle": "Koepka's resurgence and polarizing LIV Golf move continue to drive massive search interest, creating a prime opportunity for sports content creators to build commentary, highlight reels, and betting analysis channels around his every tournament appearance.",
+      "tag": "Content Goldmine",
+      "strength": "Strong (85%)",
+      "keywords": [
+        "brooks koepka",
+        "liv golf",
+        "koepka highlights",
+        "golf betting tips",
+        "pga vs liv"
+      ],
+      "number": "+312%",
+      "trend": "Spike",
+      "meta": "Window: ~4 weeks  |  Confidence: 85%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=brooks%20koepka"
+        },
+        {
+          "label": "LIV Golf",
+          "url": "https://www.livgolf.com/"
+        }
+      ]
+    },
+    {
+      "slug": "nfl-preseason-schedule-investor-tracker",
+      "title": "NFL Preseason Schedule & Rookie Watch Data Hub",
+      "subtitle": "With preseason games approaching, fans and fantasy players are flooding search engines for schedules and rookie performance data. A dedicated tracker hub aggregating schedules, depth charts, and standout rookie stats would capture massive organic traffic and ad revenue during the football season ramp-up.",
+      "tag": "Traffic Breakout",
+      "strength": "Very Strong (90%)",
+      "keywords": [
+        "nfl preseason schedule",
+        "nfl preseason 2024",
+        "rookie tracker",
+        "fantasy football draft",
+        "nfl depth chart"
+      ],
+      "number": "+450%",
+      "trend": "Surging",
+      "meta": "Window: ~8 weeks  |  Confidence: 90%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=nfl%20preseason%20schedule"
+        },
+        {
+          "label": "NFL.com",
+          "url": "https://www.nfl.com/schedules/preseason/"
+        }
+      ]
+    },
+    {
+      "slug": "ariana-madix-vanderpump-narrative-newsletter",
+      "title": "Ariana Madix & Vanderpump Rules Aftermath Content Subscription",
+      "subtitle": "Ariana Madix remains a cultural phenomenon post-Scandoval, with sustained search interest in her career moves and personal brand. A curated newsletter or video series tracking her business ventures, appearances, and fan reactions could monetize through paid subscriptions and sponsored brand deals.",
+      "tag": "Info Arbitrage",
+      "strength": "Strong (78%)",
+      "keywords": [
+        "ariana madix",
+        "vanderpump rules",
+        "survivor ariana",
+        "madix business",
+        "reality tv news"
+      ],
+      "number": "+198%",
+      "trend": "Rising",
+      "meta": "Window: ~6 weeks  |  Confidence: 78%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=ariana%20madix"
+        },
+        {
+          "label": "People.com",
+          "url": "https://people.com/tag/ariana-madix/"
+        }
+      ]
+    },
+    {
+      "slug": "mlb-wild-card-standings-live-betting-feed",
+      "title": "MLB Wild Card Standings Real-Time Alert & Betting Signal Service",
+      "subtitle": "Baseball fans and bettors are actively tracking wild card races as the season tightens. A real-time standings dashboard with playoff probability updates, streak analysis, and betting line movements would serve a high-intent audience, monetizable via premium alerts and affiliate betting links.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (82%)",
+      "keywords": [
+        "mlb wild card standings",
+        "mlb playoff race",
+        "baseball betting",
+        "mlb live scores",
+        "wild card odds"
+      ],
+      "number": "+275%",
+      "trend": "Surging",
+      "meta": "Window: ~10 weeks  |  Confidence: 82%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=mlb%20wild%20card%20standings"
+        },
+        {
+          "label": "MLB Standings",
+          "url": "https://www.mlb.com/standings/"
+        }
+      ]
+    },
+    {
       "slug": "nara-smith-commentary-ecosystem",
       "title": "Nara Smith Commentary & Reaction Content Ecosystem",
       "subtitle": "Nara Smith's viral presence is driving massive search interest, creating a window for creators to build commentary channels, reaction content, and analysis series. The opportunity extends to product placement breakdowns and lifestyle brand comparisons, capitalizing on audience curiosity about her rapid rise and content style.",
@@ -105,114 +213,6 @@
         {
           "label": "SEC EDGAR",
           "url": "https://www.sec.gov/edgar"
-        }
-      ]
-    },
-    {
-      "slug": "meghan-markle-lifestyle-brand-content-play",
-      "title": "Meghan Markle Lifestyle Brand Content Play",
-      "subtitle": "Meghan Markle's news cycle is surging, driven by her lifestyle brand launch and public appearances. For creators, this is a prime moment for commentary, style breakdowns, and brand analysis content that taps into high search volume and audience engagement.",
-      "tag": "Content Goldmine",
-      "strength": "Very Strong (85%)",
-      "keywords": [
-        "Meghan Markle",
-        "lifestyle brand",
-        "royal family",
-        "celebrity news",
-        "brand launch"
-      ],
-      "number": "+420%",
-      "trend": "Surging",
-      "meta": "Window: ~4 weeks  |  Confidence: 85%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=meghan+markle&date=now+7-d"
-        },
-        {
-          "label": "People",
-          "url": "https://people.com/"
-        }
-      ]
-    },
-    {
-      "slug": "cleveland-sirens-real-time-alert-app",
-      "title": "Cleveland Sirens Real-Time Alert App",
-      "subtitle": "The 'cleveland sirens' search spike indicates a localized demand for real-time emergency information. A hyper-local alert aggregator or a dedicated social media page tracking siren activity could capture this traffic and serve a community need.",
-      "tag": "Product Opportunity",
-      "strength": "Moderate (65%)",
-      "keywords": [
-        "cleveland",
-        "sirens",
-        "emergency alerts",
-        "local news",
-        "public safety"
-      ],
-      "number": "+250%",
-      "trend": "Spike",
-      "meta": "Window: ~2 weeks  |  Confidence: 65%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=cleveland+sirens&date=now+7-d"
-        },
-        {
-          "label": "Cleveland.com",
-          "url": "https://www.cleveland.com/"
-        }
-      ]
-    },
-    {
-      "slug": "zay-flowers-nfl-rookie-investment-tracker",
-      "title": "Zay Flowers NFL Rookie Investment Tracker",
-      "subtitle": "Zay Flowers' rising search score points to growing interest in his NFL performance. A dedicated stats tracker, fantasy football insight hub, or merchandise affiliate site focused on his career could monetize this early-stage fandom.",
-      "tag": "Info Arbitrage",
-      "strength": "Moderate (60%)",
-      "keywords": [
-        "Zay Flowers",
-        "NFL",
-        "fantasy football",
-        "rookie",
-        "stats"
-      ],
-      "number": "+180%",
-      "trend": "Rising",
-      "meta": "Window: ~8 weeks  |  Confidence: 60%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=zay+flowers&date=now+7-d"
-        },
-        {
-          "label": "NFL",
-          "url": "https://www.nfl.com/"
-        }
-      ]
-    },
-    {
-      "slug": "cyberattack-live-threat-map-data-feed",
-      "title": "Cyberattack Live Threat Map Data Feed",
-      "subtitle": "The 'cyberattack' search spike reflects ongoing public concern. A real-time, user-friendly threat map or a simplified data feed for non-enterprise users could turn this fear into a product, offering security insights for individuals and small businesses.",
-      "tag": "Product Opportunity",
-      "strength": "Moderate (70%)",
-      "keywords": [
-        "cyberattack",
-        "threat map",
-        "cybersecurity",
-        "data feed",
-        "security"
-      ],
-      "number": "+300%",
-      "trend": "Spike",
-      "meta": "Window: ~3 weeks  |  Confidence: 70%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=cyberattack&date=now+7-d"
-        },
-        {
-          "label": "CISA",
-          "url": "https://www.cisa.gov/"
         }
       ]
     }
