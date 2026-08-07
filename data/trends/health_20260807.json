@@ -1,0 +1,108 @@
+{
+  "category": "health",
+  "fetch_date": "2026-08-07T10:01:11.821390+00:00",
+  "total_keywords": 5,
+  "source": "google_trends_rss",
+  "data": [
+    {
+      "keyword": "hospital",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "US",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        200
+      ],
+      "avg_interest": 200,
+      "peak_interest": 200,
+      "trend_direction": "rising",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-07T10:01:11.821232+00:00"
+    },
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-07T10:01:11.821243+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-07T10:01:11.821247+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-07T10:01:11.821253+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-08-07T10:01:11.821262+00:00"
+    }
+  ]
+}

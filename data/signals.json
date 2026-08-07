@@ -1,6 +1,114 @@
 {
   "signals": [
     {
+      "slug": "car-accident-attorney-lead-gen-playbook",
+      "title": "Car Accident Attorney High-Intent Lead Generation",
+      "subtitle": "Car accident attorney searches are spiking, indicating a surge in personal injury claims and legal service demand — a prime opportunity for legal-tech builders and SEO-focused content creators to capture high-value leads.",
+      "tag": "Traffic Breakout",
+      "strength": "Strong (78%)",
+      "keywords": [
+        "car accident lawyer",
+        "personal injury attorney",
+        "accident claim",
+        "legal lead gen",
+        "injury settlement"
+      ],
+      "number": "+150%",
+      "trend": "Surging",
+      "meta": "Window: ~4 weeks  |  Confidence: 78%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=car+accident+attorney"
+        },
+        {
+          "label": "Law Firm Marketing Insights",
+          "url": "https://www.lawfirmmarketinginsights.com/"
+        }
+      ]
+    },
+    {
+      "slug": "ireland-vs-afghanistan-cricket-match-hub",
+      "title": "Ireland vs Afghanistan Cricket Match Hub",
+      "subtitle": "The 'ire vs afg' search spike signals a growing audience for live cricket match updates, fantasy leagues, and betting odds. Builders can create a real-time match tracker or content creators can produce pre/post-match analysis to capture this engaged sports niche.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (72%)",
+      "keywords": [
+        "ire vs afg live",
+        "cricket match score",
+        "IRE AFG fantasy",
+        "cricket betting odds",
+        "Afghanistan vs Ireland"
+      ],
+      "number": "+120%",
+      "trend": "Spike",
+      "meta": "Window: ~2 weeks  |  Confidence: 72%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=ire+vs+afg"
+        },
+        {
+          "label": "ESPN Cricinfo",
+          "url": "https://www.espncricinfo.com/"
+        }
+      ]
+    },
+    {
+      "slug": "deportation-immigration-news-tracker",
+      "title": "Deportation Policy & Immigration News Tracker",
+      "subtitle": "The 'deportación' search spike reflects heightened public concern around immigration policy. This is a timely opportunity for news aggregators, legal aid platforms, and content creators to provide accurate, real-time updates and resources for affected communities.",
+      "tag": "Info Arbitrage",
+      "strength": "Moderate (65%)",
+      "keywords": [
+        "deportation news",
+        "immigration policy",
+        "ICE updates",
+        "immigration lawyer",
+        "deportation defense"
+      ],
+      "number": "+90%",
+      "trend": "Rising",
+      "meta": "Window: ~6 weeks  |  Confidence: 65%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=deportaci%C3%B3n"
+        },
+        {
+          "label": "USCIS",
+          "url": "https://www.uscis.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "san-diego-lightning-storm-alert-service",
+      "title": "San Diego Lightning Storm Alert Service",
+      "subtitle": "The 'lightning san diego' search spike indicates a rare weather event capturing local attention. A hyper-local weather alert service or live storm-tracking content hub can monetize through ads, sponsorships, or premium alerts for this niche audience.",
+      "tag": "Content Goldmine",
+      "strength": "Moderate (58%)",
+      "keywords": [
+        "san diego lightning",
+        "storm warning",
+        "san diego weather",
+        "lightning tracker",
+        "CA thunderstorm"
+      ],
+      "number": "+70%",
+      "trend": "Spike",
+      "meta": "Window: ~1 week  |  Confidence: 58%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=lightning+san+diego"
+        },
+        {
+          "label": "National Weather Service",
+          "url": "https://www.weather.gov/sgx/"
+        }
+      ]
+    },
+    {
       "slug": "brooks-koepka-liv-golf-content-play",
       "title": "Brooks Koepka's LIV Golf Comeback Story Content Engine",
       "subtitle": "Koepka's resurgence and polarizing LIV Golf move continue to drive massive search interest, creating a prime opportunity for sports content creators to build commentary, highlight reels, and betting analysis channels around his every tournament appearance.",
@@ -105,114 +213,6 @@
         {
           "label": "MLB Standings",
           "url": "https://www.mlb.com/standings/"
-        }
-      ]
-    },
-    {
-      "slug": "nara-smith-commentary-ecosystem",
-      "title": "Nara Smith Commentary & Reaction Content Ecosystem",
-      "subtitle": "Nara Smith's viral presence is driving massive search interest, creating a window for creators to build commentary channels, reaction content, and analysis series. The opportunity extends to product placement breakdowns and lifestyle brand comparisons, capitalizing on audience curiosity about her rapid rise and content style.",
-      "tag": "Content Goldmine",
-      "strength": "Strong (78%)",
-      "keywords": [
-        "nara smith",
-        "nara smith content",
-        "nara smith reaction",
-        "nara smith analysis",
-        "nara smith lifestyle"
-      ],
-      "number": "+890%",
-      "trend": "Surging",
-      "meta": "Window: ~4 weeks  |  Confidence: 82%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=nara%20smith"
-        },
-        {
-          "label": "TikTok Creative Center",
-          "url": "https://ads.tiktok.com/business/creativecenter"
-        }
-      ]
-    },
-    {
-      "slug": "uber-stock-retail-trading-signals",
-      "title": "Uber Stock Retail Trading Signal Dashboard",
-      "subtitle": "Spikes in 'uber stock' searches indicate retail investor interest outpacing institutional coverage. Build a real-time dashboard that tracks Uber's price action, news sentiment, and options flow specifically for retail traders. The product can monetize through subscriptions, sponsored alerts, or affiliate brokerage links, filling a gap for accessible, focused equities data.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (74%)",
-      "keywords": [
-        "uber stock",
-        "uber stock price",
-        "uber stock forecast",
-        "uber earnings",
-        "uber stock news"
-      ],
-      "number": "+450%",
-      "trend": "Rising",
-      "meta": "Window: ~6 weeks  |  Confidence: 76%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=uber%20stock"
-        },
-        {
-          "label": "StockTwits",
-          "url": "https://stocktwits.com/symbol/UBER"
-        }
-      ]
-    },
-    {
-      "slug": "rivian-r2-preorder-insight-hub",
-      "title": "Rivian R2 Preorder & Spec Tracker Hub",
-      "subtitle": "Search interest in 'Rivian R2' signals early demand for the upcoming vehicle. Build a centralized hub aggregating leaked specs, preorder timelines, pricing rumors, and reservation data. This can serve EV enthusiasts and potential investors, monetizing through display ads, affiliate links for reservations, or a premium tier with insider updates and community access.",
-      "tag": "Info Arbitrage",
-      "strength": "Moderate (69%)",
-      "keywords": [
-        "rivian r2",
-        "rivian r2 price",
-        "rivian r2 release date",
-        "rivian r2 specs",
-        "rivian r2 reservation"
-      ],
-      "number": "+320%",
-      "trend": "Rising",
-      "meta": "Window: ~8 weeks  |  Confidence: 71%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=rivian%20r2"
-        },
-        {
-          "label": "Rivian Forums",
-          "url": "https://www.rivianforums.com"
-        }
-      ]
-    },
-    {
-      "slug": "michael-burry-bearish-signal-alerts",
-      "title": "Michael Burry Bearish Signal Alert Service",
-      "subtitle": "Searches for 'Michael Burry bearish market view' reveal a niche audience seeking contrarian investment signals. Create a subscription-based alert service that tracks Burry's public filings, social media posts, and interview mentions, converting them into actionable market warnings. The scarcity of this focused intelligence creates premium pricing potential for investors and content creators.",
-      "tag": "Info Arbitrage",
-      "strength": "Moderate (66%)",
-      "keywords": [
-        "michael burry",
-        "michael burry bearish",
-        "burry market view",
-        "scion asset management",
-        "contrarian investing"
-      ],
-      "number": "+210%",
-      "trend": "Spike",
-      "meta": "Window: ~3 weeks  |  Confidence: 68%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=michael%20burry%20bearish"
-        },
-        {
-          "label": "SEC EDGAR",
-          "url": "https://www.sec.gov/edgar"
         }
       ]
     }

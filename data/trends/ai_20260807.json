@@ -1,0 +1,28 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-08-07T10:00:56.016114+00:00",
+  "total_keywords": 1,
+  "source": "signals_fallback",
+  "data": [
+    {
+      "keyword": "Car Accident Attorney High-Intent Lead Generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-07T10:00:56.015951+00:00"
+    }
+  ]
+}
