@@ -1,6 +1,114 @@
 {
   "signals": [
     {
+      "slug": "nyc-travel-recovery-content-engine",
+      "title": "NYC Travel Recovery Content Engine",
+      "subtitle": "New York is the highest-volume search term in this dataset by a massive margin, signaling a major spike in travel intent. This creates a prime opportunity for a content platform covering NYC attractions, hidden gems, and practical travel guides to capture commercial traffic from tourists and business travelers planning trips.",
+      "tag": "Traffic Breakout",
+      "strength": "Very Strong (95%)",
+      "keywords": [
+        "new york travel",
+        "new york attractions",
+        "nyc guide",
+        "things to do in nyc",
+        "new york hotels"
+      ],
+      "number": "+400%",
+      "trend": "Surging",
+      "meta": "Window: ~4 weeks  |  Confidence: 95%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=new+york"
+        },
+        {
+          "label": "NYC Tourism Data",
+          "url": "https://www.nycgo.com/research"
+        }
+      ]
+    },
+    {
+      "slug": "esports-lck-schedule-analytics-platform",
+      "title": "LCK Esports Schedule & Analytics Platform",
+      "subtitle": "The LCK (League of Legends Champions Korea) and player T1 Oner are both trending at 100, showing a concentrated spike in esports interest. This is an opportunity for a dedicated data hub providing match schedules, player stats, and fantasy league integrations for the LCK season, monetizable via premium subscriptions and betting affiliate links.",
+      "tag": "Product Opportunity",
+      "strength": "Strong (85%)",
+      "keywords": [
+        "LCK schedule",
+        "T1 Oner",
+        "League of Legends Korea",
+        "LCK standings",
+        "esports analytics"
+      ],
+      "number": "+250%",
+      "trend": "Rising",
+      "meta": "Window: ~8 weeks  |  Confidence: 85%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=LCK"
+        },
+        {
+          "label": "LCK Official",
+          "url": "https://lck.lolesports.com/"
+        }
+      ]
+    },
+    {
+      "slug": "bleach-anime-resurgence-newsletter",
+      "title": "Bleach Anime Resurgence Newsletter",
+      "subtitle": "Bleach is trending alongside other entertainment topics, indicating renewed interest likely driven by new season announcements or streaming availability. A curated newsletter or content channel tracking Bleach news, episode breakdowns, and merchandise drops can monetize through fan subscriptions, affiliate revenue, and sponsored content from anime brands.",
+      "tag": "Content Goldmine",
+      "strength": "Strong (80%)",
+      "keywords": [
+        "Bleach new season",
+        "Bleach anime",
+        "Bleach merchandise",
+        "Bleach episode guide",
+        "Bleach news"
+      ],
+      "number": "+180%",
+      "trend": "Spike",
+      "meta": "Window: ~6 weeks  |  Confidence: 80%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=bleach"
+        },
+        {
+          "label": "Anime News Network",
+          "url": "https://www.animenewsnetwork.com/"
+        }
+      ]
+    },
+    {
+      "slug": "smart-hotel-deal-alert-service",
+      "title": "Smart Hotel Deal Alert Service",
+      "subtitle": "Hotel searches are surging, correlating with the NYC travel spike but representing a broader vertical. A deal discovery service that tracks hotel price drops, flash sales, and loyalty program bonuses can capture high-intent users. Monetization via affiliate commissions and premium alerts for frequent travelers makes this a scalable recurring revenue play.",
+      "tag": "Info Arbitrage",
+      "strength": "Strong (78%)",
+      "keywords": [
+        "hotel deals",
+        "hotel price drop",
+        "hotel booking tips",
+        "best hotel rates",
+        "hotel flash sale"
+      ],
+      "number": "+150%",
+      "trend": "Rising",
+      "meta": "Window: ~5 weeks  |  Confidence: 78%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=hotel"
+        },
+        {
+          "label": "Hotel News Now",
+          "url": "https://www.hotelnewsnow.com/"
+        }
+      ]
+    },
+    {
       "slug": "car-accident-attorney-lead-gen-playbook",
       "title": "Car Accident Attorney High-Intent Lead Generation",
       "subtitle": "Car accident attorney searches are spiking, indicating a surge in personal injury claims and legal service demand — a prime opportunity for legal-tech builders and SEO-focused content creators to capture high-value leads.",
@@ -105,114 +213,6 @@
         {
           "label": "National Weather Service",
           "url": "https://www.weather.gov/sgx/"
-        }
-      ]
-    },
-    {
-      "slug": "brooks-koepka-liv-golf-content-play",
-      "title": "Brooks Koepka's LIV Golf Comeback Story Content Engine",
-      "subtitle": "Koepka's resurgence and polarizing LIV Golf move continue to drive massive search interest, creating a prime opportunity for sports content creators to build commentary, highlight reels, and betting analysis channels around his every tournament appearance.",
-      "tag": "Content Goldmine",
-      "strength": "Strong (85%)",
-      "keywords": [
-        "brooks koepka",
-        "liv golf",
-        "koepka highlights",
-        "golf betting tips",
-        "pga vs liv"
-      ],
-      "number": "+312%",
-      "trend": "Spike",
-      "meta": "Window: ~4 weeks  |  Confidence: 85%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=brooks%20koepka"
-        },
-        {
-          "label": "LIV Golf",
-          "url": "https://www.livgolf.com/"
-        }
-      ]
-    },
-    {
-      "slug": "nfl-preseason-schedule-investor-tracker",
-      "title": "NFL Preseason Schedule & Rookie Watch Data Hub",
-      "subtitle": "With preseason games approaching, fans and fantasy players are flooding search engines for schedules and rookie performance data. A dedicated tracker hub aggregating schedules, depth charts, and standout rookie stats would capture massive organic traffic and ad revenue during the football season ramp-up.",
-      "tag": "Traffic Breakout",
-      "strength": "Very Strong (90%)",
-      "keywords": [
-        "nfl preseason schedule",
-        "nfl preseason 2024",
-        "rookie tracker",
-        "fantasy football draft",
-        "nfl depth chart"
-      ],
-      "number": "+450%",
-      "trend": "Surging",
-      "meta": "Window: ~8 weeks  |  Confidence: 90%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=nfl%20preseason%20schedule"
-        },
-        {
-          "label": "NFL.com",
-          "url": "https://www.nfl.com/schedules/preseason/"
-        }
-      ]
-    },
-    {
-      "slug": "ariana-madix-vanderpump-narrative-newsletter",
-      "title": "Ariana Madix & Vanderpump Rules Aftermath Content Subscription",
-      "subtitle": "Ariana Madix remains a cultural phenomenon post-Scandoval, with sustained search interest in her career moves and personal brand. A curated newsletter or video series tracking her business ventures, appearances, and fan reactions could monetize through paid subscriptions and sponsored brand deals.",
-      "tag": "Info Arbitrage",
-      "strength": "Strong (78%)",
-      "keywords": [
-        "ariana madix",
-        "vanderpump rules",
-        "survivor ariana",
-        "madix business",
-        "reality tv news"
-      ],
-      "number": "+198%",
-      "trend": "Rising",
-      "meta": "Window: ~6 weeks  |  Confidence: 78%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=ariana%20madix"
-        },
-        {
-          "label": "People.com",
-          "url": "https://people.com/tag/ariana-madix/"
-        }
-      ]
-    },
-    {
-      "slug": "mlb-wild-card-standings-live-betting-feed",
-      "title": "MLB Wild Card Standings Real-Time Alert & Betting Signal Service",
-      "subtitle": "Baseball fans and bettors are actively tracking wild card races as the season tightens. A real-time standings dashboard with playoff probability updates, streak analysis, and betting line movements would serve a high-intent audience, monetizable via premium alerts and affiliate betting links.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (82%)",
-      "keywords": [
-        "mlb wild card standings",
-        "mlb playoff race",
-        "baseball betting",
-        "mlb live scores",
-        "wild card odds"
-      ],
-      "number": "+275%",
-      "trend": "Surging",
-      "meta": "Window: ~10 weeks  |  Confidence: 82%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=mlb%20wild%20card%20standings"
-        },
-        {
-          "label": "MLB Standings",
-          "url": "https://www.mlb.com/standings/"
         }
       ]
     }

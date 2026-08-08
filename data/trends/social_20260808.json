@@ -1,0 +1,305 @@
+{
+  "category": "social",
+  "fetch_date": "2026-08-08T09:39:09.513997+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        70,
+        66,
+        63,
+        70,
+        63,
+        57,
+        58,
+        65,
+        60,
+        100,
+        72,
+        66,
+        63,
+        65,
+        65,
+        57,
+        55,
+        62,
+        59,
+        55,
+        57,
+        55,
+        53,
+        49,
+        51,
+        55,
+        52,
+        56,
+        55,
+        61
+      ],
+      "avg_interest": 72.2,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "help me unlock tiktok shop rewards — you can unlock your own free gifts too. terms & conditions apply.",
+            "value": 5350
+          },
+          {
+            "query": "tiktok shop partner center",
+            "value": 60
+          },
+          {
+            "query": "kalodata",
+            "value": 50
+          },
+          {
+            "query": "tiktok shop creator center",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "seller tiktok shop",
+            "value": 100
+          },
+          {
+            "query": "tiktok seller",
+            "value": 97
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 46
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 44
+          },
+          {
+            "query": "seller center tiktok shop",
+            "value": 42
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 42
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 37
+          },
+          {
+            "query": "tiktok shop app",
+            "value": 35
+          },
+          {
+            "query": "tiktok shop live",
+            "value": 35
+          },
+          {
+            "query": "tiktok shop uk",
+            "value": 32
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-08T09:38:48.240088+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        67,
+        62,
+        60,
+        53,
+        43,
+        46,
+        39,
+        40,
+        48,
+        68,
+        51,
+        42,
+        46,
+        51,
+        50,
+        38,
+        41,
+        38,
+        39,
+        36,
+        33,
+        33,
+        40,
+        40,
+        33,
+        34,
+        35,
+        32,
+        30,
+        28
+      ],
+      "avg_interest": 70.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "download video threads app tanpa watermark",
+            "value": 29700
+          },
+          {
+            "query": "threads app and threatmap",
+            "value": 13450
+          },
+          {
+            "query": "threads app download apk",
+            "value": 160
+          }
+        ],
+        "top": [
+          {
+            "query": "instagram threads app",
+            "value": 100
+          },
+          {
+            "query": "download threads app",
+            "value": 83
+          },
+          {
+            "query": "threads app review",
+            "value": 73
+          },
+          {
+            "query": "threads app meta",
+            "value": 73
+          },
+          {
+            "query": "what is threads app",
+            "value": 67
+          },
+          {
+            "query": "threads app free",
+            "value": 65
+          },
+          {
+            "query": "what is the threads app",
+            "value": 33
+          },
+          {
+            "query": "is threads app free",
+            "value": 13
+          },
+          {
+            "query": "how to use threads app",
+            "value": 13
+          },
+          {
+            "query": "threads app download apk",
+            "value": 12
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-08T09:38:54.983441+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        32,
+        27,
+        25,
+        54,
+        42,
+        33,
+        32,
+        26,
+        26,
+        45,
+        30,
+        22,
+        25,
+        25,
+        27,
+        21,
+        22,
+        23,
+        22,
+        20,
+        19,
+        20,
+        21,
+        21,
+        18,
+        20,
+        21,
+        19,
+        19,
+        18
+      ],
+      "avg_interest": 31.1,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-08T09:38:59.857163+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-08T09:39:04.664227+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-08T09:39:09.513154+00:00"
+    }
+  ]
+}
