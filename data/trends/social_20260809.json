@@ -1,0 +1,379 @@
+{
+  "category": "social",
+  "fetch_date": "2026-08-09T09:40:22.873875+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        68,
+        61,
+        75,
+        57,
+        57,
+        58,
+        57,
+        59,
+        100,
+        70,
+        64,
+        60,
+        64,
+        63,
+        59,
+        53,
+        60,
+        58,
+        56,
+        57,
+        53,
+        51,
+        49,
+        51,
+        56,
+        51,
+        56,
+        55,
+        52,
+        59
+      ],
+      "avg_interest": 70.4,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-09T09:39:58.312157+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "download video threads app tanpa watermark",
+            "value": 31850
+          },
+          {
+            "query": "threads app and threatmap",
+            "value": 12950
+          },
+          {
+            "query": "threads app download apk",
+            "value": 170
+          },
+          {
+            "query": "threads app icon",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "instagram threads app",
+            "value": 100
+          },
+          {
+            "query": "threads app download",
+            "value": 82
+          },
+          {
+            "query": "threads app meta",
+            "value": 71
+          },
+          {
+            "query": "threads app review",
+            "value": 71
+          },
+          {
+            "query": "what is threads app",
+            "value": 66
+          },
+          {
+            "query": "threads app free",
+            "value": 63
+          },
+          {
+            "query": "download video threads app",
+            "value": 37
+          },
+          {
+            "query": "is threads app free",
+            "value": 13
+          },
+          {
+            "query": "how to use threads app",
+            "value": 13
+          },
+          {
+            "query": "threads app download apk",
+            "value": 11
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-09T09:40:05.048531+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-09T09:40:11.475654+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        46,
+        46,
+        48,
+        37,
+        39,
+        29,
+        27,
+        29,
+        100,
+        51,
+        35,
+        33,
+        33,
+        34,
+        32,
+        20,
+        23,
+        23,
+        21,
+        17,
+        17,
+        19,
+        15,
+        19,
+        18,
+        16,
+        16,
+        13,
+        14,
+        16
+      ],
+      "avg_interest": 52.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "freelance jobs online",
+            "value": 5900
+          },
+          {
+            "query": "smart cities news",
+            "value": 5400
+          },
+          {
+            "query": "freelancing latest news",
+            "value": 5400
+          },
+          {
+            "query": "k-pop trending",
+            "value": 800
+          },
+          {
+            "query": "healthy cooking tools",
+            "value": 500
+          },
+          {
+            "query": "non-toxic air fryer",
+            "value": 400
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 350
+          },
+          {
+            "query": "social commerce trends",
+            "value": 60
+          },
+          {
+            "query": "ai agents",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "social commerce trends",
+            "value": 100
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 81
+          },
+          {
+            "query": "what is social commerce",
+            "value": 79
+          },
+          {
+            "query": "social commerce platform",
+            "value": 41
+          },
+          {
+            "query": "social commerce definition",
+            "value": 40
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 38
+          },
+          {
+            "query": "department of commerce",
+            "value": 31
+          },
+          {
+            "query": "social media marketing",
+            "value": 27
+          },
+          {
+            "query": "social commerce platforms",
+            "value": 24
+          },
+          {
+            "query": "social commerce companies",
+            "value": 22
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-09T09:40:16.031174+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        38,
+        38,
+        37,
+        33,
+        28,
+        22,
+        25,
+        27,
+        100,
+        38,
+        33,
+        27,
+        33,
+        29,
+        24,
+        21,
+        23,
+        22,
+        23,
+        21,
+        18,
+        20,
+        23,
+        20,
+        20,
+        18,
+        21,
+        16,
+        15,
+        19
+      ],
+      "avg_interest": 44.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "ice cream",
+            "value": 70
+          },
+          {
+            "query": "camping",
+            "value": 70
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for content creation",
+            "value": 100
+          },
+          {
+            "query": "ai tools for content creation",
+            "value": 24
+          },
+          {
+            "query": "generative ai content creation",
+            "value": 21
+          },
+          {
+            "query": "ai content creation platform",
+            "value": 12
+          },
+          {
+            "query": "best ai tools for content creation",
+            "value": 12
+          },
+          {
+            "query": "ai for social media content creation",
+            "value": 10
+          },
+          {
+            "query": "jobs",
+            "value": 9
+          },
+          {
+            "query": "ai content creation course",
+            "value": 8
+          },
+          {
+            "query": "travel",
+            "value": 5
+          },
+          {
+            "query": "camping",
+            "value": 1
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-09T09:40:22.873494+00:00"
+    }
+  ]
+}

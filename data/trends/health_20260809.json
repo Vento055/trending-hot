@@ -1,0 +1,108 @@
+{
+  "category": "health",
+  "fetch_date": "2026-08-09T09:40:28.327717+00:00",
+  "total_keywords": 5,
+  "source": "signals_fallback",
+  "data": [
+    {
+      "keyword": "Alaska Airlines Flight Disruption & Recovery Tracker",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-09T09:40:28.327492+00:00"
+    },
+    {
+      "keyword": "Lottery Jackpot Strategy & Payout Calculator Suite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-09T09:40:28.327514+00:00"
+    },
+    {
+      "keyword": "Britney Spears Comeback & Nostalgia Media Network",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-09T09:40:28.327521+00:00"
+    },
+    {
+      "keyword": "EV & Car News Deal Alert Service",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-09T09:40:28.327527+00:00"
+    },
+    {
+      "keyword": "NYC Travel Recovery Content Engine",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-09T09:40:28.327532+00:00"
+    }
+  ]
+}

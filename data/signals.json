@@ -1,6 +1,114 @@
 {
   "signals": [
     {
+      "slug": "alaska-airlines-operational-disruption-hub",
+      "title": "Alaska Airlines Flight Disruption & Recovery Tracker",
+      "subtitle": "A spike in searches for 'alaskaair' indicates a major operational event or customer service surge. Build a real-time tracker for flight delays, cancellations, and passenger rights resources, monetizing via affiliate travel insurance and premium alert subscriptions.",
+      "tag": "Traffic Breakout",
+      "strength": "Strong (78%)",
+      "keywords": [
+        "alaska airlines",
+        "flight delay",
+        "passenger rights",
+        "travel insurance",
+        "flight status"
+      ],
+      "number": "+500%",
+      "trend": "Spike",
+      "meta": "Window: ~2 weeks  |  Confidence: 72%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=alaskaair"
+        },
+        {
+          "label": "FlightAware",
+          "url": "https://flightaware.com/"
+        }
+      ]
+    },
+    {
+      "slug": "lottery-winner-strategies-and-tools",
+      "title": "Lottery Jackpot Strategy & Payout Calculator Suite",
+      "subtitle": "Lottery searches spike with large jackpots. Create a content hub with payout calculators, lump-sum vs annuity breakdowns, and tax implications. Monetize through lead gen for financial advisors and affiliate links to lottery ticket purchasing apps (where legal).",
+      "tag": "Product Opportunity",
+      "strength": "Very Strong (85%)",
+      "keywords": [
+        "lottery jackpot",
+        "payout calculator",
+        "lump sum vs annuity",
+        "lottery tax",
+        "winning numbers"
+      ],
+      "number": "+500%",
+      "trend": "Surging",
+      "meta": "Window: ~4 weeks  |  Confidence: 80%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=lottery"
+        },
+        {
+          "label": "Powerball",
+          "url": "https://www.powerball.com/"
+        }
+      ]
+    },
+    {
+      "slug": "britney-spears-nostalgia-content-engine",
+      "title": "Britney Spears Comeback & Nostalgia Media Network",
+      "subtitle": "A resurgence in Britney Spears searches signals renewed cultural interest. Launch a newsletter and podcast series covering her music, memoir, and fan community, monetized via Patreon memberships and sponsored merch drops.",
+      "tag": "Content Goldmine",
+      "strength": "Moderate (65%)",
+      "keywords": [
+        "britney spears",
+        "pop culture",
+        "memoir",
+        "fan community",
+        "nostalgia"
+      ],
+      "number": "+500%",
+      "trend": "Spike",
+      "meta": "Window: ~3 weeks  |  Confidence: 68%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=britney%20spears"
+        },
+        {
+          "label": "Billboard",
+          "url": "https://www.billboard.com/artist/britney-spears/"
+        }
+      ]
+    },
+    {
+      "slug": "car-news-ev-lease-deal-finder",
+      "title": "EV & Car News Deal Alert Service",
+      "subtitle": "High 'car' and 'car news' search volume indicates broad consumer interest. Build a deal-finding platform for electric vehicle leases and financing incentives, with a weekly newsletter. Monetize via dealer lead referrals and affiliate partnerships.",
+      "tag": "Info Arbitrage",
+      "strength": "Strong (75%)",
+      "keywords": [
+        "car news",
+        "EV lease deals",
+        "electric vehicle incentives",
+        "car buying tips",
+        "auto financing"
+      ],
+      "number": "+200%",
+      "trend": "Rising",
+      "meta": "Window: ~6 weeks  |  Confidence: 74%",
+      "sources": [
+        {
+          "label": "Google Trends",
+          "url": "https://trends.google.com/trends/explore?q=car%20news"
+        },
+        {
+          "label": "Edmunds",
+          "url": "https://www.edmunds.com/"
+        }
+      ]
+    },
+    {
       "slug": "nyc-travel-recovery-content-engine",
       "title": "NYC Travel Recovery Content Engine",
       "subtitle": "New York is the highest-volume search term in this dataset by a massive margin, signaling a major spike in travel intent. This creates a prime opportunity for a content platform covering NYC attractions, hidden gems, and practical travel guides to capture commercial traffic from tourists and business travelers planning trips.",
@@ -105,114 +213,6 @@
         {
           "label": "Hotel News Now",
           "url": "https://www.hotelnewsnow.com/"
-        }
-      ]
-    },
-    {
-      "slug": "car-accident-attorney-lead-gen-playbook",
-      "title": "Car Accident Attorney High-Intent Lead Generation",
-      "subtitle": "Car accident attorney searches are spiking, indicating a surge in personal injury claims and legal service demand — a prime opportunity for legal-tech builders and SEO-focused content creators to capture high-value leads.",
-      "tag": "Traffic Breakout",
-      "strength": "Strong (78%)",
-      "keywords": [
-        "car accident lawyer",
-        "personal injury attorney",
-        "accident claim",
-        "legal lead gen",
-        "injury settlement"
-      ],
-      "number": "+150%",
-      "trend": "Surging",
-      "meta": "Window: ~4 weeks  |  Confidence: 78%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=car+accident+attorney"
-        },
-        {
-          "label": "Law Firm Marketing Insights",
-          "url": "https://www.lawfirmmarketinginsights.com/"
-        }
-      ]
-    },
-    {
-      "slug": "ireland-vs-afghanistan-cricket-match-hub",
-      "title": "Ireland vs Afghanistan Cricket Match Hub",
-      "subtitle": "The 'ire vs afg' search spike signals a growing audience for live cricket match updates, fantasy leagues, and betting odds. Builders can create a real-time match tracker or content creators can produce pre/post-match analysis to capture this engaged sports niche.",
-      "tag": "Product Opportunity",
-      "strength": "Strong (72%)",
-      "keywords": [
-        "ire vs afg live",
-        "cricket match score",
-        "IRE AFG fantasy",
-        "cricket betting odds",
-        "Afghanistan vs Ireland"
-      ],
-      "number": "+120%",
-      "trend": "Spike",
-      "meta": "Window: ~2 weeks  |  Confidence: 72%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=ire+vs+afg"
-        },
-        {
-          "label": "ESPN Cricinfo",
-          "url": "https://www.espncricinfo.com/"
-        }
-      ]
-    },
-    {
-      "slug": "deportation-immigration-news-tracker",
-      "title": "Deportation Policy & Immigration News Tracker",
-      "subtitle": "The 'deportación' search spike reflects heightened public concern around immigration policy. This is a timely opportunity for news aggregators, legal aid platforms, and content creators to provide accurate, real-time updates and resources for affected communities.",
-      "tag": "Info Arbitrage",
-      "strength": "Moderate (65%)",
-      "keywords": [
-        "deportation news",
-        "immigration policy",
-        "ICE updates",
-        "immigration lawyer",
-        "deportation defense"
-      ],
-      "number": "+90%",
-      "trend": "Rising",
-      "meta": "Window: ~6 weeks  |  Confidence: 65%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=deportaci%C3%B3n"
-        },
-        {
-          "label": "USCIS",
-          "url": "https://www.uscis.gov/"
-        }
-      ]
-    },
-    {
-      "slug": "san-diego-lightning-storm-alert-service",
-      "title": "San Diego Lightning Storm Alert Service",
-      "subtitle": "The 'lightning san diego' search spike indicates a rare weather event capturing local attention. A hyper-local weather alert service or live storm-tracking content hub can monetize through ads, sponsorships, or premium alerts for this niche audience.",
-      "tag": "Content Goldmine",
-      "strength": "Moderate (58%)",
-      "keywords": [
-        "san diego lightning",
-        "storm warning",
-        "san diego weather",
-        "lightning tracker",
-        "CA thunderstorm"
-      ],
-      "number": "+70%",
-      "trend": "Spike",
-      "meta": "Window: ~1 week  |  Confidence: 58%",
-      "sources": [
-        {
-          "label": "Google Trends",
-          "url": "https://trends.google.com/trends/explore?q=lightning+san+diego"
-        },
-        {
-          "label": "National Weather Service",
-          "url": "https://www.weather.gov/sgx/"
         }
       ]
     }
