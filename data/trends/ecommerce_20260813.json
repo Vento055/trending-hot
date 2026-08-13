@@ -1,0 +1,269 @@
+{
+  "category": "ecommerce",
+  "fetch_date": "2026-08-13T10:03:36.201566+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "shopify ecosystem",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        49,
+        51,
+        0,
+        0,
+        0,
+        8,
+        6,
+        7,
+        9,
+        8,
+        8,
+        8,
+        7,
+        3,
+        6,
+        5,
+        6,
+        8,
+        6,
+        0
+      ],
+      "avg_interest": 24.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-13T10:03:14.013708+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        39,
+        30,
+        28,
+        29,
+        100,
+        53,
+        36,
+        34,
+        35,
+        34,
+        31,
+        40,
+        41,
+        41,
+        36,
+        18,
+        18,
+        19,
+        15,
+        19,
+        19,
+        16,
+        16,
+        13,
+        15,
+        15,
+        22,
+        21,
+        16,
+        16
+      ],
+      "avg_interest": 51.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-13T10:03:20.470200+00:00"
+    },
+    {
+      "keyword": "cross border ecommerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-13T10:03:25.058710+00:00"
+    },
+    {
+      "keyword": "bnpl",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        69,
+        54,
+        51,
+        47,
+        97,
+        64,
+        55,
+        53,
+        62,
+        55,
+        53,
+        42,
+        54,
+        69,
+        60,
+        50,
+        37,
+        39,
+        40,
+        46,
+        48,
+        45,
+        48,
+        40,
+        42,
+        41,
+        55,
+        51,
+        48,
+        53
+      ],
+      "avg_interest": 66.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-13T10:03:30.782791+00:00"
+    },
+    {
+      "keyword": "headless commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        19,
+        24,
+        43,
+        18,
+        100,
+        47,
+        39,
+        31,
+        31,
+        41,
+        26,
+        39,
+        19,
+        31,
+        56,
+        23,
+        25,
+        18,
+        19,
+        22,
+        13,
+        21,
+        16,
+        24,
+        14,
+        18,
+        21,
+        17,
+        16,
+        16
+      ],
+      "avg_interest": 38.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "nordvpn",
+            "value": 99800
+          }
+        ],
+        "top": [
+          {
+            "query": "best headless commerce",
+            "value": 100
+          },
+          {
+            "query": "what is headless commerce",
+            "value": 58
+          },
+          {
+            "query": "headless commerce platform",
+            "value": 53
+          },
+          {
+            "query": "headless commerce architecture",
+            "value": 32
+          },
+          {
+            "query": "headless commerce platforms",
+            "value": 28
+          },
+          {
+            "query": "headless commerce definition",
+            "value": 21
+          },
+          {
+            "query": "salesforce headless commerce",
+            "value": 20
+          },
+          {
+            "query": "headless commerce b2b",
+            "value": 19
+          },
+          {
+            "query": "enterprise headless commerce",
+            "value": 18
+          },
+          {
+            "query": "headless commerce solutions",
+            "value": 14
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-13T10:03:36.201262+00:00"
+    }
+  ]
+}
