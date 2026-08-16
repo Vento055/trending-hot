@@ -1,0 +1,245 @@
+{
+  "category": "ecommerce",
+  "fetch_date": "2026-08-16T09:26:34.752397+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "shopify ecosystem",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        86,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        9,
+        9,
+        10,
+        9,
+        0,
+        7,
+        5,
+        7,
+        9,
+        7,
+        5,
+        6,
+        0,
+        0
+      ],
+      "avg_interest": 30.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:26:13.247939+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:26:19.981616+00:00"
+    },
+    {
+      "keyword": "cross border ecommerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:26:24.255077+00:00"
+    },
+    {
+      "keyword": "bnpl",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "real comercio bnpl",
+            "value": 11900
+          },
+          {
+            "query": "uk government bnpl rules",
+            "value": 9800
+          },
+          {
+            "query": "bnpl services for essential expenses",
+            "value": 8800
+          },
+          {
+            "query": "young malaysian bnpl users",
+            "value": 7850
+          },
+          {
+            "query": "cash app afterpay bnpl",
+            "value": 120
+          },
+          {
+            "query": "bnpl repayments parramatta",
+            "value": 80
+          },
+          {
+            "query": "bnpl parramatta",
+            "value": 70
+          },
+          {
+            "query": "cpc itd bnpl",
+            "value": 70
+          },
+          {
+            "query": "bnpl ampc",
+            "value": 60
+          },
+          {
+            "query": "bnpl yogayog bhavan bo bpc",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "what is bnpl",
+            "value": 100
+          },
+          {
+            "query": "bnpl payment",
+            "value": 87
+          },
+          {
+            "query": "buy now pay later",
+            "value": 85
+          },
+          {
+            "query": "klarna",
+            "value": 81
+          },
+          {
+            "query": "klarna bnpl",
+            "value": 81
+          },
+          {
+            "query": "bnpl uk",
+            "value": 72
+          },
+          {
+            "query": "bnpl news",
+            "value": 70
+          },
+          {
+            "query": "bnpl meaning",
+            "value": 65
+          },
+          {
+            "query": "bnpl services",
+            "value": 64
+          },
+          {
+            "query": "affirm",
+            "value": 54
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:26:29.814023+00:00"
+    },
+    {
+      "keyword": "headless commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        18,
+        100,
+        64,
+        38,
+        26,
+        37,
+        39,
+        20,
+        20,
+        22,
+        43,
+        52,
+        32,
+        41,
+        35,
+        18,
+        21,
+        13,
+        20,
+        15,
+        23,
+        13,
+        17,
+        19,
+        16,
+        14,
+        13,
+        25,
+        16,
+        34
+      ],
+      "avg_interest": 35.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:26:34.751529+00:00"
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "category": "social",
+  "fetch_date": "2026-08-16T09:27:11.841759+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        56,
+        100,
+        77,
+        62,
+        58,
+        65,
+        64,
+        59,
+        61,
+        68,
+        64,
+        64,
+        60,
+        59,
+        59,
+        49,
+        53,
+        56,
+        53,
+        54,
+        55,
+        52,
+        52,
+        60,
+        60,
+        55,
+        55,
+        57,
+        53,
+        57
+      ],
+      "avg_interest": 69.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "help me unlock tiktok shop rewards — you can unlock your own free gifts too. terms & conditions apply.",
+            "value": 650
+          },
+          {
+            "query": "tiktok shop partner center",
+            "value": 60
+          },
+          {
+            "query": "kalodata",
+            "value": 50
+          },
+          {
+            "query": "tiktok shop creator",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "seller tiktok shop",
+            "value": 100
+          },
+          {
+            "query": "tiktok seller",
+            "value": 100
+          },
+          {
+            "query": "affiliate tiktok shop",
+            "value": 46
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 45
+          },
+          {
+            "query": "seller center tiktok shop",
+            "value": 43
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 40
+          },
+          {
+            "query": "tiktok shop creator",
+            "value": 36
+          },
+          {
+            "query": "tiktok live",
+            "value": 35
+          },
+          {
+            "query": "tiktok shop live",
+            "value": 34
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 34
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:26:48.066262+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        45,
+        64,
+        45,
+        43,
+        45,
+        48,
+        46,
+        55,
+        54,
+        51,
+        54,
+        49,
+        47,
+        48,
+        60,
+        40,
+        33,
+        33,
+        34,
+        31,
+        30,
+        30,
+        34,
+        29,
+        31,
+        28,
+        28,
+        34,
+        29,
+        32
+      ],
+      "avg_interest": 66.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "threads app and threatmap",
+            "value": 8700
+          },
+          {
+            "query": "download video threads app tanpa watermark",
+            "value": 1500
+          },
+          {
+            "query": "threads app download apk",
+            "value": 150
+          }
+        ],
+        "top": [
+          {
+            "query": "instagram threads app",
+            "value": 100
+          },
+          {
+            "query": "threads app download",
+            "value": 88
+          },
+          {
+            "query": "threads app meta",
+            "value": 73
+          },
+          {
+            "query": "threads app review",
+            "value": 72
+          },
+          {
+            "query": "what is threads app",
+            "value": 69
+          },
+          {
+            "query": "threads app free",
+            "value": 66
+          },
+          {
+            "query": "download video threads app",
+            "value": 39
+          },
+          {
+            "query": "what is the threads app",
+            "value": 32
+          },
+          {
+            "query": "is threads app free",
+            "value": 13
+          },
+          {
+            "query": "threads app download apk",
+            "value": 13
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:26:54.239680+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        26,
+        45,
+        29,
+        22,
+        25,
+        26,
+        27,
+        26,
+        27,
+        28,
+        25,
+        24,
+        22,
+        23,
+        27,
+        21,
+        18,
+        20,
+        20,
+        19,
+        20,
+        19,
+        22,
+        20,
+        21,
+        18,
+        26,
+        23,
+        24,
+        21
+      ],
+      "avg_interest": 31.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "mastodon your ghost again",
+            "value": 84350
+          },
+          {
+            "query": "snakes for dinner mastodon",
+            "value": 46900
+          },
+          {
+            "query": "mastodon snakes for dinner",
+            "value": 45750
+          },
+          {
+            "query": "mastodon marrow deep",
+            "value": 5050
+          },
+          {
+            "query": "mastodon your ghost again lyrics",
+            "value": 2200
+          },
+          {
+            "query": "mastodon marvel",
+            "value": 550
+          },
+          {
+            "query": "back to the beginning mastodon",
+            "value": 450
+          },
+          {
+            "query": "josh homme mastodon",
+            "value": 350
+          },
+          {
+            "query": "mastodon zagreb",
+            "value": 180
+          },
+          {
+            "query": "new mastodon album",
+            "value": 170
+          }
+        ],
+        "top": [
+          {
+            "query": "mastodon social",
+            "value": 100
+          },
+          {
+            "query": "what is mastodon",
+            "value": 83
+          },
+          {
+            "query": "mastodon band",
+            "value": 72
+          },
+          {
+            "query": "mastodon github",
+            "value": 71
+          },
+          {
+            "query": "mastodon api",
+            "value": 71
+          },
+          {
+            "query": "bluesky",
+            "value": 59
+          },
+          {
+            "query": "mastodon app",
+            "value": 57
+          },
+          {
+            "query": "mastodon reddit",
+            "value": 49
+          },
+          {
+            "query": "what is a mastodon",
+            "value": 47
+          },
+          {
+            "query": "mastodon meaning",
+            "value": 47
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:27:00.094028+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        30,
+        100,
+        54,
+        37,
+        36,
+        35,
+        36,
+        34,
+        41,
+        43,
+        45,
+        38,
+        35,
+        33,
+        37,
+        16,
+        21,
+        19,
+        17,
+        17,
+        14,
+        15,
+        16,
+        22,
+        22,
+        17,
+        16,
+        19,
+        15,
+        17
+      ],
+      "avg_interest": 52.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "k-pop trending",
+            "value": 850
+          },
+          {
+            "query": "healthy cooking tools",
+            "value": 350
+          },
+          {
+            "query": "ai image enhancer",
+            "value": 300
+          },
+          {
+            "query": "ai agents",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok social commerce",
+            "value": 100
+          },
+          {
+            "query": "social commerce trends",
+            "value": 80
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 69
+          },
+          {
+            "query": "what is social commerce",
+            "value": 53
+          },
+          {
+            "query": "social commerce platform",
+            "value": 34
+          },
+          {
+            "query": "social commerce definition",
+            "value": 33
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 30
+          },
+          {
+            "query": "social commerce software",
+            "value": 23
+          },
+          {
+            "query": "social commerce platforms",
+            "value": 17
+          },
+          {
+            "query": "social commerce companies",
+            "value": 17
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:27:06.098674+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        25,
+        100,
+        37,
+        32,
+        28,
+        34,
+        28,
+        23,
+        29,
+        33,
+        31,
+        25,
+        26,
+        23,
+        28,
+        22,
+        19,
+        19,
+        18,
+        20,
+        16,
+        15,
+        20,
+        20,
+        20,
+        19,
+        18,
+        16,
+        15,
+        21
+      ],
+      "avg_interest": 40.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "gardening",
+            "value": 13400
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for content creation",
+            "value": 100
+          },
+          {
+            "query": "ai content creation tools",
+            "value": 38
+          },
+          {
+            "query": "ai tools for content creation",
+            "value": 26
+          },
+          {
+            "query": "generative ai content creation",
+            "value": 25
+          },
+          {
+            "query": "ai content creation platform",
+            "value": 13
+          },
+          {
+            "query": "best ai tools for content creation",
+            "value": 12
+          },
+          {
+            "query": "ai for social media content creation",
+            "value": 11
+          },
+          {
+            "query": "jobs",
+            "value": 8
+          },
+          {
+            "query": "ai content creation course",
+            "value": 8
+          },
+          {
+            "query": "travel",
+            "value": 6
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-16T09:27:11.841419+00:00"
+    }
+  ]
+}
