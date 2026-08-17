@@ -1,0 +1,28 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-08-17T09:38:47.306409+00:00",
+  "total_keywords": 1,
+  "source": "signals_fallback",
+  "data": [
+    {
+      "keyword": "Alaska Airlines Flight Disruption & Recovery Tracker",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        60
+      ],
+      "avg_interest": 60,
+      "peak_interest": 60,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "signals_fallback",
+      "fetched_at": "2026-08-17T09:38:47.306291+00:00"
+    }
+  ]
+}
