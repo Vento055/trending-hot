@@ -1,0 +1,327 @@
+{
+  "category": "beauty",
+  "fetch_date": "2026-08-19T09:31:59.601574+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "glass skin",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        35,
+        34,
+        32,
+        31,
+        36,
+        38,
+        35,
+        33,
+        30,
+        37,
+        33,
+        38,
+        37,
+        29,
+        35,
+        25,
+        33,
+        28,
+        29,
+        30,
+        28,
+        27,
+        29,
+        28,
+        36,
+        37,
+        35,
+        35,
+        28,
+        30
+      ],
+      "avg_interest": 49.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "la roche posay anthelios clear skin dry touch sunscreen spf 60",
+            "value": 3350
+          },
+          {
+            "query": "how to remove adhesive from glass",
+            "value": 400
+          },
+          {
+            "query": "mascarilla glass skin loreal",
+            "value": 130
+          },
+          {
+            "query": "crema loreal glass skin",
+            "value": 110
+          },
+          {
+            "query": "revitalift glass skin liquid cream",
+            "value": 100
+          },
+          {
+            "query": "how to remove stickers from glass",
+            "value": 60
+          },
+          {
+            "query": "loreal glass skin liquid cream",
+            "value": 50
+          },
+          {
+            "query": "what is a magnifying glass used for",
+            "value": 50
+          },
+          {
+            "query": "revitalift glass skin",
+            "value": 50
+          },
+          {
+            "query": "i was born with glass bones and paper skin",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "glass skin cream",
+            "value": 100
+          },
+          {
+            "query": "glass skin serum",
+            "value": 88
+          },
+          {
+            "query": "korean glass skin",
+            "value": 80
+          },
+          {
+            "query": "glass skin care",
+            "value": 75
+          },
+          {
+            "query": "glass skin mask",
+            "value": 74
+          },
+          {
+            "query": "what is glass skin",
+            "value": 65
+          },
+          {
+            "query": "glass skin foundation",
+            "value": 59
+          },
+          {
+            "query": "loreal",
+            "value": 55
+          },
+          {
+            "query": "glass skin loreal",
+            "value": 54
+          },
+          {
+            "query": "glass skin facial",
+            "value": 41
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-19T09:31:40.076616+00:00"
+    },
+    {
+      "keyword": "nano hydroxyapatite toothpaste",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        42,
+        38,
+        46,
+        39,
+        48,
+        50,
+        50,
+        46,
+        37,
+        43,
+        44,
+        40,
+        33,
+        42,
+        34,
+        38,
+        37,
+        33,
+        32,
+        36,
+        35,
+        33,
+        37,
+        32,
+        42,
+        37,
+        35,
+        34,
+        35,
+        35
+      ],
+      "avg_interest": 55.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-19T09:31:44.908205+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-19T09:31:49.202394+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-19T09:31:53.521606+00:00"
+    },
+    {
+      "keyword": "scalp serum",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "deoxyribose scalp serum",
+            "value": 214800
+          },
+          {
+            "query": "medicube deoxyribose scalp serum",
+            "value": 144200
+          },
+          {
+            "query": "deoxyribose",
+            "value": 9550
+          },
+          {
+            "query": "aromatica rosemary pdrn scalp serum",
+            "value": 1650
+          },
+          {
+            "query": "indulekha bringha hair growth treatment scalp serum",
+            "value": 300
+          },
+          {
+            "query": "medicube scalp serum",
+            "value": 200
+          },
+          {
+            "query": "medicube",
+            "value": 200
+          },
+          {
+            "query": "lilyeve scalp serum",
+            "value": 150
+          },
+          {
+            "query": "dr groot scalp serum",
+            "value": 150
+          },
+          {
+            "query": "mielle rosemary mint scalp & hair strengthening oil",
+            "value": 80
+          }
+        ],
+        "top": [
+          {
+            "query": "hair scalp serum",
+            "value": 100
+          },
+          {
+            "query": "hair serum",
+            "value": 98
+          },
+          {
+            "query": "hair growth scalp serum",
+            "value": 23
+          },
+          {
+            "query": "hair growth serum",
+            "value": 23
+          },
+          {
+            "query": "best scalp serum",
+            "value": 20
+          },
+          {
+            "query": "dry scalp serum",
+            "value": 14
+          },
+          {
+            "query": "scalp serum for hair growth",
+            "value": 11
+          },
+          {
+            "query": "ordinary scalp serum",
+            "value": 10
+          },
+          {
+            "query": "scalp serum for dry scalp",
+            "value": 8
+          },
+          {
+            "query": "the ordinary",
+            "value": 8
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-19T09:31:59.601236+00:00"
+    }
+  ]
+}
