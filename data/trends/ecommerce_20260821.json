@@ -1,0 +1,459 @@
+{
+  "category": "ecommerce",
+  "fetch_date": "2026-08-21T09:36:43.958552+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "shopify ecosystem",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        59,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        7,
+        6,
+        8,
+        10,
+        7,
+        8,
+        8,
+        6,
+        7,
+        9,
+        11,
+        6,
+        0,
+        0
+      ],
+      "avg_interest": 28.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-21T09:36:20.628981+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        33,
+        34,
+        32,
+        41,
+        41,
+        43,
+        36,
+        32,
+        32,
+        36,
+        34,
+        35,
+        37,
+        25,
+        23,
+        13,
+        15,
+        15,
+        22,
+        21,
+        17,
+        15,
+        18,
+        16,
+        17,
+        21,
+        19,
+        19,
+        16,
+        15
+      ],
+      "avg_interest": 48.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "freelance jobs online",
+            "value": 9700
+          },
+          {
+            "query": "smart cities news",
+            "value": 6800
+          },
+          {
+            "query": "freelancing latest news",
+            "value": 6550
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 950
+          },
+          {
+            "query": "minimalist lifestyle trend",
+            "value": 400
+          },
+          {
+            "query": "k-pop trending",
+            "value": 250
+          },
+          {
+            "query": "non-toxic air fryer",
+            "value": 250
+          },
+          {
+            "query": "wellness gadgets",
+            "value": 190
+          },
+          {
+            "query": "healthy cooking tools",
+            "value": 160
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok social commerce",
+            "value": 100
+          },
+          {
+            "query": "social commerce trends",
+            "value": 78
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 67
+          },
+          {
+            "query": "what is social commerce",
+            "value": 52
+          },
+          {
+            "query": "social digital commerce",
+            "value": 51
+          },
+          {
+            "query": "social commerce platform",
+            "value": 34
+          },
+          {
+            "query": "social commerce definition",
+            "value": 33
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 30
+          },
+          {
+            "query": "social commerce platforms",
+            "value": 17
+          },
+          {
+            "query": "social commerce companies",
+            "value": 16
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-21T09:36:27.892527+00:00"
+    },
+    {
+      "keyword": "cross border ecommerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        27,
+        25,
+        17,
+        21,
+        28,
+        28,
+        0,
+        25,
+        17,
+        18,
+        21,
+        28,
+        18,
+        25,
+        18,
+        10,
+        9,
+        12,
+        16,
+        15,
+        15,
+        12,
+        13,
+        10,
+        9,
+        16,
+        16,
+        14,
+        12,
+        16
+      ],
+      "avg_interest": 31.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-21T09:36:33.048549+00:00"
+    },
+    {
+      "keyword": "bnpl",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        61,
+        54,
+        48,
+        42,
+        55,
+        68,
+        60,
+        61,
+        44,
+        53,
+        55,
+        59,
+        60,
+        49,
+        48,
+        41,
+        42,
+        41,
+        55,
+        53,
+        48,
+        45,
+        48,
+        39,
+        38,
+        54,
+        53,
+        51,
+        47,
+        54
+      ],
+      "avg_interest": 64.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "uk government bnpl rules",
+            "value": 9100
+          },
+          {
+            "query": "real comercio bnpl",
+            "value": 550
+          },
+          {
+            "query": "cash app afterpay bnpl",
+            "value": 160
+          },
+          {
+            "query": "bnpl services for essential expenses",
+            "value": 140
+          },
+          {
+            "query": "bnpl repayments parramatta",
+            "value": 90
+          },
+          {
+            "query": "cpc itd bnpl booking hub",
+            "value": 90
+          },
+          {
+            "query": "cpc itd bnpl",
+            "value": 90
+          },
+          {
+            "query": "bnpl ampc",
+            "value": 90
+          },
+          {
+            "query": "bnpl parramatta",
+            "value": 80
+          },
+          {
+            "query": "bengaluru gpo bnpl centre",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "what is bnpl",
+            "value": 100
+          },
+          {
+            "query": "buy now pay later",
+            "value": 80
+          },
+          {
+            "query": "klarna",
+            "value": 79
+          },
+          {
+            "query": "klarna bnpl",
+            "value": 79
+          },
+          {
+            "query": "bnpl uk",
+            "value": 71
+          },
+          {
+            "query": "bnpl news",
+            "value": 69
+          },
+          {
+            "query": "bnpl meaning",
+            "value": 62
+          },
+          {
+            "query": "bnpl services",
+            "value": 61
+          },
+          {
+            "query": "affirm",
+            "value": 52
+          },
+          {
+            "query": "bnpl australia",
+            "value": 51
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-21T09:36:38.896903+00:00"
+    },
+    {
+      "keyword": "headless commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        34,
+        39,
+        20,
+        38,
+        21,
+        47,
+        57,
+        37,
+        44,
+        34,
+        47,
+        44,
+        18,
+        34,
+        39,
+        24,
+        13,
+        18,
+        20,
+        18,
+        15,
+        14,
+        26,
+        18,
+        24,
+        22,
+        21,
+        27,
+        31,
+        57
+      ],
+      "avg_interest": 38.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "nordvpn",
+            "value": 125450
+          }
+        ],
+        "top": [
+          {
+            "query": "best headless commerce",
+            "value": 100
+          },
+          {
+            "query": "what is headless commerce",
+            "value": 61
+          },
+          {
+            "query": "headless commerce platform",
+            "value": 58
+          },
+          {
+            "query": "headless commerce architecture",
+            "value": 33
+          },
+          {
+            "query": "headless commerce platforms",
+            "value": 30
+          },
+          {
+            "query": "salesforce headless commerce",
+            "value": 21
+          },
+          {
+            "query": "headless commerce b2b",
+            "value": 21
+          },
+          {
+            "query": "enterprise headless commerce",
+            "value": 21
+          },
+          {
+            "query": "headless commerce definition",
+            "value": 20
+          },
+          {
+            "query": "headless commerce solutions",
+            "value": 15
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-21T09:36:43.958196+00:00"
+    }
+  ]
+}
