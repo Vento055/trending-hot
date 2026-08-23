@@ -1,0 +1,410 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-08-23T09:27:05.874925+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        27,
+        35,
+        37,
+        33,
+        30,
+        26,
+        23,
+        24,
+        22,
+        25,
+        24,
+        22,
+        27,
+        21,
+        21,
+        17,
+        22,
+        20,
+        18,
+        13,
+        16,
+        14,
+        14,
+        16,
+        16,
+        17,
+        13,
+        9,
+        7,
+        7
+      ],
+      "avg_interest": 46.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "best ai coding agents",
+            "value": 100
+          },
+          {
+            "query": "vibe coding",
+            "value": 17
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-23T09:26:36.551089+00:00"
+    },
+    {
+      "keyword": "ai video generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-23T09:26:44.089184+00:00"
+    },
+    {
+      "keyword": "ai voice cloning",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        30,
+        39,
+        46,
+        36,
+        29,
+        23,
+        29,
+        37,
+        32,
+        33,
+        25,
+        19,
+        29,
+        18,
+        21,
+        18,
+        16,
+        17,
+        15,
+        14,
+        15,
+        15,
+        16,
+        15,
+        16,
+        15,
+        14,
+        13,
+        9,
+        13
+      ],
+      "avg_interest": 48.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "chatterbox",
+            "value": 150
+          },
+          {
+            "query": "voicebox",
+            "value": 100
+          },
+          {
+            "query": "fish audio",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "best ai voice cloning",
+            "value": 100
+          },
+          {
+            "query": "elevenlabs",
+            "value": 69
+          },
+          {
+            "query": "elevenlabs voice cloning",
+            "value": 69
+          },
+          {
+            "query": "ai voice cloning app",
+            "value": 44
+          },
+          {
+            "query": "text to speech",
+            "value": 39
+          },
+          {
+            "query": "resemble ai",
+            "value": 37
+          },
+          {
+            "query": "what is voice cloning",
+            "value": 28
+          },
+          {
+            "query": "voice clone",
+            "value": 23
+          },
+          {
+            "query": "ai voice clone",
+            "value": 23
+          },
+          {
+            "query": "ai voice cloning scam",
+            "value": 20
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-23T09:26:49.943874+00:00"
+    },
+    {
+      "keyword": "eu ai act",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        33,
+        38,
+        47,
+        43,
+        35,
+        32,
+        32,
+        37,
+        46,
+        51,
+        44,
+        34,
+        29,
+        24,
+        20,
+        16,
+        22,
+        26,
+        20,
+        16,
+        16,
+        13,
+        12,
+        17,
+        16,
+        15,
+        15,
+        11,
+        6,
+        7
+      ],
+      "avg_interest": 56.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "eu ai act kennzeichnungspflicht",
+            "value": 200
+          },
+          {
+            "query": "article 50 eu ai act",
+            "value": 100
+          }
+        ],
+        "top": [
+          {
+            "query": "eu ai act 2026",
+            "value": 100
+          },
+          {
+            "query": "the eu ai act",
+            "value": 38
+          },
+          {
+            "query": "eu ai act pdf",
+            "value": 17
+          },
+          {
+            "query": "eu ai act news",
+            "value": 15
+          },
+          {
+            "query": "eu ai act timeline",
+            "value": 12
+          },
+          {
+            "query": "article 50 eu ai act",
+            "value": 7
+          },
+          {
+            "query": "gdpr",
+            "value": 5
+          },
+          {
+            "query": "eu ai act summary",
+            "value": 4
+          },
+          {
+            "query": "ai news today",
+            "value": 3
+          },
+          {
+            "query": "eu ai act kennzeichnungspflicht",
+            "value": 0
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-23T09:26:58.211457+00:00"
+    },
+    {
+      "keyword": "local llm",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        31,
+        30,
+        33,
+        32,
+        26,
+        25,
+        24,
+        26,
+        23,
+        24,
+        25,
+        20,
+        21,
+        19,
+        20,
+        15,
+        20,
+        19,
+        17,
+        15,
+        17,
+        17,
+        19,
+        20,
+        20,
+        21,
+        17,
+        16,
+        13,
+        14
+      ],
+      "avg_interest": 53.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "glm 5.2",
+            "value": 28800
+          },
+          {
+            "query": "glm-5.2",
+            "value": 14750
+          },
+          {
+            "query": "qwen 3.8",
+            "value": 12750
+          },
+          {
+            "query": "kimi k3",
+            "value": 3600
+          },
+          {
+            "query": "hermes agent",
+            "value": 120
+          },
+          {
+            "query": "qwen 3.6",
+            "value": 90
+          },
+          {
+            "query": "nvidia dgx spark",
+            "value": 80
+          },
+          {
+            "query": "kimi",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "best local llm",
+            "value": 100
+          },
+          {
+            "query": "local ai",
+            "value": 97
+          },
+          {
+            "query": "ollama",
+            "value": 62
+          },
+          {
+            "query": "local llm models",
+            "value": 46
+          },
+          {
+            "query": "llm studio",
+            "value": 38
+          },
+          {
+            "query": "what is local llm",
+            "value": 24
+          },
+          {
+            "query": "llama.cpp",
+            "value": 19
+          },
+          {
+            "query": "qwen",
+            "value": 17
+          },
+          {
+            "query": "best local llm models",
+            "value": 15
+          },
+          {
+            "query": "ollama models",
+            "value": 13
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-23T09:27:05.874624+00:00"
+    }
+  ]
+}
