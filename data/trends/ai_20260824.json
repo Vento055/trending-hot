@@ -1,0 +1,482 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-08-24T09:46:16.034394+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        36,
+        37,
+        32,
+        31,
+        26,
+        24,
+        24,
+        23,
+        26,
+        25,
+        24,
+        30,
+        22,
+        21,
+        31,
+        22,
+        20,
+        18,
+        13,
+        16,
+        14,
+        14,
+        17,
+        17,
+        18,
+        13,
+        10,
+        7,
+        7,
+        9
+      ],
+      "avg_interest": 47.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "best ai coding agents",
+            "value": 100
+          },
+          {
+            "query": "opencode",
+            "value": 12
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:45:45.556080+00:00"
+    },
+    {
+      "keyword": "ai video generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        35,
+        34,
+        34,
+        31,
+        30,
+        28,
+        44,
+        43,
+        39,
+        25,
+        22,
+        23,
+        20,
+        25,
+        31,
+        20,
+        20,
+        17,
+        16,
+        17,
+        16,
+        16,
+        17,
+        18,
+        18,
+        15,
+        13,
+        12,
+        12,
+        13
+      ],
+      "avg_interest": 53.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "google veo 3",
+            "value": 90
+          },
+          {
+            "query": "higgsfield",
+            "value": 80
+          },
+          {
+            "query": "higgsfield ai",
+            "value": 70
+          },
+          {
+            "query": "google veo",
+            "value": 70
+          },
+          {
+            "query": "seedance",
+            "value": 70
+          },
+          {
+            "query": "veo",
+            "value": 60
+          },
+          {
+            "query": "kling ai",
+            "value": 50
+          },
+          {
+            "query": "flow ai",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for video generation",
+            "value": 100
+          },
+          {
+            "query": "kling ai",
+            "value": 49
+          },
+          {
+            "query": "runway",
+            "value": 48
+          },
+          {
+            "query": "kling",
+            "value": 47
+          },
+          {
+            "query": "veo",
+            "value": 37
+          },
+          {
+            "query": "best ai for video generation",
+            "value": 35
+          },
+          {
+            "query": "open ai video generation",
+            "value": 29
+          },
+          {
+            "query": "google veo",
+            "value": 23
+          },
+          {
+            "query": "sora ai video generation",
+            "value": 21
+          },
+          {
+            "query": "sora",
+            "value": 21
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:45:53.791737+00:00"
+    },
+    {
+      "keyword": "ai voice cloning",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        45,
+        47,
+        36,
+        29,
+        23,
+        27,
+        36,
+        31,
+        34,
+        27,
+        18,
+        28,
+        18,
+        24,
+        37,
+        16,
+        17,
+        15,
+        14,
+        14,
+        14,
+        16,
+        15,
+        16,
+        15,
+        14,
+        13,
+        10,
+        13,
+        11
+      ],
+      "avg_interest": 48.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "fish audio",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "voice cloning ai free",
+            "value": 100
+          },
+          {
+            "query": "free voice cloning",
+            "value": 100
+          },
+          {
+            "query": "elevenlabs",
+            "value": 84
+          },
+          {
+            "query": "elevenlabs voice cloning",
+            "value": 83
+          },
+          {
+            "query": "ai voice cloning app",
+            "value": 53
+          },
+          {
+            "query": "ai voice cloning scam",
+            "value": 24
+          },
+          {
+            "query": "ai voice generator",
+            "value": 24
+          },
+          {
+            "query": "ai voice cloning scams",
+            "value": 22
+          },
+          {
+            "query": "fish audio",
+            "value": 8
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:45:59.870216+00:00"
+    },
+    {
+      "keyword": "eu ai act",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        37,
+        47,
+        43,
+        35,
+        32,
+        32,
+        36,
+        46,
+        51,
+        45,
+        35,
+        28,
+        24,
+        20,
+        35,
+        22,
+        26,
+        21,
+        16,
+        16,
+        13,
+        12,
+        17,
+        16,
+        16,
+        17,
+        11,
+        6,
+        7,
+        13
+      ],
+      "avg_interest": 56.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "eu ai act kennzeichnungspflicht",
+            "value": 250
+          },
+          {
+            "query": "article 50 eu ai act",
+            "value": 100
+          }
+        ],
+        "top": [
+          {
+            "query": "eu ai act 2026",
+            "value": 100
+          },
+          {
+            "query": "the eu ai act",
+            "value": 33
+          },
+          {
+            "query": "eu ai act pdf",
+            "value": 15
+          },
+          {
+            "query": "eu ai act news",
+            "value": 14
+          },
+          {
+            "query": "eu ai act timeline",
+            "value": 11
+          },
+          {
+            "query": "article 50 eu ai act",
+            "value": 6
+          },
+          {
+            "query": "gdpr",
+            "value": 4
+          },
+          {
+            "query": "eu ai act summary",
+            "value": 4
+          },
+          {
+            "query": "eu ai act kennzeichnungspflicht",
+            "value": 0
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:46:08.221320+00:00"
+    },
+    {
+      "keyword": "local llm",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        30,
+        34,
+        32,
+        26,
+        25,
+        24,
+        26,
+        23,
+        24,
+        25,
+        20,
+        22,
+        19,
+        20,
+        24,
+        20,
+        18,
+        17,
+        15,
+        17,
+        16,
+        19,
+        19,
+        21,
+        21,
+        17,
+        14,
+        15,
+        14,
+        16
+      ],
+      "avg_interest": 52.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "kimi k3",
+            "value": 17250
+          },
+          {
+            "query": "qwen 3.8",
+            "value": 13200
+          },
+          {
+            "query": "hermes agent",
+            "value": 100
+          },
+          {
+            "query": "kimi",
+            "value": 70
+          }
+        ],
+        "top": [
+          {
+            "query": "local ai",
+            "value": 100
+          },
+          {
+            "query": "best local llm",
+            "value": 100
+          },
+          {
+            "query": "ollama",
+            "value": 62
+          },
+          {
+            "query": "local llm model",
+            "value": 57
+          },
+          {
+            "query": "local llm models",
+            "value": 47
+          },
+          {
+            "query": "llm studio",
+            "value": 38
+          },
+          {
+            "query": "what is local llm",
+            "value": 25
+          },
+          {
+            "query": "lm studio",
+            "value": 23
+          },
+          {
+            "query": "llama.cpp",
+            "value": 19
+          },
+          {
+            "query": "qwen",
+            "value": 17
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:46:16.034071+00:00"
+    }
+  ]
+}

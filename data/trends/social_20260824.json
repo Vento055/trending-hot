@@ -1,0 +1,533 @@
+{
+  "category": "social",
+  "fetch_date": "2026-08-24T09:47:28.074814+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        62,
+        64,
+        67,
+        71,
+        60,
+        65,
+        66,
+        59,
+        57,
+        60,
+        59,
+        57,
+        63,
+        65,
+        66,
+        60,
+        61,
+        57,
+        55,
+        57,
+        52,
+        52,
+        56,
+        57,
+        57,
+        51,
+        48,
+        44,
+        43,
+        57
+      ],
+      "avg_interest": 69.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "help me unlock tiktok shop rewards — you can unlock your own free gifts too. terms & conditions apply.",
+            "value": 300
+          },
+          {
+            "query": "tiktok shop partner center",
+            "value": 50
+          },
+          {
+            "query": "kalodata",
+            "value": 50
+          },
+          {
+            "query": "tiktok shop streamer desktop",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok seller shop",
+            "value": 100
+          },
+          {
+            "query": "tiktok seller",
+            "value": 97
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 45
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 45
+          },
+          {
+            "query": "tiktok shop seller center",
+            "value": 42
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 41
+          },
+          {
+            "query": "tiktok shop creator",
+            "value": 36
+          },
+          {
+            "query": "tiktok shop live",
+            "value": 35
+          },
+          {
+            "query": "tiktok live",
+            "value": 35
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 35
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:47:04.267838+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        56,
+        53,
+        53,
+        49,
+        49,
+        49,
+        61,
+        55,
+        44,
+        46,
+        41,
+        43,
+        32,
+        44,
+        35,
+        30,
+        31,
+        29,
+        28,
+        34,
+        30,
+        45,
+        34,
+        31,
+        32,
+        27,
+        27,
+        26,
+        25,
+        24
+      ],
+      "avg_interest": 63.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "download video threads app tanpa watermark",
+            "value": 600
+          },
+          {
+            "query": "threads app download apk",
+            "value": 110
+          }
+        ],
+        "top": [
+          {
+            "query": "the threads app",
+            "value": 100
+          },
+          {
+            "query": "threads app download",
+            "value": 51
+          },
+          {
+            "query": "threads download",
+            "value": 51
+          },
+          {
+            "query": "threads app meta",
+            "value": 41
+          },
+          {
+            "query": "what is threads app",
+            "value": 41
+          },
+          {
+            "query": "threads app review",
+            "value": 40
+          },
+          {
+            "query": "threads app free",
+            "value": 38
+          },
+          {
+            "query": "download video threads app",
+            "value": 23
+          },
+          {
+            "query": "what is the threads app for",
+            "value": 9
+          },
+          {
+            "query": "threads app download apk",
+            "value": 8
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:47:10.549967+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        27,
+        29,
+        25,
+        24,
+        22,
+        24,
+        26,
+        29,
+        20,
+        24,
+        25,
+        23,
+        20,
+        23,
+        27,
+        20,
+        22,
+        19,
+        27,
+        24,
+        21,
+        23,
+        21,
+        23,
+        22,
+        24,
+        36,
+        24,
+        21,
+        19
+      ],
+      "avg_interest": 31.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "mastodon your ghost again",
+            "value": 82350
+          },
+          {
+            "query": "snakes for dinner mastodon",
+            "value": 49000
+          },
+          {
+            "query": "mastodon in the ruins",
+            "value": 22250
+          },
+          {
+            "query": "mastodon marrow deep vinyl",
+            "value": 9350
+          },
+          {
+            "query": "mastodon marrow deep review",
+            "value": 6000
+          },
+          {
+            "query": "your ghost again mastodon",
+            "value": 5900
+          },
+          {
+            "query": "mastodon marrow deep",
+            "value": 3650
+          },
+          {
+            "query": "josh homme",
+            "value": 1450
+          },
+          {
+            "query": "mastodon your ghost again lyrics",
+            "value": 750
+          },
+          {
+            "query": "josh homme mastodon",
+            "value": 700
+          }
+        ],
+        "top": [
+          {
+            "query": "mastodon social",
+            "value": 100
+          },
+          {
+            "query": "what is mastodon",
+            "value": 84
+          },
+          {
+            "query": "mastodon band",
+            "value": 74
+          },
+          {
+            "query": "mastodon github",
+            "value": 74
+          },
+          {
+            "query": "mastodon api",
+            "value": 69
+          },
+          {
+            "query": "bluesky",
+            "value": 59
+          },
+          {
+            "query": "mastodon app",
+            "value": 57
+          },
+          {
+            "query": "mastodon animal",
+            "value": 49
+          },
+          {
+            "query": "what is a mastodon",
+            "value": 48
+          },
+          {
+            "query": "mastodon reddit",
+            "value": 46
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:47:16.788595+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        40,
+        41,
+        42,
+        36,
+        32,
+        32,
+        36,
+        34,
+        35,
+        36,
+        25,
+        23,
+        21,
+        24,
+        30,
+        21,
+        21,
+        17,
+        15,
+        18,
+        15,
+        17,
+        21,
+        19,
+        19,
+        16,
+        12,
+        8,
+        10,
+        15
+      ],
+      "avg_interest": 46.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "freelance jobs online",
+            "value": 7600
+          },
+          {
+            "query": "edtech news",
+            "value": 5900
+          },
+          {
+            "query": "freelancing latest news",
+            "value": 3300
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 600
+          },
+          {
+            "query": "minimalist lifestyle trend",
+            "value": 500
+          },
+          {
+            "query": "smart cities news",
+            "value": 300
+          },
+          {
+            "query": "entrepreneurship news",
+            "value": 300
+          },
+          {
+            "query": "bitcoin price analysis",
+            "value": 250
+          },
+          {
+            "query": "ai image enhancer",
+            "value": 200
+          },
+          {
+            "query": "digital side hustles",
+            "value": 200
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 64
+          },
+          {
+            "query": "social commerce trends",
+            "value": 55
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 44
+          },
+          {
+            "query": "what is social commerce",
+            "value": 36
+          },
+          {
+            "query": "social digital commerce",
+            "value": 34
+          },
+          {
+            "query": "social commerce platform",
+            "value": 24
+          },
+          {
+            "query": "social commerce definition",
+            "value": 23
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 21
+          },
+          {
+            "query": "social commerce software",
+            "value": 16
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:47:21.500942+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "compare popular online video platform features for ai content creation",
+            "value": 18800
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for content creation",
+            "value": 100
+          },
+          {
+            "query": "ai content creation tools",
+            "value": 36
+          },
+          {
+            "query": "generative ai content creation",
+            "value": 25
+          },
+          {
+            "query": "ai tools for content creation",
+            "value": 24
+          },
+          {
+            "query": "ai content creation platform",
+            "value": 13
+          },
+          {
+            "query": "best ai tools for content creation",
+            "value": 11
+          },
+          {
+            "query": "ai content creation course",
+            "value": 8
+          },
+          {
+            "query": "compare popular online video platform features for ai content creation",
+            "value": 0
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-24T09:47:28.074512+00:00"
+    }
+  ]
+}
