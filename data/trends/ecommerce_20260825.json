@@ -1,0 +1,295 @@
+{
+  "category": "ecommerce",
+  "fetch_date": "2026-08-25T09:35:01.810087+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "shopify ecosystem",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        8,
+        7,
+        8,
+        6,
+        7,
+        9,
+        12,
+        7,
+        5,
+        5,
+        6,
+        6,
+        7,
+        0
+      ],
+      "avg_interest": 28.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-25T09:34:39.362718+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        40,
+        41,
+        35,
+        31,
+        31,
+        34,
+        34,
+        32,
+        35,
+        25,
+        22,
+        20,
+        23,
+        29,
+        38,
+        20,
+        16,
+        15,
+        18,
+        15,
+        17,
+        20,
+        19,
+        19,
+        16,
+        12,
+        8,
+        10,
+        15,
+        18
+      ],
+      "avg_interest": 45.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "freelancing latest news",
+            "value": 6400
+          },
+          {
+            "query": "edtech news",
+            "value": 4650
+          },
+          {
+            "query": "minimalist lifestyle trend",
+            "value": 450
+          },
+          {
+            "query": "freelance jobs online",
+            "value": 400
+          },
+          {
+            "query": "smart cities news",
+            "value": 350
+          },
+          {
+            "query": "bitcoin latest news",
+            "value": 350
+          },
+          {
+            "query": "streaming shows trending",
+            "value": 300
+          },
+          {
+            "query": "trending beauty hacks",
+            "value": 250
+          },
+          {
+            "query": "digital side hustles",
+            "value": 200
+          },
+          {
+            "query": "ai image enhancer",
+            "value": 180
+          }
+        ],
+        "top": [
+          {
+            "query": "social media",
+            "value": 100
+          },
+          {
+            "query": "social media commerce",
+            "value": 97
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 65
+          },
+          {
+            "query": "social commerce trends",
+            "value": 53
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 42
+          },
+          {
+            "query": "what is social commerce",
+            "value": 35
+          },
+          {
+            "query": "social digital commerce",
+            "value": 33
+          },
+          {
+            "query": "social commerce platform",
+            "value": 22
+          },
+          {
+            "query": "social commerce definition",
+            "value": 22
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 20
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-25T09:34:46.851561+00:00"
+    },
+    {
+      "keyword": "cross border ecommerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-25T09:34:51.178318+00:00"
+    },
+    {
+      "keyword": "bnpl",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-25T09:34:56.528580+00:00"
+    },
+    {
+      "keyword": "headless commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "quince coupon code",
+            "value": 68300
+          },
+          {
+            "query": "asos coupon",
+            "value": 57500
+          }
+        ],
+        "top": [
+          {
+            "query": "best headless commerce",
+            "value": 100
+          },
+          {
+            "query": "what is headless commerce",
+            "value": 62
+          },
+          {
+            "query": "headless commerce platform",
+            "value": 59
+          },
+          {
+            "query": "composable commerce",
+            "value": 37
+          },
+          {
+            "query": "headless commerce architecture",
+            "value": 35
+          },
+          {
+            "query": "headless commerce platforms",
+            "value": 32
+          },
+          {
+            "query": "headless commerce b2b",
+            "value": 21
+          },
+          {
+            "query": "headless commerce definition",
+            "value": 21
+          },
+          {
+            "query": "enterprise headless commerce",
+            "value": 21
+          },
+          {
+            "query": "salesforce headless commerce",
+            "value": 20
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-25T09:35:01.809707+00:00"
+    }
+  ]
+}
