@@ -1,0 +1,379 @@
+{
+  "category": "social",
+  "fetch_date": "2026-08-28T20:44:53.054342+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        62,
+        62,
+        58,
+        61,
+        56,
+        60,
+        53,
+        59,
+        57,
+        61,
+        62,
+        67,
+        68,
+        63,
+        64,
+        59,
+        54,
+        52,
+        56,
+        54,
+        55,
+        54,
+        46,
+        44,
+        43,
+        52,
+        54,
+        56,
+        56,
+        54
+      ],
+      "avg_interest": 68.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "help me unlock tiktok shop rewards — you can unlock your own free gifts too. terms & conditions apply.",
+            "value": 200
+          },
+          {
+            "query": "kalodata",
+            "value": 40
+          },
+          {
+            "query": "tiktok shop partner center",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "seller tiktok shop",
+            "value": 100
+          },
+          {
+            "query": "tiktok seller",
+            "value": 94
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 43
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 43
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 41
+          },
+          {
+            "query": "seller center tiktok shop",
+            "value": 40
+          },
+          {
+            "query": "tiktok shop creator",
+            "value": 35
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 34
+          },
+          {
+            "query": "tiktok shop uk",
+            "value": 34
+          },
+          {
+            "query": "tiktok shop app",
+            "value": 31
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-28T20:44:32.159864+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        47,
+        51,
+        60,
+        52,
+        44,
+        48,
+        42,
+        43,
+        36,
+        42,
+        37,
+        43,
+        44,
+        39,
+        38,
+        35,
+        31,
+        46,
+        33,
+        32,
+        32,
+        27,
+        27,
+        26,
+        27,
+        24,
+        27,
+        27,
+        27,
+        27
+      ],
+      "avg_interest": 62.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "download video threads app tanpa watermark",
+            "value": 27600
+          },
+          {
+            "query": "threads app download apk",
+            "value": 120
+          }
+        ],
+        "top": [
+          {
+            "query": "instagram threads app",
+            "value": 100
+          },
+          {
+            "query": "instagram app",
+            "value": 99
+          },
+          {
+            "query": "threads app download",
+            "value": 89
+          },
+          {
+            "query": "what is threads app",
+            "value": 74
+          },
+          {
+            "query": "threads app meta",
+            "value": 72
+          },
+          {
+            "query": "threads app review",
+            "value": 69
+          },
+          {
+            "query": "threads app free",
+            "value": 66
+          },
+          {
+            "query": "is threads app free",
+            "value": 14
+          },
+          {
+            "query": "threads app download apk",
+            "value": 14
+          },
+          {
+            "query": "how to use threads app",
+            "value": 12
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-28T20:44:38.127614+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        22,
+        23,
+        27,
+        28,
+        21,
+        23,
+        25,
+        23,
+        20,
+        22,
+        28,
+        26,
+        23,
+        21,
+        31,
+        21,
+        22,
+        24,
+        20,
+        23,
+        21,
+        24,
+        35,
+        23,
+        21,
+        24,
+        23,
+        27,
+        31,
+        65
+      ],
+      "avg_interest": 31.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "mastodon marrow deep",
+            "value": 113200
+          },
+          {
+            "query": "your ghost again mastodon",
+            "value": 84400
+          },
+          {
+            "query": "mastodon your ghost again",
+            "value": 83450
+          },
+          {
+            "query": "snakes for dinner mastodon",
+            "value": 50800
+          },
+          {
+            "query": "mastodon in the ruins",
+            "value": 28600
+          },
+          {
+            "query": "mastodon marrow deep review",
+            "value": 19050
+          },
+          {
+            "query": "mastodon in the ruins lyrics",
+            "value": 9500
+          },
+          {
+            "query": "mastodon josh homme",
+            "value": 1150
+          },
+          {
+            "query": "your ghost again mastodon lyrics",
+            "value": 800
+          },
+          {
+            "query": "mastodon marrow deep vinyl",
+            "value": 500
+          }
+        ],
+        "top": [
+          {
+            "query": "mastodon social",
+            "value": 100
+          },
+          {
+            "query": "what is mastodon",
+            "value": 85
+          },
+          {
+            "query": "mastodon band",
+            "value": 76
+          },
+          {
+            "query": "mastodon github",
+            "value": 76
+          },
+          {
+            "query": "mastodon api",
+            "value": 69
+          },
+          {
+            "query": "bluesky",
+            "value": 59
+          },
+          {
+            "query": "mastodon app",
+            "value": 58
+          },
+          {
+            "query": "mastodon animal",
+            "value": 50
+          },
+          {
+            "query": "mammoth",
+            "value": 47
+          },
+          {
+            "query": "mastodon reddit",
+            "value": 47
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-28T20:44:44.004341+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-28T20:44:48.570389+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-28T20:44:53.053988+00:00"
+    }
+  ]
+}
