@@ -1,0 +1,337 @@
+{
+  "category": "health",
+  "fetch_date": "2026-08-29T14:13:12.610623+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 1000
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 350
+          },
+          {
+            "query": "does nano hydroxyapatite work",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "toothpaste",
+            "value": 100
+          },
+          {
+            "query": "nano hydroxyapatite toothpaste",
+            "value": 100
+          },
+          {
+            "query": "boka",
+            "value": 19
+          },
+          {
+            "query": "boka nano hydroxyapatite toothpaste",
+            "value": 17
+          },
+          {
+            "query": "boka toothpaste",
+            "value": 17
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 12
+          },
+          {
+            "query": "what is nano hydroxyapatite",
+            "value": 8
+          },
+          {
+            "query": "10 nano hydroxyapatite",
+            "value": 7
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste",
+            "value": 6
+          },
+          {
+            "query": "mouthology nano hydroxyapatite toothpaste",
+            "value": 4
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-29T14:12:53.692341+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        45,
+        39,
+        46,
+        0,
+        0,
+        0,
+        0,
+        61,
+        72,
+        32,
+        40,
+        33,
+        36,
+        42,
+        34,
+        33,
+        30,
+        34,
+        34,
+        34,
+        32,
+        35,
+        35,
+        36,
+        37,
+        32,
+        34,
+        22
+      ],
+      "avg_interest": 39.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "beetroot benefits for male",
+            "value": 250
+          },
+          {
+            "query": "beet root powder benefits",
+            "value": 120
+          },
+          {
+            "query": "beetroot gummies",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "beet root",
+            "value": 100
+          },
+          {
+            "query": "beet root gummies",
+            "value": 100
+          },
+          {
+            "query": "nitric oxide",
+            "value": 15
+          },
+          {
+            "query": "beetroot gummies",
+            "value": 12
+          },
+          {
+            "query": "beet gummies benefits",
+            "value": 11
+          },
+          {
+            "query": "beetroot",
+            "value": 11
+          },
+          {
+            "query": "beet juice",
+            "value": 10
+          },
+          {
+            "query": "beets",
+            "value": 9
+          },
+          {
+            "query": "beets gummies",
+            "value": 9
+          },
+          {
+            "query": "beet root gummies benefits",
+            "value": 8
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-29T14:12:58.630181+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        52,
+        65,
+        73,
+        41,
+        51,
+        55,
+        49,
+        52,
+        65,
+        66,
+        61,
+        68,
+        33,
+        58,
+        66,
+        58,
+        57,
+        58,
+        52,
+        53,
+        47,
+        51,
+        56,
+        55,
+        51,
+        47,
+        51,
+        46,
+        48,
+        44
+      ],
+      "avg_interest": 63.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "pact cotton underwear",
+            "value": 19350
+          },
+          {
+            "query": "gait happens",
+            "value": 200
+          },
+          {
+            "query": "toe soacers",
+            "value": 90
+          },
+          {
+            "query": "toe spacers for runners",
+            "value": 60
+          },
+          {
+            "query": "toe spacers walmart",
+            "value": 60
+          },
+          {
+            "query": "are toe spacers good for you",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "bunions",
+            "value": 100
+          },
+          {
+            "query": "toes spacers",
+            "value": 93
+          },
+          {
+            "query": "toe shoes",
+            "value": 86
+          },
+          {
+            "query": "best toe spacers",
+            "value": 76
+          },
+          {
+            "query": "bunion",
+            "value": 76
+          },
+          {
+            "query": "bunion toe spacers",
+            "value": 75
+          },
+          {
+            "query": "gel toe spacers",
+            "value": 67
+          },
+          {
+            "query": "toe spacers for bunions",
+            "value": 60
+          },
+          {
+            "query": "silicone toe spacers",
+            "value": 59
+          },
+          {
+            "query": "correct toe spacers",
+            "value": 56
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-29T14:13:03.573576+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-29T14:13:07.915759+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-08-29T14:13:12.609753+00:00"
+    }
+  ]
+}
