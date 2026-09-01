@@ -1,0 +1,264 @@
+{
+  "category": "tech",
+  "fetch_date": "2026-09-01T13:56:41.560714+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        25,
+        25,
+        23,
+        28,
+        21,
+        20,
+        31,
+        38,
+        30,
+        35,
+        30,
+        31,
+        31,
+        0,
+        35,
+        16,
+        17,
+        13,
+        9,
+        7,
+        7,
+        9,
+        12,
+        12,
+        11,
+        10,
+        9,
+        8,
+        11,
+        13
+      ],
+      "avg_interest": 42.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-01T13:56:20.561583+00:00"
+    },
+    {
+      "keyword": "webgpu",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        34,
+        31,
+        21,
+        24,
+        18,
+        19,
+        20,
+        21,
+        19,
+        22,
+        14,
+        25,
+        19,
+        0,
+        17,
+        13,
+        14,
+        12,
+        9,
+        7,
+        7,
+        9,
+        10,
+        11,
+        10,
+        11,
+        11,
+        8,
+        9,
+        14
+      ],
+      "avg_interest": 37.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "webgpu support",
+            "value": 100
+          },
+          {
+            "query": "webgpu github",
+            "value": 73
+          },
+          {
+            "query": "webgpu api",
+            "value": 62
+          },
+          {
+            "query": "webgpu mdn",
+            "value": 56
+          },
+          {
+            "query": "what is webgpu",
+            "value": 44
+          },
+          {
+            "query": "chrome webgpu",
+            "value": 43
+          },
+          {
+            "query": "safari webgpu",
+            "value": 26
+          },
+          {
+            "query": "webgpu firefox",
+            "value": 22
+          },
+          {
+            "query": "webgpu test",
+            "value": 22
+          },
+          {
+            "query": "webgpu rust",
+            "value": 18
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-01T13:56:26.873751+00:00"
+    },
+    {
+      "keyword": "rust programming 2026",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        12,
+        17,
+        0,
+        0,
+        0,
+        12,
+        17,
+        15,
+        0,
+        14,
+        0,
+        12,
+        0,
+        0,
+        0,
+        4,
+        5,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        1,
+        2,
+        1,
+        3
+      ],
+      "avg_interest": 28.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-01T13:56:32.128736+00:00"
+    },
+    {
+      "keyword": "htmx",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        37,
+        40,
+        32,
+        34,
+        22,
+        33,
+        25,
+        28,
+        25,
+        27,
+        26,
+        23,
+        21,
+        0,
+        22,
+        17,
+        17,
+        16,
+        14,
+        11,
+        10,
+        13,
+        18,
+        17,
+        17,
+        25,
+        28,
+        18,
+        19,
+        25
+      ],
+      "avg_interest": 40.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-01T13:56:37.244074+00:00"
+    },
+    {
+      "keyword": "notion plugins",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-01T13:56:41.560213+00:00"
+    }
+  ]
+}
