@@ -1,0 +1,375 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-09-02T13:15:16.565501+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        25,
+        24,
+        28,
+        22,
+        21,
+        33,
+        38,
+        33,
+        37,
+        31,
+        33,
+        31,
+        0,
+        37,
+        30,
+        18,
+        14,
+        10,
+        8,
+        8,
+        10,
+        13,
+        13,
+        12,
+        11,
+        9,
+        9,
+        11,
+        13,
+        17
+      ],
+      "avg_interest": 43.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:14:46.437983+00:00"
+    },
+    {
+      "keyword": "ai video generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "hailuo ai",
+            "value": 100
+          },
+          {
+            "query": "higgsfield",
+            "value": 70
+          },
+          {
+            "query": "higgsfield ai",
+            "value": 70
+          },
+          {
+            "query": "google veo",
+            "value": 70
+          },
+          {
+            "query": "veo 3",
+            "value": 60
+          },
+          {
+            "query": "google veo 3",
+            "value": 60
+          },
+          {
+            "query": "seedance",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for video generation",
+            "value": 100
+          },
+          {
+            "query": "free ai video generation",
+            "value": 63
+          },
+          {
+            "query": "free video generation",
+            "value": 61
+          },
+          {
+            "query": "kling ai",
+            "value": 48
+          },
+          {
+            "query": "kling",
+            "value": 45
+          },
+          {
+            "query": "runway",
+            "value": 45
+          },
+          {
+            "query": "ai video generation tools",
+            "value": 35
+          },
+          {
+            "query": "best ai for video generation",
+            "value": 35
+          },
+          {
+            "query": "open ai video generation",
+            "value": 27
+          },
+          {
+            "query": "google veo",
+            "value": 26
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:14:54.794050+00:00"
+    },
+    {
+      "keyword": "ai voice cloning",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        33,
+        22,
+        33,
+        21,
+        26,
+        36,
+        33,
+        29,
+        26,
+        25,
+        28,
+        23,
+        0,
+        32,
+        31,
+        18,
+        17,
+        16,
+        12,
+        17,
+        14,
+        18,
+        17,
+        16,
+        19,
+        17,
+        18,
+        17,
+        21,
+        22
+      ],
+      "avg_interest": 50.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:00.848615+00:00"
+    },
+    {
+      "keyword": "eu ai act",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        44,
+        34,
+        29,
+        24,
+        20,
+        35,
+        34,
+        41,
+        35,
+        31,
+        25,
+        24,
+        0,
+        30,
+        27,
+        16,
+        16,
+        11,
+        6,
+        7,
+        12,
+        15,
+        15,
+        15,
+        12,
+        8,
+        7,
+        13,
+        17,
+        17
+      ],
+      "avg_interest": 50.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:08.563290+00:00"
+    },
+    {
+      "keyword": "local llm",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        27,
+        22,
+        23,
+        20,
+        22,
+        25,
+        26,
+        25,
+        25,
+        23,
+        23,
+        28,
+        0,
+        28,
+        29,
+        22,
+        18,
+        16,
+        14,
+        15,
+        15,
+        21,
+        22,
+        20,
+        19,
+        17,
+        17,
+        16,
+        18,
+        21
+      ],
+      "avg_interest": 50.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "glm 5.2",
+            "value": 33000
+          },
+          {
+            "query": "kimi k3",
+            "value": 23200
+          },
+          {
+            "query": "qwen 3.8",
+            "value": 23200
+          },
+          {
+            "query": "qwen 3.8 27b",
+            "value": 10150
+          },
+          {
+            "query": "kimi",
+            "value": 80
+          },
+          {
+            "query": "hermes agent",
+            "value": 70
+          },
+          {
+            "query": "qwen 3.6",
+            "value": 70
+          },
+          {
+            "query": "nvidia dgx spark",
+            "value": 50
+          },
+          {
+            "query": "strix halo",
+            "value": 50
+          },
+          {
+            "query": "omlx",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "best local llm",
+            "value": 100
+          },
+          {
+            "query": "local ai",
+            "value": 90
+          },
+          {
+            "query": "ollama",
+            "value": 61
+          },
+          {
+            "query": "local llm model",
+            "value": 60
+          },
+          {
+            "query": "local llm models",
+            "value": 47
+          },
+          {
+            "query": "llm studio",
+            "value": 36
+          },
+          {
+            "query": "what is local llm",
+            "value": 26
+          },
+          {
+            "query": "lm studio",
+            "value": 25
+          },
+          {
+            "query": "qwen",
+            "value": 19
+          },
+          {
+            "query": "llama.cpp",
+            "value": 18
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:16.565132+00:00"
+    }
+  ]
+}

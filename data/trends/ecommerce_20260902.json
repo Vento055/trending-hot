@@ -1,0 +1,387 @@
+{
+  "category": "ecommerce",
+  "fetch_date": "2026-09-02T13:15:51.444527+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "shopify ecosystem",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        4,
+        0,
+        5,
+        8,
+        8,
+        10,
+        9,
+        11,
+        7,
+        5,
+        9,
+        11,
+        7,
+        0
+      ],
+      "avg_interest": 24.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:27.344916+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "freelance jobs online",
+            "value": 1000
+          },
+          {
+            "query": "freelancing latest news",
+            "value": 600
+          },
+          {
+            "query": "minimalist lifestyle trend",
+            "value": 600
+          },
+          {
+            "query": "wellness gadgets",
+            "value": 450
+          },
+          {
+            "query": "trending beauty hacks",
+            "value": 350
+          },
+          {
+            "query": "streaming shows trending",
+            "value": 350
+          },
+          {
+            "query": "k-pop trending",
+            "value": 350
+          },
+          {
+            "query": "smart cities news",
+            "value": 350
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 300
+          },
+          {
+            "query": "non-toxic air fryer",
+            "value": 200
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 69
+          },
+          {
+            "query": "social commerce trends",
+            "value": 57
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 46
+          },
+          {
+            "query": "what is social commerce",
+            "value": 37
+          },
+          {
+            "query": "social digital commerce",
+            "value": 35
+          },
+          {
+            "query": "social commerce platform",
+            "value": 23
+          },
+          {
+            "query": "social commerce definition",
+            "value": 23
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 21
+          },
+          {
+            "query": "social commerce indonesia",
+            "value": 17
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:34.903022+00:00"
+    },
+    {
+      "keyword": "cross border ecommerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        13,
+        19,
+        16,
+        13,
+        0,
+        22,
+        17,
+        25,
+        24,
+        21,
+        21,
+        17,
+        0,
+        27,
+        25,
+        11,
+        9,
+        8,
+        4,
+        6,
+        6,
+        9,
+        9,
+        8,
+        7,
+        6,
+        6,
+        8,
+        8,
+        10
+      ],
+      "avg_interest": 21.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:40.471546+00:00"
+    },
+    {
+      "keyword": "bnpl",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        64,
+        50,
+        53,
+        48,
+        52,
+        64,
+        70,
+        63,
+        63,
+        62,
+        58,
+        53,
+        0,
+        72,
+        71,
+        51,
+        50,
+        43,
+        35,
+        33,
+        43,
+        47,
+        46,
+        48,
+        44,
+        44,
+        46,
+        54,
+        64,
+        58
+      ],
+      "avg_interest": 63.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "canadians groceries bnpl usage",
+            "value": 5250
+          },
+          {
+            "query": "bnpl services for essential expenses",
+            "value": 4600
+          },
+          {
+            "query": "gardening",
+            "value": 350
+          },
+          {
+            "query": "uk government bnpl rules",
+            "value": 250
+          },
+          {
+            "query": "cpc itd bnpl booking hub",
+            "value": 200
+          },
+          {
+            "query": "cpc itd bnpl",
+            "value": 170
+          },
+          {
+            "query": "salad",
+            "value": 90
+          },
+          {
+            "query": "bnpl adalah",
+            "value": 90
+          },
+          {
+            "query": "cash app afterpay bnpl",
+            "value": 80
+          },
+          {
+            "query": "bnpl ampc",
+            "value": 80
+          }
+        ],
+        "top": [
+          {
+            "query": "what is bnpl",
+            "value": 100
+          },
+          {
+            "query": "bnpl payment",
+            "value": 83
+          },
+          {
+            "query": "klarna",
+            "value": 79
+          },
+          {
+            "query": "klarna bnpl",
+            "value": 79
+          },
+          {
+            "query": "buy now pay later",
+            "value": 76
+          },
+          {
+            "query": "bnpl uk",
+            "value": 68
+          },
+          {
+            "query": "bnpl news",
+            "value": 67
+          },
+          {
+            "query": "bnpl meaning",
+            "value": 57
+          },
+          {
+            "query": "bnpl services",
+            "value": 54
+          },
+          {
+            "query": "affirm bnpl",
+            "value": 49
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:46.704103+00:00"
+    },
+    {
+      "keyword": "headless commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        25,
+        26,
+        34,
+        32,
+        23,
+        34,
+        31,
+        17,
+        27,
+        28,
+        37,
+        18,
+        0,
+        31,
+        30,
+        25,
+        31,
+        46,
+        24,
+        37,
+        11,
+        32,
+        44,
+        54,
+        59,
+        57,
+        51,
+        49,
+        50,
+        54
+      ],
+      "avg_interest": 38.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-02T13:15:51.443539+00:00"
+    }
+  ]
+}
