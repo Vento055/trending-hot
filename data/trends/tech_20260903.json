@@ -1,0 +1,353 @@
+{
+  "category": "tech",
+  "fetch_date": "2026-09-03T13:16:09.034097+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        25,
+        28,
+        23,
+        19,
+        32,
+        38,
+        31,
+        35,
+        31,
+        33,
+        33,
+        0,
+        36,
+        32,
+        38,
+        14,
+        10,
+        7,
+        8,
+        9,
+        12,
+        13,
+        12,
+        11,
+        9,
+        9,
+        11,
+        13,
+        17,
+        16
+      ],
+      "avg_interest": 42.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "best ai coding agents",
+            "value": 100
+          },
+          {
+            "query": "opencode",
+            "value": 12
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-03T13:15:48.296682+00:00"
+    },
+    {
+      "keyword": "webgpu",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        22,
+        21,
+        21,
+        20,
+        20,
+        24,
+        22,
+        22,
+        14,
+        24,
+        18,
+        0,
+        16,
+        19,
+        18,
+        12,
+        9,
+        7,
+        7,
+        9,
+        10,
+        11,
+        11,
+        11,
+        12,
+        9,
+        10,
+        14,
+        15,
+        13
+      ],
+      "avg_interest": 38.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "webgpu support",
+            "value": 100
+          },
+          {
+            "query": "webgpu github",
+            "value": 76
+          },
+          {
+            "query": "webgpu api",
+            "value": 64
+          },
+          {
+            "query": "webgpu mdn",
+            "value": 56
+          },
+          {
+            "query": "what is webgpu",
+            "value": 45
+          },
+          {
+            "query": "chrome webgpu",
+            "value": 44
+          },
+          {
+            "query": "safari webgpu",
+            "value": 26
+          },
+          {
+            "query": "webgpu test",
+            "value": 23
+          },
+          {
+            "query": "webgpu firefox",
+            "value": 22
+          },
+          {
+            "query": "webgpu rust",
+            "value": 18
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-03T13:15:53.996291+00:00"
+    },
+    {
+      "keyword": "rust programming 2026",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        10,
+        13,
+        18,
+        12,
+        0,
+        11,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
+      "avg_interest": 26.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-03T13:15:59.125360+00:00"
+    },
+    {
+      "keyword": "htmx",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        32,
+        26,
+        29,
+        25,
+        27,
+        28,
+        27,
+        26,
+        27,
+        31,
+        23,
+        0,
+        20,
+        19,
+        18,
+        15,
+        14,
+        11,
+        10,
+        13,
+        18,
+        17,
+        17,
+        24,
+        28,
+        18,
+        19,
+        21,
+        18,
+        15
+      ],
+      "avg_interest": 38.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "htmx11",
+            "value": 13550
+          },
+          {
+            "query": "htmx github",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "htmx docs",
+            "value": 100
+          },
+          {
+            "query": "htmx documentation",
+            "value": 88
+          },
+          {
+            "query": "htmx github",
+            "value": 65
+          },
+          {
+            "query": "what is htmx",
+            "value": 42
+          },
+          {
+            "query": "html",
+            "value": 38
+          },
+          {
+            "query": "htmx django",
+            "value": 30
+          },
+          {
+            "query": "go htmx",
+            "value": 28
+          },
+          {
+            "query": "htmx example",
+            "value": 26
+          },
+          {
+            "query": "react",
+            "value": 21
+          },
+          {
+            "query": "htmx book",
+            "value": 16
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-03T13:16:04.303246+00:00"
+    },
+    {
+      "keyword": "notion plugins",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        12,
+        9,
+        0,
+        16,
+        20,
+        15,
+        15,
+        8,
+        8,
+        10,
+        16,
+        17,
+        22,
+        0
+      ],
+      "avg_interest": 4.1,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-03T13:16:09.033760+00:00"
+    }
+  ]
+}
