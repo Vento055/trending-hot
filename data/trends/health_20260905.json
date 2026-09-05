@@ -1,0 +1,583 @@
+{
+  "category": "health",
+  "fetch_date": "2026-09-05T12:24:56.292749+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        39,
+        32,
+        35,
+        36,
+        43,
+        43,
+        34,
+        43,
+        40,
+        43,
+        46,
+        42,
+        41,
+        41,
+        40,
+        31,
+        31,
+        33,
+        38,
+        36,
+        34,
+        35,
+        37,
+        41,
+        36,
+        35,
+        35,
+        33,
+        31,
+        25
+      ],
+      "avg_interest": 46.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 14550
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 1050
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste reddit",
+            "value": 300
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste brands",
+            "value": 90
+          },
+          {
+            "query": "does nano hydroxyapatite work",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "toothpaste",
+            "value": 100
+          },
+          {
+            "query": "hydroxyapatite toothpaste",
+            "value": 100
+          },
+          {
+            "query": "boka nano hydroxyapatite toothpaste",
+            "value": 17
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 11
+          },
+          {
+            "query": "nano hydroxyapatite vs hydroxyapatite",
+            "value": 9
+          },
+          {
+            "query": "what is nano hydroxyapatite",
+            "value": 8
+          },
+          {
+            "query": "10 nano hydroxyapatite",
+            "value": 7
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste",
+            "value": 6
+          },
+          {
+            "query": "mouthology nano hydroxyapatite toothpaste",
+            "value": 4
+          },
+          {
+            "query": "davids toothpaste",
+            "value": 3
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-05T12:24:36.218051+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        67,
+        76,
+        34,
+        48,
+        0,
+        35,
+        50,
+        42,
+        42,
+        0,
+        45,
+        54,
+        44,
+        36,
+        37,
+        39,
+        41,
+        42,
+        35,
+        38,
+        38,
+        42,
+        41,
+        37,
+        39,
+        35,
+        35,
+        22
+      ],
+      "avg_interest": 40.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "beet gummies walmart",
+            "value": 80
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "beet gummies benefits",
+            "value": 100
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 66
+          },
+          {
+            "query": "goli beet gummies",
+            "value": 58
+          },
+          {
+            "query": "super beet gummies",
+            "value": 56
+          },
+          {
+            "query": "beet gummies walmart",
+            "value": 30
+          },
+          {
+            "query": "beet gummies reviews",
+            "value": 27
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-05T12:24:40.814226+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        56,
+        63,
+        83,
+        70,
+        75,
+        34,
+        54,
+        70,
+        77,
+        58,
+        74,
+        64,
+        47,
+        60,
+        49,
+        62,
+        61,
+        56,
+        52,
+        55,
+        52,
+        54,
+        61,
+        65,
+        56,
+        56,
+        54,
+        51,
+        46,
+        48
+      ],
+      "avg_interest": 66.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "wide toe box shoes for women",
+            "value": 300
+          },
+          {
+            "query": "toe spacers for runners",
+            "value": 190
+          },
+          {
+            "query": "what do toe spacers do",
+            "value": 70
+          },
+          {
+            "query": "gait happens",
+            "value": 70
+          },
+          {
+            "query": "toe spacers before and after",
+            "value": 60
+          },
+          {
+            "query": "benefits of toe spacers",
+            "value": 50
+          },
+          {
+            "query": "do toe spacers work",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "bunions",
+            "value": 100
+          },
+          {
+            "query": "bunion toe spacers",
+            "value": 85
+          },
+          {
+            "query": "bunion",
+            "value": 81
+          },
+          {
+            "query": "best toe spacers",
+            "value": 76
+          },
+          {
+            "query": "toe spacers for bunions",
+            "value": 63
+          },
+          {
+            "query": "correct toe spacers",
+            "value": 62
+          },
+          {
+            "query": "silicone toe spacers",
+            "value": 59
+          },
+          {
+            "query": "amazon toe spacers",
+            "value": 45
+          },
+          {
+            "query": "toe separators",
+            "value": 45
+          },
+          {
+            "query": "correct toes spacers",
+            "value": 45
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-05T12:24:45.404417+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        54,
+        47,
+        57,
+        49,
+        44,
+        47,
+        46,
+        55,
+        54,
+        70,
+        50,
+        51,
+        45,
+        50,
+        53,
+        42,
+        50,
+        61,
+        73,
+        63,
+        60,
+        55,
+        67,
+        75,
+        63,
+        70,
+        66,
+        64,
+        55,
+        51
+      ],
+      "avg_interest": 58.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "dr teals magnesium spray",
+            "value": 300
+          },
+          {
+            "query": "does magnesium spray help you sleep",
+            "value": 150
+          },
+          {
+            "query": "what is magnesium spray good for",
+            "value": 120
+          },
+          {
+            "query": "dr teal magnesium spray",
+            "value": 120
+          },
+          {
+            "query": "magnesium spray for leg cramps",
+            "value": 110
+          },
+          {
+            "query": "benefits of magnesium spray on feet",
+            "value": 100
+          },
+          {
+            "query": "magnesium spray on feet",
+            "value": 80
+          },
+          {
+            "query": "is magnesium spray good for you",
+            "value": 80
+          },
+          {
+            "query": "magnesium spray kruidvat",
+            "value": 70
+          },
+          {
+            "query": "how to make magnesium spray",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "magnesium oil spray",
+            "value": 100
+          },
+          {
+            "query": "magnesium glycinate spray",
+            "value": 63
+          },
+          {
+            "query": "magnesium glycinate",
+            "value": 63
+          },
+          {
+            "query": "magnesium sleep spray",
+            "value": 63
+          },
+          {
+            "query": "best magnesium spray",
+            "value": 51
+          },
+          {
+            "query": "magnesium for sleep",
+            "value": 32
+          },
+          {
+            "query": "dr teals magnesium spray",
+            "value": 32
+          },
+          {
+            "query": "magnesium spray benefits",
+            "value": 26
+          },
+          {
+            "query": "magnesium cream",
+            "value": 25
+          },
+          {
+            "query": "magnesium chloride spray",
+            "value": 22
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-05T12:24:50.804893+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        42,
+        57,
+        53,
+        48,
+        56,
+        49,
+        52,
+        52,
+        54,
+        57,
+        58,
+        58,
+        59,
+        55,
+        57,
+        51,
+        48,
+        45,
+        47,
+        43,
+        45,
+        44,
+        49,
+        50,
+        45,
+        46,
+        46,
+        40,
+        40,
+        36
+      ],
+      "avg_interest": 58.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "omni creatine gummies reviews",
+            "value": 140
+          },
+          {
+            "query": "oxyshred creatine gummies",
+            "value": 140
+          },
+          {
+            "query": "omni",
+            "value": 120
+          },
+          {
+            "query": "omni creatine gummies",
+            "value": 120
+          },
+          {
+            "query": "zena creatine gummies reviews",
+            "value": 90
+          },
+          {
+            "query": "esn creatine gummies",
+            "value": 80
+          },
+          {
+            "query": "applied nutrition creatine gummies",
+            "value": 70
+          },
+          {
+            "query": "creatine gummies costco",
+            "value": 60
+          },
+          {
+            "query": "cunnies creatine gummies",
+            "value": 60
+          },
+          {
+            "query": "do creatine gummies work as well as powder",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "creatine monohydrate",
+            "value": 100
+          },
+          {
+            "query": "creatine monohydrate gummies",
+            "value": 97
+          },
+          {
+            "query": "best creatine",
+            "value": 60
+          },
+          {
+            "query": "best creatine gummies",
+            "value": 57
+          },
+          {
+            "query": "create gummies",
+            "value": 51
+          },
+          {
+            "query": "create gummies creatine",
+            "value": 51
+          },
+          {
+            "query": "create",
+            "value": 51
+          },
+          {
+            "query": "create creatine",
+            "value": 51
+          },
+          {
+            "query": "creatine powder",
+            "value": 36
+          },
+          {
+            "query": "omni",
+            "value": 31
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-05T12:24:56.292377+00:00"
+    }
+  ]
+}
