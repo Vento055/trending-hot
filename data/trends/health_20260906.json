@@ -1,0 +1,223 @@
+{
+  "category": "health",
+  "fetch_date": "2026-09-06T12:39:47.682271+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        35,
+        40,
+        41,
+        45,
+        51,
+        43,
+        48,
+        43,
+        49,
+        55,
+        51,
+        45,
+        48,
+        45,
+        41,
+        37,
+        38,
+        44,
+        42,
+        40,
+        41,
+        43,
+        48,
+        42,
+        40,
+        42,
+        40,
+        38,
+        35,
+        32
+      ],
+      "avg_interest": 53.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-06T12:39:27.835421+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        65,
+        62,
+        0,
+        0,
+        34,
+        52,
+        63,
+        0,
+        34,
+        0,
+        40,
+        53,
+        60,
+        0,
+        38,
+        39,
+        41,
+        41,
+        36,
+        39,
+        40,
+        41,
+        42,
+        38,
+        39,
+        36,
+        36,
+        35,
+        25
+      ],
+      "avg_interest": 37.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 80
+          },
+          {
+            "query": "beet gummies walmart",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "beet gummies benefits",
+            "value": 100
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 67
+          },
+          {
+            "query": "goli beet gummies",
+            "value": 65
+          },
+          {
+            "query": "super beet gummies",
+            "value": 60
+          },
+          {
+            "query": "beet gummies walmart",
+            "value": 30
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-06T12:39:32.909729+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        51,
+        62,
+        62,
+        62,
+        32,
+        53,
+        62,
+        62,
+        53,
+        62,
+        65,
+        30,
+        60,
+        55,
+        83,
+        53,
+        49,
+        45,
+        48,
+        45,
+        48,
+        53,
+        57,
+        49,
+        49,
+        47,
+        45,
+        42,
+        45,
+        42
+      ],
+      "avg_interest": 59.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-06T12:39:37.624293+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-06T12:39:42.785726+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-06T12:39:47.681533+00:00"
+    }
+  ]
+}
