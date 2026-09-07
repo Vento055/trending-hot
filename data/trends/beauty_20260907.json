@@ -1,0 +1,599 @@
+{
+  "category": "beauty",
+  "fetch_date": "2026-09-07T14:47:28.270203+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "glass skin",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        48,
+        47,
+        42,
+        45,
+        45,
+        61,
+        73,
+        74,
+        56,
+        54,
+        51,
+        52,
+        54,
+        54,
+        47,
+        39,
+        43,
+        43,
+        42,
+        47,
+        51,
+        53,
+        42,
+        42,
+        44,
+        42,
+        43,
+        45,
+        41,
+        35
+      ],
+      "avg_interest": 58.8,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "la roche posay anthelios clear skin dry touch sunscreen spf 60",
+            "value": 1000
+          },
+          {
+            "query": "revitalift glass skin liquid cream",
+            "value": 130
+          },
+          {
+            "query": "glass bones and paper skin",
+            "value": 120
+          },
+          {
+            "query": "i was born with glass bones and paper skin",
+            "value": 120
+          },
+          {
+            "query": "hdrey glass skin",
+            "value": 90
+          },
+          {
+            "query": "mascarilla glass skin loreal",
+            "value": 90
+          },
+          {
+            "query": "how to get clear glass skin",
+            "value": 80
+          },
+          {
+            "query": "loreal glass skin liquid cream",
+            "value": 80
+          },
+          {
+            "query": "korean glass skin facial",
+            "value": 70
+          },
+          {
+            "query": "crema loreal glass skin",
+            "value": 70
+          }
+        ],
+        "top": [
+          {
+            "query": "glass skin cream",
+            "value": 100
+          },
+          {
+            "query": "korean glass skin",
+            "value": 96
+          },
+          {
+            "query": "glass skin serum",
+            "value": 96
+          },
+          {
+            "query": "glass skin mask",
+            "value": 88
+          },
+          {
+            "query": "glass skin care",
+            "value": 81
+          },
+          {
+            "query": "what is glass skin",
+            "value": 72
+          },
+          {
+            "query": "loreal",
+            "value": 69
+          },
+          {
+            "query": "glass skin loreal",
+            "value": 68
+          },
+          {
+            "query": "glass skin facial",
+            "value": 48
+          },
+          {
+            "query": "glass skin products",
+            "value": 46
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-07T14:47:06.847988+00:00"
+    },
+    {
+      "keyword": "nano hydroxyapatite toothpaste",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        34,
+        39,
+        39,
+        45,
+        38,
+        42,
+        41,
+        45,
+        49,
+        36,
+        36,
+        37,
+        46,
+        32,
+        39,
+        33,
+        39,
+        39,
+        33,
+        37,
+        41,
+        45,
+        40,
+        36,
+        36,
+        33,
+        35,
+        31,
+        28,
+        28
+      ],
+      "avg_interest": 48.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 2650
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 70
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste brands",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "boka nano hydroxyapatite toothpaste",
+            "value": 100
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 67
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste",
+            "value": 34
+          },
+          {
+            "query": "mouthology nano hydroxyapatite toothpaste",
+            "value": 24
+          },
+          {
+            "query": "davids nano hydroxyapatite toothpaste",
+            "value": 20
+          },
+          {
+            "query": "nano hydroxyapatite toothpaste reddit",
+            "value": 13
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 7
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste brands",
+            "value": 2
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 0
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-07T14:47:11.989900+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        77,
+        67,
+        38,
+        41,
+        43,
+        57,
+        0,
+        0,
+        0,
+        41,
+        39,
+        43,
+        58,
+        0,
+        46,
+        40,
+        42,
+        42,
+        37,
+        40,
+        43,
+        43,
+        44,
+        39,
+        41,
+        38,
+        36,
+        37,
+        34,
+        24
+      ],
+      "avg_interest": 41.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "beet root juice",
+            "value": 120
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 70
+          },
+          {
+            "query": "beetroot gummies",
+            "value": 50
+          },
+          {
+            "query": "beet root gummies benefits",
+            "value": 50
+          },
+          {
+            "query": "beet gummies benefits",
+            "value": 50
+          },
+          {
+            "query": "beetroot",
+            "value": 50
+          },
+          {
+            "query": "beet juice",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "beet root gummies",
+            "value": 100
+          },
+          {
+            "query": "beet root",
+            "value": 100
+          },
+          {
+            "query": "nitric oxide",
+            "value": 16
+          },
+          {
+            "query": "beet gummies benefits",
+            "value": 14
+          },
+          {
+            "query": "beetroot",
+            "value": 13
+          },
+          {
+            "query": "beetroot gummies",
+            "value": 13
+          },
+          {
+            "query": "beet juice",
+            "value": 11
+          },
+          {
+            "query": "beets",
+            "value": 10
+          },
+          {
+            "query": "beet root gummies benefits",
+            "value": 9
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 9
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-07T14:47:17.101351+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        73,
+        74,
+        75,
+        32,
+        61,
+        72,
+        64,
+        61,
+        81,
+        76,
+        39,
+        56,
+        64,
+        72,
+        32,
+        57,
+        53,
+        56,
+        52,
+        55,
+        63,
+        66,
+        56,
+        57,
+        54,
+        52,
+        50,
+        56,
+        55,
+        48
+      ],
+      "avg_interest": 67.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "pact cotton underwear",
+            "value": 19350
+          },
+          {
+            "query": "how to prevent bunions",
+            "value": 190
+          },
+          {
+            "query": "gait happens",
+            "value": 80
+          },
+          {
+            "query": "what do toe spacers do",
+            "value": 70
+          },
+          {
+            "query": "do toe spacers work",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "bunions",
+            "value": 100
+          },
+          {
+            "query": "bunion toe spacers",
+            "value": 82
+          },
+          {
+            "query": "bunion",
+            "value": 81
+          },
+          {
+            "query": "best toe spacers",
+            "value": 74
+          },
+          {
+            "query": "correct toe spacers",
+            "value": 61
+          },
+          {
+            "query": "toe spacers for bunions",
+            "value": 60
+          },
+          {
+            "query": "silicone toe spacers",
+            "value": 55
+          },
+          {
+            "query": "toe separators",
+            "value": 46
+          },
+          {
+            "query": "correct toes spacers",
+            "value": 45
+          },
+          {
+            "query": "amazon toe spacers",
+            "value": 45
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-07T14:47:22.351369+00:00"
+    },
+    {
+      "keyword": "scalp serum",
+      "category": "beauty",
+      "google_category_id": 44,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        64,
+        56,
+        48,
+        54,
+        50,
+        66,
+        73,
+        74,
+        73,
+        70,
+        70,
+        66,
+        63,
+        62,
+        64,
+        47,
+        53,
+        53,
+        48,
+        50,
+        59,
+        61,
+        51,
+        45,
+        46,
+        44,
+        48,
+        51,
+        52,
+        45
+      ],
+      "avg_interest": 62.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "medicube deoxyribose scalp serum",
+            "value": 185450
+          },
+          {
+            "query": "deoxyribose scalp serum",
+            "value": 20450
+          },
+          {
+            "query": "deoxyribose",
+            "value": 18250
+          },
+          {
+            "query": "aromatica rosemary pdrn scalp serum",
+            "value": 1450
+          },
+          {
+            "query": "rootx scalp serum",
+            "value": 300
+          },
+          {
+            "query": "medicube scalp serum",
+            "value": 250
+          },
+          {
+            "query": "medicube",
+            "value": 250
+          },
+          {
+            "query": "indulekha bringha hair growth treatment scalp serum",
+            "value": 200
+          },
+          {
+            "query": "dr groot scalp serum",
+            "value": 170
+          },
+          {
+            "query": "seapuri scalp serum",
+            "value": 120
+          }
+        ],
+        "top": [
+          {
+            "query": "hair scalp serum",
+            "value": 100
+          },
+          {
+            "query": "hair serum",
+            "value": 99
+          },
+          {
+            "query": "hair growth serum",
+            "value": 25
+          },
+          {
+            "query": "hair growth scalp serum",
+            "value": 24
+          },
+          {
+            "query": "best scalp serum",
+            "value": 19
+          },
+          {
+            "query": "scalp treatment",
+            "value": 15
+          },
+          {
+            "query": "dry scalp serum",
+            "value": 13
+          },
+          {
+            "query": "scalp serum for hair growth",
+            "value": 12
+          },
+          {
+            "query": "ordinary scalp serum",
+            "value": 11
+          },
+          {
+            "query": "the ordinary",
+            "value": 9
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-07T14:47:28.269822+00:00"
+    }
+  ]
+}

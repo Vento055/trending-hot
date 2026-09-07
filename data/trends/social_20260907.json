@@ -1,0 +1,108 @@
+{
+  "category": "social",
+  "fetch_date": "2026-09-07T14:48:49.239945+00:00",
+  "total_keywords": 5,
+  "source": "google_trends_rss",
+  "data": [
+    {
+      "keyword": "trump ai generated images social media",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "US",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        1000
+      ],
+      "avg_interest": 1000,
+      "peak_interest": 1000,
+      "trend_direction": "rising",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-09-07T14:48:49.239773+00:00"
+    },
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-09-07T14:48:49.239795+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-09-07T14:48:49.239800+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-09-07T14:48:49.239805+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        50
+      ],
+      "avg_interest": 50,
+      "peak_interest": 50,
+      "trend_direction": "stable",
+      "data_points": 1,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends_rss",
+      "fetched_at": "2026-09-07T14:48:49.239809+00:00"
+    }
+  ]
+}
