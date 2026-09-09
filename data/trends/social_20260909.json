@@ -1,0 +1,447 @@
+{
+  "category": "social",
+  "fetch_date": "2026-09-09T13:26:14.688741+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        68,
+        68,
+        64,
+        72,
+        65,
+        59,
+        70,
+        67,
+        69,
+        62,
+        50,
+        46,
+        46,
+        55,
+        61,
+        53,
+        58,
+        60,
+        56,
+        50,
+        56,
+        57,
+        62,
+        59,
+        60,
+        57,
+        60,
+        62,
+        60,
+        59
+      ],
+      "avg_interest": 68.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "tiktok shop streamer",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok shop seller",
+            "value": 100
+          },
+          {
+            "query": "seller tiktok",
+            "value": 96
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 45
+          },
+          {
+            "query": "tiktok shop seller center",
+            "value": 42
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 42
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 40
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 35
+          },
+          {
+            "query": "tiktok shop uk",
+            "value": 32
+          },
+          {
+            "query": "tiktok shop app",
+            "value": 29
+          },
+          {
+            "query": "shopee",
+            "value": 29
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-09T13:25:51.011293+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        44,
+        38,
+        35,
+        48,
+        45,
+        60,
+        46,
+        42,
+        47,
+        39,
+        28,
+        31,
+        33,
+        26,
+        33,
+        28,
+        28,
+        29,
+        30,
+        31,
+        29,
+        32,
+        35,
+        33,
+        32,
+        37,
+        38,
+        33,
+        32,
+        29
+      ],
+      "avg_interest": 57.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "threads app download apk",
+            "value": 70
+          },
+          {
+            "query": "whats threads app",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "instagram app",
+            "value": 100
+          },
+          {
+            "query": "instagram threads app",
+            "value": 100
+          },
+          {
+            "query": "threads app download",
+            "value": 95
+          },
+          {
+            "query": "threads download",
+            "value": 95
+          },
+          {
+            "query": "what is threads app",
+            "value": 80
+          },
+          {
+            "query": "threads app meta",
+            "value": 72
+          },
+          {
+            "query": "threads app free",
+            "value": 70
+          },
+          {
+            "query": "threads app review",
+            "value": 67
+          },
+          {
+            "query": "what is the threads app",
+            "value": 35
+          },
+          {
+            "query": "threads app download apk",
+            "value": 15
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-09T13:25:57.012603+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        23,
+        20,
+        31,
+        31,
+        27,
+        33,
+        24,
+        27,
+        29,
+        29,
+        35,
+        27,
+        24,
+        26,
+        27,
+        28,
+        31,
+        72,
+        53,
+        41,
+        42,
+        37,
+        37,
+        31,
+        35,
+        33,
+        33,
+        34,
+        30,
+        28
+      ],
+      "avg_interest": 32.9,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-09T13:26:02.758378+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "edtech news",
+            "value": 12000
+          },
+          {
+            "query": "smart cities news",
+            "value": 4350
+          },
+          {
+            "query": "freelance jobs online",
+            "value": 1200
+          },
+          {
+            "query": "kitchen tech upgrades",
+            "value": 550
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 500
+          },
+          {
+            "query": "bitcoin latest news",
+            "value": 450
+          },
+          {
+            "query": "ai image enhancer",
+            "value": 400
+          },
+          {
+            "query": "digital side hustles",
+            "value": 350
+          },
+          {
+            "query": "lifelong learning",
+            "value": 300
+          },
+          {
+            "query": "streaming shows trending",
+            "value": 300
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 72
+          },
+          {
+            "query": "social commerce trends",
+            "value": 61
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 46
+          },
+          {
+            "query": "social commerce instagram",
+            "value": 43
+          },
+          {
+            "query": "what is social commerce",
+            "value": 39
+          },
+          {
+            "query": "social commerce platform",
+            "value": 24
+          },
+          {
+            "query": "jobs",
+            "value": 22
+          },
+          {
+            "query": "social commerce definition",
+            "value": 21
+          },
+          {
+            "query": "commerce definition",
+            "value": 21
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-09T13:26:08.814303+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        27,
+        23,
+        23,
+        18,
+        25,
+        26,
+        24,
+        24,
+        23,
+        17,
+        18,
+        14,
+        21,
+        19,
+        18,
+        19,
+        18,
+        19,
+        16,
+        17,
+        20,
+        21,
+        24,
+        21,
+        19,
+        18,
+        18,
+        23,
+        25,
+        22
+      ],
+      "avg_interest": 32.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "compare popular online video platform features for ai content creation",
+            "value": 22600
+          },
+          {
+            "query": "sushi",
+            "value": 90
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for content creation",
+            "value": 100
+          },
+          {
+            "query": "ai content creation tools",
+            "value": 36
+          },
+          {
+            "query": "generative ai content creation",
+            "value": 25
+          },
+          {
+            "query": "ai tools for content creation",
+            "value": 25
+          },
+          {
+            "query": "ai content creation platform",
+            "value": 14
+          },
+          {
+            "query": "best ai tools for content creation",
+            "value": 11
+          },
+          {
+            "query": "ai content creation course",
+            "value": 9
+          },
+          {
+            "query": "sushi",
+            "value": 1
+          },
+          {
+            "query": "compare popular online video platform features for ai content creation",
+            "value": 1
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-09T13:26:14.688356+00:00"
+    }
+  ]
+}
