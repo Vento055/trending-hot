@@ -1,0 +1,183 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-09-10T13:20:20.573728+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        35,
+        30,
+        31,
+        31,
+        28,
+        35,
+        28,
+        37,
+        21,
+        12,
+        9,
+        10,
+        13,
+        18,
+        23,
+        11,
+        10,
+        9,
+        9,
+        11,
+        13,
+        17,
+        15,
+        18,
+        14,
+        15,
+        17,
+        16,
+        12,
+        11
+      ],
+      "avg_interest": 38.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-10T13:19:56.171005+00:00"
+    },
+    {
+      "keyword": "ai video generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "higgsfield",
+            "value": 60
+          },
+          {
+            "query": "google veo",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for video generation",
+            "value": 100
+          },
+          {
+            "query": "ai video generation free",
+            "value": 65
+          },
+          {
+            "query": "video generation ai tools",
+            "value": 35
+          },
+          {
+            "query": "open ai video generation",
+            "value": 27
+          },
+          {
+            "query": "google veo",
+            "value": 26
+          },
+          {
+            "query": "sora video generation",
+            "value": 22
+          },
+          {
+            "query": "sora ai video generation",
+            "value": 21
+          },
+          {
+            "query": "free ai for video generation",
+            "value": 17
+          },
+          {
+            "query": "flow ai",
+            "value": 13
+          },
+          {
+            "query": "higgsfield",
+            "value": 12
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-10T13:20:04.202663+00:00"
+    },
+    {
+      "keyword": "ai voice cloning",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-10T13:20:09.280461+00:00"
+    },
+    {
+      "keyword": "eu ai act",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-10T13:20:16.242463+00:00"
+    },
+    {
+      "keyword": "local llm",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-10T13:20:20.572886+00:00"
+    }
+  ]
+}
