@@ -1,0 +1,365 @@
+{
+  "category": "tech",
+  "fetch_date": "2026-09-11T13:15:06.230634+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        29,
+        31,
+        30,
+        28,
+        35,
+        28,
+        37,
+        21,
+        11,
+        9,
+        11,
+        12,
+        17,
+        21,
+        20,
+        10,
+        9,
+        8,
+        10,
+        12,
+        17,
+        15,
+        17,
+        13,
+        14,
+        17,
+        16,
+        12,
+        10,
+        10
+      ],
+      "avg_interest": 37.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "best ai agents",
+            "value": 100
+          },
+          {
+            "query": "opencode",
+            "value": 12
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:14:44.912093+00:00"
+    },
+    {
+      "keyword": "webgpu",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        14,
+        26,
+        19,
+        21,
+        19,
+        20,
+        19,
+        22,
+        13,
+        10,
+        6,
+        9,
+        18,
+        20,
+        20,
+        11,
+        12,
+        9,
+        10,
+        14,
+        17,
+        15,
+        17,
+        17,
+        20,
+        19,
+        16,
+        15,
+        13,
+        12
+      ],
+      "avg_interest": 36.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "webgpu support",
+            "value": 100
+          },
+          {
+            "query": "webgpu github",
+            "value": 81
+          },
+          {
+            "query": "webgpu api",
+            "value": 60
+          },
+          {
+            "query": "what is webgpu",
+            "value": 47
+          },
+          {
+            "query": "chrome webgpu",
+            "value": 39
+          },
+          {
+            "query": "safari webgpu",
+            "value": 26
+          },
+          {
+            "query": "firefox webgpu",
+            "value": 22
+          },
+          {
+            "query": "webgpu test",
+            "value": 20
+          },
+          {
+            "query": "webgpu rust",
+            "value": 18
+          },
+          {
+            "query": "webgpu games",
+            "value": 16
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:14:50.759901+00:00"
+    },
+    {
+      "keyword": "rust programming 2026",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        2,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4,
+        3,
+        3,
+        2
+      ],
+      "avg_interest": 24.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:14:55.920768+00:00"
+    },
+    {
+      "keyword": "htmx",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        23,
+        26,
+        20,
+        21,
+        22,
+        19,
+        23,
+        16,
+        18,
+        14,
+        17,
+        14,
+        25,
+        25,
+        27,
+        24,
+        28,
+        18,
+        19,
+        21,
+        19,
+        18,
+        20,
+        14,
+        16,
+        24,
+        25,
+        22,
+        18,
+        19
+      ],
+      "avg_interest": 37.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "htmx11",
+            "value": 11550
+          },
+          {
+            "query": "htmx это",
+            "value": 300
+          },
+          {
+            "query": "go templ htmx",
+            "value": 60
+          },
+          {
+            "query": "github",
+            "value": 50
+          },
+          {
+            "query": "htmx github",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "htmx docs",
+            "value": 100
+          },
+          {
+            "query": "htmx documentation",
+            "value": 89
+          },
+          {
+            "query": "github",
+            "value": 72
+          },
+          {
+            "query": "htmx github",
+            "value": 71
+          },
+          {
+            "query": "what is htmx",
+            "value": 45
+          },
+          {
+            "query": "html",
+            "value": 41
+          },
+          {
+            "query": "htmx django",
+            "value": 31
+          },
+          {
+            "query": "go htmx",
+            "value": 29
+          },
+          {
+            "query": "django",
+            "value": 28
+          },
+          {
+            "query": "htmx example",
+            "value": 27
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:15:01.215545+00:00"
+    },
+    {
+      "keyword": "notion plugins",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        42,
+        37,
+        38,
+        70,
+        92,
+        84,
+        44,
+        87,
+        67,
+        100,
+        86,
+        48,
+        67,
+        100,
+        0
+      ],
+      "avg_interest": 10.3,
+      "peak_interest": 100,
+      "trend_direction": "rising",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:15:06.230283+00:00"
+    }
+  ]
+}

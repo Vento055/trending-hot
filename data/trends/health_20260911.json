@@ -1,0 +1,221 @@
+{
+  "category": "health",
+  "fetch_date": "2026-09-11T13:17:16.141161+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        42,
+        46,
+        41,
+        45,
+        55,
+        50,
+        45,
+        48,
+        49,
+        37,
+        44,
+        51,
+        47,
+        50,
+        42,
+        40,
+        43,
+        47,
+        43,
+        40,
+        42,
+        39,
+        38,
+        38,
+        36,
+        35,
+        33,
+        32,
+        34,
+        29
+      ],
+      "avg_interest": 51.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 20800
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 300
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste brands",
+            "value": 70
+          },
+          {
+            "query": "does nano hydroxyapatite work",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "nano hydroxyapatite toothpaste",
+            "value": 100
+          },
+          {
+            "query": "toothpaste",
+            "value": 98
+          },
+          {
+            "query": "hydroxyapatite toothpaste",
+            "value": 95
+          },
+          {
+            "query": "boka",
+            "value": 17
+          },
+          {
+            "query": "boka nano hydroxyapatite toothpaste",
+            "value": 16
+          },
+          {
+            "query": "boka toothpaste",
+            "value": 16
+          },
+          {
+            "query": "fluoride toothpaste",
+            "value": 14
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 11
+          },
+          {
+            "query": "best hydroxyapatite toothpaste",
+            "value": 11
+          },
+          {
+            "query": "nano hydroxyapatite vs hydroxyapatite",
+            "value": 8
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:16:55.742122+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        47,
+        64,
+        45,
+        0,
+        0,
+        0,
+        70,
+        62,
+        0,
+        0,
+        0,
+        50,
+        49,
+        45,
+        42,
+        41,
+        44,
+        45,
+        41,
+        41,
+        38,
+        38,
+        38,
+        37,
+        36,
+        35,
+        37,
+        38,
+        35
+      ],
+      "avg_interest": 39.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:17:00.857088+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:17:05.872462+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:17:11.092303+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:17:16.140440+00:00"
+    }
+  ]
+}

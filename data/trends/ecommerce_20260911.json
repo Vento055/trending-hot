@@ -1,0 +1,335 @@
+{
+  "category": "ecommerce",
+  "fetch_date": "2026-09-11T13:16:12.358846+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "shopify ecosystem",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        6,
+        8,
+        7,
+        7,
+        6,
+        5,
+        8,
+        8,
+        7,
+        7,
+        5,
+        9,
+        0
+      ],
+      "avg_interest": 14.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:15:48.512871+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        28,
+        34,
+        30,
+        31,
+        38,
+        34,
+        36,
+        22,
+        14,
+        10,
+        16,
+        24,
+        31,
+        34,
+        36,
+        16,
+        14,
+        14,
+        23,
+        20,
+        23,
+        20,
+        21,
+        16,
+        18,
+        28,
+        22,
+        18,
+        16,
+        15
+      ],
+      "avg_interest": 39.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "edtech news",
+            "value": 11200
+          },
+          {
+            "query": "freelance jobs online",
+            "value": 10250
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 9600
+          },
+          {
+            "query": "smart cities news",
+            "value": 8800
+          },
+          {
+            "query": "bitcoin latest news",
+            "value": 450
+          },
+          {
+            "query": "streaming shows trending",
+            "value": 350
+          },
+          {
+            "query": "ai image enhancer",
+            "value": 350
+          },
+          {
+            "query": "trending beauty hacks",
+            "value": 250
+          },
+          {
+            "query": "lifelong learning",
+            "value": 250
+          },
+          {
+            "query": "wellness gadgets",
+            "value": 200
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 70
+          },
+          {
+            "query": "social commerce trends",
+            "value": 64
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 47
+          },
+          {
+            "query": "what is social commerce",
+            "value": 40
+          },
+          {
+            "query": "social commerce platform",
+            "value": 24
+          },
+          {
+            "query": "social commerce definition",
+            "value": 22
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 21
+          },
+          {
+            "query": "commerce meaning",
+            "value": 21
+          },
+          {
+            "query": "social media marketing",
+            "value": 16
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:15:55.766371+00:00"
+    },
+    {
+      "keyword": "cross border ecommerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        20,
+        28,
+        15,
+        13,
+        21,
+        19,
+        23,
+        22,
+        0,
+        0,
+        0,
+        0,
+        16,
+        12,
+        16,
+        7,
+        6,
+        6,
+        8,
+        7,
+        9,
+        9,
+        11,
+        9,
+        9,
+        12,
+        11,
+        7,
+        6,
+        6
+      ],
+      "avg_interest": 20.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:16:00.825204+00:00"
+    },
+    {
+      "keyword": "bnpl",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        63,
+        60,
+        53,
+        56,
+        71,
+        71,
+        63,
+        65,
+        44,
+        39,
+        41,
+        49,
+        53,
+        53,
+        63,
+        47,
+        43,
+        44,
+        50,
+        60,
+        55,
+        58,
+        48,
+        46,
+        43,
+        54,
+        52,
+        50,
+        54,
+        54
+      ],
+      "avg_interest": 62.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:16:06.420159+00:00"
+    },
+    {
+      "keyword": "headless commerce",
+      "category": "ecommerce",
+      "google_category_id": 78,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        20,
+        26,
+        26,
+        31,
+        22,
+        27,
+        46,
+        50,
+        48,
+        28,
+        59,
+        10,
+        55,
+        71,
+        97,
+        50,
+        47,
+        43,
+        41,
+        43,
+        49,
+        47,
+        53,
+        49,
+        50,
+        47,
+        40,
+        40,
+        34,
+        40
+      ],
+      "avg_interest": 36.5,
+      "peak_interest": 100,
+      "trend_direction": "rising",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-11T13:16:12.358104+00:00"
+    }
+  ]
+}
