@@ -1,0 +1,567 @@
+{
+  "category": "social",
+  "fetch_date": "2026-09-13T13:42:35.599252+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        72,
+        60,
+        70,
+        69,
+        71,
+        59,
+        53,
+        45,
+        46,
+        56,
+        61,
+        69,
+        64,
+        65,
+        63,
+        49,
+        55,
+        53,
+        62,
+        59,
+        60,
+        55,
+        57,
+        62,
+        60,
+        56,
+        54,
+        47,
+        43,
+        43
+      ],
+      "avg_interest": 66.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "fortnite item shop",
+            "value": 70
+          },
+          {
+            "query": "tiktok shop streamer",
+            "value": 40
+          },
+          {
+            "query": "tiktok shop streamer desktop",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok shop seller",
+            "value": 100
+          },
+          {
+            "query": "tiktok seller",
+            "value": 96
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 44
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 41
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 40
+          },
+          {
+            "query": "tiktok shop seller center",
+            "value": 39
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 36
+          },
+          {
+            "query": "tiktok shop uk",
+            "value": 32
+          },
+          {
+            "query": "tiktok shop app",
+            "value": 29
+          },
+          {
+            "query": "shopee",
+            "value": 29
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-13T13:42:13.688841+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        47,
+        62,
+        51,
+        39,
+        46,
+        39,
+        30,
+        28,
+        30,
+        25,
+        33,
+        36,
+        35,
+        39,
+        39,
+        30,
+        28,
+        31,
+        34,
+        33,
+        32,
+        35,
+        37,
+        33,
+        32,
+        28,
+        30,
+        28,
+        25,
+        24
+      ],
+      "avg_interest": 54.6,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "whats threads app",
+            "value": 90
+          },
+          {
+            "query": "threads app download apk",
+            "value": 90
+          }
+        ],
+        "top": [
+          {
+            "query": "threads download",
+            "value": 100
+          },
+          {
+            "query": "instagram threads app",
+            "value": 99
+          },
+          {
+            "query": "instagram app",
+            "value": 98
+          },
+          {
+            "query": "what is threads app",
+            "value": 83
+          },
+          {
+            "query": "threads app free",
+            "value": 73
+          },
+          {
+            "query": "threads app review",
+            "value": 66
+          },
+          {
+            "query": "what is the threads app",
+            "value": 36
+          },
+          {
+            "query": "threads app download apk",
+            "value": 17
+          },
+          {
+            "query": "is threads app free",
+            "value": 14
+          },
+          {
+            "query": "whats threads app",
+            "value": 5
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-13T13:42:19.652169+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        26,
+        34,
+        25,
+        28,
+        29,
+        29,
+        35,
+        25,
+        23,
+        26,
+        27,
+        33,
+        40,
+        71,
+        52,
+        41,
+        42,
+        37,
+        36,
+        33,
+        36,
+        35,
+        33,
+        34,
+        32,
+        30,
+        51,
+        60,
+        63,
+        51
+      ],
+      "avg_interest": 34.2,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "mastodon marrow deep",
+            "value": 308150
+          },
+          {
+            "query": "marrow deep",
+            "value": 302400
+          },
+          {
+            "query": "mastodon marrow deep review",
+            "value": 62600
+          },
+          {
+            "query": "snakes for dinner mastodon",
+            "value": 54200
+          },
+          {
+            "query": "well preserved mastodon molar california",
+            "value": 30250
+          },
+          {
+            "query": "mastodon marrow deep album review",
+            "value": 17450
+          },
+          {
+            "query": "mastodon in the ruins lyrics",
+            "value": 16550
+          },
+          {
+            "query": "mastodon snakes for dinner lyrics",
+            "value": 10900
+          },
+          {
+            "query": "mastodon marrow deep cd",
+            "value": 9200
+          },
+          {
+            "query": "mastodon marrow deep vinyl",
+            "value": 1950
+          }
+        ],
+        "top": [
+          {
+            "query": "mastodon social",
+            "value": 100
+          },
+          {
+            "query": "what is mastodon",
+            "value": 95
+          },
+          {
+            "query": "mastodon band",
+            "value": 88
+          },
+          {
+            "query": "mastodon github",
+            "value": 84
+          },
+          {
+            "query": "mastodon marrow deep",
+            "value": 75
+          },
+          {
+            "query": "mastodon animal",
+            "value": 75
+          },
+          {
+            "query": "marrow deep",
+            "value": 74
+          },
+          {
+            "query": "mastodon api",
+            "value": 67
+          },
+          {
+            "query": "bluesky",
+            "value": 64
+          },
+          {
+            "query": "mastodon album",
+            "value": 58
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-13T13:42:25.438227+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        30,
+        31,
+        39,
+        35,
+        36,
+        23,
+        16,
+        12,
+        18,
+        24,
+        34,
+        35,
+        37,
+        36,
+        27,
+        14,
+        23,
+        21,
+        26,
+        22,
+        21,
+        17,
+        18,
+        27,
+        22,
+        22,
+        16,
+        16,
+        10,
+        10
+      ],
+      "avg_interest": 39.9,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "freelance jobs online",
+            "value": 11900
+          },
+          {
+            "query": "smart cities news",
+            "value": 7900
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 850
+          },
+          {
+            "query": "bitcoin latest news",
+            "value": 350
+          },
+          {
+            "query": "minimalist lifestyle trend",
+            "value": 350
+          },
+          {
+            "query": "wellness gadgets",
+            "value": 300
+          },
+          {
+            "query": "edtech news",
+            "value": 300
+          },
+          {
+            "query": "ai image enhancer",
+            "value": 250
+          },
+          {
+            "query": "aura points / aura slang",
+            "value": 250
+          },
+          {
+            "query": "k-pop trending",
+            "value": 250
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 73
+          },
+          {
+            "query": "social commerce trends",
+            "value": 60
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 48
+          },
+          {
+            "query": "what is social commerce",
+            "value": 41
+          },
+          {
+            "query": "social commerce platform",
+            "value": 24
+          },
+          {
+            "query": "social commerce definition",
+            "value": 22
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 21
+          },
+          {
+            "query": "commerce meaning",
+            "value": 21
+          },
+          {
+            "query": "social media marketing",
+            "value": 17
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-13T13:42:29.799453+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        26,
+        26,
+        25,
+        26,
+        24,
+        19,
+        18,
+        14,
+        22,
+        18,
+        18,
+        25,
+        26,
+        28,
+        19,
+        18,
+        20,
+        22,
+        26,
+        22,
+        20,
+        18,
+        19,
+        24,
+        25,
+        20,
+        22,
+        21,
+        13,
+        15
+      ],
+      "avg_interest": 32.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "compare popular online video platform features for ai content creation",
+            "value": 31750
+          },
+          {
+            "query": "sushi",
+            "value": 80
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for content creation",
+            "value": 100
+          },
+          {
+            "query": "ai content creation tools",
+            "value": 37
+          },
+          {
+            "query": "ai tools for content creation",
+            "value": 26
+          },
+          {
+            "query": "generative ai content creation",
+            "value": 25
+          },
+          {
+            "query": "ai content creation platform",
+            "value": 14
+          },
+          {
+            "query": "best ai tools for content creation",
+            "value": 11
+          },
+          {
+            "query": "ai content creation course",
+            "value": 9
+          },
+          {
+            "query": "compare popular online video platform features for ai content creation",
+            "value": 1
+          },
+          {
+            "query": "sushi",
+            "value": 1
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-13T13:42:35.598904+00:00"
+    }
+  ]
+}
