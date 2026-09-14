@@ -1,0 +1,290 @@
+{
+  "category": "tech",
+  "fetch_date": "2026-09-14T15:40:19.434671+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        28,
+        35,
+        29,
+        38,
+        21,
+        11,
+        9,
+        11,
+        14,
+        19,
+        21,
+        20,
+        18,
+        18,
+        20,
+        11,
+        13,
+        17,
+        16,
+        18,
+        14,
+        15,
+        17,
+        16,
+        13,
+        10,
+        9,
+        6,
+        7,
+        10
+      ],
+      "avg_interest": 36.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "claude code",
+            "value": 100
+          },
+          {
+            "query": "codex",
+            "value": 84
+          },
+          {
+            "query": "vibe coding",
+            "value": 31
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-14T15:39:59.911646+00:00"
+    },
+    {
+      "keyword": "webgpu",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-14T15:40:05.271030+00:00"
+    },
+    {
+      "keyword": "rust programming 2026",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        2,
+        2,
+        1,
+        0,
+        3
+      ],
+      "avg_interest": 21.4,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-14T15:40:09.785282+00:00"
+    },
+    {
+      "keyword": "htmx",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        20,
+        20,
+        20,
+        19,
+        22,
+        16,
+        9,
+        15,
+        14,
+        27,
+        23,
+        22,
+        25,
+        32,
+        17,
+        18,
+        21,
+        19,
+        18,
+        19,
+        14,
+        15,
+        24,
+        24,
+        22,
+        18,
+        18,
+        12,
+        11,
+        14
+      ],
+      "avg_interest": 36.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "htmx11",
+            "value": 350
+          },
+          {
+            "query": "htmx это",
+            "value": 60
+          },
+          {
+            "query": "htmx github",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "htmx docs",
+            "value": 100
+          },
+          {
+            "query": "htmx documentation",
+            "value": 89
+          },
+          {
+            "query": "htmx github",
+            "value": 76
+          },
+          {
+            "query": "what is htmx",
+            "value": 45
+          },
+          {
+            "query": "django htmx",
+            "value": 31
+          },
+          {
+            "query": "htmx go",
+            "value": 30
+          },
+          {
+            "query": "htmx example",
+            "value": 26
+          },
+          {
+            "query": "react",
+            "value": 22
+          },
+          {
+            "query": "htmx book",
+            "value": 17
+          },
+          {
+            "query": "htmx events",
+            "value": 13
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-14T15:40:14.943206+00:00"
+    },
+    {
+      "keyword": "notion plugins",
+      "category": "tech",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        15,
+        16,
+        13,
+        14,
+        11,
+        17,
+        14,
+        12,
+        12,
+        14,
+        7,
+        0,
+        8,
+        0
+      ],
+      "avg_interest": 5.6,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-14T15:40:19.434131+00:00"
+    }
+  ]
+}
