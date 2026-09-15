@@ -1,0 +1,263 @@
+{
+  "category": "health",
+  "fetch_date": "2026-09-15T14:12:14.589656+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        56,
+        52,
+        46,
+        47,
+        45,
+        40,
+        42,
+        47,
+        48,
+        47,
+        43,
+        51,
+        54,
+        46,
+        55,
+        40,
+        41,
+        39,
+        38,
+        38,
+        36,
+        34,
+        33,
+        32,
+        35,
+        32,
+        33,
+        30,
+        34,
+        33
+      ],
+      "avg_interest": 50.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-15T14:11:55.511286+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        0,
+        0,
+        57,
+        49,
+        48,
+        0,
+        0,
+        0,
+        49,
+        64,
+        46,
+        0,
+        44,
+        0,
+        49,
+        39,
+        39,
+        37,
+        35,
+        36,
+        33,
+        35,
+        34,
+        33,
+        34,
+        37,
+        42,
+        33,
+        34,
+        26
+      ],
+      "avg_interest": 33.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "what does beet root do for men",
+            "value": 61500
+          },
+          {
+            "query": "beet gummies walmart",
+            "value": 100
+          },
+          {
+            "query": "beet root juice",
+            "value": 90
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 80
+          },
+          {
+            "query": "beetroot",
+            "value": 60
+          },
+          {
+            "query": "beetroot gummies",
+            "value": 50
+          },
+          {
+            "query": "beet gummies benefits",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "beet root",
+            "value": 100
+          },
+          {
+            "query": "beet root gummies",
+            "value": 99
+          },
+          {
+            "query": "nitric oxide",
+            "value": 15
+          },
+          {
+            "query": "beet gummies benefits",
+            "value": 14
+          },
+          {
+            "query": "beetroot gummies",
+            "value": 14
+          },
+          {
+            "query": "beetroot",
+            "value": 14
+          },
+          {
+            "query": "beet juice",
+            "value": 11
+          },
+          {
+            "query": "beets",
+            "value": 11
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 9
+          },
+          {
+            "query": "beet root gummies benefits",
+            "value": 9
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-15T14:12:00.007519+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        62,
+        66,
+        33,
+        56,
+        56,
+        71,
+        60,
+        60,
+        83,
+        60,
+        56,
+        57,
+        70,
+        70,
+        59,
+        52,
+        50,
+        47,
+        45,
+        51,
+        52,
+        52,
+        43,
+        42,
+        42,
+        43,
+        45,
+        50,
+        46,
+        44
+      ],
+      "avg_interest": 59.0,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-15T14:12:04.452173+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-15T14:12:09.431124+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-15T14:12:14.588861+00:00"
+    }
+  ]
+}
