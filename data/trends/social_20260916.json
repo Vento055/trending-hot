@@ -1,0 +1,479 @@
+{
+  "category": "social",
+  "fetch_date": "2026-09-16T14:04:51.862960+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        76,
+        70,
+        60,
+        50,
+        45,
+        45,
+        56,
+        60,
+        69,
+        65,
+        63,
+        64,
+        59,
+        72,
+        71,
+        60,
+        56,
+        57,
+        56,
+        59,
+        60,
+        58,
+        55,
+        52,
+        46,
+        43,
+        43,
+        52,
+        55,
+        55
+      ],
+      "avg_interest": 65.2,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "fortnite item shop",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok shop seller",
+            "value": 100
+          },
+          {
+            "query": "tiktok seller",
+            "value": 99
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 45
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 44
+          },
+          {
+            "query": "seller center tiktok shop",
+            "value": 39
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 38
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 37
+          },
+          {
+            "query": "tiktok shop uk",
+            "value": 34
+          },
+          {
+            "query": "tiktok shop app",
+            "value": 29
+          },
+          {
+            "query": "shopee",
+            "value": 29
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-16T14:04:31.741735+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        41,
+        46,
+        39,
+        28,
+        30,
+        32,
+        26,
+        33,
+        36,
+        36,
+        38,
+        40,
+        39,
+        36,
+        40,
+        34,
+        32,
+        32,
+        35,
+        38,
+        33,
+        32,
+        29,
+        30,
+        28,
+        27,
+        26,
+        28,
+        31,
+        30
+      ],
+      "avg_interest": 53.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "threads app download apk",
+            "value": 80
+          },
+          {
+            "query": "whats threads app",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "threads app download",
+            "value": 100
+          },
+          {
+            "query": "instagram threads app",
+            "value": 98
+          },
+          {
+            "query": "what is threads app",
+            "value": 85
+          },
+          {
+            "query": "threads app free",
+            "value": 72
+          },
+          {
+            "query": "threads app review",
+            "value": 65
+          },
+          {
+            "query": "download video threads app",
+            "value": 45
+          },
+          {
+            "query": "threads app download apk",
+            "value": 17
+          },
+          {
+            "query": "is threads app free",
+            "value": 14
+          },
+          {
+            "query": "whats threads app",
+            "value": 5
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-16T14:04:37.253402+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        27,
+        28,
+        29,
+        34,
+        26,
+        23,
+        26,
+        27,
+        34,
+        40,
+        73,
+        52,
+        42,
+        45,
+        42,
+        36,
+        34,
+        35,
+        33,
+        33,
+        35,
+        32,
+        29,
+        50,
+        62,
+        67,
+        54,
+        45,
+        43,
+        58
+      ],
+      "avg_interest": 34.9,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "marrow deep",
+            "value": 325250
+          },
+          {
+            "query": "snakes for dinner mastodon",
+            "value": 55750
+          },
+          {
+            "query": "mastodon in the ruins",
+            "value": 46750
+          },
+          {
+            "query": "mastodon marrow deep",
+            "value": 19550
+          },
+          {
+            "query": "mastodon in the ruins lyrics",
+            "value": 17200
+          },
+          {
+            "query": "california creek mastodon molar discovery",
+            "value": 11900
+          },
+          {
+            "query": "mastodon marrow deep cd",
+            "value": 10000
+          },
+          {
+            "query": "mastodon snakes for dinner lyrics",
+            "value": 9950
+          },
+          {
+            "query": "brent hinds estate lawsuit against mastodon",
+            "value": 4300
+          },
+          {
+            "query": "mastodon marrow deep review",
+            "value": 3750
+          }
+        ],
+        "top": [
+          {
+            "query": "mastodon social",
+            "value": 100
+          },
+          {
+            "query": "what is mastodon",
+            "value": 97
+          },
+          {
+            "query": "mastodon animal",
+            "value": 90
+          },
+          {
+            "query": "mastodon band",
+            "value": 88
+          },
+          {
+            "query": "mastodon github",
+            "value": 82
+          },
+          {
+            "query": "marrow deep",
+            "value": 81
+          },
+          {
+            "query": "mastodon marrow deep",
+            "value": 81
+          },
+          {
+            "query": "bluesky",
+            "value": 62
+          },
+          {
+            "query": "mammoth",
+            "value": 58
+          },
+          {
+            "query": "mastodon app",
+            "value": 56
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-16T14:04:42.840270+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        34,
+        36,
+        22,
+        16,
+        11,
+        17,
+        23,
+        32,
+        35,
+        36,
+        34,
+        27,
+        23,
+        43,
+        41,
+        23,
+        21,
+        21,
+        16,
+        18,
+        26,
+        23,
+        19,
+        16,
+        15,
+        11,
+        12,
+        23,
+        22,
+        21
+      ],
+      "avg_interest": 38.3,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "freelance jobs online",
+            "value": 11050
+          },
+          {
+            "query": "freelancing latest news",
+            "value": 9850
+          },
+          {
+            "query": "smart cities news",
+            "value": 9050
+          },
+          {
+            "query": "upskilling 2026",
+            "value": 500
+          },
+          {
+            "query": "tech gadgets 2025",
+            "value": 350
+          },
+          {
+            "query": "minimalist lifestyle trend",
+            "value": 250
+          },
+          {
+            "query": "wellness gadgets",
+            "value": 250
+          },
+          {
+            "query": "k-pop trending",
+            "value": 250
+          },
+          {
+            "query": "streaming shows trending",
+            "value": 200
+          },
+          {
+            "query": "best productivity apps 2025",
+            "value": 200
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 76
+          },
+          {
+            "query": "social commerce trends",
+            "value": 72
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 51
+          },
+          {
+            "query": "what is social commerce",
+            "value": 46
+          },
+          {
+            "query": "social commerce platform",
+            "value": 26
+          },
+          {
+            "query": "social commerce definition",
+            "value": 23
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 22
+          },
+          {
+            "query": "social commerce platforms",
+            "value": 14
+          },
+          {
+            "query": "social commerce companies",
+            "value": 13
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-16T14:04:47.210077+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-16T14:04:51.862536+00:00"
+    }
+  ]
+}
