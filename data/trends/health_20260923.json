@@ -1,0 +1,161 @@
+{
+  "category": "health",
+  "fetch_date": "2026-09-23T14:08:00.711040+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 14500
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 850
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste brands",
+            "value": 100
+          },
+          {
+            "query": "does nano hydroxyapatite work",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "hydroxyapatite toothpaste",
+            "value": 100
+          },
+          {
+            "query": "nano hydroxyapatite toothpaste",
+            "value": 97
+          },
+          {
+            "query": "toothpaste",
+            "value": 95
+          },
+          {
+            "query": "boka",
+            "value": 18
+          },
+          {
+            "query": "fluoride toothpaste",
+            "value": 16
+          },
+          {
+            "query": "boka toothpaste",
+            "value": 16
+          },
+          {
+            "query": "boka nano hydroxyapatite toothpaste",
+            "value": 16
+          },
+          {
+            "query": "best hydroxyapatite toothpaste",
+            "value": 11
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 10
+          },
+          {
+            "query": "nano hydroxyapatite vs hydroxyapatite",
+            "value": 8
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-23T14:07:40.662161+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-23T14:07:45.537849+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-23T14:07:50.461607+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-23T14:07:55.592670+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-23T14:08:00.710257+00:00"
+    }
+  ]
+}
