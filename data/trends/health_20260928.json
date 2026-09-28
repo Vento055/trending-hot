@@ -1,0 +1,377 @@
+{
+  "category": "health",
+  "fetch_date": "2026-09-28T17:23:17.822149+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "nano hydroxyapatite",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        48,
+        57,
+        51,
+        75,
+        55,
+        65,
+        53,
+        58,
+        54,
+        50,
+        61,
+        58,
+        45,
+        32,
+        38,
+        36,
+        37,
+        35,
+        35,
+        37,
+        56,
+        64,
+        57,
+        42,
+        36,
+        38,
+        38,
+        45,
+        41,
+        35
+      ],
+      "avg_interest": 51.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste",
+            "value": 600
+          },
+          {
+            "query": "holydeer nano hydroxyapatite toothpaste reviews",
+            "value": 150
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste brands",
+            "value": 90
+          },
+          {
+            "query": "does nano hydroxyapatite work",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "hydroxyapatite toothpaste",
+            "value": 100
+          },
+          {
+            "query": "nano hydroxyapatite toothpaste",
+            "value": 99
+          },
+          {
+            "query": "toothpaste",
+            "value": 99
+          },
+          {
+            "query": "boka",
+            "value": 18
+          },
+          {
+            "query": "boka toothpaste",
+            "value": 16
+          },
+          {
+            "query": "best nano hydroxyapatite toothpaste",
+            "value": 10
+          },
+          {
+            "query": "best hydroxyapatite toothpaste",
+            "value": 10
+          },
+          {
+            "query": "what is nano hydroxyapatite",
+            "value": 8
+          },
+          {
+            "query": "10 nano hydroxyapatite",
+            "value": 7
+          },
+          {
+            "query": "10 nano hydroxyapatite toothpaste",
+            "value": 5
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-28T17:22:53.783548+00:00"
+    },
+    {
+      "keyword": "beet gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        81,
+        45,
+        43,
+        60,
+        0,
+        53,
+        47,
+        0,
+        0,
+        69,
+        63,
+        94,
+        0,
+        75,
+        0,
+        47,
+        46,
+        54,
+        58,
+        51,
+        70,
+        46,
+        84,
+        72,
+        51,
+        49,
+        58,
+        54,
+        55,
+        41
+      ],
+      "avg_interest": 38.8,
+      "peak_interest": 100,
+      "trend_direction": "rising",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "beet gummies walmart",
+            "value": 130
+          },
+          {
+            "query": "beet gummies benefits",
+            "value": 80
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 60
+          }
+        ],
+        "top": [
+          {
+            "query": "beet gummies benefits",
+            "value": 100
+          },
+          {
+            "query": "beet gummies for blood pressure",
+            "value": 58
+          },
+          {
+            "query": "super beet gummies",
+            "value": 45
+          },
+          {
+            "query": "beet gummies walmart",
+            "value": 31
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-28T17:22:59.141077+00:00"
+    },
+    {
+      "keyword": "toe spacers",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        66,
+        58,
+        62,
+        56,
+        65,
+        66,
+        64,
+        57,
+        54,
+        61,
+        48,
+        68,
+        58,
+        55,
+        91,
+        44,
+        46,
+        45,
+        46,
+        44,
+        62,
+        88,
+        66,
+        46,
+        45,
+        41,
+        40,
+        53,
+        48,
+        40
+      ],
+      "avg_interest": 56.7,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "pedicure toe spacers",
+            "value": 80
+          },
+          {
+            "query": "how to use toe spacers",
+            "value": 70
+          },
+          {
+            "query": "do toe spacers work",
+            "value": 60
+          },
+          {
+            "query": "what do toe spacers do",
+            "value": 60
+          },
+          {
+            "query": "benefits of toe spacers",
+            "value": 50
+          },
+          {
+            "query": "hallux valgus",
+            "value": 50
+          }
+        ],
+        "top": [
+          {
+            "query": "bunions",
+            "value": 100
+          },
+          {
+            "query": "bunion",
+            "value": 95
+          },
+          {
+            "query": "bunion spacers",
+            "value": 94
+          },
+          {
+            "query": "bunion toe spacers",
+            "value": 93
+          },
+          {
+            "query": "toe shoes",
+            "value": 85
+          },
+          {
+            "query": "best toe spacers",
+            "value": 74
+          },
+          {
+            "query": "toe spacers for bunions",
+            "value": 61
+          },
+          {
+            "query": "toe separators",
+            "value": 60
+          },
+          {
+            "query": "correct toe spacers",
+            "value": 57
+          },
+          {
+            "query": "amazon toe spacers",
+            "value": 53
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-28T17:23:04.552999+00:00"
+    },
+    {
+      "keyword": "magnesium spray",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        86,
+        90,
+        93,
+        84,
+        93,
+        83,
+        72,
+        85,
+        74,
+        78,
+        70,
+        75,
+        62,
+        64,
+        65,
+        53,
+        47,
+        47,
+        49,
+        45,
+        65,
+        66,
+        67,
+        51,
+        48,
+        46,
+        42,
+        51,
+        51,
+        44
+      ],
+      "avg_interest": 57.6,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-28T17:23:12.711054+00:00"
+    },
+    {
+      "keyword": "creatine gummies",
+      "category": "health",
+      "google_category_id": 45,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-09-28T17:23:17.821372+00:00"
+    }
+  ]
+}
