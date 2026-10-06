@@ -1,0 +1,583 @@
+{
+  "category": "social",
+  "fetch_date": "2026-10-06T15:43:32.452192+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        37,
+        36,
+        36,
+        34,
+        32,
+        27,
+        29,
+        38,
+        36,
+        35,
+        34,
+        31,
+        80,
+        100,
+        98,
+        27,
+        25,
+        25,
+        24,
+        23,
+        25,
+        25,
+        23,
+        25,
+        24,
+        23,
+        24,
+        21,
+        25,
+        24
+      ],
+      "avg_interest": 33.0,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "cupom tiktok shop",
+            "value": 60
+          },
+          {
+            "query": "como vender no tiktok shop",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "tiktok seller",
+            "value": 100
+          },
+          {
+            "query": "seller tiktok shop",
+            "value": 100
+          },
+          {
+            "query": "tiktok shop affiliate",
+            "value": 44
+          },
+          {
+            "query": "tiktok shop us",
+            "value": 44
+          },
+          {
+            "query": "what is tiktok shop",
+            "value": 42
+          },
+          {
+            "query": "tiktok shop seller center",
+            "value": 36
+          },
+          {
+            "query": "tiktok seller center",
+            "value": 35
+          },
+          {
+            "query": "tiktok shop uk",
+            "value": 33
+          },
+          {
+            "query": "shopee",
+            "value": 29
+          },
+          {
+            "query": "tiktok shop online",
+            "value": 25
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-06T15:43:08.067030+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        33,
+        28,
+        33,
+        29,
+        29,
+        20,
+        22,
+        25,
+        29,
+        31,
+        30,
+        34,
+        73,
+        100,
+        58,
+        21,
+        21,
+        22,
+        20,
+        22,
+        22,
+        20,
+        19,
+        20,
+        18,
+        17,
+        19,
+        18,
+        17,
+        16
+      ],
+      "avg_interest": 31.0,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "whats threads app",
+            "value": 90
+          },
+          {
+            "query": "who owns threads app",
+            "value": 80
+          },
+          {
+            "query": "threads app kya hai",
+            "value": 60
+          },
+          {
+            "query": "threads downloader app",
+            "value": 50
+          },
+          {
+            "query": "threads app download apk",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "instagram threads app",
+            "value": 100
+          },
+          {
+            "query": "instagram app",
+            "value": 100
+          },
+          {
+            "query": "what is threads app",
+            "value": 92
+          },
+          {
+            "query": "what is threads",
+            "value": 92
+          },
+          {
+            "query": "threads app free",
+            "value": 69
+          },
+          {
+            "query": "threads app review",
+            "value": 49
+          },
+          {
+            "query": "threads app video download",
+            "value": 45
+          },
+          {
+            "query": "what is the threads app",
+            "value": 38
+          },
+          {
+            "query": "threads login",
+            "value": 17
+          },
+          {
+            "query": "threads app download apk",
+            "value": 17
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-06T15:43:13.989351+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        51,
+        46,
+        42,
+        68,
+        76,
+        80,
+        67,
+        58,
+        57,
+        69,
+        61,
+        44,
+        83,
+        100,
+        68,
+        37,
+        34,
+        39,
+        35,
+        41,
+        36,
+        34,
+        27,
+        26,
+        23,
+        24,
+        25,
+        22,
+        21,
+        17
+      ],
+      "avg_interest": 40.3,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "mastodon marrow deep",
+            "value": 366700
+          },
+          {
+            "query": "marrow deep",
+            "value": 365700
+          },
+          {
+            "query": "mastodon marrow deep review",
+            "value": 71150
+          },
+          {
+            "query": "mastodon snakes for dinner",
+            "value": 66300
+          },
+          {
+            "query": "mastodon in the ruins",
+            "value": 56450
+          },
+          {
+            "query": "well preserved mastodon molar california",
+            "value": 38750
+          },
+          {
+            "query": "mastodon marrow deep vinyl",
+            "value": 28000
+          },
+          {
+            "query": "mastodon in the ruins lyrics",
+            "value": 21800
+          },
+          {
+            "query": "mastodon marrow deep album review",
+            "value": 18250
+          },
+          {
+            "query": "mastodon marrow deep cd",
+            "value": 11750
+          }
+        ],
+        "top": [
+          {
+            "query": "mastodon animal",
+            "value": 100
+          },
+          {
+            "query": "what is mastodon",
+            "value": 93
+          },
+          {
+            "query": "mastodon marrow deep",
+            "value": 86
+          },
+          {
+            "query": "marrow deep",
+            "value": 85
+          },
+          {
+            "query": "mastodon band",
+            "value": 85
+          },
+          {
+            "query": "mastodon social",
+            "value": 82
+          },
+          {
+            "query": "mastodon review",
+            "value": 81
+          },
+          {
+            "query": "mammoth",
+            "value": 60
+          },
+          {
+            "query": "mastodon github",
+            "value": 60
+          },
+          {
+            "query": "bluesky",
+            "value": 57
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-06T15:43:19.921376+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        20,
+        17,
+        17,
+        16,
+        13,
+        11,
+        10,
+        21,
+        20,
+        16,
+        20,
+        19,
+        55,
+        75,
+        100,
+        11,
+        7,
+        8,
+        8,
+        7,
+        8,
+        11,
+        8,
+        7,
+        5,
+        4,
+        4,
+        4,
+        7,
+        5
+      ],
+      "avg_interest": 16.4,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "horizontal integration",
+            "value": 11500
+          },
+          {
+            "query": "sherman antitrust act definition us history",
+            "value": 3000
+          },
+          {
+            "query": "best time to visit maldives",
+            "value": 800
+          },
+          {
+            "query": "how to make sushi",
+            "value": 650
+          },
+          {
+            "query": "wellness gadgets",
+            "value": 500
+          },
+          {
+            "query": "healthy cooking tools",
+            "value": 450
+          },
+          {
+            "query": "minimalist lifestyle trend",
+            "value": 450
+          },
+          {
+            "query": "streaming shows trending",
+            "value": 400
+          },
+          {
+            "query": "ai image enhancer",
+            "value": 350
+          },
+          {
+            "query": "k-pop trending",
+            "value": 350
+          }
+        ],
+        "top": [
+          {
+            "query": "social media commerce",
+            "value": 100
+          },
+          {
+            "query": "social media",
+            "value": 93
+          },
+          {
+            "query": "social commerce trends",
+            "value": 62
+          },
+          {
+            "query": "tiktok social commerce",
+            "value": 55
+          },
+          {
+            "query": "what is social commerce",
+            "value": 48
+          },
+          {
+            "query": "social commerce marketing",
+            "value": 45
+          },
+          {
+            "query": "social commerce platform",
+            "value": 23
+          },
+          {
+            "query": "commerce bank",
+            "value": 20
+          },
+          {
+            "query": "commerce meaning",
+            "value": 19
+          },
+          {
+            "query": "social commerce meaning",
+            "value": 19
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-06T15:43:26.183776+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        25,
+        28,
+        31,
+        28,
+        26,
+        17,
+        19,
+        23,
+        32,
+        28,
+        29,
+        27,
+        86,
+        100,
+        93,
+        23,
+        19,
+        16,
+        15,
+        15,
+        15,
+        16,
+        16,
+        17,
+        13,
+        10,
+        11,
+        11,
+        12,
+        16
+      ],
+      "avg_interest": 25.4,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "compare popular online video platform features for ai content creation",
+            "value": 35550
+          },
+          {
+            "query": "true or generative ai can help marketers create on-brand assets efficiently, maximizing budgets and streamlining workflows. true false",
+            "value": 32150
+          },
+          {
+            "query": "ai tool for content creation",
+            "value": 90
+          }
+        ],
+        "top": [
+          {
+            "query": "ai for content creation",
+            "value": 100
+          },
+          {
+            "query": "ai content creation tools",
+            "value": 37
+          },
+          {
+            "query": "ai tools for content creation",
+            "value": 27
+          },
+          {
+            "query": "generative ai content creation",
+            "value": 23
+          },
+          {
+            "query": "time",
+            "value": 14
+          },
+          {
+            "query": "ai for social media content creation",
+            "value": 13
+          },
+          {
+            "query": "ai content creation platform",
+            "value": 12
+          },
+          {
+            "query": "best ai tools for content creation",
+            "value": 12
+          },
+          {
+            "query": "ai tool for content creation",
+            "value": 11
+          },
+          {
+            "query": "ai content creation course",
+            "value": 10
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-06T15:43:32.451832+00:00"
+    }
+  ]
+}
