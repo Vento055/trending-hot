@@ -1,0 +1,331 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-10-07T16:07:05.967431+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        34,
+        28,
+        24,
+        22,
+        12,
+        10,
+        24,
+        28,
+        24,
+        26,
+        25,
+        65,
+        88,
+        85,
+        26,
+        9,
+        9,
+        15,
+        11,
+        8,
+        10,
+        9,
+        10,
+        7,
+        6,
+        9,
+        6,
+        9,
+        7,
+        8
+      ],
+      "avg_interest": 28.1,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "byteask c++ ai coding agents",
+            "value": 31250
+          }
+        ],
+        "top": [
+          {
+            "query": "best ai coding agents",
+            "value": 100
+          },
+          {
+            "query": "claude code",
+            "value": 50
+          },
+          {
+            "query": "codex",
+            "value": 44
+          },
+          {
+            "query": "vibe coding",
+            "value": 19
+          },
+          {
+            "query": "byteask c++ ai coding agents",
+            "value": 2
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-07T16:06:42.911462+00:00"
+    },
+    {
+      "keyword": "ai video generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        30,
+        29,
+        27,
+        24,
+        19,
+        22,
+        28,
+        32,
+        29,
+        28,
+        28,
+        73,
+        100,
+        97,
+        40,
+        14,
+        15,
+        15,
+        15,
+        15,
+        14,
+        13,
+        13,
+        11,
+        10,
+        11,
+        11,
+        12,
+        12,
+        11
+      ],
+      "avg_interest": 29.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-07T16:06:49.680819+00:00"
+    },
+    {
+      "keyword": "ai voice cloning",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        27,
+        30,
+        23,
+        21,
+        22,
+        23,
+        37,
+        36,
+        36,
+        36,
+        30,
+        95,
+        100,
+        95,
+        44,
+        14,
+        15,
+        16,
+        17,
+        16,
+        15,
+        13,
+        14,
+        12,
+        9,
+        11,
+        10,
+        11,
+        11,
+        10
+      ],
+      "avg_interest": 27.3,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-07T16:06:54.691036+00:00"
+    },
+    {
+      "keyword": "eu ai act",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [],
+      "avg_interest": 0,
+      "peak_interest": 0,
+      "trend_direction": "error",
+      "data_points": 0,
+      "error": "The request failed: Google returned a response with code 429",
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-07T16:06:59.167048+00:00"
+    },
+    {
+      "keyword": "local llm",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        32,
+        29,
+        30,
+        31,
+        24,
+        22,
+        32,
+        36,
+        35,
+        35,
+        36,
+        79,
+        94,
+        80,
+        40,
+        26,
+        22,
+        23,
+        21,
+        21,
+        21,
+        21,
+        23,
+        18,
+        18,
+        20,
+        19,
+        21,
+        21,
+        19
+      ],
+      "avg_interest": 35.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "kimi k3",
+            "value": 57050
+          },
+          {
+            "query": "kimi k3 local",
+            "value": 55400
+          },
+          {
+            "query": "qwen 3.8 27b",
+            "value": 46800
+          },
+          {
+            "query": "qwen 3.8",
+            "value": 14350
+          },
+          {
+            "query": "how to bake a cake",
+            "value": 5350
+          },
+          {
+            "query": "top tourist attractions in paris",
+            "value": 5100
+          },
+          {
+            "query": "cheapest flights to tokyo",
+            "value": 4700
+          },
+          {
+            "query": "mac mini m6",
+            "value": 3550
+          },
+          {
+            "query": "best time to visit maldives",
+            "value": 3100
+          },
+          {
+            "query": "how to make sushi",
+            "value": 700
+          }
+        ],
+        "top": [
+          {
+            "query": "best local llm",
+            "value": 100
+          },
+          {
+            "query": "local ai",
+            "value": 91
+          },
+          {
+            "query": "ollama",
+            "value": 46
+          },
+          {
+            "query": "local llm models",
+            "value": 39
+          },
+          {
+            "query": "llm studio",
+            "value": 33
+          },
+          {
+            "query": "run local llm",
+            "value": 31
+          },
+          {
+            "query": "what is local llm",
+            "value": 31
+          },
+          {
+            "query": "qwen",
+            "value": 25
+          },
+          {
+            "query": "lm studio",
+            "value": 19
+          },
+          {
+            "query": "local llm for coding",
+            "value": 15
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-07T16:07:05.966426+00:00"
+    }
+  ]
+}
