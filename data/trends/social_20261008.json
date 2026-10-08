@@ -1,0 +1,303 @@
+{
+  "category": "social",
+  "fetch_date": "2026-10-08T16:09:34.992388+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "tiktok shop",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        34,
+        38,
+        31,
+        27,
+        27,
+        35,
+        36,
+        34,
+        33,
+        32,
+        80,
+        100,
+        96,
+        44,
+        31,
+        25,
+        23,
+        23,
+        24,
+        25,
+        24,
+        25,
+        24,
+        23,
+        23,
+        21,
+        24,
+        22,
+        23,
+        24
+      ],
+      "avg_interest": 32.8,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-08T16:09:12.489288+00:00"
+    },
+    {
+      "keyword": "threads app",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        31,
+        29,
+        28,
+        21,
+        19,
+        23,
+        28,
+        28,
+        29,
+        33,
+        69,
+        100,
+        55,
+        36,
+        31,
+        20,
+        19,
+        21,
+        21,
+        19,
+        18,
+        19,
+        17,
+        16,
+        18,
+        18,
+        17,
+        16,
+        17,
+        16
+      ],
+      "avg_interest": 29.1,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "whats threads app",
+            "value": 100
+          },
+          {
+            "query": "threads downloader app",
+            "value": 70
+          }
+        ],
+        "top": [
+          {
+            "query": "threads app download",
+            "value": 100
+          },
+          {
+            "query": "instagram app",
+            "value": 93
+          },
+          {
+            "query": "instagram threads app",
+            "value": 93
+          },
+          {
+            "query": "what is threads app",
+            "value": 87
+          },
+          {
+            "query": "what is threads",
+            "value": 87
+          },
+          {
+            "query": "threads app free",
+            "value": 65
+          },
+          {
+            "query": "meta threads app",
+            "value": 53
+          },
+          {
+            "query": "threads app review",
+            "value": 44
+          },
+          {
+            "query": "threads app video download",
+            "value": 41
+          },
+          {
+            "query": "threads app download apk",
+            "value": 15
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-08T16:09:18.128444+00:00"
+    },
+    {
+      "keyword": "mastodon",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        43,
+        69,
+        76,
+        82,
+        67,
+        57,
+        57,
+        68,
+        61,
+        44,
+        84,
+        100,
+        72,
+        51,
+        46,
+        37,
+        36,
+        41,
+        35,
+        33,
+        29,
+        28,
+        23,
+        24,
+        25,
+        22,
+        23,
+        21,
+        25,
+        23
+      ],
+      "avg_interest": 40.6,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-08T16:09:23.606833+00:00"
+    },
+    {
+      "keyword": "social commerce",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        17,
+        17,
+        14,
+        11,
+        10,
+        20,
+        21,
+        16,
+        19,
+        18,
+        55,
+        72,
+        100,
+        29,
+        16,
+        8,
+        8,
+        7,
+        8,
+        11,
+        8,
+        7,
+        5,
+        4,
+        4,
+        4,
+        8,
+        5,
+        5,
+        5
+      ],
+      "avg_interest": 16.4,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-08T16:09:29.479194+00:00"
+    },
+    {
+      "keyword": "ai content creation",
+      "category": "social",
+      "google_category_id": 81,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        31,
+        25,
+        27,
+        17,
+        19,
+        23,
+        32,
+        27,
+        29,
+        25,
+        84,
+        100,
+        97,
+        43,
+        26,
+        15,
+        15,
+        15,
+        15,
+        16,
+        16,
+        17,
+        12,
+        10,
+        11,
+        11,
+        12,
+        14,
+        13,
+        16
+      ],
+      "avg_interest": 24.8,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": []
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-08T16:09:34.991589+00:00"
+    }
+  ]
+}

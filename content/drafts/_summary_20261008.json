@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-10-08T16:09:50.182384+00:00",
+  "results": [
+    {
+      "keyword": "ai coding agents",
+      "status": "failed",
+      "error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****11de is invalid (request_id: ade3f732-3d46-4f38-a899-6a3b828af7c3)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "keyword": "microsoft h1b visa program suspension",
+      "status": "failed",
+      "error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****11de is invalid (request_id: ee6265c9-2c1b-4382-b882-5107a4325e05)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
+    {
+      "keyword": "webgpu",
+      "status": "failed",
+      "error": "Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****11de is invalid (request_id: c27f0b94-c9da-45c2-8f4f-66fd254eadd8)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    }
+  ]
+}
