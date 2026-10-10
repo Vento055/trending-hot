@@ -1,0 +1,530 @@
+{
+  "category": "ai",
+  "fetch_date": "2026-10-10T15:04:27.651515+00:00",
+  "total_keywords": 5,
+  "source": "google_trends",
+  "data": [
+    {
+      "keyword": "ai coding agents",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        22,
+        13,
+        10,
+        24,
+        30,
+        25,
+        26,
+        25,
+        60,
+        87,
+        85,
+        22,
+        17,
+        17,
+        22,
+        11,
+        8,
+        10,
+        9,
+        10,
+        7,
+        6,
+        9,
+        5,
+        9,
+        7,
+        8,
+        7,
+        5,
+        7
+      ],
+      "avg_interest": 26.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "byteask c++ ai coding agents",
+            "value": 32600
+          }
+        ],
+        "top": [
+          {
+            "query": "best ai coding agents",
+            "value": 100
+          },
+          {
+            "query": "claude code",
+            "value": 55
+          },
+          {
+            "query": "codex",
+            "value": 47
+          },
+          {
+            "query": "cursor ai",
+            "value": 39
+          },
+          {
+            "query": "vibe coding",
+            "value": 21
+          },
+          {
+            "query": "byteask c++ ai coding agents",
+            "value": 2
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-10T15:04:01.690929+00:00"
+    },
+    {
+      "keyword": "ai video generation",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        24,
+        19,
+        22,
+        28,
+        31,
+        29,
+        27,
+        27,
+        70,
+        100,
+        96,
+        37,
+        23,
+        22,
+        24,
+        15,
+        16,
+        14,
+        13,
+        13,
+        11,
+        10,
+        12,
+        11,
+        12,
+        12,
+        12,
+        11,
+        10,
+        10
+      ],
+      "avg_interest": 27.7,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [],
+        "top": [
+          {
+            "query": "kling ai",
+            "value": 100
+          },
+          {
+            "query": "kling",
+            "value": 97
+          },
+          {
+            "query": "ai video generation tools",
+            "value": 93
+          },
+          {
+            "query": "best ai for video generation",
+            "value": 86
+          },
+          {
+            "query": "runway",
+            "value": 72
+          },
+          {
+            "query": "sora ai",
+            "value": 42
+          },
+          {
+            "query": "sora ai video generation",
+            "value": 41
+          },
+          {
+            "query": "open ai video generation",
+            "value": 39
+          },
+          {
+            "query": "seedance",
+            "value": 29
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-10T15:04:08.684361+00:00"
+    },
+    {
+      "keyword": "ai voice cloning",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        19,
+        20,
+        18,
+        32,
+        32,
+        32,
+        32,
+        26,
+        82,
+        100,
+        80,
+        38,
+        27,
+        27,
+        21,
+        15,
+        15,
+        14,
+        12,
+        13,
+        11,
+        8,
+        10,
+        9,
+        10,
+        10,
+        10,
+        11,
+        9,
+        8
+      ],
+      "avg_interest": 23.9,
+      "peak_interest": 100,
+      "trend_direction": "stable",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "video to mp3",
+            "value": 250
+          },
+          {
+            "query": "ai voice cloner",
+            "value": 200
+          },
+          {
+            "query": "kikivoice",
+            "value": 130
+          },
+          {
+            "query": "eleven labs",
+            "value": 110
+          }
+        ],
+        "top": [
+          {
+            "query": "free voice cloning",
+            "value": 100
+          },
+          {
+            "query": "best ai voice cloning",
+            "value": 78
+          },
+          {
+            "query": "elevenlabs",
+            "value": 38
+          },
+          {
+            "query": "elevenlabs voice cloning",
+            "value": 38
+          },
+          {
+            "query": "elevenlabs ai",
+            "value": 38
+          },
+          {
+            "query": "ai voice cloning app",
+            "value": 23
+          },
+          {
+            "query": "ai voice cloning scam",
+            "value": 23
+          },
+          {
+            "query": "resemble ai",
+            "value": 23
+          },
+          {
+            "query": "text to speech",
+            "value": 23
+          },
+          {
+            "query": "text to speech ai",
+            "value": 22
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-10T15:04:14.051556+00:00"
+    },
+    {
+      "keyword": "eu ai act",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        23,
+        15,
+        13,
+        28,
+        34,
+        31,
+        29,
+        28,
+        66,
+        95,
+        100,
+        38,
+        25,
+        21,
+        20,
+        11,
+        12,
+        14,
+        15,
+        14,
+        10,
+        8,
+        7,
+        6,
+        12,
+        13,
+        11,
+        10,
+        9,
+        6
+      ],
+      "avg_interest": 29.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "how to make sushi",
+            "value": 3300
+          },
+          {
+            "query": "how to bake a cake",
+            "value": 3250
+          },
+          {
+            "query": "top tourist attractions in paris",
+            "value": 1100
+          },
+          {
+            "query": "eu ai act kennzeichnungspflicht",
+            "value": 450
+          },
+          {
+            "query": "best laptop for work",
+            "value": 350
+          },
+          {
+            "query": "cheapest flights to tokyo",
+            "value": 250
+          },
+          {
+            "query": "gdpr",
+            "value": 40
+          }
+        ],
+        "top": [
+          {
+            "query": "eu ai act 2026",
+            "value": 100
+          },
+          {
+            "query": "the eu ai act",
+            "value": 43
+          },
+          {
+            "query": "eu ai act pdf",
+            "value": 17
+          },
+          {
+            "query": "gdpr",
+            "value": 15
+          },
+          {
+            "query": "eu ai act news",
+            "value": 11
+          },
+          {
+            "query": "eu ai act text",
+            "value": 10
+          },
+          {
+            "query": "eu ai act timeline",
+            "value": 10
+          },
+          {
+            "query": "eu ai act summary",
+            "value": 4
+          },
+          {
+            "query": "eu ai act kennzeichnungspflicht",
+            "value": 1
+          },
+          {
+            "query": "top tourist attractions in paris",
+            "value": 0
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-10T15:04:21.226921+00:00"
+    },
+    {
+      "keyword": "local llm",
+      "category": "ai",
+      "google_category_id": 5,
+      "geo": "global",
+      "timeframe": "today 3-m",
+      "interest_values": [
+        33,
+        25,
+        22,
+        33,
+        38,
+        37,
+        36,
+        39,
+        82,
+        100,
+        82,
+        42,
+        32,
+        33,
+        30,
+        22,
+        22,
+        23,
+        23,
+        22,
+        20,
+        20,
+        22,
+        21,
+        23,
+        22,
+        24,
+        22,
+        20,
+        22
+      ],
+      "avg_interest": 35.5,
+      "peak_interest": 100,
+      "trend_direction": "declining",
+      "data_points": 93,
+      "related_queries": {
+        "rising": [
+          {
+            "query": "kimi k3",
+            "value": 58350
+          },
+          {
+            "query": "qwen 3.8 27b",
+            "value": 51650
+          },
+          {
+            "query": "mac mini m6",
+            "value": 23100
+          },
+          {
+            "query": "qwen 3.8",
+            "value": 22800
+          },
+          {
+            "query": "best time to visit maldives",
+            "value": 7400
+          },
+          {
+            "query": "how to make sushi",
+            "value": 6400
+          },
+          {
+            "query": "top tourist attractions in paris",
+            "value": 4900
+          },
+          {
+            "query": "deepseek harness",
+            "value": 700
+          },
+          {
+            "query": "cheapest flights to tokyo",
+            "value": 650
+          },
+          {
+            "query": "best laptop for work",
+            "value": 130
+          }
+        ],
+        "top": [
+          {
+            "query": "best local llm",
+            "value": 100
+          },
+          {
+            "query": "local ai",
+            "value": 90
+          },
+          {
+            "query": "local llm models",
+            "value": 45
+          },
+          {
+            "query": "ollama",
+            "value": 44
+          },
+          {
+            "query": "run local llm",
+            "value": 33
+          },
+          {
+            "query": "what is local llm",
+            "value": 32
+          },
+          {
+            "query": "llm studio",
+            "value": 31
+          },
+          {
+            "query": "qwen",
+            "value": 26
+          },
+          {
+            "query": "lm studio",
+            "value": 18
+          },
+          {
+            "query": "local llm for coding",
+            "value": 15
+          }
+        ]
+      },
+      "source": "google_trends",
+      "fetched_at": "2026-10-10T15:04:27.651109+00:00"
+    }
+  ]
+}
